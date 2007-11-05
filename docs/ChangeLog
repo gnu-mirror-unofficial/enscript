@@ -1,3 +1,9 @@
+2007-11-05  Tim Retout  <diocles@gnu.org>
+
+	* enscript.texi: Relicense under GNU FDL.
+	Change copyright holder to FSF.
+	* fdl.texi: New file.
+
 1999-09-17  Markku Rossi  <mtr@amme.ssh.fi>
 
 	* enscript.man (files): Documented `--footer' option and its
