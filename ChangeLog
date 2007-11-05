@@ -1,3 +1,8 @@
+2007-10-31  Tim Retout  <diocles@gnu.org>
+
+	* COPYING: Update to latest revision of GPLv2.
+	* all files: Update FSF address in copyright header.
+
 2003-02-28  gettextize  <bug-gnu-gettext@gnu.org>
 
 	* Makefile.am (SUBDIRS): Add intl.
