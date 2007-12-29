@@ -24,7 +24,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-SUBDIRS = intl  m4  compat afm afmlib lib scripts intl src po states docs w32
+SUBDIRS = m4 compat afm afmlib lib scripts intl src po states docs w32
 
 EXTRA_DIST = config.rpath  README.ESCAPES README.DOS ABOUT-NLS THANKS ascii.txt	\
 asciifise.txt asciidkno.txt 88591.txt 88592.txt 88593.txt 88594.txt	\

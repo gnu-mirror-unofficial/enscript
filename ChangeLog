@@ -1,3 +1,7 @@
+2007-12-29  Tim Retout  <diocles@gnu.org>
+
+	* Makefile.am (SUBDIRS): Remove duplicate intl.
+
 2007-10-31  Tim Retout  <diocles@gnu.org>
 
 	* COPYING: Update to latest revision of GPLv2.
