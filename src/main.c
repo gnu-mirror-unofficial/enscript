@@ -1714,9 +1714,6 @@ name             width\theight\tllx\tlly\turx\tury\n\
 	      process_file (_("Table of Contents"), &is, 1);
 	      is_close (&is);
 	    }
-
-	  /* Clean up toc file. */
-	  fclose (toc_fp);
 	}
 
       /* Give trailer a chance to dump itself. */
