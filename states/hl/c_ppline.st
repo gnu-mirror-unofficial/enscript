@@ -11,7 +11,7 @@ state c_ppline extends CHighlight
   /\/\*/ {
     comment_face (true);
     language_print ($0);
-    call (c_comment);
+    call (c_ppline_comment);
     comment_face (false);
   }
   /* Include line. */
@@ -50,6 +50,9 @@ state c_ppline extends CHighlight
     call (c_ppline_tokensequence);
     return;
   }
+  /\\\\\n/ {
+    language_print ($0);
+  }
   /\n/ {
     language_print ($0);
     return;
@@ -80,6 +83,9 @@ state c_ppline_include extends CHighlight
     call (c_ppline_comments_strings_chars);
     return;
   }
+  /\\\\\n/ {
+    language_print ($0);
+  }
   /\n/ {
     language_print ($0);
     return;
@@ -105,6 +111,9 @@ state c_ppline_define extends CHighlight
     call (c_ppline_comments_strings_chars);
     return;
   }
+  /\\\\\n/ {
+    language_print ($0);
+  }
   /\n/ {
     language_print ($0);
     return;
@@ -117,7 +126,7 @@ state c_ppline_comments_strings_chars extends CHighlight
   /\/\*/ {
     comment_face (true);
     language_print ($0);
-    call (c_comment);
+    call (c_ppline_comment);
     comment_face (false);
   }
   /* String constants. */
@@ -133,6 +142,9 @@ state c_ppline_comments_strings_chars extends CHighlight
     language_print ($0);
     string_face (false);
   }
+  /\\\\\n/ {
+    language_print ($0);
+  }
   /\n/ {
     language_print ($0);
     return;
@@ -145,7 +157,7 @@ state c_ppline_tokensequence extends CHighlight
   /\/\*/ {
     comment_face (true);
     language_print ($0);
-    call (c_comment);
+    call (c_ppline_comment);
     comment_face (false);
   }
   /* String constants. */
@@ -179,6 +191,20 @@ state c_ppline_tokensequence extends CHighlight
     variable_name_face (true);
     language_print ($0);
     variable_name_face (false);
+  }
+  /\\\\\n/ {
+    language_print ($0);
+  }
+  /\n/ {
+    language_print ($0);
+    return;
+  }
+}
+
+/* Comments within pre-processor directives need escaped newlines. */
+state c_ppline_comment extends c_comment {
+  /\\\\\n/ {
+    language_print ($0);
   }
   /\n/ {
     language_print ($0);

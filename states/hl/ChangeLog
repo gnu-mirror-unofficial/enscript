@@ -1,5 +1,12 @@
 2008-01-01  Tim Retout  <diocles@gnu.org>
 
+	* c_ppline.st (c_ppline_comment): New state.
+	(c_ppline, c_ppline_comments_strings_chars, c_ppline_tokensequence):
+	Call c_ppline_comment rather than c_comment.
+	(c_ppline, c_ppline_include, c_ppline_define)
+	(c_ppline_comments_strings_chars, c_ppline_tokensequence): Treat
+	backslash-escaped newlines as continuing the preprocessor line.
+
 	* c_ppline.st (c_ppline): Move dependency on C rules to top of file,
 	to fix use of CHighlight.
 
