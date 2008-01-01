@@ -2625,7 +2625,7 @@ Mandatory arguments to long options are mandatory for short options too.\n\
   --word-wrap                wrap long lines from word boundaries\n\
 "));
 
-  printf (_("\nReport bugs to mtr@iki.fi.\n"));
+  printf (_("\nReport bugs to %s.\n"), PACKAGE_BUGREPORT);
 }
 
 

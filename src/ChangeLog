@@ -2,6 +2,9 @@
 
 	* ChangeLog: Run M-x change-log-redate. Add copyright notice at end.
 
+	* main.c (usage): Use PACKAGE_BUGREPORT instead of hardcoding the bug
+	report address.
+
 	* main.c (main) <toc>: Remove an unnecessary fclose of the toc
 	temporary file, which was breaking the --toc option.
 

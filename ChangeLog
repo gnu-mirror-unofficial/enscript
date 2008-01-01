@@ -1,5 +1,8 @@
 2008-01-01  Tim Retout  <diocles@gnu.org>
 
+	* configure.in (AC_INIT): Change bug report address to
+	<bug-enscript@gnu.org>.
+
 	* ChangeLog: Run M-x change-log-redate. Add copyright notice at end.
 
 2007-12-29  Tim Retout  <diocles@gnu.org>
