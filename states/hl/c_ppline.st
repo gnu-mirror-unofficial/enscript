@@ -3,11 +3,10 @@
  * Objective-C highlighting rules.
  */
 
+require_state (c);
+
 state c_ppline extends CHighlight
 {
-  BEGIN {
-    require_state (c);
-  }
   /* Comments within a pre-processor line. */
   /\/\*/ {
     comment_face (true);

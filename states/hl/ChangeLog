@@ -1,5 +1,8 @@
 2008-01-01  Tim Retout  <diocles@gnu.org>
 
+	* c_ppline.st (c_ppline): Move dependency on C rules to top of file,
+	to fix use of CHighlight.
+
 	* bash.st (bash): Fix highlighting of escaped quote marks.
 	* csh.st (csh): Likewise.  
 	* ksh.st (ksh): Likewise.
