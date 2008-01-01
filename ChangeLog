@@ -2,6 +2,7 @@
 
 	* configure.in (AC_INIT): Change bug report address to
 	<bug-enscript@gnu.org>.
+	Change package name to `GNU Enscript'.
 
 	* ChangeLog: Run M-x change-log-redate. Add copyright notice at end.
 
