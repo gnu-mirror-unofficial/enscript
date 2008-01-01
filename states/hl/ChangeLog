@@ -1,3 +1,14 @@
+2008-01-01  Tim Retout  <diocles@gnu.org>
+
+	* bash.st (bash): Fix highlighting of escaped quote marks.
+	* csh.st (csh): Likewise.  
+	* ksh.st (ksh): Likewise.
+	* sh.st (sh): Likewise.
+	* tcsh.st (tcsh): Likewise.
+	* zsh.st (zsh): Likewise.
+	Incorporates and extends original patch for ksh.st and sh.st by
+	Shawn McMahon <smcmahon@eiv.com>.
+
 2003-02-27  Markku Rossi  <mtr@amme.hel.fi.ssh.com>
 
 	* pyrex.st: Highlighting rules for the Pyrex language (Pyrex - a

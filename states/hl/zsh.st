@@ -22,6 +22,17 @@ state zsh extends HighlightEntry
     string_face (false);
   }
 
+  /* Ignore escaped quote marks */
+  /\\\"/ {
+    language_print ($0);
+  }
+  /\\\'/ {
+    language_print ($0);
+  }
+  /\\\`/ {
+    language_print ($0);
+  }
+
   /* Excutable script. */
   /^#!/ {
     reference_face (true);

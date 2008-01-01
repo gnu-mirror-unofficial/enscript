@@ -22,6 +22,17 @@ state csh extends HighlightEntry
     string_face (false);
   }
 
+  /* Ignore escaped quote marks */
+  /\\\"/ {
+    language_print ($0);
+  }
+  /\\\'/ {
+    language_print ($0);
+  }
+  /\\\`/ {
+    language_print ($0);
+  }
+
   /* Excutable script. From sh */
   /^#!/ {
     reference_face (true);
