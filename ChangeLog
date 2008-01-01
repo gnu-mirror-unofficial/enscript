@@ -1,5 +1,8 @@
 2008-01-01  Tim Retout  <diocles@gnu.org>
 
+	* configure.in: Remove --with-cc option from configure script.
+	Remove test for empty CC from around AC_PROG_CC macro.
+
 	* configure.in (AC_INIT): Change bug report address to
 	<bug-enscript@gnu.org>.
 	Change package name to `GNU Enscript'.
