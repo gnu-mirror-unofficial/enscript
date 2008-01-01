@@ -1,3 +1,7 @@
+2008-01-01  Tim Retout  <diocles@gnu.org>
+
+	* ChangeLog: Run M-x change-log-redate. Add copyright notice at end.
+
 1999-09-24  Markku Rossi  <mtr@amme.ssh.fi>
 
 	* utils.c (eval_expr): Added filename and linenumber information
@@ -257,7 +261,7 @@
 	(fortran): Updated Fortran highlighting.  Thanks to Keith Refson
 	<Keith.Refson@earth.ox.ac.uk>.
 
-Wed Aug 27 14:36:12 1997  Markku Rossi  <mtr@ngs.fi>
+1997-08-27  Markku Rossi  <mtr@ngs.fi>
 
 	* prims.c (prim_regexp_syntax): New primitive to modify regexp
 	engine's character syntax table.
@@ -266,28 +270,28 @@ Wed Aug 27 14:36:12 1997  Markku Rossi  <mtr@ngs.fi>
 	the new regexp_syntax() primitive which can be used to modify
 	regexp character syntax table.
 
-Mon Aug 11 10:31:55 1997  Markku Rossi  <mtr@ngs.fi>
+1997-08-11  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (start): Fixed PostScript font resolving to work
 	with the `Souvenir' font.
 
-Fri Jul 18 10:34:27 1997  Markku Rossi  <mtr@ngs.fi>
+1997-07-18  Markku Rossi  <mtr@ngs.fi>
 
 	* lex.l: Implemented case-insensitive regular expressions.
 
-Wed Jul 16 12:50:27 1997  Markku Rossi  <mtr@ngs.fi>
+1997-07-16  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (sql): Updated Sybase SQL highlighting rules, thanks
 	to Chris Jack <chris_jack@msn.com>.
 
-Fri Jul  4 09:11:37 1997  Markku Rossi  <mtr@ngs.fi>
+1997-07-04  Markku Rossi  <mtr@ngs.fi>
 
 	* utils.c (compile_regexp): New function to handle regular
  	expression compilations.
 	(compile_regexp): Added fastmaps for regexps, this speeds up the
  	processing noticeably.
 
-Mon Jun 23 09:39:41 1997  Markku Rossi  <mtr@ngs.fi>
+1997-06-23  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (sql): Added highlighting for SQL language by
 	Chris Jack <chris_jack@msn.com>.
@@ -298,17 +302,17 @@ Mon Jun 23 09:39:41 1997  Markku Rossi  <mtr@ngs.fi>
  	language by Jim Villani, Logistics Management Institute
 	(jvillani@lmi.org).
 
-Tue Jun 10 10:46:31 1997  Markku Rossi  <mtr@ngs.fi>
+1997-06-10  Markku Rossi  <mtr@ngs.fi>
 
 	* utils.c (lookup_var): New special variable `$.'.
 	(lookup_var): New special variable `$`'.
 
-Fri Jun  6 14:05:38 1997  Markku Rossi  <mtr@ngs.fi>
+1997-06-06  Markku Rossi  <mtr@ngs.fi>
 
 	* prims.c (prim_float): New primitive to convert items to float
 	numbers.
 
-Tue Jun  3 11:23:59 1997  Markku Rossi  <mtr@ngs.fi>
+1997-06-03  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (c): Improved C pre-processor line highlighting to
  	highlights also string and character constansts.
@@ -321,7 +325,7 @@ Tue Jun  3 11:23:59 1997  Markku Rossi  <mtr@ngs.fi>
 	prototypes.
 	(objc): Added highlighting for goto's labels and targets.
 
-Tue May 20 09:21:05 1997  Markku Rossi  <mtr@ngs.fi>
+1997-05-20  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (delphi): Added highlighting for Delphi language by
  	Michael Van Canneyt <michael@tfdec1.fys.kuleuven.ac.be>.
@@ -329,7 +333,7 @@ Tue May 20 09:21:05 1997  Markku Rossi  <mtr@ngs.fi>
 	* main.c (main): Moved the initialization of `ofp' from the
  	variable declaration to main().
 
-Fri May  2 10:59:22 1997  Markku Rossi  <mtr@ngs.fi>
+1997-05-02  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.el (build-re): Added support for case-insensitive
 	regular expressions.
@@ -339,45 +343,45 @@ Fri May  2 10:59:22 1997  Markku Rossi  <mtr@ngs.fi>
 	Re-generated case-insensitive keyword regular expressions with the
 	new build-re function.
 
-Fri Apr 25 09:24:34 1997  Markku Rossi  <mtr@ngs.fi>
+1997-04-25  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (pascal): Added highlighting for Pascal language by
 	Michael Van Canneyt <michael@tfdec1.fys.kuleuven.ac.be>.
 
-Wed Apr 16 10:14:39 1997  Markku Rossi  <mtr@ngs.fi>
+1997-04-16  Markku Rossi  <mtr@ngs.fi>
 
 	* gram.y: Implemented expressions: +=, -=, *=, div=.
 
-Mon Apr 14 17:08:00 1997  Markku Rossi  <mtr@ngs.fi>
+1997-04-14  Markku Rossi  <mtr@ngs.fi>
 
 	* gram.y: Implemented prefix and postfix increment (++) and
 	decrement (--) operators.
 
-Fri Apr  4 09:20:20 1997  Markku Rossi  <mtr@ngs.fi>
+1997-04-04  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (java): Added highlighting for Java language by Paul
 	Fisher <pnfisher@eos.ncsu.edu>.
 	(html_faces): Fixed 1.5.0 compatibility bug.
 
-Thu Apr  3 10:24:32 1997  Markku Rossi  <mtr@ngs.fi>
+1997-04-03  Markku Rossi  <mtr@ngs.fi>
 
 	* prims.c (prim_range): New primitive to fetch sub-ranges from
 	lists and strings.
 	Changed all primitives' error messages to be in format
 	`FILE:LINE: MESSAGE'.
 
-Tue Mar 25 12:40:56 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-25  Markku Rossi  <mtr@ngs.fi>
 
 	* prims.c (prim_regexp): New primitive to create regular
 	expressions from strings.
 	(prim_split): New primitive to split string to list.
 
-Fri Mar 21 11:37:18 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-21  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (html): Added support for nested scripts.
 	(javascript): Added highlighting for JavaScript.
 
-Wed Mar 19 12:02:17 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-19  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (need_version): New help subroutine to check that a
 	specified version of the states program is in use.
@@ -390,7 +394,7 @@ Wed Mar 19 12:02:17 1997  Markku Rossi  <mtr@ngs.fi>
 	* main.c (main): New built-in variable `argv' which holds input
  	file names.
 
-Mon Mar 17 09:46:45 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-17  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (elisp): Added highlighting for Emacs Lisp.
 	(overstrike_faces): New output language `overstrike' for line
@@ -399,30 +403,30 @@ Mon Mar 17 09:46:45 1997  Markku Rossi  <mtr@ngs.fi>
 	Added highlighting for procedure names and variable names.
 	(scheme): Fixed keywords to recognize `set!'.
 
-Tue Mar 11 16:20:12 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-11  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (states): Updated keyword list.
 	Implemented highlighting for built-in functions.
 	Added highlighting for function names.
 
-Mon Mar 10 11:50:04 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-10  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (postscript): Added highlighting for PostScript
 	language by Dave Hylands <DHylands@creo.com>.
 	Sorted highlighting states according to their names.
 
-Thu Mar  6 11:05:13 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-06  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st: Implemented new `variable_name_face' typeface.
 	(c_ppline): Implemented a smarter C preprocessor line highlighting
 	support.  Now it should be identical with Emacs's highlight.
 
-Tue Mar  4 11:40:40 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-04  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (ada): Added highlighting for the Ada95 programming
 	language by Rolf Ebert <ebert@waporo.muc.de>.
 
-Mon Mar  3 12:03:16 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-03  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (start): Cleaned bold, italic and bold-italic font
 	resolving.
@@ -430,7 +434,7 @@ Mon Mar  3 12:03:16 1997  Markku Rossi  <mtr@ngs.fi>
 	(scheme): Updated to highlight function names and ':'-started
 	function arguments.
 
-Thu Feb 27 09:34:49 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-27  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st: Implemented new type faces: `builtin_face' and
 	`type_face'.
@@ -442,11 +446,11 @@ Thu Feb 27 09:34:49 1997  Markku Rossi  <mtr@ngs.fi>
 	which will create a HTML report about all supported highlighting
 	formats.
 
-Wed Feb 26 09:42:52 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-26  Markku Rossi  <mtr@ngs.fi>
 
 	* Release enscript-1.5.0.
 
-Fri Feb 21 09:48:04 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-21  Markku Rossi  <mtr@ngs.fi>
 
 	* gram.y: Implemented logical operators `not', `and' and `or'.
 
@@ -454,26 +458,26 @@ Fri Feb 21 09:48:04 1997  Markku Rossi  <mtr@ngs.fi>
 
 	* Added test subdirectory and tests for States.
 
-Wed Feb 19 14:58:36 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-19  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (synopsys): Added highlighting for the Synopsys DC
 	Shell scripting language by Brian Silveira (brian@nortel.ca) and
 	Hartley Horwitz (harts@nortel.ca).
 	(synopsys): New synopsys mode with some minor fixes.
 
-Tue Feb 18 08:59:46 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-18  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st: Added guidelines for new highlighting rules.
 	(vhdl): Added VHDL highlighting by Brian Silveira
 	(brian@nortel.ca).
 
-Tue Feb 11 14:08:25 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-11  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (verilog): Added new '`' keywords.
 	(verilog): Added highlighting for references of the pre-processor
 	defined things.
 
-Wed Feb  5 10:29:07 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-05  Markku Rossi  <mtr@ngs.fi>
 
 	* prims.c (prim_tointeger): Renamed primitive `tonumber' to
 	`int'.
@@ -485,7 +489,7 @@ Wed Feb  5 10:29:07 1997  Markku Rossi  <mtr@ngs.fi>
 
 	* prims.c (prim_concat): Renamed primitive `strcat' to `concat'.
 
-Tue Feb  4 16:40:23 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-04  Markku Rossi  <mtr@ngs.fi>
 
 	* prims.c (prim_list): New primitive `list' to create lists.
 	(prim_length): Renamed primitive `strlen' to `length'.
@@ -495,7 +499,7 @@ Tue Feb  4 16:40:23 1997  Markku Rossi  <mtr@ngs.fi>
 
 	* lex.l: Implemented C's character constants ('a').
 
-Mon Feb  3 11:34:14 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-03  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st: Added `describe_languages' state which can be used
 	to extract information about the supported --pretty-print
@@ -509,12 +513,12 @@ Mon Feb  3 11:34:14 1997  Markku Rossi  <mtr@ngs.fi>
 	* Fixed bugs encountered with enscript-1.4.4.
 	Updated developement tools: flex-2.5.4 and bison-1.25.
 
-Fri Jan 31 15:24:44 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-31  Markku Rossi  <mtr@ngs.fi>
 
 	* prims.c (prim_prereq): New primitive to check that a recent
 	enough version of States is being used.
 
-Sat Jan 25 17:27:50 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-25  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (changelog): Implemented ChangeLog highlighting.
 
@@ -524,11 +528,11 @@ Sat Jan 25 17:27:50 1997  Markku Rossi  <mtr@ngs.fi>
 	Regenerated keyword regular expressions with the Emacs-lisp
 	build-re command.
 
-Fri Jan 24 19:13:38 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-24  Markku Rossi  <mtr@ngs.fi>
 
 	* prims.c: New primitives: regmatch, regsub and regsuball.
 
-Thu Jan 23 11:49:25 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-23  Markku Rossi  <mtr@ngs.fi>
 
 	* prims.c (prim_getenv): New primitive: getenv.
 
@@ -538,7 +542,7 @@ Thu Jan 23 11:49:25 1997  Markku Rossi  <mtr@ngs.fi>
 	* De-ANSI-fied states sources since bison generated gram.c is
 	already in K&R.
 
-Wed Jan 22 00:57:09 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-22  Markku Rossi  <mtr@ngs.fi>
 
 	* Makefile.am: Added many2html script.
 
@@ -551,7 +555,7 @@ Wed Jan 22 00:57:09 1997  Markku Rossi  <mtr@ngs.fi>
 	added tSYMBOL for state rule's expr part.  This allows
 	user-definable matches.
 
-Mon Jan 20 01:14:02 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-20  Markku Rossi  <mtr@ngs.fi>
 
 	* enscript.st (tcl): Implemented Tcl highlighting.
 
@@ -560,3 +564,10 @@ Mon Jan 20 01:14:02 1997  Markku Rossi  <mtr@ngs.fi>
 	speedup.
 
 	* Version 0.9 of States, this is an early beta.
+
+
+Copyright (C) 1997, 1998, 1999, 2008 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

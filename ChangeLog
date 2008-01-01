@@ -1,3 +1,7 @@
+2008-01-01  Tim Retout  <diocles@gnu.org>
+
+	* ChangeLog: Run M-x change-log-redate. Add copyright notice at end.
+
 2007-12-29  Tim Retout  <diocles@gnu.org>
 
 	* Makefile.am (SUBDIRS): Remove duplicate intl.
@@ -120,15 +124,15 @@
 	* 88594.txt: Added encoding for ISO-8859-4 character set.  Thanks
 	to Ricardas Cepas <rch@pub.osf.lt> for the patches.
 
-Thu Jul 17 11:47:35 1997  Markku Rossi  <mtr@ngs.fi>
+1997-07-17  Markku Rossi  <mtr@ngs.fi>
 
 	* Upgraded automake to version 1.2.
 
-Wed Jul 16 12:41:01 1997  Markku Rossi  <mtr@ngs.fi>
+1997-07-16  Markku Rossi  <mtr@ngs.fi>
 
 	* Makefile.am: Added THANKS file.
 
-Thu May 22 10:43:08 1997  Markku Rossi  <mtr@ngs.fi>
+1997-05-22  Markku Rossi  <mtr@ngs.fi>
 
 	* configure.in (SPOOLER): added option --with-spooler to specify
 	the system printer spooler.
@@ -136,82 +140,82 @@ Thu May 22 10:43:08 1997  Markku Rossi  <mtr@ngs.fi>
 	* Added a banner which shows the user definable options and their
 	current values.  This should save some emails.
 
-Mon Apr 14 12:18:35 1997  Markku Rossi  <mtr@ngs.fi>
+1997-04-14  Markku Rossi  <mtr@ngs.fi>
 
 	* INSTALL: Updated Autoconf related installation information.
 
 	* Updated COPYING and COPYING.LIB files to the latest ones.
 
-Wed Feb 12 11:43:06 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-12  Markku Rossi  <mtr@ngs.fi>
 
 	* Makefile.am: Added all FAQ related files to the distribution.
 
-Thu Jan 23 12:00:02 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-23  Markku Rossi  <mtr@ngs.fi>
 
 	* configure.in: Added checks form memmove() and memcpy() and added
 	their replacements to compat.
 	Added check for alloca().
 
-Tue Jan 21 17:58:03 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-21  Markku Rossi  <mtr@ngs.fi>
 
 	* Created a new tests subdirectory which holds the enscript
 	testsuite.
 
 	* Automake-1.1l.
 
-Tue Nov  5 08:21:14 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-11-05  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* 88595.txt: New encoding for ISO-8859-5 (ISO Cyrillic) character
 	set. Thanks for Ildar Khabibrakhmanov <ildar@hawking.math.mun.ca>
 	for the 88595.txt encoding file.
 
-Sun Sep  8 13:38:36 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-09-08  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* All encoding description files: changed name of the character
 	0x2d (-) from `/minus' to `/hyphen'.
 
-Sat Sep  7 15:40:03 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-09-07  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* koi8.txt: New encoding for Adobe's Standard Cyrillic Font KOI8.
 	Thanks for Ildar Khabibrakhmanov <ildar@hawking.math.mun.ca> for
 	the koi8.txt encoding file.
 
-Fri Aug 23 22:09:07 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-08-24  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* Updated developement tools: autoconf-2.10, automake-1.1c,
 	gettext-0.10.23.
 
-Sun Jul 28 01:26:21 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-07-28  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* Changed __P() macro to ___P() in all files where it was used.
   	Now we won't clash with solaris' math.h which defines __P().
 
-Thu Jun 13 12:45:43 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-06-13  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* Automake-1.0.
 
 	* New subdirectory `scripts' for utility scripts.
 
-Thu Jun  6 08:38:27 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-06-06  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* gettext-0.10.16.
 
-Mon May  6 10:05:55 1996  Markku Rossi  <mtr@ngs.fi>
+1996-05-06  Markku Rossi  <mtr@ngs.fi>
 
 	* Automake-0.32.
 
-Thu Mar 14 09:02:39 1996  Markku Rossi  <mtr@ngs.fi>
+1996-03-14  Markku Rossi  <mtr@ngs.fi>
 
 	* Automake-0.31.
 
 	* configure.in: Removed CFLAGS and LDFLAGS defaults, use whatever
  	autoconf gives to us.
 
-Mon Mar 11 09:21:34 1996  Markku Rossi  <mtr@ngs.fi>
+1996-03-11  Markku Rossi  <mtr@ngs.fi>
 
 	* 88592.txt: fixed character 0xf0 from /eth to /dbar.
 
-Sun Feb 25 05:14:10 1996  Markku Rossi  <mtr@ngs.fi>
+1996-02-25  Markku Rossi  <mtr@ngs.fi>
 
 	* Reorganized source tree:
 	  - enscript source is moved to the new `src' sub-directory
@@ -222,3 +226,11 @@ Sun Feb 25 05:14:10 1996  Markku Rossi  <mtr@ngs.fi>
 
 	* Made to use Automake utility.  The old top level Change log has
 	moved to the src subdirectory.
+
+
+Copyright (C) 1996, 1997, 1998, 1999, 2003, 2007, 2008 Free Software
+Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

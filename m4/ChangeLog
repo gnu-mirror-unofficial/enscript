@@ -1,3 +1,7 @@
+2008-01-01  Tim Retout  <diocles@gnu.org>
+
+	* ChangeLog: Add copyright notice at end.
+
 2003-02-28  gettextize  <bug-gnu-gettext@gnu.org>
 
 	* codeset.m4: New file, from gettext-0.11.5.
@@ -19,3 +23,9 @@
 	* ulonglong.m4: New file, from gettext-0.11.5.
 	* Makefile.am: New file.
 
+
+Copyright (C) 2003, 2008 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

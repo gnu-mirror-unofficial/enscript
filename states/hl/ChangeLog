@@ -1,5 +1,7 @@
 2008-01-01  Tim Retout  <diocles@gnu.org>
 
+	* ChangeLog: Add copyright notice at end.
+
 	* c_ppline.st (c_ppline_comment): New state.
 	(c_ppline, c_ppline_comments_strings_chars, c_ppline_tokensequence):
 	Call c_ppline_comment rather than c_comment.
@@ -159,3 +161,10 @@
 
 	* Split the old `enscript.st' to about many .st files.  They are
 	here.
+
+
+Copyright (C) 1998, 1999, 2000, 2003, 2008 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

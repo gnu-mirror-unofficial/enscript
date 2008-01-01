@@ -1,3 +1,7 @@
+2008-01-01  Tim Retout  <diocles@gnu.org>
+
+	* ChangeLog: Run M-x change-log-redate. Add copyright notice at end.
+
 1998-12-23  Markku Rossi  <mtr@amme.ssh.fi>
 
 	* afm.h: Added ISO-8859-{9,10} encodings.  Thanks to Donald Page
@@ -41,70 +45,77 @@
 	* afm.h: Added ISO-8859/4 encoding.  Thanks to Ricardas Cepas
 	<rch@pub.osf.lt>.
 
-Fri Jul 18 09:56:29 1997  Markku Rossi  <mtr@ngs.fi>
+1997-07-18  Markku Rossi  <mtr@ngs.fi>
 
 	* Changed AFM library's copying policy from the GNU Library
 	General Public License (LGPL) to GNU General Public License
 	(GPL).
 
-Mon Apr 14 12:39:06 1997  Markku Rossi  <mtr@ngs.fi>
+1997-04-14  Markku Rossi  <mtr@ngs.fi>
 
 	* COPYING.LIB: Updated to the latest version.
 
 	* Updated FSF's address to all source files.
 
-Tue Nov  5 08:22:10 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-11-05  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* afm.h: New input encoding LATIN5 for ISO-8859/5 (ISO latin5).
 
-Sat Sep  7 15:45:01 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-09-07  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* afm.h: New input encoding KOI8 for Adobe's Standard Cyrillic
 	Font KOI8.
 
-Fri May 24 11:11:45 1996  Markku Rossi  <mtr@ngs.fi>
+1996-05-24  Markku Rossi  <mtr@ngs.fi>
 
 	* Added encoding support for PostScript font's composite
  	characters.
 
 	* Added encoding flags to the encoding functions.
 
-Thu Feb 29 08:25:21 1996  Markku Rossi  <mtr@ngs.fi>
+1996-02-29  Markku Rossi  <mtr@ngs.fi>
 
 	* Added support for the automatic non-ANSI-defication.
 
-Tue Feb 20 16:17:31 1996  Markku Rossi  <mtr@ngs.fi>
+1996-02-20  Markku Rossi  <mtr@ngs.fi>
 
 	* Added hp8 (HP Roman-8) encoding.
 
-Wed Jan  3 17:45:26 1996  Markku Rossi  <mtr@ngs.fi>
+1996-01-03  Markku Rossi  <mtr@ngs.fi>
 
 	* Makefile.in: Do not require make which can handle string
  	substitutions.
 
-Wed Dec 20 08:39:24 1995  Markku Rossi  <mtr@ngs.fi>
+1995-12-20  Markku Rossi  <mtr@ngs.fi>
 
 	* afm.c (afm_message): Changed output to go to stderr instead of
  	stdout.
 
-Fri Oct 20 14:16:42 1995  Markku Rossi  <mtr@ngs.fi>
+1995-10-20  Markku Rossi  <mtr@ngs.fi>
 
 	* afmparse.c (read_character_metrics): some AFM files give too big
  	count for the StartCharMetrics keyword, do not concider it as a
  	syntax error.
 
-Thu Aug 24 14:58:56 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-24  Markku Rossi  <mtr@ngs.fi>
 
 	* Added VMS multinational encoding.
 
-Tue Aug 22 12:39:50 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-22  Markku Rossi  <mtr@ngs.fi>
 
 	* afm.c (afm_error_to_string): Fixed errno printing bug.
 
-Mon Aug 21 11:03:04 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-21  Markku Rossi  <mtr@ngs.fi>
 
 	* Fixed the default AFM path.  Now /usr/local/lib/ps is searched
 	first since we know what there is.
 
 	* Cleaned up afmtest.  Now it can be used to retrieve different
 	font information.
+
+
+Copyright (C) 1995, 1996, 1997, 1998, 2008 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.

@@ -1,5 +1,7 @@
 2008-01-01  Tim Retout  <diocles@gnu.org>
 
+	* ChangeLog: Run M-x change-log-redate. Add copyright notice at end.
+
 	* main.c (main) <toc>: Remove an unnecessary fclose of the toc
 	temporary file, which was breaking the --toc option.
 
@@ -256,29 +258,29 @@
 	* main.c: Added ISO-8859/4 encoding, thanks to Ricardas Cepas
 	<rch@pub.osf.lt>.
 
-Tue Sep 16 14:04:05 1997  Markku Rossi  <mtr@ngs.fi>
+1997-09-16  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c (version): Updated to conform the latest GNU coding
 	standard.
 
-Thu Aug 28 10:02:20 1997  Markku Rossi  <mtr@ngs.fi>
+1997-08-28  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c: New option `--margins=LEFT:RIGHT:TOP:BOTTOM' to adjust
 	page marginals.
 
-Mon Aug 11 09:16:43 1997  Markku Rossi  <mtr@ngs.fi>
+1997-08-11  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c (divert): Changed to use tempnam() instead of tmpnam().
 	(get_next_token): Fixed tabulator character handling with variable
  	width fonts.  Now it really works; the left margins is really
  	pretty.
 
-Thu Jul  3 14:40:16 1997  Markku Rossi  <mtr@ngs.fi>
+1997-07-03  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c (read_special_escape): Implemented new `escape' special
 	escape to change the escape character.
 
-Tue Jun 10 10:07:28 1997  Markku Rossi  <mtr@ngs.fi>
+1997-06-10  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c: Optimized the size of the generated PostScript output.
 	(print_line_number): Fixed to print the line number with the
@@ -287,26 +289,26 @@ Tue Jun 10 10:07:28 1997  Markku Rossi  <mtr@ngs.fi>
 	(process_file): New special escape ^@bggray{} to set the text
 	background color.
 
-Fri Jun  6 13:29:08 1997  Markku Rossi  <mtr@ngs.fi>
+1997-06-06  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c: Fixed lineskip to work better when changing the font at
  	the beginning of the line.
 
-Thu Jun  5 15:21:04 1997  Markku Rossi  <mtr@ngs.fi>
+1997-06-05  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c (dump_empty_page): Fixed --file-align option to work
  	even if we cross the page boundary in N-up mode.
 
-Wed May 28 11:11:17 1997  Markku Rossi  <mtr@ngs.fi>
+1997-05-28  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c: New option --mark-wrapped-lines[=STYLE],
  	MarkWrappedLines to mark wrapped lines in the printout.
 
-Thu May 22 10:03:23 1997  Markku Rossi  <mtr@ngs.fi>
+1997-05-22  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c (main): Coded more information to the return value.
 
-Wed Mar 19 12:38:39 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-19  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c: New option -W, --language to specify the output
 	language.
@@ -315,7 +317,7 @@ Wed Mar 19 12:38:39 1997  Markku Rossi  <mtr@ngs.fi>
 	Made option -J to be an alias for -t, --title.
 	Make option -# to be an alias for -n, --copies.
 
-Tue Mar  4 10:00:45 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-04  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (read_config): New config file option `StatesPath' to
 	specify the path for the states program.
@@ -323,51 +325,51 @@ Tue Mar  4 10:00:45 1997  Markku Rossi  <mtr@ngs.fi>
 	* psgen.c: Fixed --file-align option which was broken with the
 	--nup option.
 
-Mon Mar  3 10:25:16 1997  Markku Rossi  <mtr@ngs.fi>
+1997-03-03  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c (dump_ps_page_header): Implemented user escapes for user
 	defined header strings.
 
-Wed Feb 26 09:42:52 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-26  Markku Rossi  <mtr@ngs.fi>
 
 	* Release enscript-1.5.0.
 
-Fri Feb 21 13:46:37 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-21  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (read_font_info): Optimized AFM caching, this speeds up
 	enscript when using ^@font{} escapes a lot (-E).
 	(read_font_info): New input encoding asciidkno.
 	Renamed asciiscands to asciifise.
 
-Tue Feb 18 12:34:13 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-18  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c: New option -U NUM, --nup=NUM to specify how many logical
 	output pages are printed on each physical output page.
 
-Thu Feb  6 10:18:55 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-06  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (parse_font_spec): Added a warning about negative font
 	sizes.
 
-Mon Feb  3 11:27:53 1997  Markku Rossi  <mtr@ngs.fi>
+1997-02-03  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c: New option `--help-pretty-print' to describe all
 	supported --pretty-print languages and file formats.
 
-Fri Jan 24 09:34:00 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-24  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c (main): Changed the output file creation to be
 	demand-driven.  If the input file (all input files) could not be
 	opened, enscript doesn't generate any output.  This is a good
 	thing.
 
-Thu Jan 23 11:55:52 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-23  Markku Rossi  <mtr@ngs.fi>
 
 	* gsint.h: Changed the way how memmove() and memcpy() are defined
 	handled.  Not replacements can be found form compat lib so we do
 	not need any #define kludges.
 
-Tue Jan 21 18:18:03 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-21  Markku Rossi  <mtr@ngs.fi>
 
 	* Makefile.am: Removed testcase.sh and moved all tests to ../tests
 	directory.
@@ -376,14 +378,14 @@ Tue Jan 21 18:18:03 1997  Markku Rossi  <mtr@ngs.fi>
 	options: `StatesColorModel', `StatesConfigFile' and
 	`StatesHighlightLevel'.
 
-Mon Jan 13 09:02:26 1997  Markku Rossi  <mtr@ngs.fi>
+1997-01-13  Markku Rossi  <mtr@ngs.fi>
 
 	* mkafmmap.c: Internationalized mkafmmap program.
 
 	* util.c (read_config): New option `OutputFirstLine' to set the
 	PostScript output's first line.
 
-Thu Nov 28 08:16:04 1996  Markku Rossi  <mtr@ngs.fi>
+1996-11-28  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c: New option `--E', `--pretty-print' to pretty print
  	source codes with `states'.
@@ -395,23 +397,23 @@ Thu Nov 28 08:16:04 1996  Markku Rossi  <mtr@ngs.fi>
 	(read_config): New option `NoJobHeaderSwitch' to specify the
 	spooler option to suppress the job header.
 
-Tue Nov  5 08:22:52 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-11-05  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* psgen.c: fixed line number spacing bug which occured when using
 	line numbers with escapes.
 
 	* main.c: Added ISO-8859/5 (ISO latin5) encoding.
 
-Sat Sep  7 15:42:49 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-09-07  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* main.c: Added Adobe's Standard cyrillic Font KOI8 encoding.
 
-Thu Aug 29 22:32:38 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-08-30  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* util.c (parse_font_spec): Accept font point size in width/height
 	format.
 
-Fri Aug 23 19:36:30 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-08-23  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* util.c (read_config): New config file option TOCFormat.
 
@@ -421,20 +423,20 @@ Fri Aug 23 19:36:30 1996  Markku Rossi  <mtr@ngs.ngs.fi>
 	* main.c: New option --slice to print vertical slices of input
 	files.
 
-Mon Aug  5 08:21:14 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-08-05  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* main.c: New option --file-align=ALIGN to align separate input
 	files to even ALIGN page count.
 
-Wed Jul 24 11:17:55 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-07-24  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* main.c: New option --toc to print the Table of Contents.
 
-Wed Jul 17 10:50:34 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-07-17  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* Release enscript-1.4.0.
 
-Sun Jun 16 14:49:33 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-06-16  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* psgen.c (get_next_token): Fixed line number counting for
  	truncated lines.
@@ -449,7 +451,7 @@ Sun Jun 16 14:49:33 1996  Markku Rossi  <mtr@ngs.ngs.fi>
  	version of enscript so it is a safe place to store site-specific
  	media etc. definitions.
 
-Thu Jun 13 13:50:16 1996  Markku Rossi  <mtr@ngs.ngs.fi>
+1996-06-13  Markku Rossi  <mtr@ngs.ngs.fi>
 
 	* main.c (handle_options): New option `--printer-options' to pass
 	extra options to the printer command.
@@ -462,7 +464,7 @@ Thu Jun 13 13:50:16 1996  Markku Rossi  <mtr@ngs.ngs.fi>
 	* main.c: New option --filter=STR, -I STR which sets the
 	input filter for source files.
 
-Fri May 24 10:44:46 1996  Markku Rossi  <mtr@ngs.fi>
+1996-05-24  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (read_config): New config file option `FormFeedType' to
 	specify what to do when a formfeed character is encountered from
@@ -482,24 +484,24 @@ Fri May 24 10:44:46 1996  Markku Rossi  <mtr@ngs.fi>
 	* main.c (long_options): Renamed option --pass-through-ps-files to
 	--pass-through.
 
-Wed May 22 17:09:21 1996  Markku Rossi  <mtr@ngs.fi>
+1996-05-22  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c (process_file): Fixed carriage return character
 	handling.
 
-Fri May 10 08:56:31 1996  Markku Rossi  <mtr@ngs.fi>
+1996-05-10  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c (read_special_escape): New special escape `shade' to
 	highlight regions of text.
 
 	* main.c (usage): Cleaned up --help messages.
 
-Thu May  9 14:17:49 1996  Markku Rossi  <mtr@ngs.fi>
+1996-05-09  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (read_config): New configuration file option:
 	EscapeChar.
 
-Tue May  7 09:37:16 1996  Markku Rossi  <mtr@ngs.fi>
+1996-05-07  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (read_config): New config file option `UnderlayStyle' to
 	specify the underlay printing style.
@@ -509,7 +511,7 @@ Tue May  7 09:37:16 1996  Markku Rossi  <mtr@ngs.fi>
 	(long_options): New option --ul-style to specify the underlay
 	printing style.
 
-Thu May  2 08:21:17 1996  Markku Rossi  <mtr@ngs.fi>
+1996-05-02  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (read_font_info): Added AFM cache to speedup font-escape
 	processing.
@@ -517,7 +519,7 @@ Thu May  2 08:21:17 1996  Markku Rossi  <mtr@ngs.fi>
 	* psgen.c (print_line_number): Don't print line numbers for
 	wrapped lines.
 
-Mon Apr 22 09:24:40 1996  Markku Rossi  <mtr@ngs.fi>
+1996-04-22  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (format_user_string): New directive `%H' for the document
  	title.
@@ -525,17 +527,17 @@ Mon Apr 22 09:24:40 1996  Markku Rossi  <mtr@ngs.fi>
 	* main.c: Changed option -e, --escapes to take an optional
 	argument which specifies the escape character.
 
-Mon Apr  1 09:26:23 1996  Markku Rossi  <mtr@ngs.fi>
+1996-04-01  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c (process_file): Now ^@font{} escapes work over page
 	boundaries.
 
-Wed Mar 27 08:50:53 1996  Markku Rossi  <mtr@ngs.fi>
+1996-03-27  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c (main): New option -a, --pages to select which pages are
 	printed.
 
-Tue Mar 26 10:14:29 1996  Markku Rossi  <mtr@ngs.fi>
+1996-03-26  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (format_user_string): New option: `$=' number of pages in
 	the current input file.
@@ -543,7 +545,7 @@ Tue Mar 26 10:14:29 1996  Markku Rossi  <mtr@ngs.fi>
 	* psgen.c (process_file): Added diversions to count the total
 	pages within a file (%Format: $=).
 
-Tue Mar 12 08:23:31 1996  Markku Rossi  <mtr@ngs.fi>
+1996-03-12  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c (handle_options): Changed option -l, --lineprinter to
 	print 66 lines per page instead of 65 lines.
@@ -553,11 +555,11 @@ Tue Mar 12 08:23:31 1996  Markku Rossi  <mtr@ngs.fi>
 	* main.c (main): New options: -k, --page-prefeed, -K,
 	--no-page-prefeed.
 
-Thu Mar  7 16:18:00 1996  Markku Rossi  <mtr@ngs.fi>
+1996-03-07  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (format_user_string): New escape: $(ENVVAR).
 
-Tue Mar  5 16:45:40 1996  Markku Rossi  <mtr@ngs.fi>
+1996-03-05  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (read_config): New config file options: HighlightBars and
 	HighLightBarGray.
@@ -565,24 +567,24 @@ Tue Mar  5 16:45:40 1996  Markku Rossi  <mtr@ngs.fi>
 	* main.c: New option: -H, --highlight-bars and
 	--highlight-bar-gray to control the highlight bar printing.
 
-Fri Mar  1 11:08:13 1996  Markku Rossi  <mtr@ngs.fi>
+1996-03-01  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c: New option: -h, --no-job-header to suppress the job
 	header page.
 	(main): Changed option --title to set the name of stdin.
 
-Thu Feb 29 08:10:48 1996  Markku Rossi  <mtr@ngs.fi>
+1996-02-29  Markku Rossi  <mtr@ngs.fi>
 
 	* Added support for the automatic de-ANSI-fication.
 
 	* Renamed package to enscript.
 
-Sun Feb 25 05:13:21 1996  Markku Rossi  <mtr@ngs.fi>
+1996-02-25  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c (main): changed stdin's name to be an empty string
 	instead of "(stdin)".  This is how Adobe's enscript does it.
 
-Fri Feb 23 08:04:57 1996  Markku Rossi  <mtr@ngs.fi>
+1996-02-23  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c (main): Added environment variable GENSCRIPT_LIBRARY
  	which can be used to overwrite the build-in library path.
@@ -590,16 +592,16 @@ Fri Feb 23 08:04:57 1996  Markku Rossi  <mtr@ngs.fi>
 	* psgen.c (read_special_escape): fixed a bug which caused pipes to
  	the EPS files to be closed with fclose().
 
-Wed Feb 21 08:14:15 1996  Markku Rossi  <mtr@ngs.fi>
+1996-02-21  Markku Rossi  <mtr@ngs.fi>
 
 	* Makefile.in (exec_prefix): fixed to honor the value given by the
 	configure script.
 
-Tue Feb 20 16:15:24 1996  Markku Rossi  <mtr@ngs.fi>
+1996-02-20  Markku Rossi  <mtr@ngs.fi>
 
 	* Added hp8 (HP Roman-8) encoding.
 
-Mon Feb 19 09:30:55 1996  Markku Rossi  <mtr@ngs.fi>
+1996-02-19  Markku Rossi  <mtr@ngs.fi>
 
 	* Release genscript-1.3.0.
 
@@ -609,38 +611,38 @@ Mon Feb 19 09:30:55 1996  Markku Rossi  <mtr@ngs.fi>
 	* psgen.c (do_pass_through_ps_file): added pass-through for the
 	PCL files.
 
-Thu Feb  8 16:00:56 1996  Markku Rossi  <mtr@ngs.fi>
+1996-02-08  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (read_config): New config file option `Clean7Bit' to
  	specify how characters greater than 127 are handled.
 
-Wed Feb  7 22:24:50 1996  Markku Rossi  <mtr@ngs.fi>
+1996-02-07  Markku Rossi  <mtr@ngs.fi>
 
 	* gsint.h: Implemented unit selection for the `--indent' option.
 
-Tue Jan 30 11:37:11 1996  Markku Rossi  <mtr@ngs.fi>
+1996-01-30  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c (main): Now genscript can be used even if it is not
 	installed.
 
 	* Makefile.in (check): new target
 
-Thu Jan 25 14:36:06 1996  Markku Rossi  <mtr@ngs.fi>
+1996-01-25  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (paste_file): Implemented `%HeaderHeight' and
 	`%FooterHeight' directives.
 
-Tue Jan  9 08:45:20 1996  Markku Rossi  <mtr@ngs.fi>
+1996-01-09  Markku Rossi  <mtr@ngs.fi>
 
 	* Finished Win-95/NT port.
 
-Mon Jan  8 08:19:17 1996  Markku Rossi  <mtr@ngs.fi>
+1996-01-08  Markku Rossi  <mtr@ngs.fi>
 
 	* First Win-95/NT port with MSC 2.00.
 
 	* util.c (format_user_string): New options: %N and $%.
 
-Fri Jan  5 17:11:19 1996  Markku Rossi  <mtr@ngs.fi>
+1996-01-05  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c (dump_ps_header): Removed date and time ps-constants
  	which can now be formatted with the `%Format' directive:
@@ -656,12 +658,12 @@ Fri Jan  5 17:11:19 1996  Markku Rossi  <mtr@ngs.fi>
 	* util.c (format_user_string): Implemented `%Format' directive
  	which can be used to format user defined strings in fancy headers.
 
-Thu Jan  4 13:54:45 1996  Markku Rossi  <mtr@ngs.fi>
+1996-01-04  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c: Added pslatin1 encoding (PostScript interpreter's
  	ISOLatin1Encoding).
 
-Wed Jan  3 16:52:43 1996  Markku Rossi  <mtr@ngs.fi>
+1996-01-03  Markku Rossi  <mtr@ngs.fi>
 
 	* Created a new Makefile to the compat subdirectory; now genscript
  	does not need a make with the VPATH feature.
@@ -669,11 +671,11 @@ Wed Jan  3 16:52:43 1996  Markku Rossi  <mtr@ngs.fi>
 	* main.c (usage): Split usage string to smaller parts wich are
 	printed separately.
 
-Tue Jan  2 16:13:43 1996  Markku Rossi  <mtr@ngs.fi>
+1996-01-02  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c: New option: --non-printable-format, NonPrintableFormat.
 
-Wed Dec 20 08:40:11 1995  Markku Rossi  <mtr@ngs.fi>
+1995-12-20  Markku Rossi  <mtr@ngs.fi>
 
 	* Added statistics about non-printable character codes.
 
@@ -683,14 +685,14 @@ Wed Dec 20 08:40:11 1995  Markku Rossi  <mtr@ngs.fi>
 	* util.c (do_list_missing_characters): Changed output to go to
  	stderr instead of stdout.
 
-Tue Dec 19 10:00:12 1995  Markku Rossi  <mtr@ngs.fi>
+1995-12-19  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (read_config): New config file options: UnderlayAngle and
  	UnderlayPosition.
 
 	* main.c (main): New options: --ul-angle and --ul-position.
 
-Mon Dec 18 08:14:05 1995  Markku Rossi  <mtr@ngs.fi>
+1995-12-18  Markku Rossi  <mtr@ngs.fi>
 
 	* configure.in (PATH_SEPARATOR): Defined a new constant
  	PATH_SEPARATOR to specify the character which separates path
@@ -705,7 +707,7 @@ Mon Dec 18 08:14:05 1995  Markku Rossi  <mtr@ngs.fi>
 	* util.c (parse_font_spec): Added support for the new
 	`name@ptsize' font specification.
 
-Tue Nov 28 09:12:46 1995  Markku Rossi  <mtr@ngs.fi>
+1995-11-28  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c (handle_options): Option -u, --underlay was changed to
  	take an optional argument.  If no argument is given, underlay is
@@ -717,7 +719,7 @@ Tue Nov 28 09:12:46 1995  Markku Rossi  <mtr@ngs.fi>
 	* Makefile.in: Fixed Makefile to obey the GNU Coding Standards.
   	Changed datadir from `prefix/lib' to `prefix/share'.
 
-Mon Nov 27 08:24:18 1995  Markku Rossi  <mtr@ngs.fi>
+1995-11-27  Markku Rossi  <mtr@ngs.fi>
 
 	* util.c (read_config): New config file options: UnderlayFont and
 	UnderlayGray
@@ -731,68 +733,68 @@ Mon Nov 27 08:24:18 1995  Markku Rossi  <mtr@ngs.fi>
 
 	* utils.c: Renamed config file option `Queue' to `Printer'.
 
-Wed Nov  8 08:27:07 1995  Markku Rossi  <mtr@ngs.fi>
+1995-11-08  Markku Rossi  <mtr@ngs.fi>
 
 	* Added latin3 encoding (from the latin3.txt file by Duncan C
 	Thomson).
 
-Thu Nov  2 08:56:16 1995  Markku Rossi  <mtr@ngs.fi>
+1995-11-02  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c: Fixed a bug which added document headers and trailers
  	to pass-through PostScript files.
 
-Tue Oct 31 08:53:18 1995  Markku Rossi  <mtr@ngs.fi>
+1995-10-31  Markku Rossi  <mtr@ngs.fi>
 
 	* Release genscript-1.2.20.
 
-Fri Oct 27 09:35:02 1995  Markku Rossi  <mtr@ngs.fi>
+1995-10-27  Markku Rossi  <mtr@ngs.fi>
 
 	* Added option -C, --line-numbers.
 
-Thu Oct 26 09:13:45 1995  Markku Rossi  <mtr@ngs.fi>
+1995-10-26  Markku Rossi  <mtr@ngs.fi>
 
 	* Added option -Z, --pass-through-ps-files.
 
-Tue Oct 24 08:14:24 1995  Markku Rossi  <mtr@ngs.fi>
+1995-10-24  Markku Rossi  <mtr@ngs.fi>
 
 	* Cleaned up some HTML entity codes in encoding tables.
 
-Wed Oct 18 17:33:18 1995  Markku Rossi  <mtr@ngs.fi>
+1995-10-18  Markku Rossi  <mtr@ngs.fi>
 
 	* Added latin2 encoding.
 
-Tue Oct 10 09:02:14 1995  Markku Rossi  <mtr@ngs.fi>
+1995-10-10  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c (main): changed fancy header's height from 40 to 36
 	points.
 
-Thu Oct  5 07:37:54 1995  Markku Rossi  <mtr@ngs.fi>
+1995-10-05  Markku Rossi  <mtr@ngs.fi>
 
 	* New config file options: Queue and QueueParam.
 
 	* genscript.man: minor cleanups.
 
-Mon Oct  2 14:58:13 1995  Markku Rossi  <mtr@ngs.fi>
+1995-10-02  Markku Rossi  <mtr@ngs.fi>
 
 	* Release genscript-1.2.1.
 
-Fri Sep 29 17:30:08 1995  Markku Rossi  <mtr@ngs.fi>
+1995-09-29  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c: read default options from the GENSCRIPT (and ENSCRIPT)
 	environment variable
 
-Tue Sep 26 09:06:52 1995  Markku Rossi  <mtr@ngs.fi>
+1995-09-26  Markku Rossi  <mtr@ngs.fi>
 
 	* font size and baselineskip can be given as a decimal number
 
 	* psgen.c: Fixed DSC comments, now generated output is DSC 3.0
 	conforming.
 
-Thu Sep 21 09:32:10 1995  Markku Rossi  <mtr@ngs.fi>
+1995-09-21  Markku Rossi  <mtr@ngs.fi>
 
 	* Implemented .pf{a,b} file downloading.
 
-Wed Sep 20 09:16:49 1995  Markku Rossi  <mtr@ngs.fi>
+1995-09-20  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c (read_special_escape): new option 's' (scale) to specify
 	an explicit scale for an eps image.
@@ -800,17 +802,17 @@ Wed Sep 20 09:16:49 1995  Markku Rossi  <mtr@ngs.fi>
 	* psgen.c: fixed epsf escape to start a new column if the
  	specified image does not fit to the current one.
 
-Mon Sep 18 08:03:53 1995  Markku Rossi  <mtr@ngs.fi>
+1995-09-18  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c: Fixed some typos.
 
 	* Added backspace handling.
 
-Sat Sep  9 16:47:08 1995  Markku Rossi  <mtr@ngs.fi>
+1995-09-09  Markku Rossi  <mtr@ngs.fi>
 
 	* main.c (main): fixed typos that broke -o and -X options.
 
-Mon Sep  4 08:20:08 1995  Markku Rossi  <mtr@ngs.fi>
+1995-09-04  Markku Rossi  <mtr@ngs.fi>
 
 	* Release genscript-1.1.4.
 
@@ -819,14 +821,14 @@ Mon Sep  4 08:20:08 1995  Markku Rossi  <mtr@ngs.fi>
 	* psgen.c (dump_ps_header): Added findatestr.
 	(paste_epsf): Fixed paste_epsf()'s EPS file recognization.
 
-Wed Aug 30 10:07:42 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-30  Markku Rossi  <mtr@ngs.fi>
 
 	* Added options -u, --underlay, --ul-gray and --ul-font.
 
 	* psgen.c (read_float): now dimensions can be specified in
 	different units.
 
-Tue Aug 29 11:23:49 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-29  Markku Rossi  <mtr@ngs.fi>
 
 	* Changed PostScript font's default encoding name from 'default'
 	to 'ps'.
@@ -842,7 +844,7 @@ Tue Aug 29 11:23:49 1995  Markku Rossi  <mtr@ngs.fi>
 	* psgen.c (paste_epsf): Now EPS images can be read from command's
 	standard output.
 
-Thu Aug 24 09:47:30 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-24  Markku Rossi  <mtr@ngs.fi>
 
 	* vms.txt: Added VMS multinational input encoding.
 
@@ -850,7 +852,7 @@ Thu Aug 24 09:47:30 1995  Markku Rossi  <mtr@ngs.fi>
 
 	* Added options -S, --statusdict and -D, --setpagedevice.
 
-Wed Aug 23 11:48:31 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-23  Markku Rossi  <mtr@ngs.fi>
 
 	* Improved configure to handle more non-ANSI features.
 
@@ -866,35 +868,35 @@ Wed Aug 23 11:48:31 1995  Markku Rossi  <mtr@ngs.fi>
 	* psgen.c (get_next_token): control characters are now printed in
  	the escaped form.
 
-Mon Aug 21 09:16:16 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-21  Markku Rossi  <mtr@ngs.fi>
 
 	* Release genscript-1.0.1.
 
-Thu Aug 17 09:48:17 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-17  Markku Rossi  <mtr@ngs.fi>
 
 	* Minor cleanups.
 
-Tue Aug 15 10:30:44 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-15  Markku Rossi  <mtr@ngs.fi>
 
 	* Added option --baseline.
 
 	* Fixed epsf escape's options.
 
-Mon Aug 14 14:21:35 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-14  Markku Rossi  <mtr@ngs.fi>
 
 	* Added support for AFM files.
 
-Wed Aug  9 10:59:30 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-09  Markku Rossi  <mtr@ngs.fi>
 
 	* Added option --newline to select the newline character.
 
 	* Cleaned up character set tables.
 
-Mon Aug  7 15:40:09 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-07  Markku Rossi  <mtr@ngs.fi>
 
 	* Added Mac input encoding.
 
-Thu Aug  3 12:44:04 1995  Markku Rossi  <mtr@ngs.fi>
+1995-08-03  Markku Rossi  <mtr@ngs.fi>
 
 	* New special escapes: 'font' and 'comment'.
 
@@ -902,7 +904,7 @@ Thu Aug  3 12:44:04 1995  Markku Rossi  <mtr@ngs.fi>
 
 	* General code and document cleanups.
 
-Mon Jul 31 10:18:16 1995  Markku Rossi  <mtr@ngs.fi>
+1995-07-31  Markku Rossi  <mtr@ngs.fi>
 
 	* Added support for --copies option.  Now it really works.
 
@@ -911,16 +913,23 @@ Mon Jul 31 10:18:16 1995  Markku Rossi  <mtr@ngs.fi>
 
 	* Added options --font and --header-font.
 
-Thu Jul 27 08:12:01 1995  Markku Rossi  <mtr@ngs.fi>
+1995-07-27  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c (paste_epsf): now eps files are also looked up from
 	libpath.
 	(read_special_escape): epsf: added option 'r'.
 
-Wed Jul 26 11:08:50 1995  Markku Rossi  <mtr@ngs.fi>
+1995-07-26  Markku Rossi  <mtr@ngs.fi>
 
 	* psgen.c: added support for inlined EPS-files.
 
-Tue Jul 25 09:24:30 1995  Markku Rossi  <mtr@ngs.fi>
+1995-07-25  Markku Rossi  <mtr@ngs.fi>
 
 	* Added IBM PC input encoding.
+
+
+Copyright (C) 1995, 1996, 1997, 1998, 1999, 2008 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
