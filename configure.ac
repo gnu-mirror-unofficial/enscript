@@ -100,8 +100,10 @@ ALL_LINGUAS="de es fi fr nl ru sl"
 AM_GNU_GETTEXT
 
 dnl Path separator character.
-AC_DEFINE_UNQUOTED(PATH_SEPARATOR, ':')
-AC_DEFINE_UNQUOTED(PATH_SEPARATOR_STR, ":")
+AC_DEFINE_UNQUOTED([PATH_SEPARATOR], [':'],
+  [Character used to separate path components.])
+AC_DEFINE_UNQUOTED([PATH_SEPARATOR_STR], [":"],
+  [Character used to separate path components, as string.])
 
 dnl
 dnl Scripts

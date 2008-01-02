@@ -1,5 +1,9 @@
 2008-01-02  Tim Retout  <diocles@gnu.org>
 
+	* configure.ac: Add description to PATH_SEPARATOR and
+	PATH_SEPARATOR_STR definitions.
+	* acconfig.h: Remove. Silences autoheader warning.
+
 	* configure.ac (AC_INIT): Quote arguments.
 	(AC_PREREQ): Bump required autoconf version to 2.61.
 	(AM_CONFIG_HEADER): Change to AC_CONFIG_HEADERS, quote arguments.
