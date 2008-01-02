@@ -1,11 +1,10 @@
 dnl Process this file with autoconf to produce a configure script.
-AC_INIT(GNU Enscript, 1.6.4, bug-enscript@gnu.org)
+AC_INIT([GNU Enscript],[1.6.4],[bug-enscript@gnu.org])
+AC_PREREQ([2.61])
 AC_CONFIG_SRCDIR([src/gsint.h])
-
-AC_PREREQ(2.57)
+AC_CONFIG_HEADERS([config.h])
 
 AM_INIT_AUTOMAKE
-AM_CONFIG_HEADER(config.h)
 
 AC_PROG_INSTALL
 
@@ -17,9 +16,9 @@ AM_C_PROTOTYPES
 AC_C_CONST
 AC_FUNC_ALLOCA
 
-AC_STDC_HEADERS
-AC_HAVE_HEADERS(string.h stdlib.h unistd.h stdarg.h math.h pwd.h)
-AC_HAVE_HEADERS(sys/types.h sys/stat.h)
+AC_HEADER_STDC
+AC_CHECK_HEADERS([string.h stdlib.h unistd.h stdarg.h math.h pwd.h])
+AC_CHECK_HEADERS([sys/types.h sys/stat.h])
 
 dnl Check some functions.
 AC_CHECK_FUNCS(strchr getcwd)

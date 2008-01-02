@@ -1,5 +1,13 @@
 2008-01-02  Tim Retout  <diocles@gnu.org>
 
+	* configure.ac (AC_INIT): Quote arguments.
+	(AC_PREREQ): Bump required autoconf version to 2.61.
+	(AM_CONFIG_HEADER): Change to AC_CONFIG_HEADERS, quote arguments.
+	(AC_STDC_HEADERS): Change to AC_HEADER_STDC, quote arguments.
+	(AC_HAVE_HEADERS): Change to AC_CHECK_HEADERS, quote arguments.
+	Result of running autoupdate.
+	Also tidy order of macros.
+
 	* configure.ac (AC_ISC_POSIX): Replace with AC_USE_SYSTEM_EXTENSIONS
 	to silence some aclocal warnings.
 
