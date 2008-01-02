@@ -1,3 +1,7 @@
+2008-01-02  Tim Retout  <diocles@gnu.org>
+
+	* configure.in: Rename to `configure.ac'.
+
 2008-01-01  Tim Retout  <diocles@gnu.org>
 
 	* configure.in: Remove --with-cc option from configure script.
