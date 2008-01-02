@@ -1,5 +1,10 @@
 2008-01-02  Tim Retout  <diocles@gnu.org>
 
+	* configure.ac (AC_ISC_POSIX): Replace with AC_USE_SYSTEM_EXTENSIONS
+	to silence some aclocal warnings.
+
+	* configure.ac (AC_REVISION): Remove.
+
 	* configure.in: Rename to `configure.ac'.
 
 2008-01-01  Tim Retout  <diocles@gnu.org>
