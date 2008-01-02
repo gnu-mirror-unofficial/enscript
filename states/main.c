@@ -196,7 +196,7 @@ main (argc, argv)
   argv[0] = program;
 
   /* Format version string. */
-  sprintf (version, _("states for GNU %s %s"), PACKAGE, VERSION);
+  sprintf (version, _("states for %s"), PACKAGE_STRING);
 
   /* Internationalization. */
 #if HAVE_SETLOCALE

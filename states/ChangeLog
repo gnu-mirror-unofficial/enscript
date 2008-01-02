@@ -1,3 +1,7 @@
+2008-01-02  Tim Retout  <diocles@gnu.org>
+
+	* main.c (main): Use PACKAGE_STRING to produce version string.
+
 2008-01-01  Tim Retout  <diocles@gnu.org>
 
 	* ChangeLog: Run M-x change-log-redate. Add copyright notice at end.
