@@ -96,8 +96,8 @@ AC_ARG_WITH(ps-level,
 AC_SUBST(PSLEVEL)
 
 dnl Internationalization.
-ALL_LINGUAS="de es fi fr nl ru sl"
 AM_GNU_GETTEXT
+AM_GNU_GETTEXT_VERSION([0.17])
 
 dnl Path separator character.
 AC_DEFINE_UNQUOTED([PATH_SEPARATOR], [':'],
