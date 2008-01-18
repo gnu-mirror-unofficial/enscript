@@ -24,6 +24,7 @@
 #
 
 info_TEXINFOS = enscript.texi
+enscript_TEXINFOS = fdl.texi
 
 man_MANS = enscript.1 states.1
 
