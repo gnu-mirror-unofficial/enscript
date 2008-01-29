@@ -1,3 +1,7 @@
+2008-01-29  Tim Retout  <diocles@gnu.org>
+
+	* Makefile.am (CLEANFILES): Clean up installed scripts.
+
 2008-01-02  Tim Retout  <diocles@gnu.org>
 
 	* main.c (main): Use PACKAGE_STRING to produce version string.

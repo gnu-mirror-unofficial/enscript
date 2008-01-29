@@ -47,6 +47,7 @@ EXTRA_DIST = TODO over.in enscript.el
 localedir = $(prefix)/share/locale
 
 bin_SCRIPTS = over
+CLEANFILES = $(bin_SCRIPTS)
 
 over: $(srcdir)/over.in
 	sed 's%@LIBRARYDIR@%$(prefix)/share/enscript%g' \
