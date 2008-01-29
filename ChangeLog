@@ -3,6 +3,8 @@
 	* configure.ac: Remove AC_CONFIG_COMMANDS macro that was leaving
 	stamp-h files around after `make clean'.
 
+	* aclocal.m4: Removed from repository. Can be generated with `aclocal'.
+
 2008-01-06  Tim Retout  <diocles@gnu.org>
 
 	* configure.ac: Add AM_GNU_GETTEXT_VERSION([0.17]).
