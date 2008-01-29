@@ -131,7 +131,7 @@ AC_CONFIG_FILES([Makefile  po/Makefile.in m4/Makefile  intl/Makefile po/Makefile
 	states/tests/Makefile \
 	docs/Makefile \
 	w32/Makefile])
-AC_CONFIG_COMMANDS([default],[[ echo timestamp > stamp-h ]], [[]])
+
 AC_OUTPUT
 
 echo ""
