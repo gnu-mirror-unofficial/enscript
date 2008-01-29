@@ -1,3 +1,9 @@
+2008-01-29  Tim Retout  <diocles@gnu.org>
+
+	* Makefile.am (install-data-local): Prefix installation paths with
+	$(DESTDIR), to avoid breaking `make distcheck'.
+	(uninstall-local): Likewise.
+
 2008-01-01  Tim Retout  <diocles@gnu.org>
 
 	* ChangeLog: Run M-x change-log-redate. Add copyright notice at end.
