@@ -36,11 +36,11 @@ public_fonts = matrix.afm matrix.pfa
 EXTRA_DIST = font.map $(default_afm) $(public_fonts)
 
 install-data-local:
-	$(top_srcdir)/mkinstalldirs $(datadir)/enscript
-	$(top_srcdir)/mkinstalldirs $(datadir)/enscript/afm
+	$(top_srcdir)/mkinstalldirs $(DESTDIR)$(datadir)/enscript
+	$(top_srcdir)/mkinstalldirs $(DESTDIR)$(datadir)/enscript/afm
 	for f in $(EXTRA_DIST); do \
-	  $(INSTALL_DATA) $(srcdir)/$$f $(datadir)/enscript/afm/$$f; \
+	  $(INSTALL_DATA) $(srcdir)/$$f $(DESTDIR)$(datadir)/enscript/afm/$$f; \
 	done
 
 uninstall-local:
-	rm -rf $(datadir)/enscript/afm
+	rm -rf $(DESTDIR)$(datadir)/enscript/afm
