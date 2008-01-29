@@ -1,5 +1,47 @@
 2008-02-03  Tim Retout  <diocles@gnu.org>
 
+	Remove autopoint-generated files.
+
+	* ABOUT-NLS: Remove from repository.
+	* config.rpath: Likewise.
+	* intl/ChangeLog: Likewise.
+	* intl/Makefile.in: Likewise.
+	* intl/VERSION: Likewise.
+	* intl/bindtextdom.c: Likewise.
+	* intl/config.charset: Likewise.
+	* intl/dcgettext.c: Likewise.
+	* intl/dcigettext.c: Likewise.
+	* intl/dcngettext.c: Likewise.
+	* intl/dgettext.c: Likewise.
+	* intl/dngettext.c: Likewise.
+	* intl/eval-plural.h: Likewise.
+	* intl/explodename.c: Likewise.
+	* intl/finddomain.c: Likewise.
+	* intl/gettext.c: Likewise.
+	* intl/gettextP.h: Likewise.
+	* intl/gmo.h: Likewise.
+	* intl/hash-string.h: Likewise.
+	* intl/intl-compat.c: Likewise.
+	* intl/l10nflist.c: Likewise.
+	* intl/libgnuintl.h: Likewise.
+	* intl/loadinfo.h: Likewise.
+	* intl/loadmsgcat.c: Likewise.
+	* intl/localcharset.c: Likewise.
+	* intl/locale.alias: Likewise.
+	* intl/localealias.c: Likewise.
+	* intl/localename.c: Likewise.
+	* intl/ngettext.c: Likewise.
+	* intl/os2compat.c: Likewise.
+	* intl/os2compat.h: Likewise.
+	* intl/osdep.c: Likewise.
+	* intl/plural-exp.c: Likewise.
+	* intl/plural-exp.h: Likewise.
+	* intl/plural.c: Likewise.
+	* intl/plural.y: Likewise.
+	* intl/ref-add.sin: Likewise.
+	* intl/ref-del.sin: Likewise.
+	* intl/textdomain.c: Likewise.
+
 	Remove the 'm4' directory from the repository.
 
 	* Makefile.am (SUBDIRS): Remove 'm4' directory.
