@@ -1,5 +1,9 @@
 2008-02-03  Tim Retout  <diocles@gnu.org>
 
+	Remove autoconf-generated files.
+
+	* configure: Remove from repository.
+
 	Remove automake-generated files.
 
 	* Makefile.in: Remove from repository.
