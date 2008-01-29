@@ -27,6 +27,7 @@ info_TEXINFOS = enscript.texi
 enscript_TEXINFOS = fdl.texi
 
 man_MANS = enscript.1 states.1
+CLEANFILES = $(man_MANS)
 
 EXTRA_DIST = enscript.man states.man FAQ.html clean-nroff.pl texinfo.tex
 

@@ -1,3 +1,7 @@
+2008-01-29  Tim Retout  <diocles@gnu.org>
+
+	* Makefile.am (CLEANFILES): Clean installed man pages.
+
 2007-11-05  Tim Retout  <diocles@gnu.org>
 
 	* enscript.texi: Relicense under GNU FDL.
