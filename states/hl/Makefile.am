@@ -45,11 +45,11 @@ states = $(misc) $(styles) $(languages) $(highlightings)
 EXTRA_DIST = $(states)
 
 install-data-local:
-	$(top_srcdir)/mkinstalldirs $(datadir)/enscript
-	$(top_srcdir)/mkinstalldirs $(datadir)/enscript/hl
+	$(top_srcdir)/mkinstalldirs $(DESTDIR)$(datadir)/enscript
+	$(top_srcdir)/mkinstalldirs $(DESTDIR)$(datadir)/enscript/hl
 	for f in $(states); do \
-	  $(INSTALL_DATA) $(srcdir)/$$f $(datadir)/enscript/hl/$$f; \
+	  $(INSTALL_DATA) $(srcdir)/$$f $(DESTDIR)$(datadir)/enscript/hl/$$f; \
 	done
 
 uninstall-local:
-	rm -rf $(datadir)/enscript/hl
+	rm -rf $(DESTDIR)$(datadir)/enscript/hl

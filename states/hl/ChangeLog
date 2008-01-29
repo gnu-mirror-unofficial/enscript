@@ -1,3 +1,9 @@
+2008-01-29  Tim Retout  <diocles@gnu.org>
+
+	* Makefile.am (install-data-local): Use $(DESTDIR) in local
+	installation paths, to fix `make distcheck'.
+	(uninstall-local): Likewise.
+
 2008-01-01  Tim Retout  <diocles@gnu.org>
 
 	* ChangeLog: Add copyright notice at end.
