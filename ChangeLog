@@ -1,5 +1,33 @@
 2008-02-03  Tim Retout  <diocles@gnu.org>
 
+	Remove automake-generated files.
+
+	* Makefile.in: Remove from repository.
+	* afm/Makefile.in: Likewise.
+	* afmlib/Makefile.in: Likewise.
+	* afmlib/ansi2knr.1: Likewise.
+	* afmlib/ansi2knr.c: Likewise.
+	* compat/Makefile.in: Likewise.
+	* config.guess: Likewise.
+	* config.sub: Likewise.
+	* depcomp: Likewise.
+	* docs/Makefile.in: Likewise.
+	* docs/mdate-sh: Likewise.
+	* docs/texinfo.tex: Likewise.
+	* install-sh: Likewise.
+	* lib/Makefile.in: Likewise.
+	* missing: Likewise.
+	* mkinstalldirs: Likewise.
+	* scripts/Makefile.in: Likewise.
+	* src/Makefile.in: Likewise.
+	* src/ansi2knr.1: Likewise.
+	* src/ansi2knr.c: Likewise.
+	* src/tests/Makefile.in: Likewise.
+	* states/Makefile.in: Likewise.
+	* states/hl/Makefile.in: Likewise.
+	* states/tests/Makefile.in: Likewise.
+	* w32/Makefile.in: Likewise.
+
 	Remove autopoint-generated files.
 
 	* ABOUT-NLS: Remove from repository.
