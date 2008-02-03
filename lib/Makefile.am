@@ -30,25 +30,18 @@ koi8.enc 88591.enc 88592.enc 88593.enc 88594.enc 88595.enc 88597.enc	\
 edd.hdr emacs.hdr enscript.hdr enscript-color.hdr frame.hdr mp.hdr	\
 simple.hdr squeeze.hdr enscript.pro
 
+sysconf_DATA = enscript.cfg
+CLEANFILES = $(sysconf_DATA)
+
 EXTRA_DIST = enscript.cfg.in $(pkgdata_DATA) Makefile-encodings \
 make-encoding.pl
 
-CLEANFILES = enscript.cfg
+do_subst = sed -e 's%@DATADIR@%$(datadir)%g' \
+               -e 's%@media@%@MEDIA@%g' \
+	       -e 's%@BINDIR@%$(bindir)%g' \
+	       -e 's%@spooler@%@SPOOLER@%g' \
+	       -e 's%@pslevel@%@PSLEVEL@%g'
 
-all-local: enscript.cfg
+enscript.cfg: enscript.cfg.in Makefile
+	$(do_subst) < $(srcdir)/enscript.cfg.in > enscript.cfg
 
-install-data-local: enscript.cfg
-	$(top_srcdir)/mkinstalldirs $(DESTDIR)$(sysconfdir)
-	if test -r $(DESTDIR)$(sysconfdir)/enscript.cfg; then \
-	  cp $(DESTDIR)$(sysconfdir)/enscript.cfg \
-	     $(DESTDIR)$(sysconfdir)/enscript.cfg.old; \
-	else :; \
-	fi
-	$(INSTALL_DATA) enscript.cfg $(DESTDIR)$(sysconfdir)/enscript.cfg
-
-uninstall-local:
-	rm -f $(DESTDIR)$(sysconfdir)/enscript.cfg
-
-enscript.cfg: $(srcdir)/enscript.cfg.in Makefile
-	sed 's%@DATADIR@%$(datadir)%g; s%@media@%@MEDIA@%g; s%@BINDIR@%$(bindir)%g; s%@spooler@%@SPOOLER@%g; s%@pslevel@%@PSLEVEL@%g' \
-	$(srcdir)/enscript.cfg.in >enscript.cfg
