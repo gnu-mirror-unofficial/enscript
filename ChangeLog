@@ -1,5 +1,8 @@
 2008-02-03  Tim Retout  <diocles@gnu.org>
 
+	* Makefile.am (EXTRA_DIST): Remove ABOUT-NLS, THANKS and config.rpath,
+	because these will be distributed anyway.
+
 	Remove autoconf-generated files.
 
 	* configure: Remove from repository.
