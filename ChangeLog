@@ -1,3 +1,30 @@
+2008-02-03  Tim Retout  <diocles@gnu.org>
+
+	Remove the 'm4' directory from the repository.
+
+	* Makefile.am (SUBDIRS): Remove 'm4' directory.
+	* configure.ac: Remove 'm4/Makefile' from AC_CONFIG_FILES.
+	* m4/ChangeLog: Remove from repository.
+	* m4/codeset.m4: Likewise.
+	* m4/gettext.m4: Likewise.
+	* m4/glibc21.m4: Likewise.
+	* m4/iconv.m4: Likewise.
+	* m4/intdiv0.m4: Likewise.
+	* m4/inttypes_h.m4: Likewise.
+	* m4/inttypes.m4: Likewise.
+	* m4/inttypes-pri.m4: Likewise.
+	* m4/isc-posix.m4: Likewise.
+	* m4/lcmessage.m4: Likewise.
+	* m4/lib-ld.m4: Likewise.
+	* m4/lib-link.m4: Likewise.
+	* m4/lib-prefix.m4: Likewise.
+	* m4/Makefile.am: Likewise.
+	* m4/Makefile.in: Likewise.
+	* m4/progtest.m4: Likewise.
+	* m4/stdint_h.m4: Likewise.
+	* m4/uintmax_t.m4: Likewise.
+	* m4/ulonglong.m4: Likewise.
+
 2008-01-29  Tim Retout  <diocles@gnu.org>
 
 	* configure.ac: Remove AC_CONFIG_COMMANDS macro that was leaving

@@ -118,7 +118,7 @@ dnl substitutions
 AC_SUBST(CFLAGS)
 AC_SUBST(LDFLAGS)
 
-AC_CONFIG_FILES([Makefile  po/Makefile.in m4/Makefile  intl/Makefile po/Makefile \
+AC_CONFIG_FILES([Makefile  po/Makefile.in intl/Makefile po/Makefile \
 	compat/Makefile \
 	afm/Makefile \
 	afmlib/Makefile \
