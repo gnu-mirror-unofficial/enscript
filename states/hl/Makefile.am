@@ -40,16 +40,6 @@ postscript.st python.st pyrex.st rfc.st scheme.st sh.st skill.st	\
 sql.st states.st synopsys.st tcl.st tcsh.st tex.st vba.st verilog.st	\
 vhdl.st vrml.st wmlscript.st zsh.st
 
-states = $(misc) $(styles) $(languages) $(highlightings)
+hldir = $(pkgdatadir)/hl
+dist_hl_DATA = $(misc) $(styles) $(languages) $(highlightings)
 
-EXTRA_DIST = $(states)
-
-install-data-local:
-	$(top_srcdir)/mkinstalldirs $(DESTDIR)$(datadir)/enscript
-	$(top_srcdir)/mkinstalldirs $(DESTDIR)$(datadir)/enscript/hl
-	for f in $(states); do \
-	  $(INSTALL_DATA) $(srcdir)/$$f $(DESTDIR)$(datadir)/enscript/hl/$$f; \
-	done
-
-uninstall-local:
-	rm -rf $(DESTDIR)$(datadir)/enscript/hl
