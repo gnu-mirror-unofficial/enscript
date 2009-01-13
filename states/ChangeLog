@@ -1,3 +1,7 @@
+2009-01-13  Tim Retout  <diocles@gnu.org>
+
+	* gram.c, gram.h, lex.c: Remove generated files from repository.
+
 2008-01-29  Tim Retout  <diocles@gnu.org>
 
 	* Makefile.am (CLEANFILES): Clean up installed scripts.
