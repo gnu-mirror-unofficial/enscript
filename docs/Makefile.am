@@ -24,7 +24,7 @@
 #
 
 info_TEXINFOS = enscript.texi
-enscript_TEXINFOS = fdl.texi
+enscript_TEXINFOS = fdl-1.3.texi
 
 man_MANS = enscript.1 states.1
 CLEANFILES = $(man_MANS)
