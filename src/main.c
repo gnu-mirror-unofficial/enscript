@@ -1127,10 +1127,10 @@ _("library directory.")));
     }
 
   /* Site config. */
-  (void) read_config (SYSCONFDIR, "enscriptsite.cfg");
+  read_config (SYSCONFDIR, "enscriptsite.cfg");
 
   /* Personal config. */
-  (void) read_config (passwd->pw_dir, ".enscriptrc");
+  read_config (cp, ".enscriptrc");
 
   /*
    * Options.
