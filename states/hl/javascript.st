@@ -105,6 +105,24 @@ state javascript_internal extends Highlight
     from_html_terminator = $0;
     return;
   }
+
+  /* Regexes */
+  /\// {
+    string_face (true);
+    language_print ($0);
+    call (javascript_regex);
+    string_face (false);
+  }
+}
+
+state javascript_regex {
+  /\\\\\\\// {
+    language_print ($0);
+  }
+  /\\\// {
+    language_print ($0);
+    return;
+  }
 }
 
 state javascript extends HighlightEntry

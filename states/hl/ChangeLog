@@ -1,3 +1,7 @@
+2009-01-25  Tim Retout  <diocles@gnu.org>
+
+	* javascript.st (Highlight): Add basic handling of regexes.
+
 2008-02-03  Tim Retout  <diocles@gnu.org>
 
 	* Makefile.am (install-data-local): Remove.
