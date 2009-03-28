@@ -2376,6 +2376,7 @@ recognize_eps_file (Token *token)
 {
   int i;
   char buf[4096];
+  char *filename;
   int line;
   int valid_epsf;
   float llx, lly, urx, ury;
@@ -2383,52 +2384,34 @@ recognize_eps_file (Token *token)
   MESSAGE (2, (stderr, "^@epsf=\"%s\"\n", token->u.epsf.filename));
 
   i = strlen (token->u.epsf.filename);
-  if (i > 0 && token->u.epsf.filename[i - 1] == '|')
+
+  /* Read EPS data from file. */
+  filename = tilde_subst (token->u.epsf.filename);
+
+  token->u.epsf.fp = fopen (filename, "rb");
+  xfree (filename);
+
+  if (token->u.epsf.fp == NULL)
     {
-      /* Read EPS data from pipe. */
-      token->u.epsf.pipe = 1;
-      token->u.epsf.filename[i - 1] = '\0';
-      token->u.epsf.fp = popen (token->u.epsf.filename, "r");
+      if (token->u.epsf.filename[0] != '/')
+	{
+	  /* Name is not absolute, let's lookup path. */
+	  FileLookupCtx ctx;
+
+	  ctx.name = token->u.epsf.filename;
+	  ctx.suffix = "";
+	  ctx.fullname = buffer_alloc ();
+
+	  if (pathwalk (libpath, file_lookup, &ctx))
+	    token->u.epsf.fp = fopen (buffer_ptr (ctx.fullname), "rb");
+
+	  buffer_free (ctx.fullname);
+	}
       if (token->u.epsf.fp == NULL)
 	{
-	  MESSAGE (0, (stderr,
-		       _("epsf: couldn't open pipe to command \"%s\": %s\n"),
+	  MESSAGE (0, (stderr, _("couldn't open EPS file \"%s\": %s\n"),
 		       token->u.epsf.filename, strerror (errno)));
 	  return 0;
-	}
-    }
-  else
-    {
-      char *filename;
-
-      /* Read EPS data from file. */
-      filename = tilde_subst (token->u.epsf.filename);
-
-      token->u.epsf.fp = fopen (filename, "rb");
-      xfree (filename);
-
-      if (token->u.epsf.fp == NULL)
-	{
-	  if (token->u.epsf.filename[0] != '/')
-	    {
-	      /* Name is not absolute, let's lookup path. */
-	      FileLookupCtx ctx;
-
-	      ctx.name = token->u.epsf.filename;
-	      ctx.suffix = "";
-	      ctx.fullname = buffer_alloc ();
-
-	      if (pathwalk (libpath, file_lookup, &ctx))
-		token->u.epsf.fp = fopen (buffer_ptr (ctx.fullname), "rb");
-
-	      buffer_free (ctx.fullname);
-	    }
-	  if (token->u.epsf.fp == NULL)
-	    {
-	      MESSAGE (0, (stderr, _("couldn't open EPS file \"%s\": %s\n"),
-			   token->u.epsf.filename, strerror (errno)));
-	      return 0;
-	    }
 	}
     }
 
