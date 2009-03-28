@@ -5,6 +5,9 @@
 	disabled in most distros for five years anyway.  See
 	CAN-2004-1185.
 
+	* psgen.c (dump_ps_page_header): Use basename() and dirname() to
+	split path.  Fixes a buffer overflow - see CAN-2004-1186.
+
 2009-01-25  Tim Retout  <diocles@gnu.org>
 
 	* main.c (main): Respect $HOME when searching for ~/.enscriptrc

@@ -23,6 +23,7 @@
  */
 
 #include "gsint.h"
+#include <libgen.h>
 
 /*
  * Types and definitions.
@@ -2006,8 +2007,7 @@ get_next_token (InputStream *is, double linestart, double linepos,
 static void
 dump_ps_page_header (char *fname, int empty)
 {
-  char buf[512];
-  char *ftail;
+  char *dirc, *basec, *fdir, *ftail;
   int got, i;
   char *cp, *cp2;
   char *cstr = "%%";
@@ -2016,25 +2016,11 @@ dump_ps_page_header (char *fname, int empty)
   /* The N-up printing sub-page. */
   nup_subpage = (total_pages - 1) % nup;
 
-  /* Create fdir and ftail. */
-  ftail = strrchr (fname, '/');
-
-#if defined(WIN32)
-  if (ftail == NULL)
-    ftail = strrchr (fname, '\\');
-#endif /* WIN32 */
-
-  if (ftail == NULL)
-    {
-      buf[0] = '\0';
-      ftail = fname;
-    }
-  else
-    {
-      ftail++;
-      strncpy (buf, fname, ftail - fname);
-      buf[ftail - fname] = '\0';
-    }
+  /* Split fname into fdir and ftail. */
+  dirc = strdup(fname);
+  basec = strdup(fname);
+  fdir = dirname(dirc);
+  ftail = basename(basec);
 
   if (nup > 1)
     {
@@ -2180,13 +2166,15 @@ dump_ps_page_header (char *fname, int empty)
   OUTPUT ((cofp, "/fname (%s) def\n", cp));
   xfree (cp);
 
-  cp = escape_string (buf);
+  cp = escape_string (fdir);
   OUTPUT ((cofp, "/fdir (%s) def\n", cp));
   xfree (cp);
+  xfree (dirc);
 
   cp = escape_string (ftail);
   OUTPUT ((cofp, "/ftail (%s) def\n", cp));
   xfree (cp);
+  xfree (basec);
 
   /* Do we have a pending ^@font{} font? */
   if (user_fontp)
