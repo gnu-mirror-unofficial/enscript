@@ -1,3 +1,17 @@
+2009-12-27  Tim Retout  <diocles@gnu.org>
+
+	Apply patch from Debian Security Team for CAN-2004-1184.
+
+	* gsint.h: Add shell_escape prototype.
+	* util.c (shell_escape): New function to escape filenames for
+	shell usage.
+	* util.c (is_open): Use shell_escape to expand command buffer.
+
+	* main.c (main): Use single quotes when building command string,
+	and use shell_escape to quote contents.
+
+	* util.c (escape_string): Check return code of xmalloc.
+
 2009-03-28  Tim Retout  <diocles@gnu.org>
 
 	* psgen.c (recognize_eps_file): Remove ability to read EPS data

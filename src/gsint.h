@@ -699,4 +699,9 @@ FILE *printer_open ___P ((char *cmd, char *options, char *queue_param,
  */
 void printer_close ___P ((void *context));
 
+/*
+ * Escape filenames for shell usage
+ */
+char *shell_escape ___P ((const char *fn));
+
 #endif /* not GSINT_H */
