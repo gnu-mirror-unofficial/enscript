@@ -12,6 +12,12 @@
 
 	* util.c (escape_string): Check return code of xmalloc.
 
+	Apply patch from Werner Fink to address CVE-2008-3863,
+	CVE-2008-4306.
+
+	* psgen.c: Use PATH_MAX for various buffer sizes.
+	Replace several strcpy calls with memset and strncpy.
+
 2009-03-28  Tim Retout  <diocles@gnu.org>
 
 	* psgen.c (recognize_eps_file): Remove ability to read EPS data

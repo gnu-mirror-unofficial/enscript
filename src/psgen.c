@@ -22,6 +22,7 @@
  * along with Enscript.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <limits.h>
 #include "gsint.h"
 #include <libgen.h>
 
@@ -123,7 +124,7 @@ struct gs_token_st
 	  double xscale;
 	  double yscale;
 	  int llx, lly, urx, ury; /* Bounding box. */
-	  char filename[512];
+	  char filename[PATH_MAX];
 	  char *skipbuf;
 	  unsigned int skipbuf_len;
 	  unsigned int skipbuf_pos;
@@ -134,11 +135,11 @@ struct gs_token_st
       Color bgcolor;
       struct
 	{
-	  char name[512];
+	  char name[PATH_MAX];
 	  FontPoint size;
 	  InputEncoding encoding;
 	} font;
-      char filename[512];
+      char filename[PATH_MAX];
     } u;
 };
 
@@ -247,7 +248,7 @@ static int do_print = 1;
 static int user_fontp = 0;
 
 /* The user ^@font{}-defined font. */
-static char user_font_name[256];
+static char user_font_name[PATH_MAX];
 static FontPoint user_font_pt;
 static InputEncoding user_font_encoding;
 
@@ -977,7 +978,8 @@ large for page\n"),
 			FATAL ((stderr,
 				_("user font encoding can be only the system's default or `ps'")));
 
-		      strcpy (user_font_name, token.u.font.name);
+		      memset  (user_font_name, 0, sizeof(user_font_name));
+		      strncpy (user_font_name, token.u.font.name, sizeof(user_font_name) - 1);
 		      user_font_pt.w = token.u.font.size.w;
 		      user_font_pt.h = token.u.font.size.h;
 		      user_font_encoding = token.u.font.encoding;
@@ -1443,7 +1445,7 @@ read_special_escape (InputStream *is, Token *token)
 	  buf[i] = ch;
 	  if (i + 1 >= sizeof (buf))
 	    FATAL ((stderr, _("too long argument for %s escape:\n%.*s"),
-		    escapes[i].name, i, buf));
+		    escapes[e].name, i, buf));
 	}
       buf[i] = '\0';
 
@@ -1451,7 +1453,8 @@ read_special_escape (InputStream *is, Token *token)
       switch (escapes[e].escape)
 	{
 	case ESC_FONT:
-	  strcpy (token->u.font.name, buf);
+	  memset  (token->u.font.name, 0, sizeof(token->u.font.name));
+	  strncpy (token->u.font.name, buf, sizeof(token->u.font.name) - 1);
 
 	  /* Check for the default font. */
 	  if (strcmp (token->u.font.name, "default") == 0)
@@ -1464,7 +1467,8 @@ read_special_escape (InputStream *is, Token *token)
 		FATAL ((stderr, _("malformed font spec for ^@font escape: %s"),
 			token->u.font.name));
 
-	      strcpy (token->u.font.name, cp);
+	      memset  (token->u.font.name, 0, sizeof(token->u.font.name));
+	      strncpy (token->u.font.name, cp, sizeof(token->u.font.name) - 1);
 	      xfree (cp);
 	    }
 	  token->type = tFONT;
@@ -1543,7 +1547,8 @@ read_special_escape (InputStream *is, Token *token)
 	  break;
 
 	case ESC_SETFILENAME:
-	  strcpy (token->u.filename, buf);
+	  memset  (token->u.filename, 0, sizeof(token->u.filename));
+	  strncpy (token->u.filename, buf, sizeof(token->u.filename) - 1);
 	  token->type = tSETFILENAME;
 	  break;
 
