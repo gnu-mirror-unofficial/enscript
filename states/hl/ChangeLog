@@ -1,3 +1,9 @@
+2009-12-27  Tim Retout  <diocles@gnu.org>
+
+	* f90.st: New syntax highlighting for Fortran 90 from David
+	Bowler.
+	* enscript.st (namerules): Use f90.st for .f90 files.
+
 2009-01-25  Tim Retout  <diocles@gnu.org>
 
 	* javascript.st (Highlight): Add basic handling of regexes.

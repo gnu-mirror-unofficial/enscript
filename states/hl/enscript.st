@@ -494,6 +494,7 @@ namerules
   /\.java$/					java;
   /\.([Pp][Aa][Ss]|[Pp][Pp]|[Pp])$/		pascal;
   /\.[fF]$/					fortran;
+  /\.f90$/					f90;
   /\.awk$/					awk;
   /\.sh$/					sh;
   /\.vba$/					vba;
