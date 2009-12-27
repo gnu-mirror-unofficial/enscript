@@ -2,6 +2,34 @@
 		      What's new in GNU enscript
 		      --------------------------
 
+Noteworthy changes in enscript version 1.6.5:
+
+* New maintainer.
+
+* Licensing change: GNU Enscript is now distributed under version 3 or
+  later of the GNU GPL.
+
+* Build system fixes - distcheck now passes.
+
+* At least four security bug fixes:
+  - CAN-2004-1184
+  - CAN-2004-1185
+  - CAN-2004-1186
+  - CVE-2008-3863, CVE-2008-4306
+
+* Syntax highlighting fixes.
+  - shell escaping rules from Shawn McMahon.
+  - JavaScript regexps now recognised.
+  - New highlighting rules for Fortran 90 from David Bowler.
+
+See changelogs for more detailed notes.
+
+
+Noteworthy changes in enscript version 1.6.4:
+
+* Unknown - to be filled in at a later date.
+
+
 Noteworthy changes in enscript version 1.6.3:
 
 * Changes in the highlighting / pretty printing
