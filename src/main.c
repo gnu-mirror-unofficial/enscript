@@ -1782,7 +1782,11 @@ name             width\theight\tllx\tlly\turx\tury\n\
       if (num_truncated_lines)
 	{
 	  retval |= 2;
-	  MESSAGE (0, (stderr, _("%d lines were %s\n"), num_truncated_lines,
+	  MESSAGE (0, (stderr,
+		       ngettext("1 line was %s\n",
+				"%d lines were %s\n",
+				num_truncated_lines),
+		       num_truncated_lines,
 		       line_end == LE_TRUNCATE
 		       ? _("truncated") : _("wrapped")));
 	}
@@ -1790,7 +1794,10 @@ name             width\theight\tllx\tlly\turx\tury\n\
       if (num_missing_chars)
 	{
 	  retval |= 4;
-	  MESSAGE (0, (stderr, _("%d characters were missing\n"),
+	  MESSAGE (0, (stderr,
+		       ngettext("1 character was missing\n",
+				"%d characters were missing\n",
+				num_missing_chars),
 		       num_missing_chars));
 	  if (list_missing_characters)
 	    {
@@ -1802,7 +1809,10 @@ name             width\theight\tllx\tlly\turx\tury\n\
       if (num_non_printable_chars)
 	{
 	  retval |= 8;
-	  MESSAGE (0, (stderr, _("%d non-printable characters\n"),
+	  MESSAGE (0, (stderr,
+		       ngettext("1 non-printable character\n",
+				"%d non-printable characters\n",
+				num_non_printable_chars),
 		       num_non_printable_chars));
 	  if (list_missing_characters)
 	    {

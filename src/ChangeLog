@@ -1,3 +1,8 @@
+2009-12-30  Tim Retout  <diocles@gnu.org>
+
+	* main.c (main): Use ngettext for messages about truncated lines,
+	missing characters and non-printable characters.
+
 2009-12-27  Tim Retout  <diocles@gnu.org>
 
 	Apply patch from Debian Security Team for CAN-2004-1184.
