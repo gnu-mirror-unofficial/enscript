@@ -621,10 +621,10 @@ default gray value is .8.
 Set the underlay text's starting position according to the
 \f2position_spec\f1.  The position specification must be given in
 format: `\f2sign\f1 \f2xpos\f1 \f2sign\f1 \f2ypos\f1', where the
-\f2sign\f1 must be `+' or `-'.  The positive dimensions are measured
+\f2sign\f1 must be `+' or `\-'.  The positive dimensions are measured
 from the lower left corner and the negative dimensions from the upper
-right corner.  For example, the specification `+0-0' specifies the
-upper left corner and `-0+0' specifies the lower right corner.
+right corner.  For example, the specification `+0\-0' specifies the
+upper left corner and `\-0+0' specifies the lower right corner.
 .TP 8
 .B \-\-ul\-style=\f2style\f3
 Set the underlay text's style to \f2style\f1.  The possible values for
@@ -1331,7 +1331,7 @@ Print file in duplex (two side) mode (printer dependant).
 My default code printing command: gaudy header, two columns,
 landscape, code highlighting, 2-up printing.
 .TP 8
-\f3enscript \-E \-\-color \-whtml \-\-toc -pfoo.html *.h *.c\f1
+\f3enscript \-E \-\-color \-whtml \-\-toc \-pfoo.html *.h *.c\f1
 A nice HTML report of your project's C source files.
 
 .SH ENVIRONMENT VARIABLES
