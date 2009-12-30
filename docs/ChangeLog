@@ -1,5 +1,8 @@
 2009-12-30  Tim Retout  <diocles@gnu.org>
 
+	* states.man (STATES PROGRAM FILES): Escape backslashes in
+	namerules and startrules examples.
+
 	Small corrections probably originally by Michael Fedrowitz.
 
 	* enscript.man (SYNOPSIS): Correct '-W' to '-w'.

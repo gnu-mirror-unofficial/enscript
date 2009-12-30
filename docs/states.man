@@ -141,14 +141,14 @@ following start and name rules can distinguish C and Fortran files:
 .nf
 namerules
 {
-  /\.(c|h)$/    c;
-  /\.[fF]$/     fortran;
+  /\\.(c|h)$/    c;
+  /\\.[fF]$/     fortran;
 }
 
 startrules
 {
-  /-\*- [cC] -\*-/      c;
-  /-\*- fortran -\*-/   fortran;
+  /-\\*- [cC] -\\*-/      c;
+  /-\\*- fortran -\\*-/   fortran;
 }
 .fi
 .RE
