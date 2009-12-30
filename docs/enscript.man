@@ -58,7 +58,7 @@ overstrikes
 [\f3\-T \f2tabsize\f1]
 [\f3\-u\f1[\f2text\f1]]
 [\f3\-U \f2num\f1]
-[\f3\-W \f2language\f1]
+[\f3\-w \f2language\f1]
 [\f3\-X \f2encoding\f1]
 [\f2filename\f1 ...]
 
@@ -116,7 +116,7 @@ modification time.
 The header string \f2header\f1 can contain the same formatting escapes
 which can be specified for the \f3%Format\f1 directives in the user
 defined fancy headers.  For example, the following option prints the
-file name, current data and page numbers:
+file name, current date and page numbers:
 
 \f3enscript \-\-header='$n %W Page $% of $=' *.c\f1
 
@@ -177,7 +177,7 @@ languages and file formats with the command:
 .B enscript \-\-help\-highlight
 
 The highlighting rules are defined in the
-`@DATADIR@/enscript/st/*.st' files which can be edited to create
+`@DATADIR@/enscript/hl/*.st' files which can be edited to create
 highlighting definitions for new languages.
 
 \f3Note!\f1 You can not use your own input filters with this option.
@@ -373,7 +373,7 @@ Tell what \f3enscript\f1 is doing.
 .B \-V, \-\-version
 Print \f3enscript\f1 version information and exit.
 .TP 8
-.B \-W \f1[\f2lang\f1]\f3, \-\-language\f1[\f3=\f2lang\f1]\f3
+.B \-w \f1[\f2lang\f1]\f3, \-\-language\f1[\f3=\f2lang\f1]\f3
 Generate output for the language \f2lang\f1.  The possible values for
 \f2lang\f1 are:
 .RS 8
@@ -593,7 +593,7 @@ from 1.
 .TP 8
 .B \-\-style=\f2style\f3
 Set the highlighting style to \f2style\f1.  The possible values are:
-\f3a2ps\f1, \f3emacs\f1, \f3emacs-verbose\f1, \f3ifh\f1, and
+\f3a2ps\f1, \f3emacs\f1, \f3emacs_verbose\f1, \f3ifh\f1, and
 \f3msvc\f1.
 .TP 8
 .B \-\-swap\-even\-page\-margins
@@ -1331,7 +1331,7 @@ Print file in duplex (two side) mode (printer dependant).
 My default code printing command: gaudy header, two columns,
 landscape, code highlighting, 2-up printing.
 .TP 8
-\f3enscript \-E \-\-color \-Whtml \-\-toc -pfoo.html *.h *.c\f1
+\f3enscript \-E \-\-color \-whtml \-\-toc -pfoo.html *.h *.c\f1
 A nice HTML report of your project's C source files.
 
 .SH ENVIRONMENT VARIABLES

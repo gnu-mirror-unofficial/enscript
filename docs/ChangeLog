@@ -1,3 +1,14 @@
+2009-12-30  Tim Retout  <diocles@gnu.org>
+
+	Small corrections probably originally by Michael Fedrowitz.
+
+	* enscript.man (SYNOPSIS): Correct '-W' to '-w'.
+	(OPTIONS): Likewise.
+	(PRINTING EXAMPLES): Likewise.
+	(--header): Correct date/data typo.
+	(--help): Correct path to states files.
+	(--style): Correct emacs_verbose.
+
 2009-01-11  Tim Retout  <diocles@gnu.org>
 
 	* enscript.texi: Update to FDL v1.3.
