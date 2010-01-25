@@ -1,3 +1,7 @@
+2010-01-25  Tim Retout  <diocles@gnu.org>
+
+	* configure.ac: Set version to 1.6.5.
+
 2009-12-31  Tim Retout  <diocles@gnu.org>
 
 	* configure.ac: Set version to 1.6.4.91.
