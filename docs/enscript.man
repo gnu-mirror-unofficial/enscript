@@ -157,7 +157,7 @@ For example, the command
 
 prints file foo.txt in duplex (two side) mode.
 
-Page device operators are implementation dependant but they are
+Page device operators are implementation dependent but they are
 standardized.  See section \f3PAGE DEVICE OPTIONS\f1 for the details.
 .TP 8
 .B \-e\f1[\f2char\f1]\f3, \-\-escapes\f1[\f3=\f2char\f1]\f3
@@ -336,7 +336,7 @@ size + baselineskip\f1) points down.  The default baseline skip is 1.
 Pass a statusdict definition to the generated PostScript output.  If
 no value is given, the key \f2key\f1 is removed from the definitions.
 
-The statusdict operators are implementation dependant; see the
+The statusdict operators are implementation dependent; see the
 printer's documentation for the details.
 
 For example, the command
@@ -1325,7 +1325,7 @@ Print file \f3foo.txt\f1 to two columns.
 Print file to two columns and rotate output 90 degrees (landscape).
 .TP 8
 .B enscript \-DDuplex:true foo.txt
-Print file in duplex (two side) mode (printer dependant).
+Print file in duplex (two side) mode (printer dependent).
 .TP 8
 .B enscript \-G2rE \-U2 foo.c
 My default code printing command: gaudy header, two columns,

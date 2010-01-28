@@ -111,7 +111,7 @@ executed on script startup for each input file and it can perform any
 initialization the script needs.  It normally also calls the
 \f3check_startrules()\f1 and \f3check_namerules()\f1 primitives which
 resolve the initial state from the input file name or the data found
-from the begining of the input file.  Here is a sample start block
+from the beginning of the input file.  Here is a sample start block
 which initializes two variables and does the standard start state
 resolving:
 .PP
