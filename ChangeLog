@@ -1,3 +1,14 @@
+2010-02-03  Tim Retout  <diocles@gnu.org>
+
+	* All ChangeLog files in subdirectories have been renamed to
+	ChangeLog.old.  All change log entries from 1.6.5 onwards will be
+	made in this file.
+
+2010-01-28  Tim Retout  <diocles@gnu.org>
+
+	* docs/states.man (are): Fix typo of 'beginning'.
+	* docs/enscript.man: Fix three misspellings of 'dependent'.
+
 2010-01-25  Tim Retout  <diocles@gnu.org>
 
 	* configure.ac: Set version to 1.6.5.
