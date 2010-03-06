@@ -31,7 +31,7 @@ lang_overstrike.st lang_rtf.st lang_texinfo.st
 
 highlightings = ada.st asm.st awk.st bash.st c.st c_comment.st		\
 c_ppline.st c_string.st changelog.st cpp.st csh.st delphi.st diff.st	\
-diffs.st diffu.st elisp.st fortran.st fortran_pp.st haskell.st html.st	\
+diffs.st diffu.st elisp.st fortran.st fortran_pp.st f90.st haskell.st html.st	\
 idl.st inf.st java.st javascript.st ksh.st m4.st mail.st makefile.st	\
 matlab.st nroff.st objc.st outline.st pascal.st passthrough.st perl.st	\
 postscript.st python.st pyrex.st rfc.st scheme.st sh.st skill.st	\

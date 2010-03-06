@@ -1,3 +1,7 @@
+2010-03-06  Tim Retout  <diocles@gnu.org>
+
+	* states/hl/Makefile.am (highlightings): Add f90.st.
+
 2010-02-03  Tim Retout  <diocles@gnu.org>
 
 	* All ChangeLog files in subdirectories have been renamed to
