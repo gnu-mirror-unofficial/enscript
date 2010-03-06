@@ -10,7 +10,6 @@
 
       $ ./configure --with-media=Letter
 
-    You have been warned.... ;-)	// mtr@iki.fi
 
 GNU Enscript is a drop-in replacement for the enscript program.
 Enscript converts ASCII files to PostScript and stores generated
@@ -30,7 +29,83 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with Enscript.  If not, see <http://www.gnu.org/licenses/>.
 
+
+* Configuring Enscript for your system
 
+There are some options in enscript you might want to modify to meet
+your system's needs.  You can change them all after the compilation by
+editing the global configuration file `enscript.cfg' at the directory
+`PREFIX/etc/'.  You can also change some of the during the `configure'
+step by giving the configure script appropriate options.  Please,
+check the following things before reporting bugs; for the most cases
+these help:
+
+** Paper size
+
+  As a default enscript uses A4 paper.  To change default paper to be
+  for example `Letter', edit following line in the config file:
+
+    # Default output media.
+    DefaultMedia: A4
+
+    => DefaultMedia: Letter
+
+  You can also select the default paper size during the configuration
+  by giving the configure script option --with-media=MEDIA, where
+  media is one of the media listed in the `lib/enscript.cfg.in' file:
+  A3, A4, A5, Legal, Letter, A4dj or Letterdj.
+
+** Default output device
+
+  As a default (without any explicit options) enscript spools its
+  output to the printer.  If you want to send outputs to stdout, edit
+  following line:
+
+    # Where output goes as a default.
+    DefaultOutputMethod: printer
+
+    => DefaultOutputMethod: stdout
+
+** Printer command
+
+  Enscript's default printer command is `lpr'.  To change it to be for
+  example `lp', edit following line:
+
+    # Printer spooler command name.
+    Spooler: lpr
+
+    => Spooler: lp
+
+  You can also set the spooler command during the configuration by
+  giving the configure script option `--with-spooler=SPOOLER'.
+
+  On SystemV machines, you might also want to change the printer queue
+  name switch from `-P' to `-d':
+
+    # The spooler command switch to select the printer queue.
+    QueueParam: -P
+
+    => QueueParam: -d
+
+** PostScript language level
+
+  The PostScript language level that enscript uses for its output.
+  The default values is 2 (PostScript 2).  If your printer supports
+  only level 1 PostScript, you can set it to default by giving the
+  configure script option `--with-ps-level=1'.  You can also set the
+  level by editing the enscript.cfg file:
+
+    # The PostScript language level that enscript should use.
+    PostScriptLevel: 2
+
+    => PostScriptLevel: 1
+
+  Or, you can select it at the print time with the `--ps-level=LEVEL'
+  option:
+
+    $ enscript --ps-level=1 ...
+
+
 * Supported Character Sets
 
 Enscript supports following character sets:
@@ -64,7 +139,7 @@ Enscript supports following character sets:
   - ps			PostScript font's default encoding
   - pslatin1		PostScript interpreter's `ISOLatin1Encoding'
 
-
+
 * Special Escapes
 
 Enscript supports special escapes sequences that can be used to add
@@ -72,7 +147,7 @@ simple page formatting commands to ASCII documents.  User can inline
 EPS files, change font on-the-fly insert comments and shade regions of
 text.  See file README.ESCAPES for details.
 
-
+
 * Language sensitive highlighting
 
 Enscript supports language sensitive code highlighting.  Highlighting
@@ -81,12 +156,12 @@ files and annotates them with enscript's special escapes.  The states
 definition file `enscript.st' is a machine independent ASCII file and
 it can be updated without re-compilation of the enscript program.  The
 most recent version of this file can be downloaded from the GNU
-enscript WWW home page: <http://www.iki.fi/~mtr/genscript/>.
+enscript WWW home page: <http://www.gnu.org/software/enscript/>.
 
 New highlighting definitions for different languages are welcome,
-please send them directly to me: <mailto:mtr@iki.fi>.
+please send them to: <bug-enscript@gnu.org>
 
-
+
 * PostScript font support
 
 ** AFM files
@@ -155,18 +230,3 @@ option `DownloadFont: name'.
   option `-o' lists missing characters.  In GNU enscript `-o' is an
   alias for `-p' and missing characters are listed with an option `-O'.
 
-
-* Misc
-
-I am dedicated to make the GNU enscript the best a2ps converter ever,
-this includes adding all the GNU features and cookies to it ;)
-
-Comments, suggestions, bug fixes, bug reports, etc. are welcome.
-
-
-	Markku Rossi
-
-	<mtr@iki.fi> <http://www.iki.fi/~mtr/>
-
-	GNU Enscript WWW home page:
-	<http://www.iki.fi/~mtr/genscript/>

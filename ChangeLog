@@ -2,6 +2,10 @@
 
 	* states/hl/Makefile.am (highlightings): Add f90.st.
 
+	* INSTALL: Move enscript-specific details into README, and remove
+	from the repository (i.e. just use the standard INSTALL file).
+	* README: Replace all old web/mail addresses.
+
 2010-02-03  Tim Retout  <diocles@gnu.org>
 
 	* All ChangeLog files in subdirectories have been renamed to
