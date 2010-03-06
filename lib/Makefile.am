@@ -31,8 +31,8 @@ simple.hdr squeeze.hdr enscript.pro
 sysconf_DATA = enscript.cfg
 CLEANFILES = $(sysconf_DATA)
 
-EXTRA_DIST = enscript.cfg.in $(pkgdata_DATA) Makefile-encodings \
-make-encoding.pl
+EXTRA_DIST = ChangeLog.old enscript.cfg.in $(pkgdata_DATA)	\
+	Makefile-encodings make-encoding.pl
 
 do_subst = sed -e 's%@DATADIR@%$(datadir)%g' \
                -e 's%@media@%@MEDIA@%g' \

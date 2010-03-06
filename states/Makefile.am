@@ -40,7 +40,7 @@ states_DEPENDENCIES = ../compat/libcompat.a
 
 noinst_HEADERS = defs.h gram.h
 
-EXTRA_DIST = TODO over.in enscript.el
+EXTRA_DIST = ChangeLog.old TODO over.in enscript.el
 
 localedir = $(prefix)/share/locale
 

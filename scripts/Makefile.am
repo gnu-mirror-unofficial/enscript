@@ -32,6 +32,6 @@ diffpp: $(srcdir)/diffpp.in
 sliceprint: $(srcdir)/sliceprint.in
 	sed 's%@PERLPROG@%@PERL@%g' $(srcdir)/sliceprint.in >sliceprint
 
-EXTRA_DIST = diffpp.in sliceprint.in $(man_MANS)
+EXTRA_DIST = ChangeLog.old diffpp.in sliceprint.in $(man_MANS)
 
 CLEANFILES = diffpp sliceprint

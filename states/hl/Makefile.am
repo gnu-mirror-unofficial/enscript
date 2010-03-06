@@ -41,3 +41,4 @@ vhdl.st vrml.st wmlscript.st zsh.st
 hldir = $(pkgdatadir)/hl
 dist_hl_DATA = $(misc) $(styles) $(languages) $(highlightings)
 
+EXTRA_DIST = ChangeLog.old

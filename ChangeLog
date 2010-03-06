@@ -6,6 +6,8 @@
 	from the repository (i.e. just use the standard INSTALL file).
 	* README: Replace all old web/mail addresses.
 
+	* All Makefile.am files: Add ChangeLog.old to EXTRA_DIST.
+
 2010-02-03  Tim Retout  <diocles@gnu.org>
 
 	* All ChangeLog files in subdirectories have been renamed to

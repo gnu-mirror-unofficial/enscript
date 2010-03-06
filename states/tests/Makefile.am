@@ -32,4 +32,4 @@ primregexp_syntax.test primregmatch.test primregsub.test \
 primregsuball.test primsprintf.test primstrcmp.test primstring.test \
 primstrncmp.test primsubstring.test
 
-EXTRA_DIST = defs tests.st $(TESTS)
+EXTRA_DIST = ChangeLog.old defs tests.st $(TESTS)

@@ -32,7 +32,8 @@ noinst_HEADERS = afm.h afmint.h strhash.h
 
 INCLUDES_windelta = +-I../w32/
 
-EXTRA_DIST = ansi2knr.c ansi2knr.1 Makefile-encodings make-encoding.pl
+EXTRA_DIST = ChangeLog.old ansi2knr.c ansi2knr.1 Makefile-encodings	\
+	make-encoding.pl
 
 noinst_PROGRAMS = afmtest
 

@@ -30,4 +30,4 @@ underlay.test toc.test falign.test slice.test escapes.test \
 headers.test media.test encodings.test passthrough.test \
 nup.test
 
-EXTRA_DIST = defs $(TESTS)
+EXTRA_DIST = ChangeLog.old defs $(TESTS)

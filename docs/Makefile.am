@@ -27,7 +27,8 @@ enscript_TEXINFOS = fdl-1.3.texi
 man_MANS = enscript.1 states.1
 CLEANFILES = $(man_MANS)
 
-EXTRA_DIST = enscript.man states.man FAQ.html clean-nroff.pl texinfo.tex
+EXTRA_DIST = ChangeLog.old enscript.man states.man FAQ.html	\
+	clean-nroff.pl texinfo.tex
 
 enscript.man.html: enscript.1
 	nroff -man $(srcdir)/enscript.1 | ./clean-nroff.pl > enscript.tmp
