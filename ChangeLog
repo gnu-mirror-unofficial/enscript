@@ -1,5 +1,7 @@
 2010-03-06  Tim Retout  <diocles@gnu.org>
 
+	* configure.ac: Set version to 1.6.5.1.
+
 	* states/hl/Makefile.am (highlightings): Add f90.st.
 
 	* INSTALL: Move enscript-specific details into README, and remove

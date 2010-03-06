@@ -2,6 +2,17 @@
 		      What's new in GNU enscript
 		      --------------------------
 
+Summary of changes in enscript version 1.6.5.1:
+
+* Typo corrections in the manual pages.
+
+* Reorganise source tree to use a single ChangeLog file.
+
+* Actually ship f90.st in the tarball.
+
+* Reorganise INSTALL and README.
+
+
 Noteworthy changes in enscript version 1.6.5:
 
 * New maintainer.
