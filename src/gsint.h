@@ -326,8 +326,6 @@ typedef struct cached_font_info_st CachedFontInfo;
 
 extern char *program;
 extern FILE *ofp;
-extern char *version_string;
-extern char *ps_version_string;
 extern char *date_string;
 extern struct tm run_tm;
 extern struct tm mod_tm;

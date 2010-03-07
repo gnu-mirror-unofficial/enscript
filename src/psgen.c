@@ -280,11 +280,18 @@ dump_ps_header ()
 {
   char *cp, *cp2;
   int i, j, got;
+  char *ps_version_string;	/* Version string for PS procsets. */
+
 
   /* Dump PS header only once. */
   if (ps_header_dumped)
     return;
   ps_header_dumped = 1;
+
+  /* Create version string. */
+  ps_version_string = xstrdup (VERSION);
+  cp = strrchr (ps_version_string, '.');
+  *cp = ' ';
 
   /*
    * Header.
@@ -295,7 +302,7 @@ dump_ps_header ()
 	   media->urx, media->ury));
   OUTPUT ((cofp, "%%%%Title: %s\n", title));
   OUTPUT ((cofp, "%%%%For: %s\n", passwd->pw_gecos));
-  OUTPUT ((cofp, "%%%%Creator: %s\n", version_string));
+  OUTPUT ((cofp, "%%%%Creator: %s\n", PACKAGE_STRING));
   OUTPUT ((cofp, "%%%%CreationDate: %s\n", date_string));
   OUTPUT ((cofp, "%%%%Orientation: %s\n",
 	   ((nup > 1) && nup_landscape)

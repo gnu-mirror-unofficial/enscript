@@ -1,3 +1,11 @@
+2010-03-07  Tim Retout  <diocles@gnu.org>
+
+	* src/gsint.h: Remove version_string and ps_version_string.
+	* src/main.c: Likewise.
+	* src/main.c (version): Update copyright and licensing
+	information. Use autoconf variables instead of hardcoded strings.
+	* src/psgen.c (dump_ps_header): Set ps_version_string here.
+
 2010-03-06  Tim Retout  <diocles@gnu.org>
 
 	* configure.ac: Set version to 1.6.5.1.

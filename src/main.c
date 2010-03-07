@@ -58,8 +58,6 @@ static void version ();
 char *program;			/* Program's name, used for messages. */
 FILE *ofp = NULL;		/* Output file. */
 void *printer_context;		/* Context for the printer. */
-char *version_string = NULL;	/* Enscript's version string. */
-char *ps_version_string = NULL;	/* Version string for PS procsets. */
 char *date_string = NULL;	/* Preformatted time string. */
 struct tm run_tm;		/* Time when program is run. */
 struct tm mod_tm;		/* Last modification time for current file. */
@@ -945,19 +943,6 @@ main (int argc, char *argv[])
 
   /* Make getopt_long() to use our modified programname. */
   argv[0] = program;
-
-  /* Create version strings. */
-
-  buffer_clear (&buffer);
-  buffer_append (&buffer, "GNU ");
-  buffer_append (&buffer, PACKAGE);
-  buffer_append (&buffer, " ");
-  buffer_append (&buffer, VERSION);
-  version_string = buffer_copy (&buffer);
-
-  ps_version_string = xstrdup (VERSION);
-  cp = strrchr (ps_version_string, '.');
-  *cp = ' ';
 
   /* Create the default TOC format string.  Wow, this is cool! */
   /* xgettext:no-c-format */
@@ -2651,10 +2636,12 @@ static void
 version ()
 {
   printf ("%s\n\
-Copyright (C) 2003 Markku Rossi.\n\
-GNU enscript comes with NO WARRANTY, to the extent permitted by law.\n\
-You may redistribute copies of GNU enscript under the terms of the GNU\n\
-General Public License.  For more information about these matters, see\n\
-the files named COPYING.\n",
-	  version_string);
+Copyright (C) 1995-2003, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.\n\
+%s comes with NO WARRANTY, to the extent permitted by law.\n\
+You may redistribute copies of %s under the terms of the GNU\n\
+General Public License, version 3 or, at your option, any later version.\n\
+For more information about these matters, see the files named COPYING.\n",
+	  PACKAGE_STRING,
+	  PACKAGE_NAME,
+	  PACKAGE_NAME);
 }
