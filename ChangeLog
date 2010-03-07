@@ -4,6 +4,7 @@
 	* src/main.c: Likewise.
 	* src/main.c (version): Update copyright and licensing
 	information. Use autoconf variables instead of hardcoded strings.
+	* src/main.c (usage): Add angle brackets around bug address.
 	* src/psgen.c (dump_ps_header): Set ps_version_string here.
 
 2010-03-06  Tim Retout  <diocles@gnu.org>
