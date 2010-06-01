@@ -1768,7 +1768,7 @@ name             width\theight\tllx\tlly\turx\tury\n\
 	{
 	  retval |= 2;
 	  MESSAGE (0, (stderr,
-		       ngettext("1 line was %s\n",
+		       ngettext("%d line was %s\n",
 				"%d lines were %s\n",
 				num_truncated_lines),
 		       num_truncated_lines,
@@ -1780,7 +1780,7 @@ name             width\theight\tllx\tlly\turx\tury\n\
 	{
 	  retval |= 4;
 	  MESSAGE (0, (stderr,
-		       ngettext("1 character was missing\n",
+		       ngettext("%d character was missing\n",
 				"%d characters were missing\n",
 				num_missing_chars),
 		       num_missing_chars));
@@ -1795,7 +1795,7 @@ name             width\theight\tllx\tlly\turx\tury\n\
 	{
 	  retval |= 8;
 	  MESSAGE (0, (stderr,
-		       ngettext("1 non-printable character\n",
+		       ngettext("%d non-printable character\n",
 				"%d non-printable characters\n",
 				num_non_printable_chars),
 		       num_non_printable_chars));

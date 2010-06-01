@@ -1,3 +1,7 @@
+2010-03-17  Juergen Daubert  <jue@jue.li>
+	* src/main.c: Fix ngettext calls to use '1' explicitly.  Fixes
+	Savannah bug #29198.
+
 2010-03-07  Tim Retout  <diocles@gnu.org>
 
 	* src/gsint.h: Remove version_string and ps_version_string.
