@@ -30,7 +30,7 @@
 
 #define CFG_FATAL(body)						\
   do {								\
-    fprintf (stderr, "%s:%s:%d: ", program, fname, line);	\
+    fprintf (stderr, "%s:%s:%d: ", program, buffer_ptr(&fname), line); \
     fprintf body;						\
     fprintf (stderr, "\n");					\
     fflush (stderr);						\
@@ -108,10 +108,13 @@ read_config (char *path, char *file)
 
   fp = fopen (buffer_ptr (&fname), "r");
 
-  buffer_uninit (&fname);
+  /* We wait to uninit the buffer so that CFG_FATAL can use it. */
 
   if (fp == NULL)
-    return 0;
+    {
+      buffer_uninit (&fname);
+      return 0;
+    }
 
   while (fgets (buf, sizeof (buf), fp))
     {
@@ -436,6 +439,8 @@ read_config (char *path, char *file)
       else
 	CFG_FATAL ((stderr, _("illegal option: %s"), token));
     }
+
+  buffer_uninit (&fname);
   return 1;
 }
 

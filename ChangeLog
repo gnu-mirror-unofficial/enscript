@@ -1,3 +1,12 @@
+2010-06-02  Tim Retout  <diocles@gnu.org>
+
+	Fix Savannah bug #28769 (segfault when parsing config file).
+
+	* src/util.c (CFG_FATAL): Call buffer_ptr on &fname to get
+	configuration filename.
+	* src/util.c (read_config): Delay buffer_uninit call on fname
+	until return points.
+
 2010-03-17  Juergen Daubert  <jue@jue.li>
 	* src/main.c: Fix ngettext calls to use '1' explicitly.  Fixes
 	Savannah bug #29198.
