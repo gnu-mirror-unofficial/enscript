@@ -2,6 +2,15 @@
 		      What's new in GNU enscript
 		      --------------------------
 
+Summary of changes in enscript version 1.6.5.2:
+
+* Fix CFG_FATAL macro in util.c; this prevents a segmentation fault
+  when the configuration file contains unknown parameters. (Savannah
+  bug #28769)
+
+* Fix segmentation fault with line lengths over 90 characters.
+  (Savannah bug #29198)
+
 Summary of changes in enscript version 1.6.5.1:
 
 * Typo corrections in the manual pages.
