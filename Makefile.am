@@ -22,7 +22,7 @@
 # along with Enscript.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-SUBDIRS = compat afm afmlib lib scripts intl src po states docs w32
+SUBDIRS = intl compat afm afmlib lib scripts src po states docs w32
 
 EXTRA_DIST = README.ESCAPES README.DOS ascii.txt			\
 asciifise.txt asciidkno.txt 88591.txt 88592.txt 88593.txt 88594.txt	\

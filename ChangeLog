@@ -1,5 +1,7 @@
 2011-07-09  Tim Retout  <diocles@gnu.org>
 
+	* Makefile.am (SUBDIRS): Move intl to be built before compat.
+
 	* states/Makefile.am: Use $(datadir) instead of $(prefix)/share.
 	  Savannah bug #31609.
 	* src/Makefile.am: Likewise.
