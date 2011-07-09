@@ -447,7 +447,7 @@ Usage: %s [OPTION]... [FILE]...\n\
 Mandatory arguments to long options are mandatory for short options too.\n"),
           program);
   printf (_("\
-  -D, --define=VAR=VAL       define variable VAR to have value VAR\n\
+  -D, --define=VAR=VAL       define variable VAR to have value VAL\n\
   -f, --file=NAME            read state definitions from file NAME\n\
   -h, --help                 print this help and exit\n\
   -o, --output=NAME          save output to file NAME\n\

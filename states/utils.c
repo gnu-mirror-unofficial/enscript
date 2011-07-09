@@ -1116,7 +1116,7 @@ eval_expr (expr, env)
 	  || (n->type == nSTRING && n2->u.integer >= n->u.str.len))
 	{
 	  fprintf (stderr,
-		   _("%s:%d: error: array reference index out of rance\n"),
+		   _("%s:%d: error: array reference index out of range\n"),
 		   expr->filename, expr->linenum);
 	  exit (1);
 	}

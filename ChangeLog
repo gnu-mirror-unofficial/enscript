@@ -3,6 +3,9 @@
 	* src/Makefile.am: Remove ansi2knr option and supporting files.
 	* afmlib/Makefile.am: Likewise.
 
+	* states/utils.c (eval_expr): Fix typo in error string.
+	* states/main.c (usage): Fix typo in --define usage string.
+
 2010-06-02  Tim Retout  <diocles@gnu.org>
 
 	Fix Savannah bug #28769 (segfault when parsing config file).
