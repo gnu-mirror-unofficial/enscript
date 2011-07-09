@@ -2001,7 +2001,7 @@ handle_options (int argc, char *argv[])
       int i;
 
       c = getopt_long (argc, argv,
-		       "#:123456789a:A:b:BcC::d:D:e::E::f:F:gGhH::i:I:jJ:kKlL:mM:n:N:o:Op:P:qrRs:S:t:T:u::U:vVW:X:zZ",
+		       "#:123456789a:A:b:BcC::d:D:e::E::f:F:gGhH::i:I:jJ:kKlL:mM:n:N:o:Op:P:qrRs:S:t:T:u::U:vVwW:X:zZ",
 		       long_options, &option_index);
 
       if (c == -1)

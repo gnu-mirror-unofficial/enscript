@@ -1,5 +1,8 @@
 2011-07-09  Tim Retout  <diocles@gnu.org>
 
+	* src/main.c (handle_options): Add missing 'w' from
+	getopt_long call. Savannah bug #30651.
+
 	Apply patch 393791-sliceprint from Debian:
 	* scripts/sliceprint.1: Complete documentation.
 	* scripts/sliceprint.in: Force C locale.
