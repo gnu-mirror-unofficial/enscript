@@ -1,3 +1,8 @@
+2011-07-09  Tim Retout  <diocles@gnu.org>
+
+	* src/Makefile.am: Remove ansi2knr option and supporting files.
+	* afmlib/Makefile.am: Likewise.
+
 2010-06-02  Tim Retout  <diocles@gnu.org>
 
 	Fix Savannah bug #28769 (segfault when parsing config file).

@@ -21,8 +21,6 @@
 # along with Enscript.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-AUTOMAKE_OPTIONS = ansi2knr
-
 noinst_LIBRARIES = libafm.a
 libafm_a_SOURCES = afm.c afmparse.c strhash.c e_88591.c e_88592.c	\
 e_88593.c e_88594.c e_88595.c e_88597.c e_88599.c e_885910.c e_pc.c	\
@@ -32,8 +30,7 @@ noinst_HEADERS = afm.h afmint.h strhash.h
 
 INCLUDES_windelta = +-I../w32/
 
-EXTRA_DIST = ChangeLog.old ansi2knr.c ansi2knr.1 Makefile-encodings	\
-	make-encoding.pl
+EXTRA_DIST = ChangeLog.old Makefile-encodings make-encoding.pl
 
 noinst_PROGRAMS = afmtest
 

@@ -22,8 +22,6 @@
 # along with Enscript.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-AUTOMAKE_OPTIONS = ansi2knr
-
 SUBDIRS = tests
 
 bin_PROGRAMS = enscript mkafmmap
@@ -56,4 +54,4 @@ INCLUDES_windelta = \
 	+-DLIBRARY=\"c:\\enscript\"		\
 	+-DSYSCONFDIR=\"c:\\enscript\"
 
-EXTRA_DIST = ChangeLog.old prt_dos.c ansi2knr.c ansi2knr.1
+EXTRA_DIST = ChangeLog.old prt_dos.c
