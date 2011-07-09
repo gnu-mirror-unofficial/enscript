@@ -1,5 +1,9 @@
 2011-07-09  Tim Retout  <diocles@gnu.org>
 
+	* states/Makefile.am: Use $(datadir) instead of $(prefix)/share.
+	  Savannah bug #31609.
+	* src/Makefile.am: Likewise.
+
 	* src/Makefile.am: Remove ansi2knr option and supporting files.
 	* afmlib/Makefile.am: Likewise.
 

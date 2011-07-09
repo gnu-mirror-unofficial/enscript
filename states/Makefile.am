@@ -42,13 +42,13 @@ noinst_HEADERS = defs.h gram.h
 
 EXTRA_DIST = ChangeLog.old TODO over.in enscript.el
 
-localedir = $(prefix)/share/locale
+localedir = $(datadir)/locale
 
 bin_SCRIPTS = over
 CLEANFILES = $(bin_SCRIPTS)
 
 over: $(srcdir)/over.in
-	sed 's%@LIBRARYDIR@%$(prefix)/share/enscript%g' \
+	sed 's%@LIBRARYDIR@%$(datadir)/enscript%g' \
 	$(srcdir)/over.in > over
 
 AM_YFLAGS = -d

@@ -40,7 +40,7 @@ mkafmmap_DEPENDENCIES = ../afmlib/libafm.a ../compat/libcompat.a
 
 noinst_HEADERS = gsint.h
 
-localedir = $(prefix)/share/locale
+localedir = $(datadir)/locale
 
 INCLUDES = -I$(srcdir)/../compat -I$(srcdir)/../afmlib			\
 -I$(srcdir)/../intl -I../intl -DLOCALEDIR=\"$(localedir)\"		\
