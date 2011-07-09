@@ -1,5 +1,11 @@
 2011-07-09  Tim Retout  <diocles@gnu.org>
 
+	Apply patch 393791-sliceprint from Debian:
+	* scripts/sliceprint.1: Complete documentation.
+	* scripts/sliceprint.in: Force C locale.
+	Use more liberal regexp when parsing wrapped lines message.
+	Add missing space from before args. Savannah bug #31259.
+
 	* Makefile.am (SUBDIRS): Move intl to be built before compat.
 
 	* states/Makefile.am: Use $(datadir) instead of $(prefix)/share.

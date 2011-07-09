@@ -25,12 +25,13 @@
 #
 
 $enscript = "enscript";
+$ENV{LC_ALL} = "C"; # we parse enscript's output
 
 $program = $0;
 $program =~ s/.*\///g;
 
 sub usage {
-    warn "Usage: $program [ENSCRIPT_OPTION]... [FILE]...\n";
+    warn "Usage: $program [-oFILE] [ENSCRIPT_OPTION]... [FILE]...\n";
 }
 
 # Handle arguments.
@@ -65,14 +66,15 @@ $slice = 0;
 while (1) {
     $slice++;
     if (defined($output_file)) {
-	$cmd = "$enscript" . $args . " --slice=$slice -p"
+	$cmd = "$enscript " . $args . " --slice=$slice -p"
 	    . $output_file . "." . $slice . " " . $files;
     } else {
-	$cmd = "$enscript" . $args . " --slice=$slice" . $files;
+	$cmd = "$enscript " . $args . " --slice=$slice" . $files;
     }
     print "printing slice $slice...\n";
     $result = `$cmd 2>&1`;
-    if ($result !~ ".*lines were.*") {
+    print $result;
+    if ($result !~ ".*line.* were wrapped.*") {
 	last;
     }
 }
