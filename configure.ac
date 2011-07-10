@@ -1,5 +1,5 @@
 dnl Process this file with autoconf to produce a configure script.
-AC_INIT([GNU Enscript],[1.6.5.2],[bug-enscript@gnu.org])
+AC_INIT([GNU Enscript],[1.6.5.90],[bug-enscript@gnu.org])
 AC_PREREQ([2.61])
 AC_CONFIG_SRCDIR([src/gsint.h])
 AC_CONFIG_HEADERS([config.h])
