@@ -1,5 +1,9 @@
 2011-07-10  Tim Retout  <diocles@gnu.org>
 
+	* src/main.c (main): Join ENSCRIPT_LIBRARY error string together
+	for the benefit of translators.
+	Use ngettext when printing number of pages/copies.
+
 	* states/hl/mail.st: Support extended mail headers.
 	Savannah bug #25440.
 

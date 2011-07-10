@@ -1085,10 +1085,8 @@ _("This is probably an installation error.  Please, try to rebuild:")));
 		  ERROR ((stderr, _("\tmake")));
 		  ERROR ((stderr, _("\tmake check")));
 		  ERROR ((stderr, _("\tmake install")));
-		  ERROR ((stderr,
-_("or set the environment variable `ENSCRIPT_LIBRARY' to point to your")));
-		  ERROR ((stderr,
-_("library directory.")));
+		  ERROR ((stderr, _("or set the environment variable `ENSCRIPT_LIBRARY'"
+			" to point to your library directory.")));
 		  exit (1);
 		}
 
@@ -1755,9 +1753,16 @@ name             width\theight\tllx\tlly\turx\tury\n\
       else
 	real_total_pages = total_pages;
 
-      /* We did something, tell what.  */
-      MESSAGE (0, (stderr, _("[ %d pages * %d copy ]"), real_total_pages,
-		   num_copies));
+	  /* We did something, tell what.  */
+	  char message[80];
+	  snprintf(message, sizeof message, "%s%s%s%s%s",
+			   "[ ",
+			   ngettext("%d page", "%d pages", real_total_pages),
+			   " * ",
+			   ngettext("%d copy", "%d copies", num_copies),
+			   " ]");
+	  MESSAGE (0, (stderr, message, real_total_pages, num_copies));
+
       if (output_file == OUTPUT_FILE_NONE)
 	MESSAGE (0, (stderr, _(" sent to %s\n"),
 		     printer ? printer : _("printer")));
