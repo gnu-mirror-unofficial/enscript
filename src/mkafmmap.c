@@ -36,12 +36,8 @@
 #include <string.h>
 #endif
 
-#if ENABLE_NLS
-#include <libintl.h>
+#include "gettext.h"
 #define _(String) gettext (String)
-#else
-#define _(String) String
-#endif
 
 #if HAVE_LC_MESSAGES
 #include <locale.h>

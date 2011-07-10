@@ -1,5 +1,11 @@
 2011-07-10  Tim Retout  <diocles@gnu.org>
 
+	* compat/gettext.h: New file.
+	* compat/Makefile.am (EXTRA_DIST): Add gettext.h.
+	* src/gsint.h: Use gettext.h instead of own libintl.h include.
+	* src/mkafmmap.c: Likewise.
+	* states/defs.h: Likewise.
+
 	* src/main.c (main): Join ENSCRIPT_LIBRARY error string together
 	for the benefit of translators.
 	Use ngettext when printing number of pages/copies.

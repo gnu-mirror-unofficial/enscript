@@ -37,7 +37,7 @@ libcompat_a_SOURCES_windelta =	\
 noinst_HEADERS = getopt.h regex.h xalloc.h
 
 EXTRA_DIST = ChangeLog.old strerror.c memmove.c memcpy.c strtol.c	\
-	strtoul.c
+	strtoul.c gettext.h
 
 INCLUDES = -I$(srcdir)/../intl -I../intl
 
