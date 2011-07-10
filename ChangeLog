@@ -41,6 +41,10 @@
 	* states/utils.c (eval_expr): Fix typo in error string.
 	* states/main.c (usage): Fix typo in --define usage string.
 
+2010-09-10  W. Trevor King  <wking@drexel.edu>
+
+	* docs/FAQ.html: Fix typo.
+
 2010-06-02  Tim Retout  <diocles@gnu.org>
 
 	Fix Savannah bug #28769 (segfault when parsing config file).
