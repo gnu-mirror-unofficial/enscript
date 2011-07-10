@@ -1,183 +1,182 @@
-# -*- mode:po; coding:utf-8; -*- Slovenian messages for GNU enscript.
-# Copyright (C) 1996, 2005, 2007, 2011 Free Software Foundation, Inc.
+# Finnish messages for enscript.
+# Copyright © 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the enscript package.
-# Primož Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>, 1996, 2005, 2007, 2011.
-#
-# $Id: enscript-1.6.5.2.sl.po,v 1.3 2011/01/12 12:55:47 peterlin Exp $
+# Jorma Karvonen <karvonen.jorma@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: enscript 1.6.5.2\n"
+"Project-Id-Version: GNU enscript 1.6.5.2\n"
 "Report-Msgid-Bugs-To: bug-enscript@gnu.org\n"
 "POT-Creation-Date: 2010-06-02 00:17+0100\n"
-"PO-Revision-Date: 2011-01-12 13:55+0100\n"
-"Last-Translator: Primož Peterlin <primozz.peterlin@gmail.com>\n"
-"Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2011-07-10 11:54+0200\n"
+"Last-Translator: Jorma Karvonen <karvonen.jorma@gmail.com>\n"
+"Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8-bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: compat/getopt.c:628
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: izbira »%s« ni enopomenska\n"
+msgstr "%s: valitsin ”%s” ei ole yksiselitteinen\n"
 
 #: compat/getopt.c:652
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: izbira »--%s« ne dovoljuje argumenta\n"
+msgstr "%s: valitsin ”--%s” ei salli argumenttia\n"
 
 #: compat/getopt.c:657
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: izbira »%c%s« ne dovoljuje argumenta\n"
+msgstr "%s: valitsin ”%c%s” ei salli argumenttia\n"
 
 #: compat/getopt.c:674 compat/getopt.c:847
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: izbira »%s« zahteva argument\n"
+msgstr "%s: valitsin ”%s” vaatii argumentin\n"
 
 #: compat/getopt.c:703
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s: neprepoznana izbira »--%s«\n"
+msgstr "%s: tunnistamaton valitsin ”--%s”\n"
 
 #: compat/getopt.c:707
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s: neprepoznana izbira »%c%s«\n"
+msgstr "%s: tunnistamaton valitsin ”%c%s”\n"
 
 #: compat/getopt.c:733
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s: nedovoljena izbira -- %c\n"
+msgstr "%s: virheellinen valitsin -- %c\n"
 
 #: compat/getopt.c:736
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: neveljavna izbira -- %c\n"
+msgstr "%s: virheellinen valitsin -- %c\n"
 
 #: compat/getopt.c:766 compat/getopt.c:896
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: izbira zahteva argument -- %c\n"
+msgstr "%s: valitsin vaatii argumentin -- %c\n"
 
 #: compat/getopt.c:813
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: izbira »-W %s« ni enopomenska\n"
+msgstr "%s: valitsin ”-W %s” ei ole yksiselitteinen\n"
 
 #: compat/getopt.c:831
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: izbira »-W %s« ne dovoljuje argumenta\n"
+msgstr "%s: valitsin ”-W %s” ei salli argumenttia\n"
 
 #: compat/xalloc.c:70
 #, c-format
 msgid "xmalloc(): couldn't allocate %d bytes\n"
-msgstr "xmalloc(): ni mogoče rezervirati %d bajtov pomnilnika\n"
+msgstr "xmalloc(): ei voitu varata %d tavua\n"
 
 #: compat/xalloc.c:88
 #, c-format
 msgid "xcalloc(): couldn't allocate %d bytes\n"
-msgstr "xcalloc(): ni mogoče rezervirati %d bajtov pomnilnika\n"
+msgstr "xcalloc(): ei voitu varata %d tavua\n"
 
 #: compat/xalloc.c:109
 #, c-format
 msgid "xrealloc(): couldn't reallocate %d bytes\n"
-msgstr "xrealloc(): ni mogoče ponovno rezervirati %d bajtov pomnilnika\n"
+msgstr "xrealloc(): ei voitu uudelleenvarata %d tavua\n"
 
 #: compat/regex.c:996
 msgid "Success"
-msgstr "Uspešno"
+msgstr "Onnistui"
 
 #: compat/regex.c:997
 msgid "No match"
-msgstr "Brez zadetkov"
+msgstr "Ei täsmäystä"
 
 #: compat/regex.c:998
 msgid "Invalid regular expression"
-msgstr "Neveljaven regularni izraz"
+msgstr "Virheellinen säännöllinen lauseke"
 
 #: compat/regex.c:999
 msgid "Invalid collation character"
-msgstr "Neveljaven razvrščevalni znak"
+msgstr "Virheellinen merkkijärjestysmerkki"
 
 #: compat/regex.c:1000
 msgid "Invalid character class name"
-msgstr "Neveljavno ime razreda znakov"
+msgstr "Virheellinen merkkiluokkanimi"
 
 #: compat/regex.c:1001
 msgid "Trailing backslash"
-msgstr "Zaključna nagibnica"
+msgstr "Jäljessä oleva kenoviiva"
 
 #: compat/regex.c:1002
 msgid "Invalid back reference"
-msgstr "Neveljavna povratna zveza"
+msgstr "Virheellinen paluuviite"
 
 #: compat/regex.c:1003
 msgid "Unmatched [ or [^"
-msgstr "Znak [ ali [^ brez para"
+msgstr "Pariton [ tai [^"
 
 #: compat/regex.c:1004
 msgid "Unmatched ( or \\("
-msgstr "Znak ( ali \\( brez para"
+msgstr "Partion ( tai \\("
 
 #: compat/regex.c:1005
 msgid "Unmatched \\{"
-msgstr "Znak \\{ brez para"
+msgstr "Pariton \\{"
 
 #: compat/regex.c:1006
 msgid "Invalid content of \\{\\}"
-msgstr "Neveljavna vsebina \\{\\}"
+msgstr "Virheellinen \\{\\}-sisältö"
 
 #: compat/regex.c:1007
 msgid "Invalid range end"
-msgstr "Neveljaven konec intervala"
+msgstr "Virheellinen lukualueen loppu"
 
 #: compat/regex.c:1008
 msgid "Memory exhausted"
-msgstr "Zmanjkalo pomnilnika"
+msgstr "Muisti loppui"
 
 #: compat/regex.c:1009
 msgid "Invalid preceding regular expression"
-msgstr "Neveljaven predhodni regularni izraz"
+msgstr "Virheellinen edeltävä säännöllinen lauseke"
 
 #: compat/regex.c:1010
 msgid "Premature end of regular expression"
-msgstr "Prezgodnji konec regularnega izraza"
+msgstr "Säännöllisen lausekkeen ennenaikainen loppu"
 
 #: compat/regex.c:1011
 msgid "Regular expression too big"
-msgstr "Prevelik regularni izraz"
+msgstr "Säännöllinen lauseke liian suuri"
 
 #: compat/regex.c:1012
 msgid "Unmatched ) or \\)"
-msgstr "Znak ) ali \\) brez para"
+msgstr "Pariton ) tai \\)"
 
 #: compat/regex.c:5458
 msgid "No previous regular expression"
-msgstr "Manjkajoč predhodni regularni izraz"
+msgstr "Ei edellistä säännöllistä lauseketta"
 
 #: src/main.c:949
 #, no-c-format
 msgid "$3v $-40N $3% pages $4L lines  $E $C"
-msgstr "$3v $-40N $3% strani $4L vrstic  $E $C"
+msgstr "$3v $-40N $3% sivua $4L riviä  $E $C"
 
 #: src/main.c:979
 #, c-format
 msgid "couldn't get passwd entry for uid=%d: %s"
-msgstr "passwd ne vsebuje podatkov za UID=%d: %s"
+msgstr "ei voitu saada passwd-salasanaa käyttäjätunnisteelle uid=%d: %s"
 
 #: src/main.c:1071
 #, c-format
 msgid "couldn't read config file \"%s/%s\": %s"
-msgstr "konfiguracijske datoteke \"%s/%s\" ni mogoče prebrati: %s"
+msgstr "ei voitu lukea asetustiedostoa ”%s/%s”: %s"
 
 #: src/main.c:1075
 msgid "I did also try the following directories:"
-msgstr "Poskusili smo tudi v naslednjih imenikih:"
+msgstr "Yritin myös seuraavia hakemistoja:"
 
 #: src/main.c:1076 src/main.c:1077 src/main.c:1078
 #, c-format
@@ -194,7 +193,7 @@ msgstr "\t../../lib"
 
 #: src/main.c:1082
 msgid "This is probably an installation error.  Please, try to rebuild:"
-msgstr "Verjetno gre za napako pri namestitvi. Prosimo, ponovno prevedite:"
+msgstr "Tämä on luultavasti asennusvirhe. Yritä uudelleenrakentamista:"
 
 #: src/main.c:1083
 msgid "\tmake distclean"
@@ -202,7 +201,7 @@ msgstr "\tmake distclean"
 
 #: src/main.c:1084
 msgid "\t./configure --prefix=PREFIX"
-msgstr "\t./configure --prefix=PREFIX"
+msgstr "\t./configure --prefix=ETULIITE"
 
 #: src/main.c:1085
 msgid "\tmake"
@@ -218,22 +217,23 @@ msgstr "\tmake install"
 
 #: src/main.c:1089
 msgid "or set the environment variable `ENSCRIPT_LIBRARY' to point to your"
-msgstr "ali nastavite lupinsko spremenljivko »ENSCRIPT_LIBRARY« tako, da kaže"
+msgstr "tai aseta ympäristömuuttuja ”ENSCRIPT_LIBRARY” osoittamaan sinun"
 
 #: src/main.c:1091
 msgid "library directory."
-msgstr "na vaš imenik s knjižnicami."
+msgstr "kirjastohakemistoosi."
 
 #: src/main.c:1163
 #, c-format
 msgid "unknown encoding: %s"
-msgstr "neznani kodni nabor: %s"
+msgstr "tuntematon koodaus: %s"
 
 #: src/main.c:1182
 #, c-format
 msgid "couldn't open AFM library: %s"
-msgstr "knjižnice AFM ni mogoče odpreti: %s"
+msgstr "ei voitu avata AFM-kirjastoa: %s"
 
+#  llx on vasen-, lly on oikea-, urx on ylä- ja ury on alamarginaali
 #: src/main.c:1211
 #, c-format
 msgid ""
@@ -241,176 +241,179 @@ msgid ""
 "name             width\theight\tllx\tlly\turx\tury\n"
 "------------------------------------------------------------\n"
 msgstr ""
-"znani formati papirja:\n"
-"ime              širina\tvišina\tLLX\tLLY\tURX\tURY\n"
+"tunnettu media:\n"
+"nimi             leveys\tkorkeus\tvasen\toikea\tylä\tala\n"
 "------------------------------------------------------------\n"
 
 #: src/main.c:1230
 #, c-format
 msgid "do not know anything about media \"%s\""
-msgstr "format papirja \"%s\" je neznan"
+msgstr "älä tiedä mitään mediasta ”%s”"
 
+#  llx on vasen-, lly on oikea-, urx on ylä- ja ury on alamarginaali
 #: src/main.c:1274
 #, c-format
 msgid "set new marginals for media `%s' (%dx%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
-msgstr "nastavljeni novi robovi za medij »%s« (%d×%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
+msgstr "aseta uudet marginaalit medialle ”%s” (%dx%d): vasen=%d, oikea=%d, ylä=%d, ala=%d\n"
 
 #: src/main.c:1285
 #, c-format
 msgid "illegal page label format \"%s\""
-msgstr "nedovoljena oznaka strani \"%s\""
+msgstr "virheellinen sivunimiömuoto ”%s”"
 
-#  POZOR!!!  Tole je zelo grdo...
 #: src/main.c:1297
 #, c-format
 msgid "illegal non-printable format \"%s\""
-msgstr "nedovoljena ne-natisljiva oblika \"%s\""
+msgstr "virheellinen ei-tulostettava muoto ”%s”"
 
+#  rivin jatkuminen seuraavalle riville näytetään normaalisti seuraavilla merkeillä "none", "plus", "box", "arrow"
 #: src/main.c:1311
 #, c-format
 msgid "illegal style for wrapped line marker: \"%s\""
-msgstr "nedovoljen slog označevalca nadaljevane vrstice: \"%s\""
+msgstr "virheellinen tyyli rivinjakamismerkille: ”%s”"
 
+#  N-up tarkoittaa, että tulostetaan N kappaletta loogisia PostScript-sivuja jokaiselle tulostussivulle
 #: src/main.c:1321
 #, c-format
 msgid "illegal N-up argument: %d"
-msgstr "nedovoljen argument »N na stran«: %d"
+msgstr "virheellinen loogisten PostScript-sivujen tulostuksen N-up -argumentti: %d"
 
 #: src/main.c:1326
 #, c-format
 msgid "N-up argument must be power of 2: %d"
-msgstr "pri »N na stran« mora biti N potenca 2: %d"
+msgstr "N-up -argumentin on oltava kahden monikerta: %d"
 
-#  POZOR!!!
+#  Underlay tarkoittaa, että tekstiä sijoitetaan jokaisen sivun alle.
 #: src/main.c:1403
 #, c-format
 msgid "malformed underlay position: %s"
-msgstr "skladenjska napaka pri položaju podlage: %s"
+msgstr "vääränmuotoinen underlay-sijainti sivun alle sijoitettavalle tekstille: %s"
 
-#  POZOR!!!
 #: src/main.c:1426
 #, c-format
 msgid "illegal underlay style: %s"
-msgstr "nedovoljen slog podlage: %s"
+msgstr "virheellinen underlay-tyyli: %s"
 
+#  Tähdentäminen on ATK-sanakirjan tarjoama termisuomennos ja tarkoittaa tekstin korostamista esimerkiksi alle tulostettavalla palkilla.
 #: src/main.c:1453
 #, c-format
 msgid ""
 "Highlighting is supported for the following languages and file formats:\n"
 "\n"
 msgstr ""
-"Poudarjanje je podprto le za naslednje jezike in zapise datotek:\n"
+"Tähdentämistä tuetaan seuraavissa kielissä ja tiedostomuodoissa:\n"
 "\n"
 
+#  toc on ilmeisesti table of contents
 #: src/main.c:1634
 #, c-format
 msgid "couldn't create temporary toc file: %s"
-msgstr "začasne datoteke s kazalom ni mogoče ustvariti: %s"
+msgstr "ei voitu luoda tilapäistä toc-tiedostoa: %s"
 
 #: src/main.c:1681
 #, c-format
 msgid "couldn't stat input file \"%s\": %s"
-msgstr "ni moč priti do podatkov o datoteki \"%s\": %s"
+msgstr "ei voitu kutsua stat-funktiota syötetiedostolle ”%s”: %s"
 
+#  toc on ilmeisesti table of contents, tässä aiottiin ilmeisesti palata tiedoston alkuun
 #: src/main.c:1701
 #, c-format
 msgid "couldn't rewind toc file: %s"
-msgstr "kazala ni moč previti na začetek: %s"
+msgstr "ei voitu kelata alkuun sisällysluettelotiedostoa: %s"
 
 #: src/main.c:1707
 msgid "Table of Contents"
-msgstr "Kazalo"
+msgstr "Sisällysluettelo"
 
 #: src/main.c:1733
 msgid "no output generated\n"
-msgstr "brez izpisa\n"
+msgstr "mitään tulostetta ei tuotettu\n"
 
+#  parametri on tulostin
 #: src/main.c:1738
 #, c-format
 msgid "output sent to %s\n"
-msgstr "izpis poslan na %s\n"
+msgstr "tuloste lähetetty tulostimelle %s\n"
 
 #: src/main.c:1739 src/main.c:1763
 msgid "printer"
-msgstr "tiskalnik"
+msgstr "tulostin"
 
+#  parametri on tulostetiedosto tai vakiotuloste
 #: src/main.c:1741
 #, c-format
 msgid "output left in %s\n"
-msgstr "izpis zapisan na %s\n"
+msgstr "tuloste jätetty vakiotulosteeseen tai tulostetiedostoon %s\n"
 
+#  Jälkimmäinen parametri on number of copies
 #: src/main.c:1759
 #, c-format
 msgid "[ %d pages * %d copy ]"
-msgstr "[ %d strani × %d kopij ]"
+msgstr "[ %d sivua * %d kopiota ]"
 
+#  parametri on tulostin
 #: src/main.c:1762
 #, c-format
 msgid " sent to %s\n"
-msgstr " poslano na %s\n"
+msgstr " lähetetty tulostimelle %s\n"
 
+#  parametri on tulostetiedosto tai vakiotuloste
 #: src/main.c:1765
 #, c-format
 msgid " left in %s\n"
-msgstr " zapisanih na %s\n"
+msgstr " jätetty vakiotulosteeseen tai tulostetiedostoon %s\n"
 
 #: src/main.c:1771
 #, c-format
 msgid "%d line was %s\n"
 msgid_plural "%d lines were %s\n"
-msgstr[0] "%d vrstic je bilo %s\n"
-msgstr[1] "%d vrstica je bila %s\n"
-msgstr[2] "%d vrstici sta bili %s\n"
-msgstr[3] "%d vrstice so bile %s\n"
+msgstr[0] "%d rivi oli %s\n"
+msgstr[1] "%d riviä oli %s\n"
 
 #: src/main.c:1776
 msgid "truncated"
-msgstr "odrezanih"
+msgstr "typistetty"
 
 #: src/main.c:1776
 msgid "wrapped"
-msgstr "nadaljevanih v naslednji vrstici"
+msgstr "jaettu seuraavalle riville"
 
 #: src/main.c:1783
 #, c-format
 msgid "%d character was missing\n"
 msgid_plural "%d characters were missing\n"
-msgstr[0] "%d znakov je manjkalo\n"
-msgstr[1] "%d znak je manjkal\n"
-msgstr[2] "%d znaka sta manjkala\n"
-msgstr[3] "%d znaki so manjkali\n"
+msgstr[0] "%d merkki puuttui\n"
+msgstr[1] "%d merkkiä puuttui\n"
 
 #: src/main.c:1789
 msgid "missing character codes (decimal):\n"
-msgstr "kode manjkajočih znakov (desetiško):\n"
+msgstr "puuttuvia merkkikoodeja (desimaali):\n"
 
 #: src/main.c:1798
 #, c-format
 msgid "%d non-printable character\n"
 msgid_plural "%d non-printable characters\n"
-msgstr[0] "%d neizpisljivih znakov\n"
-msgstr[1] "%d neizpisljiv znak\n"
-msgstr[2] "%d neizpisljiva znaka\n"
-msgstr[3] "%d neizpisljivi znaki\n"
+msgstr[0] "%d ei-tulostettava merkki\n"
+msgstr[1] "%d ei-tulostettavia merkkejä\n"
 
 #: src/main.c:1805
 msgid "non-printable character codes (decimal):\n"
-msgstr "kode neizpisljivih znakov (desetiško):\n"
+msgstr "ei-tulostettavia merkkikoodeja (desimaali):\n"
 
 #: src/main.c:1854
 #, c-format
 msgid "couldn't open printer `%s': %s"
-msgstr "tiskalnik »%s« ni dostopen: %s"
+msgstr "ei voitu avata tulostinta ”%s”: %s"
 
 #: src/main.c:1863
 #, c-format
 msgid "couldn't create output file \"%s\": %s"
-msgstr "izhodne datoteke \"%s\" ni mogoče zapisati: %s"
+msgstr "ei voitu luoda tulostetiedostoa ”%s”: %s"
 
 #: src/main.c:1880
 #, c-format
 msgid "couldn't close output file \"%s\": %s"
-msgstr "izhodne datoteke \"%s\" ni mogoče zapreti: %s"
+msgstr "ei voitu sulkea tulostetiedostoa ”%s”: %s"
 
 #: src/main.c:1938
 #, c-format
@@ -418,65 +421,66 @@ msgid ""
 "syntax error in option string %s=\"%s\":\n"
 "missing end of quotation: %c"
 msgstr ""
-"skladenjska napaka pri izbiri %s=\"%s\":\n"
-"manjka končni narekovaj: %c"
+"syntaksivirhe valitsinmerkkijonossa %s=”%s”:\n"
+"puuttuva loppulainausmerkki: %c"
 
 #: src/main.c:1970
 #, c-format
 msgid "warning: didn't process following options from environment variable %s:\n"
-msgstr "pozor: naslednje izbire v spremenljivki %s niso bile obdelane:\n"
+msgstr "varoitus: ei käsitellyt seuraavia valitsimia ympäristömuuttujasta %s:\n"
 
 #: src/main.c:1974
 #, c-format
 msgid "  option %d = \"%s\"\n"
-msgstr "  izbira %d = \"%s\"\n"
+msgstr "  valitsin %d = ”%s”\n"
 
 #: src/main.c:2020
 msgid "number of columns must be larger than zero"
-msgstr "število stolpcev mora biti večje od nič"
+msgstr "sarakkeiden lukumäärän on oltava suurempi kuin nolla"
 
 #: src/main.c:2078
 msgid "file alignment must be larger than zero"
-msgstr "poravnava datotek mora biti večja od nič"
+msgstr "tiedostotasauksen on oltava suurempi kuin nolla"
 
 #: src/main.c:2133 src/main.c:2139 src/main.c:2350 src/util.c:416
 #, c-format
 msgid "malformed font spec: %s"
-msgstr "slabo naveden font: %s"
+msgstr "vääränmuotoinen kirjasinmäärittely: %s"
 
 #: src/main.c:2155
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\""
-msgstr "datoteke \"%s.hdr\" z definicijo glave ni mogoče najti"
+msgstr "ei voitu löytää otsakemäärittelytiedostoa ”%s.hdr”"
 
 #: src/main.c:2199
 #, c-format
 msgid "must print at least one line per each page: %s"
-msgstr "na vsaki strani mora biti vsaj ena vrstica: %s"
+msgstr "on tulostettava vähintään yksi rivi sivua kohden: %s"
 
 #: src/main.c:2219
 #, c-format
 msgid "%s: illegal newline character specifier: '%s': expected 'n' or 'r'\n"
-msgstr "%s: ,%s' ni dovoljeni znak za novo vrstico: ,n' ali ,r' sta\n"
+msgstr "%s: virheellinen rivinvaihtomerkin tarkenne: ’%s’: odotettiin ’n’ tai ’r’\n"
 
 #: src/main.c:2308
 #, c-format
 msgid "malformed argument `%s' for option -W, --option: no comma found"
-msgstr "skladenjska napaka pri argumentu »%s« izbire -W, --izbira: manjkajoča vejica"
+msgstr "vääränmuotoinen argumentti ”%s” valitsimelle -W, --option: pilkkua ei löytynyt"
 
 #: src/main.c:2313
 #, c-format
 msgid "helper application specification must be single character: %s"
-msgstr "določitev pomožnega programa mora biti dolga en znak: %s"
+msgstr "opastesovellusmäärittelyn on oltava yksi merkki: %s"
 
+#  Hiukan ristiriitaista tietoa main.c -tiedostossa rivillä 656: Horizontal input slicing.  Print only NUMth wrapped input pages. Mutta rivillä 2618: --slice=NUM print vertical slice NUM.
 #: src/main.c:2409
 msgid "slice must be greater than zero"
-msgstr "rezina mora biti večja od nič"
+msgstr "viipaleen on oltava suurempi kuin nolla"
 
 #: src/main.c:2490 states/main.c:318
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Poskusite ,%s --help' za obširnejše informacije.\n"
+msgstr "Lisätietoja komennolla ”%s --help”.\n"
 
 #: src/main.c:2510
 #, c-format
@@ -499,27 +503,34 @@ msgid ""
 "                             pass a page device definition to output\n"
 "  -e, --escapes[=CHAR]       enable special escape interpretation\n"
 msgstr ""
-"Uporaba: %s [izbire] [datoteka] ...\n"
-"Argumenti, obvezni za dolge oblike izbir, so obvezni tudi za kratke.\n"
-"  -#                         sopomenka za izbiro -n, --copies\n"
-"  -1                         isto kot --columns=1\n"
-"  -2                         isto kot --columns=2\n"
-"      --columns=NUM          število stolpcev na strani\n"
-"  -a, --pages=STRANI         določimo strani, ki naj se odtisnejo\n"
-"  -b, --header=GLAVA         naslovna glava na strani\n"
-"  -B, --no-header            brez naslovne glave\n"
-"  -c, --truncate-lines       predolge vrstice porezane (privzeta izbira\n"
-"                             je nadaljevanje v naslednji vrstici)\n"
-"  -C, --line-numbers[=START] vsaka vrstica označena s številko vrstice\n"
-"  -d                         sopomenka za izbiro --printer\n"
-"  -D, --setpagedevice=KLJUČ[:VREDNOST]\n"
-"                             definicijo naprave strani posredujemo na izhod\n"
-"  -e, --escapes[=ZNAK]       omogočenje posebnih ubežnih zaporedij\n"
+"Käyttö: %s [VALITSIN]... [TIEDOSTO]...\n"
+"Pakolliset argumentit pitkille valitsimille ovat pakollisia myös lyhyille\n"
+"valitsimille.\n"
+"  -#                         alias valitsimelle -n, --copies\n"
+"  -1                         sama kuin --columns=1\n"
+"  -2                         sama kuin --columns=2\n"
+"      --columns=NUM          määritä sarakkeiden lukumäärä sivua kohden\n"
+"  -a, --pages=SIVUT          määritä, mitkä sivut tulostetaan\n"
+"  -A, --file-align=TASAUS    tasaa erilliset syötetiedostot TASAUS-arvoon\n"
+"  -b, --header=OTSAKE        aseta sivuotsake\n"
+"  -B, --no-header            ei sivuotsakkeita\n"
+"  -c, --truncate-lines       leikkaa pitkät rivit (oletus on jatkaa\n"
+"                             seuraavalle riville)\n"
+"  -C, --line-numbers[=ALKU]\n"
+"                             sijoita rivinumero jokaisen rivin alkuun, ALKU\n"
+"                             on se tiedoston rivinumero, josta numerointi\n"
+"                             alkaa\n"
+"  -d                         alias valitsimelle --printer\n"
+"  -D, --setpagedevice=AVAIN[:ARVO]\n"
+"                             välitä sivulaitemäärittely PostScript-\n"
+"                             tulosteeseen\n"
+"  -e, --escapes[=CHAR]       ota käyttöön erikoiskoodinvaihtomerkkien\n"
+"                             tulkinta\n"
 
 #: src/main.c:2530
 #, c-format
 msgid "  -E, --highlight[=LANG]     highlight source code\n"
-msgstr "  -E, --highlight[=JEZIK]    poudarki izvorne kode\n"
+msgstr "  -E, --highlight[=KIELI]    tähdennä lähdekoodia\n"
 
 #: src/main.c:2533
 #, c-format
@@ -541,20 +552,22 @@ msgid ""
 "                               --lines-per-page=66, --no-header, --portrait,\n"
 "                               --columns=1\n"
 msgstr ""
-"  -f, --font=IME             uporabimo font IME za glavno besedilo\n"
-"  -F, --header-font=IME      uporabimo font IME za naslovno glavo\n"
-"  -g, --print-anyway         nič (združljivost s prejšnjimi verzijami)\n"
-"  -G                         isto kot --fancy-header\n"
-"      --fancy-header[=IME]   izberemo razkošnejšo naslovno glavo\n"
-"  -h, --no-job-header        brez uvodne strani\n"
-"  -H, --highlight-bars=NUM   višina označb za poudarjanje\n"
-"  -i, --indent=NUM           zamik levega roba NUM znakov\n"
-"  -I, --filter=CMD           pri branju vhodnih datotek uporabimo filter CMD\n"
-"  -j, --borders              okvirji okoli stolpcev pri odtisu v več stolpcih\n"
-"  -J                         sopomenka za izbiro --title\n"
-"  -k, --page-prefeed         omogočimo ,page prefeed'\n"
-"  -K, --no-page-prefeed      onemogočimo ,page prefeed'\n"
-"  -l, --lineprinter          imitacija vrstičnega tiskalnika; sopomenka za:\n"
+"  -f, --font=NIMI            käytä kirjasinta NIMI runkotekstiin\n"
+"  -F, --header-font=NIMI     käytä kirjasinta NIMI otsaketeksteihin\n"
+"  -g, --print-anyway         ei mitään (yhteensopivuusvalitsin)\n"
+"  -G                         sama kuin --fancy-header\n"
+"      --fancy-header[=NIMI]  valitse koristeellinen sivuotsake\n"
+"  -h, --no-job-header        ehkäise työotsakesivu\n"
+"  -H, --highlight-bars=NUM   määritä, kuinka korkeita tähdentämispalkit ovat\n"
+"  -i, --indent=NUMERO        aseta rivisisennykssi NUMERO merkkiä\n"
+"  -I, --filter=KOMENTO       lue syötetiedostot syötesuodattimen KOMENTO\n"
+"                             lävitse\n"
+"  -j, --borders              tulosta sarakkeiden ympärille reunukset\n"
+"  -J,                        alias valitsimelle --title\n"
+"  -k, --page-prefeed         ota käyttöön sivun esisyöttö\n"
+"  -K, --no-page-prefeed      ota pois käytöstä sivun esisyöttö\n"
+"  -l, --lineprinter          simuloi rivikirjoitinta, tämä on alias\n"
+"                             valitsimille:\n"
 "                               --lines-per-page=66, --no-header, --portrait,\n"
 "                               --columns=1\n"
 
@@ -576,21 +589,22 @@ msgid ""
 "  -r, --landscape            print in landscape mode\n"
 "  -R, --portrait             print in portrait mode\n"
 msgstr ""
-"  -L, --lines-per-page=NUM   število vrstic besedila na strani\n"
-"  -m, --mail                 sporočilo o opravljenem poslu po pošti\n"
-"  -M, --media=IME            format papirja IME\n"
-"  -n, --copies=NUM           število izvodov vsake strani\n"
-"  -N, --newline=NL           izbira znaka za konec vrstice.  Možnosti za NL\n"
-"                             sta: n (»\\n«) in r (»\\r«).\n"
-"  -o                         sopomenka za izbiro --output\n"
-"  -O, --missing-characters   seznam kod manjkajočih znakov\n"
-"  -p, --output=IME           zapis izhoda na datoteko z imenom IME. Če je ime\n"
-"                             »-«, zapis na standardni izhod.\n"
-"                             Če je IME ,-', izpis na standardni izhod.\n"
-"  -P, --printer=IME          odtis izhoda na tiskalnik IME\n"
-"  -q, --quiet, --silent      brez obvestil\n"
-"  -r, --landscape            podolžni odtis\n"
-"  -R, --portrait             pokončni odtis\n"
+"  -L, --lines-per-page=NUM   määritä kuinka monta riviä tulostetaan\n"
+"                             jokaiselle sivulle\n"
+"  -m, --mail                 lähetä sähköpostiviesti tulostamisen\n"
+"                             valmistuttua\n"
+"  -M, --media=NIMI           käytä tulostemediaa NIMI\n"
+"  -n, --copies=NUMERO        tulosta jokaisesta sivusta NUMERO kopiota\n"
+"  -N, --newline=NL           valitse rivinvaihtomerkki.  Mahdollisia\n"
+"                             NL-arvoja ovat: n (”\\n”) ja r (”\\r”).\n"
+"  -o                         alias valitsimelle --output\n"
+"  -O, --missing-characters   luettele puuttuvat merkit\n"
+"  -p, --output=TIEDOSTO      jätä tuloste TIEDOSTOon.  Jos TIEDOSTO on ”-”,\n"
+"                             jätä tuloste vakiotulosteeseen.\n"
+"  -P, --printer=NIMI         tulosta tuloste tulostimelle NIMI\n"
+"  -q, --quiet, --silent      ole todella hiljainen\n"
+"  -r, --landscape            tulosta vaakasuunnassa\n"
+"  -R, --portrait             tulosta pystysuunnassa\n"
 
 #: src/main.c:2567
 #, c-format
@@ -612,22 +626,24 @@ msgid ""
 "  -Z, --pass-through         pass through PostScript and PCL files\n"
 "                             without any modifications\n"
 msgstr ""
-"  -s, --baselineskip=NUM     razmik med vrsticami naj bo NUM (v 1/72\")\n"
-"  -S, --statusdict=KLJUČ[:VREDNOST]\n"
-"                             definicije »statusdict« posredujemo na izhod\n"
-"  -t, --title=NASLOV         nadnaslov, izpisan na vsaki strani. Izbira nastavi\n"
-"                             tudi ime vhodne datoteke standardni vhod.\n"
-"  -T, --tabsize=NUM          tabulator na NUM znakov (privzeto 8)\n"
-"  -u, --underlay[=BESEDILO]  besedilo, izpisano kot podloga na vsaki strani\n"
-"  -U, --nup=NUM              število logičnih strani na vsaki strani papirja\n"
-"  -v, --verbose              z izčrpnim poročilom med izvajanjem\n"
-"  -V, --version              izdaja programa\n"
-"  -w, --language=JEZIK       nastavi izhodni JEZIK\n"
-"  -W, --options=PROG,IZBIRA  posreduj IZBIRO pomožnemu programu PROG\n"
-"  -X, --encoding=IME         IME kodnega nabora vhodnega besedila\n"
-"  -z, --no-formfeed          v besedilu ignoriraj znake za skok na novo stran\n"
-"  -Z, --pass-through         datoteke v formatu PostScript ali PCL\n"
-"                             odtisni brez sprememb\n"
+"  -s, --baselineskip=NUM     aseta baselineskip-arvoksi NUM\n"
+"  -S, --statusdict=AVAIN[:ARVO]\n"
+"                             välitä statusdict-määrittely tulosteeseen\n"
+"  -t, --title=OTSIKKO        aseta julistesivun työotsikoksi OTSIKKO.\n"
+"                             Valitsin asettaa myös syötetiedoston vakiosyöte\n"
+"                             nimen.\n"
+"  -T, --tabsize=NUMERO       aseta sarkainkooksi NUMERO\n"
+"  -u, --underlay[=TEKSTI]    tulosta TEKSTI jokaisen sivun alle\n"
+"  -U, --nup=NUMERO           tulosta NUMERO loogisia sivuja jokaiselle\n"
+"                             tulostussivulle\n"
+"  -v, --verbose              kerro mitä me teemme\n"
+"  -V, --version              tulosta versionumero\n"
+"  -w, --language=KIELI       aseta tulostekieleksi KIELI\n"
+"  -W, --options=APP,OPTION   välitä valitsin OPTION opastesovellukselle APP\n"
+"  -X, --encoding=NIMI        käytä syötekoodausta NIMI\n"
+"  -z, --no-formfeed          älä tulkitse sivunvaihtomerkkejä\n"
+"  -Z, --pass-through         välitä PostScript- ja PCL-tiedostojen kautta\n"
+"                             ilman mitään muutoksia\n"
 
 #: src/main.c:2585
 #, c-format
@@ -643,16 +659,17 @@ msgid ""
 "  --h-column-height=HEIGHT   set the horizontal column height to HEIGHT\n"
 "  --help                     print this help and exit\n"
 msgstr ""
-"Naslednje izbire imajo samo dolgo obliko:\n"
-"  --color[=bool]             ustvari barvne izpise s stanji\n"
-"  --continuous-page-numbers  številke strani se nadaljujejo prek več vhodnih\n"
-"                             datotek; ne začni paginacije pri vsaki datoteki od 1.\n"
-"  --download-font=IME        naložimo pisavo IME\n"
-"  --extended-return-values   omogoči razširjene izhodne kode\n"
-"  --filter-stdin=IME         kako je stdin predstavljen vhodnemu filtru\n"
-"  --footer=NOGA              nastavi nogo strani\n"
-"  --h-column-height=VIŠINA   nastavi VIŠINO vodoravnega stolpca\n"
-"  --help                     ta navodila\n"
+"Vain pitkät valitsimet:\n"
+"  --color[=bool]             luo väritulosteet tiloille\n"
+"  --continuous-page-numbers  laske sivunumerot syötetiedostoista.  Älä aloita\n"
+"                             numerointia uudelleen jokaisen tiedoston alusta.\n"
+"  --download-font=NIMI       lataa kirjasin NIMI\n"
+"  --extended-return-values   ota käyttää laajennetut paluuarvot\n"
+"  --filter-stdin=NAME        määritä kuinka vakiosyöte näytetään\n"
+"                             syötesuodattimessa\n"
+"  --footer=FOOTER            aseta alatunniste\n"
+"  --h-column-height=KORKEUS  aseta vaakasuora sarakekorkeus arvoon KORKEUS\n"
+"  --help                     tulosta tämä opaste ja poistu\n"
 
 #: src/main.c:2596
 #, c-format
@@ -667,13 +684,17 @@ msgid ""
 "                             mark wrapped lines in the output with STYLE\n"
 "  --non-printable-format=FMT specify how non-printable chars are printed\n"
 msgstr ""
-"  --help-highlight           opiši vse podprte jezike in zapise za --highlight\n"
-"  --highlight-bar-gray=NUM   stopnja sivine črt za poudarke (0 - 1)\n"
-"  --list-media               izpis vseh znanih formatov papirja\n"
-"  --margins=LEVA:DESNA:VRH:DNO\n"
-"                             nastavi robove strani\n"
-"  --mark-wrapped-lines[SLOG] s SLOGOM označi prelomljene vrstice na izhodu\n"
-"  --non-printable-format=FMT kako naj se izpišejo non-printable znaki\n"
+"  --help-highlight           kuvaile kaikki tuetut --highlight -kielet\n"
+"                             ja tiedostomuodot\n"
+"  --highlight-bar-gray=NRO   tulosta tähdentämispalkit harmaalla NRO (0 - 1)\n"
+"  --list-media               luettele kaikkien tunnettujen medioiden nimet\n"
+"  --margins=VASEN:OIKEA:YLÄ:ALA\n"
+"                             säädä sivumarginaalit\n"
+"  --mark-wrapped-lines[TYYLI]\n"
+"                             merkitse tulosteen tekstin jakaminen seuraavalle\n"
+"                             riville TYYLIllä\n"
+"  --non-printable-format=FMT määrittele, kuinka ei-tulostettavat merkit\n"
+"                             tulostetaan\n"
 
 #: src/main.c:2607
 #, c-format
@@ -687,13 +708,16 @@ msgid ""
 "  --printer-options=OPTIONS  pass extra options to the printer command\n"
 "  --rotate-even-pages        rotate even-numbered pages 180 degrees\n"
 msgstr ""
-"  --nup-columnwise           postavitev več logičnih strani na stran v stolpcih\n"
-"  --nup-xpad=NUM             nastavi razmak v smeri x pri tiskanju »več na stran«\n"
-"  --nup-ypad=NUM             nastavi razmak v smeri y pri tiskanju »več na stran«\n"
-"  --page-label-format=FMT    nastavi obliko oznake strani na FMT\n"
-"  --ps-level=LEVEL           nastavi raven PostScripta, ki naj jo enscript uporabi\n"
-"  --printer-options=IZBIRE   posreduj dodatne izbire ukazu za tiskanje\n"
-"  --rotate-even-pages        obrni lihe strani za 180°\n"
+"  --nup-columnwise           asettelusivut sarakemuotoisessa\n"
+"                             N-up-tulostuksessa\n"
+"  --nup-xpad=NUMERO          aseta sivun N-up-tulostuksen x-täytteeksi NUMERO\n"
+"  --nup-ypad=NUMERO          aseta sivun N-up-tulostuksen y-täytteeksi NUMERO\n"
+"  --page-label-format=FMT    aseta sivunimiömuodoksi FMT\n"
+"  --ps-level=TASO            aseta PostScript-kieliTASO, jota enscript-\n"
+"                             ohjelman pitäisi käyttää\n"
+"  --printer-options=OPTIONS  välitä ylimääräiset valitsimet\n"
+"                             tulostinkomennolle\n"
+"  --rotate-even-pages        kierrä paritonnumeroiset sivut 180 astetta\n"
 
 #: src/main.c:2617
 #, c-format
@@ -710,16 +734,20 @@ msgid ""
 "  --ul-style=STYLE           print underlays with style STYLE\n"
 "  --word-wrap                wrap long lines from word boundaries\n"
 msgstr ""
-"  --slice=NUM                odtisni navpične rezine velikosti NUM\n"
-"  --style=SLOG               uporabi navedeni SLOG za poudarke\n"
-"  --swap-even-page-margins   zamenjaj levi in desni rob pri lihih straneh\n"
-"  --toc                      odtisni kazalo\n"
-"  --ul-angle=KOT             nastavi KOT izpisa podloženega besedila\n"
-"  --ul-font=IME              izberi IME pisave podloženega besedila\n"
-"  --ul-gray=NUM              nastavi stopnjo sivine podloženega besedila\n"
-"  --ul-position=POLOŽAJ      nastavi začetni POLOŽAJ podloženega besedila\n"
-"  --ul-style=SLOG            odtisni podloženo besedilo v navedenem SLOGU\n"
-"  --word-wrap                razdeli predolge vrstice na meji besed\n"
+"  --slice=NUMERO             tulosta pystysuora viipale NUMERO\n"
+"  --style=TYYLI              käytä tähdentämisTYYLIä\n"
+"  --swap-even-page-margins   vaihda keskenään vasemman ja oikean puolen\n"
+"                             marginaalit\n"
+"                             jokaisella parilliseksi numeroidulla sivulla\n"
+"  --toc                      tulosta sisällysluettelo\n"
+"  --ul-angle=KULMA           aseta underlay-tekstin kulmaksi KULMA\n"
+"  --ul-font=NIMI             tulosta underlay-tekstit kirjasimella NIMI\n"
+"  --ul-gray=NUMERO           tulosta underlay-tekstit harmaa-arvolla NUMERO\n"
+"  --ul-position=SIJAINTI     aseta underlay-tekstien aloitussijainniksi\n"
+"                             SIJAINTI\n"
+"  --ul-style=TYYLI           tulosta underlay-tekstit TYYLIllä\n"
+"  --word-wrap                jatka pitkät rivit seuraavalle riville\n"
+"                             sanarajoista\n"
 
 #: src/main.c:2631
 #, c-format
@@ -728,50 +756,53 @@ msgid ""
 "Report bugs to <%s>.\n"
 msgstr ""
 "\n"
-"Poročila o napakah: <%s>.\n"
+"Ilmoita virheistä (englanniksi) osoitteeseen <%s>.\n"
+"Ilmoita käännösvirheistä osoitteeseen\n"
+"<translation-team-fi@lists.sourceforge.net>.\n"
 
 #: src/psgen.c:331
 #, c-format
 msgid "couldn't find prolog \"%s\": %s\n"
-msgstr "uvoda \"%s\" ni moč najti: %s\n"
+msgstr "ei kyetty löytämään esipuhetta ”%s”: %s\n"
 
 #: src/psgen.c:339
 #, c-format
 msgid "couldn't find encoding file \"%s.enc\": %s\n"
-msgstr "kodne datoteke \"%s.enc\" ni moč najti: %s\n"
+msgstr "ei kyetty löytämään koodaustiedostoa ”%s.enc”: %s\n"
 
 #: src/psgen.c:471
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\": %s\n"
-msgstr "datoteke z definicijo glave \"%s.hdr\" ni moč najti: %s\n"
+msgstr "ei voitu löytää otsakemäärittelytiedostoa ”%s.hdr”: %s\n"
 
 #: src/psgen.c:615
 #, c-format
 msgid "processing file \"%s\"...\n"
-msgstr "obdelujemo datoteko \"%s\"...\n"
+msgstr "käsitellään tiedostoa ”%s”...\n"
 
 #: src/psgen.c:913
 #, c-format
 msgid "EPS file \"%s\" is too large for page\n"
-msgstr "EPS datoteka \"%s\" je prevelika za stran\n"
+msgstr "EPS-tiedosto ”%s” on liian suuri sivulle\n"
 
+#  ps tarkoittanee tässä PostScript
 #: src/psgen.c:986
 msgid "user font encoding can be only the system's default or `ps'"
-msgstr "uporabniški nabor pisave je lahko le privzeta sistemska izbira ali »ps«"
+msgstr "käyttäjäkirjasinkoodaus voi olla vain järjestelmän oletus tai ”ps”"
 
 #: src/psgen.c:1228
 #, c-format
 msgid "unknown special escape: %s"
-msgstr "neprepoznano posebna ubežno zaporedje: %s"
+msgstr "tuntematon erikoiskoodinvaihtomerkki: %s"
 
 #: src/psgen.c:1354
 #, c-format
 msgid "illegal option %c for ^@epsf escape"
-msgstr "nedovoljena izbira %c za ubežno zaporedje ^@epsf"
+msgstr "virheellinen valitsin %c kohteelle ^@epsf-koodinvaihtomerkki"
 
 #: src/psgen.c:1360
 msgid "malformed ^@epsf escape: no ']' after options"
-msgstr "skladenjska napaka v ubežnem zaporedju ^@epsf: manjka »]« za izbirami"
+msgstr "vääränmuotoinen ^@epsf-koodinvaihtomerkki: merkki ’]’ valitsimien jälkeen"
 
 #: src/psgen.c:1372
 #, c-format
@@ -779,21 +810,21 @@ msgid ""
 "too long file name for ^@epsf escape:\n"
 "%.*s"
 msgstr ""
-"predolgo ime datoteke za ubežno zaporedje ^@epsf:\n"
+"liian pitkä tiedostonimi kohteelle ^@epsf-koodinvaihtomerkki:\n"
 "%.*s"
 
 #: src/psgen.c:1376
 msgid "unexpected EOF while scanning ^@epsf escape"
-msgstr "nepričakovan znak EOF med branjem ubežnega zaporedja ^@epsf"
+msgstr "odottamaton tiedostonloppumerkki etsittäessä kohdetta ^@epsf-koodinvaihtomerkki"
 
 #: src/psgen.c:1382
 msgid "malformed ^@epsf escape: no '{' found"
-msgstr "skladenjska napaka v ubežnem zaporedju ^@epsf: manjka »{«"
+msgstr "vääränmuotoinen ^@epsf-koodinvaihtomerkki: merkkiä ’{’ ei löytynyt"
 
 #: src/psgen.c:1440
 #, c-format
 msgid "malformed %s escape: no '{' found"
-msgstr "skladenjska napaka v ubežnem zaporedju %s: manjka »{«"
+msgstr "vääränmuotoinen %s-koodinvaihtomerkki: merkkiä  ’{’ ei löytynyt"
 
 #: src/psgen.c:1454
 #, c-format
@@ -801,38 +832,38 @@ msgid ""
 "too long argument for %s escape:\n"
 "%.*s"
 msgstr ""
-"predolg argument za ubežno zaporedje %s:\n"
+"liian pitkä argumentti kohteelle %s-koodinvaihtomerkki:\n"
 "%.*s"
 
 #: src/psgen.c:1474
 #, c-format
 msgid "malformed font spec for ^@font escape: %s"
-msgstr "skladenjska napaka v določitvi pisave za ubežno zaporedje ^@font: %s"
+msgstr "vääränmuotoinen kirjasinmäärittely kohteelle ^@font-koodinvaihtomerkki: %s"
 
 #: src/psgen.c:1511
 #, c-format
 msgid "malformed color spec for ^@%s escape: %s"
-msgstr "skladenjska napaka v določitvi barve za ubežno zaporedje ^@%s: %s"
+msgstr "vääränmuotoinen värimäärittely kohteelle ^@%s-koodinvaihtomerkki: %s"
 
 #: src/psgen.c:1535
 #, c-format
 msgid "invalid value for ^@shade escape: %s"
-msgstr "neveljavna vrednost za ubežno zaporedje ^@shade: %s"
+msgstr "virheellinen arvo kohteelle ^@shade-koodinvaihtomerkki: %s"
 
 #: src/psgen.c:1543
 #, c-format
 msgid "invalid value for ^@bggray escape: %s"
-msgstr "neveljavna vrednost za ubežno zaporedje ^@bggray: %s"
+msgstr "virheellinen arvo kohteelle ^@bggray-koodinvaihtomerkki: %s"
 
 #: src/psgen.c:2412
 #, c-format
 msgid "couldn't open EPS file \"%s\": %s\n"
-msgstr "datoteke \"%s\" v obliki EPS ni mogoče odpreti: %s\n"
+msgstr "ei voitu avata EPS-tiedostoa ”%s”: %s\n"
 
 #: src/psgen.c:2448
 #, c-format
 msgid "EPS file \"%s\" does not start with \"%%!\" magic\n"
-msgstr "datoteka \"%s\" v obliki EPS se ne začne z nizom \"%%!\"\n"
+msgstr "EPS-tiedosto ”%s” ei ala maagisella koodilla ”%%!”\n"
 
 #: src/psgen.c:2473
 #, c-format
@@ -840,181 +871,183 @@ msgid ""
 "EPS file \"%s\" contains malformed %%%%BoundingBox row:\n"
 "\"%.*s\"\n"
 msgstr ""
-"Datoteka \"%s\" v obliki EPS vsebuje skladenjsko napačno vrstico %%%%BoundingBox:\n"
-"\"%.*s\"\n"
+"EPS-tiedosto ”%s” sisältää vääränmuotoisen %%%%BoundingBox -rivin:\n"
+"”%.*s”\n"
 
 #: src/psgen.c:2498
 #, c-format
 msgid "EPS file \"%s\" is not a valid EPS file\n"
-msgstr "Datoteka \"%s\" ni v obliki EPS\n"
+msgstr "EPS-tiedosto ”%s” ei ole kelvollinen EPS-tiedosto\n"
 
 #: src/psgen.c:2640
 #, c-format
 msgid "passing through all input files for output language `%s'\n"
-msgstr "posredujemo vse vhodne datoteke za izhodni jezik »%s«\n"
+msgstr "välitetään kaikkien syötetiedostojen kautta tulostetiedostolle ”%s”\n"
 
 #: src/psgen.c:2692
 #, c-format
 msgid "passing through %s file \"%s\"\n"
-msgstr "posredujemo %s datoteko \"%s\"\n"
+msgstr "välitetään %s tiedoston ”%s” kautta\n"
 
+#  divert-tiedosto on divert()- ja undivert()-funktioiden jakama tiedosto
 #: src/psgen.c:2795
 #, c-format
 msgid "couldn't create temporary divert file: %s"
-msgstr "preusmerjene izhodne datoteke ni mogoče ustvariti: %s"
+msgstr "ei voitu luoda tilapäistä divert-tiedostoa: %s"
 
+#  divert-tiedosto on divert()- ja undivert()-funktioiden jakama tiedosto
 #: src/psgen.c:2812
 #, c-format
 msgid "couldn't rewind divert file: %s"
-msgstr "preusmerjene datoteke ni moč previti na začetek: %s"
+msgstr "ei voitu kelata uudelleen divert-tiedostoa: %s"
 
 #: src/util.c:93
 #, c-format
 msgid "missing argument: %s"
-msgstr "manjkajoč argument: %s"
+msgstr "puuttuva argumentti: %s"
 
 #: src/util.c:186 src/util.c:214
 #, c-format
 msgid "illegal value \"%s\" for option %s"
-msgstr "nedovoljena vrednost \"%s\" za izbiro %s"
+msgstr "virheellinen arvo ”%s” valitsimelle %s"
 
 #: src/util.c:202
 #, c-format
 msgid "invalid value \"%s\" for option %s"
-msgstr "neveljavna vrednost \"%s\" za izbiro %s"
+msgstr "virheellinen arvo ”%s” valitsimelle %s"
 
 #: src/util.c:440
 #, c-format
 msgid "illegal option: %s"
-msgstr "nedovoljena izbira: %s"
+msgstr "virheellinen valitsin: %s"
 
 #: src/util.c:619
 #, c-format
 msgid "%s:%d: %%Format: no name"
-msgstr "%s:%d: %%Format: manjkajoče ime"
+msgstr "%s:%d: %%Format: ei nimeä"
 
 #: src/util.c:630
 #, c-format
 msgid "%s:%d: %%Format: too long name, maxlen=%d"
-msgstr "%s:%d: %%Format: ime je predolgo, največja dolžina je lahko %d"
+msgstr "%s:%d: %%Format: liian pitkä nimi, maksimipituus=%d"
 
 #: src/util.c:653
 #, c-format
 msgid "%s:%d: %%Format: name \"%s\" is already defined"
-msgstr "%s:%d: %%Format: ime \"%s\" je že določeno"
+msgstr "%s:%d: %%Format: nimi ”%s” on jo määritelty"
 
 #: src/util.c:674
 #, c-format
 msgid "%s:%d: %%HeaderHeight: no argument"
-msgstr "%s:%d: %%HeaderHeight: manjkajoč argument"
+msgstr "%s:%d: %%HeaderHeight: ei argumenttia"
 
 #: src/util.c:696
 #, c-format
 msgid "%s:%d: %%FooterHeight: no argument"
-msgstr "%s:%d: %%FooterHeight: manjkajoč argument"
+msgstr "%s:%d: %%FooterHeight: ei argumenttia"
 
 #: src/util.c:843
 #, c-format
 msgid "%s: warning: font size is negative\n"
-msgstr "%s: opozorilo: velikost pisave je negativna\n"
+msgstr "%s: varoitus: kirjasinkoko on negatiivinen\n"
 
 #: src/util.c:845
 #, c-format
 msgid "%s: warning: font width is negative\n"
-msgstr "%s: opozorilo: širina pisave je negativna\n"
+msgstr "%s: varoitus: kirjasinleveys on negatiivinen\n"
 
 #: src/util.c:847
 #, c-format
 msgid "%s: warning: font height is negative\n"
-msgstr "%s: opozorilo: višina pisave je negativna\n"
+msgstr "%s: varoitus: kirjasinkorkeus on negatiivinen\n"
 
 #: src/util.c:866
 #, c-format
 msgid "reading AFM info for font \"%s\"\n"
-msgstr "beremo metrično datoteko AFM za pisavo \"%s\"\n"
+msgstr "luetaan AFM-tietoja kirjasimelle ”%s”\n"
 
 #: src/util.c:899
 #, c-format
 msgid "couldn't open AFM file for font \"%s\", using default\n"
-msgstr "datoteke AFM za pisavo \"%s\" ni moč odpreti, uporabljamo privzeto\n"
+msgstr "ei voitu avata AFM-tiedostoa kirjasimelle ”%s”, käytetään oletusta\n"
 
 #: src/util.c:906
 #, c-format
 msgid "couldn't open AFM file for the default font: %s"
-msgstr "datoteke AFM za privzeto pisavo ni moč odpreti: %s"
+msgstr "ei voitu avata AFM-tiedostoa oletuskirjasimelle: %s"
 
 #: src/util.c:1095
 #, c-format
 msgid "downloading font \"%s\"\n"
-msgstr "nalagamo pisavo \"%s\"\n"
+msgstr "ladataan kirjasin ”%s”\n"
 
 #: src/util.c:1100
 #, c-format
 msgid "couldn't open font description file \"%s\": %s\n"
-msgstr "datoteke z opisom pisave \"%s\" ni moč odpreti: %s\n"
+msgstr "ei voitu avata kirjasinkuvaustiedostoa ”%s”: %s\n"
 
 #: src/util.c:1392
 #, c-format
 msgid "%s: too long format for %%D{} escape"
-msgstr "%s: predolg format za ubežno zaporedje %%D{}"
+msgstr "%s: liian pitkä muoto kohteelle %%D{}-koodinvaihtomerkki"
 
 #: src/util.c:1477
 #, c-format
 msgid "%s: unknown `%%' escape `%c' (%d)"
-msgstr "%s: neprepoznano »%%«-ubežno zaporedje »%c« (%d)"
+msgstr "%s: tuntematon ”%%” koodinvaihtomerkki ”%c” (%d)"
 
 #: src/util.c:1515
 #, c-format
 msgid "%s: no closing ')' for $() escape"
-msgstr "%s: manjkajoč zaklepaj za ubežno zaporedje $()"
+msgstr "%s: ei sulkevaa ’)’-merkkiä kohteelle $()-koodinvaihtomerkki"
 
 #: src/util.c:1518
 #, c-format
 msgid "%s: too long variable name for $() escape"
-msgstr "%s: predolgo ime spremenljivke za ubežno zaporedje $()"
+msgstr "%s: liian pitkä muuttujanimi kohteelle $()-koodinvaihtomerkki"
 
 #: src/util.c:1545
 #, c-format
 msgid "%s: too long format for $D{} escape"
-msgstr "%s: predolgo formatno določilo za ubežno sekvenco $D{}"
+msgstr "%s: liian pitkä muoto kohteelle $D{}-koodinvaihtomerkki"
 
 #: src/util.c:1633
 #, c-format
 msgid "%s: unknown `$' escape `%c' (%d)"
-msgstr "%s: neprepoznano »$«-ubežno zaporedje »%c« (%d)"
+msgstr "%s: tuntematon ”$”-koodinvaihtomerkki ”%c” (%d)"
 
 #: src/util.c:1824
 #, c-format
 msgid "malformed float dimension: \"%s\""
-msgstr "skladenjska napaka dimenzije: \"%s\""
+msgstr "vääränmuotoinen liukuluku-ulottuvuus: ”%s”"
 
 #: src/util.c:1946
 #, c-format
 msgid "couldn't open input filter \"%s\" for file \"%s\": %s"
-msgstr "vhodnega filtra \"%s\" za datoteko \"%s\" ni moč odpreti: %s"
+msgstr "ei voitu avata syötesuodatinta ”%s” tiedostolle ”%s”: %s"
 
 #: src/util.c:1963
 #, c-format
 msgid "couldn't open input file \"%s\": %s"
-msgstr "vhodne datoteke \"%s\" ni mogoče odpreti: %s"
+msgstr "ei voitu avata syötetiedostoa ”%s”: %s"
 
 #: src/mkafmmap.c:171
 #, c-format
 msgid "file=%s\n"
-msgstr "datoteka=%s\n"
+msgstr "tiedosto=%s\n"
 
 #: src/mkafmmap.c:171
 msgid "stdout"
-msgstr "standardni izhod"
+msgstr "vakiotuloste"
 
 #: src/mkafmmap.c:179
 #, c-format
 msgid "%s: couldn't open output file \"%s\""
-msgstr "%s: izhodne datoteke \"%s\" ni mogoče odpreti"
+msgstr "%s: ei voitu avata tulostetiedostoa ”%s”"
 
 #: src/mkafmmap.c:193
 msgid "couldn't create AFM library"
-msgstr "knjižnice AFM ni mogoče ustvariti"
+msgstr "ei voitu luoda AFM-kirjastoa"
 
 #: src/mkafmmap.c:242
 #, c-format
@@ -1027,55 +1060,56 @@ msgid ""
 "                          stdout.\n"
 "  -V, --version           print version number\n"
 msgstr ""
-"Uporaba: %s [IZBIRA]... DATOTEKA...\n"
-"Argumenti, obvezni za dolge oblike izbir, so obvezni tudi za kratke.\n"
-"  -h, --help              ta navodila\n"
-"  -p, --output-file=IME   zapiši izhod na datoteko IME (privzeto ime je \n"
-"                          font.map). Če je DATOTEKA »-«, piši na standardni izhod.\n"
-"  -V, --version           izpis izdaje programa\n"
+"Käyttö: %s [VALITSIN]... TIEDOSTO...\n"
+"Pakolliset argumentit pitkille valitsimille ovat pakollisia myös lyhyille\n"
+"valitsimille.\n"
+"  -h, --help              tulosta tämä opaste ja poistu\n"
+"  -p, --output-file=NIMI  tulosta tuloste tiedostoon NIMI (oletustiedosto on\n"
+"                          font.map).  Jos TIEDOSTO on `-', ohjaa tuloste\n"
+"                          vakiotulosteeseen.\n"
+"  -V, --version           tulosta versionumero\n"
 
 #: states/lex.l:167 states/lex.l:173
 msgid "error: EOF in comment"
-msgstr "napaka: datoteka se konča sredi komentarja"
+msgstr "virhe: Tiedostonloppumerkki kommentissa"
 
 #: states/lex.l:204
 msgid "error: EOF in string constant"
-msgstr "napaka: datoteka se konča sredi alfanumerične konstante"
+msgstr "virhe: Tiedostonloppumerkki merkkijonovakiossa"
 
 #: states/lex.l:311
 msgid "error: EOF in regular expression"
-msgstr "napaka: datoteka se konča sredi regularnega izraza"
+msgstr "virhe: Tiedostonloppumerkki säännöllisessä lausekkeessa"
 
-# Je to res to?
 #: states/main.c:197
 #, c-format
 msgid "states for %s"
-msgstr "stanja za %s"
+msgstr "tilat kohteelle %s"
 
 #: states/main.c:252
 #, c-format
 msgid "%s: malformed variable definition \"%s\"\n"
-msgstr "%s: skladenjska napaka pri definiciji spremenljivke \"%s\"\n"
+msgstr "%s: vääränmuotoinen muuttujamäärittely ”%s”\n"
 
 #: states/main.c:280
 #, c-format
 msgid "%s: couldn't create output file \"%s\": %s\n"
-msgstr "%s: ni mogoče ustvariti izhodne datoteke \"%s\": %s\n"
+msgstr "%s: ei voitu luoda tulostetiedostoa ”%s”: %s\n"
 
 #: states/main.c:311
 #, c-format
 msgid "%s: unknown warning level `%s'\n"
-msgstr "%s: neznana raven opozoril »%s«\n"
+msgstr "%s: tuntematon varoitustaso ”%s”\n"
 
 #: states/main.c:360 states/main.c:396 states/prims.c:1375 states/utils.c:227
 #, c-format
 msgid "%s: out of memory\n"
-msgstr "%s: zmanjkalo pomnilnika\n"
+msgstr "%s: muisti loppui\n"
 
 #: states/main.c:421
 #, c-format
 msgid "%s: couldn't open input file `%s': %s\n"
-msgstr "%s: ni mogoče odpreti vhodne datoteke »%s«: %s\n"
+msgstr "%s: ei voitu avata syötetiedostoa ”%s”: %s\n"
 
 #: states/main.c:445
 #, c-format
@@ -1083,9 +1117,11 @@ msgid ""
 "Usage: %s [OPTION]... [FILE]...\n"
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
-"Uporaba: %s [izbire] [datoteka] ...\n"
-"Argumenti, obvezni za dolge oblike izbir, so obvezni tudi za kratke.\n"
+"Käyttö: %s [VALITSIN]... [TIEDOSTO]...\n"
+"Pakolliset argumentit pitkille valitsimille ovat pakollisia myös lyhyille\n"
+"valitsimille.\n"
 
+#  Tässä on ilmeisesti bugi, pitäisi olla "define variable VAR to have value VAL"
 #: states/main.c:449
 #, c-format
 msgid ""
@@ -1099,274 +1135,224 @@ msgid ""
 "  -V, --version              print version number\n"
 "  -W, --warning=LEVEL        set the warning level to LEVEL\n"
 msgstr ""
-"  -D, --define=SPR=VRED      nastavi vrednost spremenljivke SPR na VRED\n"
-"  -f, --file=DATOTEKA        preberi definicije stanja iz navedene DATOTEKE\n"
-"  -h, --help                 izpis te pomoči in izhod\n"
-"  -o, --output=DATOTEKA      shrani izhod v navedeno DATOTEKO\n"
-"  -p, --path=POT             nastavi nalagalno POT\n"
-"  -s, --state=IME            začni iz navedenega stanja\n"
-"  -v, --verbose              povečaj izčrpnost poročil med izvajanjem\n"
-"  -V, --version              izpis različice programa\n"
-"  -W, --warning=RAVEN        nastavi RAVEN opozoril\n"
+"  -D, --define=VAR=VAL       määritä muuttujalle VAR arvo VAL\n"
+"  -f, --file=NIMI            lue tilamäärittelyt tiedostosta NIMI\n"
+"  -h, --help                 tulosta tämä opaste ja poistu\n"
+"  -o, --output=NIMI          tallenna tuloste tiedostoon NIMI\n"
+"  -p, --path=POLKU           aseta latauspoluksi POLKU\n"
+"  -s, --state=NIMI           aloita tilasta NIMI\n"
+"  -v, --verbose              kasvata ohjelman laveutta\n"
+"  -V, --version              tulosta versionumero\n"
+"  -W, --warning=TASO         aseta varoitustasoksi TASO\n"
 
 #: states/prims.c:44
 #, c-format
 msgid "%s:%d: %s: too few arguments\n"
-msgstr "%s:%d: %s: premalo argumentov\n"
+msgstr "%s:%d: %s: liian vähän argumentteja\n"
 
 #: states/prims.c:54
 #, c-format
 msgid "%s:%d: %s: too many arguments\n"
-msgstr "%s:%d: %s: preveč argumentov\n"
+msgstr "%s:%d: %s: liian monia argumentteja\n"
 
 #: states/prims.c:107 states/prims.c:127 states/prims.c:253 states/prims.c:426
 #: states/prims.c:901
 #, c-format
 msgid "%s:%d: %s: illegal argument type\n"
-msgstr "%s:%d: %s: nedovoljena vrsta argumenta\n"
+msgstr "%s:%d: %s: virheellinen argumenttityyppi\n"
 
 #: states/prims.c:468
 #, c-format
 msgid "%s: panic: "
-msgstr "%s: preplah: "
+msgstr "%s: paniikki: "
 
 #: states/prims.c:502
 #, c-format
 msgid "%s:%d: %s: malformed version string `%s'\n"
-msgstr "%s:%d: %s: skadenjska napaka v nizu različice »%s«\n"
+msgstr "%s:%d: %s: vääränmuotoinen versiomerkkijono ”%s”\n"
 
 #: states/prims.c:517
 #, c-format
 msgid "%s: FATAL ERROR: States version %s or higher is required for this script\n"
-msgstr "%s: USODNA NAPAKA: za izvajanje tega skripta potrebujete vsaj različico %s »states«\n"
+msgstr "%s: KOHTALOKAS VIRHE: Ilmoittaa, että versio %s tai uudempi vaaditaan tälle skriptille\n"
 
 #: states/prims.c:608 states/prims.c:1274
 #, c-format
 msgid "%s:%d: %s: start offset is bigger than end offset\n"
-msgstr "%s:%d: %s: začetni odmik je večji od končnega\n"
+msgstr "%s:%d: %s: alkusiirros on suurempi kuin loppusiirros\n"
 
 #: states/prims.c:617 states/prims.c:633 states/prims.c:1280
 #, c-format
 msgid "%s:%d: %s: offset out of range\n"
-msgstr "%s:%d: %s: odmik izven obsega\n"
+msgstr "%s:%d: %s: siirros lukualueen ulkopuolella\n"
 
 #: states/prims.c:651
 #, c-format
 msgid "%s:%d: %s: illegal argument\n"
-msgstr "%s:%d: %s: nedovoljen argument\n"
+msgstr "%s:%d: %s: virheellinen argumentti\n"
 
 #: states/prims.c:698
 #, c-format
 msgid "%s:%d: %s: illegal regexp character syntax: %c\n"
-msgstr "%s:%d: %s: nedovoljena skladnja znakov regularnega izraza: %c\n"
+msgstr "%s:%d: %s: virheellinen säännöllisen lausekemerkin syntaksi: %c\n"
 
 #: states/prims.c:913
 #, c-format
 msgid "%s:%d: %s: couldn't define state `%s'\n"
-msgstr "%s:%d: %s: ni mogoče določiti stanja »%s«\n"
+msgstr "%s:%d: %s: ei voitu määritellä tilaa ”%s”\n"
 
 #: states/prims.c:1010
 #, c-format
 msgid "%s: primitive `%s': too few arguments for format\n"
-msgstr "%s: primitiv »%s«: premalo argumentov za format\n"
+msgstr "%s: primitive ”%s”: liian vähän argumentteja muodolle\n"
 
 #: states/prims.c:1038
 #, c-format
 msgid "%s:%d: %s: argument %d doesn't match format\n"
-msgstr "%s:%d: %s: argument %d ne ustreza obliki\n"
+msgstr "%s:%d: %s: argumentti %d ei täsmää muotoon\n"
 
 #: states/prims.c:1078
 #, c-format
 msgid "%s:%d: %s: no extra options can be specified for %%s\n"
-msgstr "%s:%d: %s: %%s ne sprejema dodatnih izbir\n"
+msgstr "%s:%d: %s: lisävalitsimia ei voida määritellä kohteelle %%s\n"
 
 #: states/prims.c:1087
 #, c-format
 msgid "%s:%d: %s: illegal type specifier `%c'\n"
-msgstr "%s:%d: %s: nedovoljeno določilo tipa »%c«\n"
+msgstr "%s:%d: %s: virheellinen tyyppitarkenne ”%c”\n"
 
 #: states/process.c:115
 #, c-format
 msgid "%s: undefined state `%s'\n"
-msgstr "%s: nedoločeno stanje »%s«\n"
+msgstr "%s: määrittämätön tila ”%s”\n"
 
 #: states/process.c:196
 #, c-format
 msgid "%s: error: undefined variable `%s'\n"
-msgstr "%s: napaka: nedefinirana spremenljivka »%s«\n"
+msgstr "%s: virhe: määrittelemätön muuttuja ”%s”\n"
 
 #: states/process.c:290
 #, c-format
 msgid "%s: undefined super state `%s'\n"
-msgstr "%s: nedefinirano superstanje »%s«\n"
+msgstr "%s: määrittämätön super-tila ”%s”\n"
 
 #: states/utils.c:260
 #, c-format
 msgid "%s:%d: couldn't compile regular expression \"%s\": %s\n"
-msgstr "%s:%d: regularnega izraza \"%s\" ni mogoče prevesti: %s\n"
+msgstr "%s:%d: ei voitu kääntää säännöllistä lauseketta ”%s”: %s\n"
 
 #: states/utils.c:449 states/utils.c:477
 #, c-format
 msgid "%s: ouf of memory"
-msgstr "%s: zmanjkalo pomnilnika"
+msgstr "%s: muisti loppui"
 
 #: states/utils.c:454
 #, c-format
 msgid "warning: redefining state `%s'"
-msgstr "opozorilo: redefiniramo stanje »%s«"
+msgstr "varoitus: määritellään uudelleen tila ”%s”"
 
 #: states/utils.c:481
 #, c-format
 msgid "%s:%d: warning: redefining subroutine `%s'\n"
-msgstr "%s:%d: opozorilo: redefiniramo podprogram »%s«\n"
+msgstr "%s:%d: varoitus: uudelleenmääriteltiin alirutiini ”%s”\n"
 
 #: states/utils.c:578
 #, c-format
 msgid "%s:%d: error: undefined variable `%s'\n"
-msgstr "%s:%d: napaka: nedefinirana spremenljivka »%s«\n"
+msgstr "%s:%d: virhe: määrittelemätön muuttuja ”%s”\n"
 
 #: states/utils.c:616
 #, c-format
 msgid "%s:%d: error: couldn't set variable `%s'\n"
-msgstr "%s:%d: napaka: spremenljivke »%s« ni mogoče nastaviti\n"
+msgstr "%s:%d: virhe: ei voitu asettaa muuttujaa ”%s”\n"
 
 #: states/utils.c:767
 #, c-format
 msgid "%s:%d: error: expression between illegal types\n"
-msgstr "%s:%d: napaka: izraz med nedovoljenimi tipi\n"
+msgstr "%s:%d: virhe: lauseke virheellisten tyyppien välillä\n"
 
 #: states/utils.c:865
 #, c-format
 msgid "%s:%d: error: too few arguments for subroutine\n"
-msgstr "%s:%d: napaka: premalo argumentov za podprogram\n"
+msgstr "%s:%d: virhe: liian vähän argumentteja alirutiinille\n"
 
 #: states/utils.c:872
 #, c-format
 msgid "%s:%d: error: too many arguments for subroutine\n"
-msgstr "%s:%d: napaka: preveč argumentov za podprogram\n"
+msgstr "%s:%d: virhe: liian monia argumentteja alirutiinille\n"
 
 #: states/utils.c:926
 #, c-format
 msgid "%s:%d: error: undefined procedure `%s'\n"
-msgstr "%s:%d: napaka: nedefiniran podprogram »%s«\n"
+msgstr "%s:%d: virhe: määrittelemätön proseduuri ”%s”\n"
 
 #: states/utils.c:1018
 #, c-format
 msgid "%s:%d: error: illegal lvalue for assignment\n"
-msgstr "%s:%d: napaka: nedovoljena vrednost leve strani prireditve\n"
+msgstr "%s:%d: virhe: virheellinen lvalue-arvo sijoituksessa\n"
 
 #: states/utils.c:1026 states/utils.c:1110
 #, c-format
 msgid "%s:%d: error: array reference index is not integer\n"
-msgstr "%s:%d: napaka: indeks polja ni celo število\n"
+msgstr "%s:%d: virhe: taulukkoviiteindeksi ei ole kokonaisluku\n"
 
 #: states/utils.c:1032
 #, c-format
 msgid "%s:%d: error: negative array reference index\n"
-msgstr "%s:%d: napaka: indeks polja je negativen\n"
+msgstr "%s:%d: virhe: negatiivinen taulukkoviiteindeksi\n"
 
 #: states/utils.c:1083
 #, c-format
 msgid "%s:%d: error: illegal rvalue for string assignment\n"
-msgstr "%s:%d: napaka: nedovoljena vrednost na desni strani prireditve niza\n"
+msgstr "%s:%d: virhe: virheellinen rvalue-arvo merkkijonosijoituksessa\n"
 
 #: states/utils.c:1102
 #, c-format
 msgid "%s:%d: error: illegal type for array reference\n"
-msgstr "%s:%d: napaka: nedovoljen tip sklica na polje\n"
+msgstr "%s:%d: virhe: virheellinen tyyppi taulukkoviitteelle\n"
 
+#  Tässä pitäisi varmaan lukea range, ei rance
 #: states/utils.c:1119
 #, c-format
 msgid "%s:%d: error: array reference index out of rance\n"
-msgstr "%s:%d: napaka: indeks polja izven obsega\n"
+msgstr "%s:%d: virhe: taulukkoviiteindeksi lukualueen ulkopuolella\n"
 
 #: states/utils.c:1345
 #, c-format
 msgid "%s: couldn't open definition file `%s': %s\n"
-msgstr "%s: definicijske datoteke »%s« ni moč odpreti: %s\n"
+msgstr "%s: ei voitu avata määrittelytiedostoa ”%s”: %s\n"
 
 #: states/utils.c:1401
 #, c-format
 msgid "%s: autoloading `%s' from `%s'\n"
-msgstr "%s: samodejno nalaganje »%s« iz »%s«\n"
+msgstr "%s: ladataan ”%s” automaattisesti kohteesta ”%s”\n"
 
-#~ msgid "epsf: couldn't open pipe to command \"%s\": %s\n"
-#~ msgstr "epsf: cevovoda ni mogoče napeljati do ukaza \"%s\": %s\n"
-
-#, fuzzy
-#~ msgid "couldn't create toc file name: %s"
-#~ msgstr "preusmerjene izhodne datoteke ni mogoče zapisati: %s"
-
-#, fuzzy
-#~ msgid "couldn't create divert file \"%s\": %s"
-#~ msgstr "preusmerjene izhodne datoteke \"%s\" ni mogoče zapisati: %s"
-
-#, fuzzy
-#~ msgid ""
-#~ "Long-only options:\n"
-#~ "  --download-font=NAME       download font NAME\n"
-#~ "  --filter-stdin=NAME        specify how stdin is shown to the input filter\n"
-#~ "  --help                     print this help and exit\n"
-#~ "  --highlight-bar-gray=NUM   print highlight bars with gray NUM (0 - 1)\n"
-#~ "  --list-media               list names of all known media\n"
-#~ "  --list-options             list all options and their values\n"
-#~ "  --non-printable-format=FMT specify how non-printable chars are printed\n"
-#~ "  --page-label-format=FMT    set page label format to FMT\n"
-#~ "  --printer-options=OPTIONS  pass extra options to the printer command\n"
-#~ "  --ul-angle=ANGLE           set underlay text's angle to ANGLE\n"
-#~ "  --ul-font=NAME             print underlays with font NAME\n"
-#~ "  --ul-gray=NUM              print underlays with gray value NUM\n"
-#~ "  --ul-position=POS          set underlay's starting position to POS\n"
-#~ "  --ul-style=STYLE           print underlays with style STYLE\n"
-#~ msgstr ""
-#~ "Naslednje izbire imajo samo dolgo obliko:\n"
-#~ "  --download-font=IME        naložimo font IME\n"
-#~ "  --filter-stdin=IME         kako je stdin predstavljen vhodnemu filtru\n"
-#~ "  --help                     ta navodila\n"
-#~ "  --highlight-bar-gray=NUM   stopnja sivine črt za poudarke (0 - 1)\n"
-#~ "  --list-media               izpis vseh znanih formatov papirja\n"
-#~ "  --list-options             izpis nastavitev programa\n"
-#~ "  --non-printable-format=FMT kako naj se izpišejo non-printable znaki\n"
-#~ "  --page-label-format=FMT    določimo, kako se izpiše oznaka strani\n"
-#~ "  --printer-options=IZBIRE   dodatne izbire, ki jih podamo tiskalniku\n"
-#~ "  --ul-angle=KOT             KOT, pod katerim naj se izpiše besedilo v podlagi\n"
-#~ "  --ul-font=IME              font, v katerem se izpiše besedilo v podlagi\n"
-#~ "  --ul-gray=NUM              stopnja sivine za besedilo v podlagi (0 - 1)\n"
-#~ "  --ul-position=POS          podlaga naj se začne na mestu POS\n"
-#~ "  --ul-style=STIL            STIL, uporabljen za izpis podlage\n"
+#~ msgid "%s:%d: error: array reference index out of range\n"
+#~ msgstr "%s:%d: virhe: taulukkoviiteindeksi lukualueen ulkopuolella\n"
 
 #~ msgid ""
-#~ "  -f NAME, --font=NAME\t\tuse font NAME for body text\n"
-#~ "  -F NAME, --header-font=NAME\tuse font NAME for header texts\n"
-#~ "  -g, --print-anyway\t\tnothing (compatibility option)\n"
-#~ "  -G, --fancy-header[=NAME]\tselect fancy page header\n"
-#~ "  -h, --help\t\t\tprint this help and exit\n"
-#~ "  -i NUM, --indent=NUM\t\tset line indent to NUM\n"
-#~ "  -l, --lineprinter\t\tsimulate lineprinter:\n"
-#~ "\t\t\t  \t  --lines-per-page=65, --no-header,\n"
-#~ "\t\t\t\t  --portrait, --columns=1\n"
-#~ "  -L NUM, --lines-per-page=NUM\tspecify how many lines are printed on\n"
-#~ "\t\t\t\teach page\n"
-#~ "  -m, --mail\t\t\tsend mail upon completion\n"
+#~ "  -D, --define=VAR=VAL       define variable VAR to have value VAL\n"
+#~ "  -f, --file=NAME            read state definitions from file NAME\n"
+#~ "  -h, --help                 print this help and exit\n"
+#~ "  -o, --output=NAME          save output to file NAME\n"
+#~ "  -p, --path=PATH            set the load path to PATH\n"
+#~ "  -s, --state=NAME           start from state NAME\n"
+#~ "  -v, --verbose              increase the program verbosity\n"
+#~ "  -V, --version              print version number\n"
+#~ "  -W, --warning=LEVEL        set the warning level to LEVEL\n"
 #~ msgstr ""
-#~ "  -f IME, --font=IME\t\tuporabimo font IME za glavno besedilo\n"
-#~ "  -F IME, --header-font=IME\tuporabimo font IME za glavo\n"
-#~ "  -g, --print-anyway\t\tnič (zaradi združljivosti)\n"
-#~ "  -G, --fancy-header[=IME]\tizbira izumetničene glave\n"
-#~ "  -h, --help\t\t\tta navodila\n"
-#~ "  -i NUM, --indent=NUM\t\tNUM znakov zamika na levem robu\n"
-#~ "  -l, --lineprinter\t\timitacija vrstičnega tiskalnika:\n"
-#~ "\t\t\t  \t  --lines-per-page=65, --no-header,\n"
-#~ "\t\t\t\t  --portrait, --columns=1\n"
-#~ "  -L NUM, --lines-per-page=NUM\tkoliko vrstic besedila na stran\n"
-#~ "  -m, --mail\t\t\tsporočilo o opravljenem poslu po pošti\n"
+#~ "  -D, --define=VAR=VAL       määritä muuttujalle VAR arvo VAL\n"
+#~ "  -f, --file=NIMI            lue tilamäärittelyt tiedostosta NIMI\n"
+#~ "  -h, --help                 tulosta tämä opaste ja poistu\n"
+#~ "  -o, --output=NIMI          tallenna tuloste tiedostoon NIMI\n"
+#~ "  -p, --path=POLKU           aseta latauspoluksi POLKU\n"
+#~ "  -s, --state=NIMI           aloita tilasta NIMI\n"
+#~ "  -v, --verbose              kasvata ohjelman laveutta\n"
+#~ "  -V, --version              tulosta versionumero\n"
+#~ "  -W, --warning=TASO         aseta varoitustasoksi TASO\n"
 
-#~ msgid ""
-#~ "too long font name for ^@font escape:\n"
-#~ "%.*s"
-#~ msgstr ""
-#~ "predolgo ime datoteke za ubežno sekvenco ^@font:\n"
-#~ "%.*s"
+#~ msgid "or set the environment variable `ENSCRIPT_LIBRARY' to point to your library directory."
+#~ msgstr "tai aseta ympäristömuuttuja ”ENSCRIPT_LIBRARY” osoittamaan sinun kirjastohakemistoosi."
 
-#~ msgid "malformed ^@font escape: no '{' found"
-#~ msgstr "slabo definirana ubežna sekvenca ^@font: manjka ,{'"
+#~ msgid "[ %d pages * %d copies ]"
+#~ msgstr "[ %d sivua * %d kopiota ]"

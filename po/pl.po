@@ -1,183 +1,181 @@
-# -*- mode:po; coding:utf-8; -*- Slovenian messages for GNU enscript.
-# Copyright (C) 1996, 2005, 2007, 2011 Free Software Foundation, Inc.
+# Polish translation for enscript.
+# Copyright (C) 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the enscript package.
-# PrimoÅ¾ Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>, 1996, 2005, 2007, 2011.
-#
-# $Id: enscript-1.6.5.2.sl.po,v 1.3 2011/01/12 12:55:47 peterlin Exp $
+# Jakub Bogusz <qboosh@pld-linux.org>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: enscript 1.6.5.2\n"
+"Project-Id-Version: GNU enscript 1.6.5.2\n"
 "Report-Msgid-Bugs-To: bug-enscript@gnu.org\n"
 "POT-Creation-Date: 2010-06-02 00:17+0100\n"
-"PO-Revision-Date: 2011-01-12 13:55+0100\n"
-"Last-Translator: PrimoÅ¾ Peterlin <primozz.peterlin@gmail.com>\n"
-"Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2010-10-04 20:53+0200\n"
+"Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
+"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8-bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #: compat/getopt.c:628
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: izbira Â»%sÂ« ni enopomenska\n"
+msgstr "%s: opcja `%s' jest niejednoznaczna\n"
 
 #: compat/getopt.c:652
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: izbira Â»--%sÂ« ne dovoljuje argumenta\n"
+msgstr "%s: opcja `--%s' nie mo¿e mieæ argumentów\n"
 
 #: compat/getopt.c:657
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: izbira Â»%c%sÂ« ne dovoljuje argumenta\n"
+msgstr "%s: opcja `%c%s' nie mo¿e mieæ argumentów\n"
 
 #: compat/getopt.c:674 compat/getopt.c:847
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: izbira Â»%sÂ« zahteva argument\n"
+msgstr "%s: opcja `%s' musi mieæ argument\n"
 
 #: compat/getopt.c:703
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s: neprepoznana izbira Â»--%sÂ«\n"
+msgstr "%s: nieznana opcja `--%s'\n"
 
 #: compat/getopt.c:707
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s: neprepoznana izbira Â»%c%sÂ«\n"
+msgstr "%s: nieznana opcja `%c%s'\n"
 
 #: compat/getopt.c:733
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s: nedovoljena izbira -- %c\n"
+msgstr "%s: niedozwolona opcja -- %c\n"
 
 #: compat/getopt.c:736
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: neveljavna izbira -- %c\n"
+msgstr "%s: b³êdna opcja -- %c\n"
 
 #: compat/getopt.c:766 compat/getopt.c:896
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: izbira zahteva argument -- %c\n"
+msgstr "%s: opcja musi mieæ argument -- %c\n"
 
 #: compat/getopt.c:813
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: izbira Â»-W %sÂ« ni enopomenska\n"
+msgstr "%s: opcja `-W %s' jest niejednoznaczna\n"
 
 #: compat/getopt.c:831
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: izbira Â»-W %sÂ« ne dovoljuje argumenta\n"
+msgstr "%s: opcja `-W %s' nie mo¿e mieæ argumentów\n"
 
 #: compat/xalloc.c:70
 #, c-format
 msgid "xmalloc(): couldn't allocate %d bytes\n"
-msgstr "xmalloc(): ni mogoÄe rezervirati %d bajtov pomnilnika\n"
+msgstr "xmalloc(): nie uda³o siê przydzieliæ %d bajtów\n"
 
 #: compat/xalloc.c:88
 #, c-format
 msgid "xcalloc(): couldn't allocate %d bytes\n"
-msgstr "xcalloc(): ni mogoÄe rezervirati %d bajtov pomnilnika\n"
+msgstr "xcalloc(): nie uda³o siê przydzieliæ %d bajtów\n"
 
 #: compat/xalloc.c:109
 #, c-format
 msgid "xrealloc(): couldn't reallocate %d bytes\n"
-msgstr "xrealloc(): ni mogoÄe ponovno rezervirati %d bajtov pomnilnika\n"
+msgstr "xrealloc(): nie uda³o siê powiêkszyæ przydzielonego obszaru do %d bajtów\n"
 
 #: compat/regex.c:996
 msgid "Success"
-msgstr "UspeÅ¡no"
+msgstr "Sukces"
 
 #: compat/regex.c:997
 msgid "No match"
-msgstr "Brez zadetkov"
+msgstr "Nic nie pasuje"
 
 #: compat/regex.c:998
 msgid "Invalid regular expression"
-msgstr "Neveljaven regularni izraz"
+msgstr "B³êdne wyra¿enie regularne"
 
 #: compat/regex.c:999
 msgid "Invalid collation character"
-msgstr "Neveljaven razvrÅ¡Äevalni znak"
+msgstr "B³êdny znak sortowany"
 
 #: compat/regex.c:1000
 msgid "Invalid character class name"
-msgstr "Neveljavno ime razreda znakov"
+msgstr "B³êdna nazwa klasy znaków"
 
 #: compat/regex.c:1001
 msgid "Trailing backslash"
-msgstr "ZakljuÄna nagibnica"
+msgstr "Koñcz±cy znak `\\'"
 
 #: compat/regex.c:1002
 msgid "Invalid back reference"
-msgstr "Neveljavna povratna zveza"
+msgstr "B³êdne odniesienie wstecz"
 
 #: compat/regex.c:1003
 msgid "Unmatched [ or [^"
-msgstr "Znak [ ali [^ brez para"
+msgstr "Niesparowane [ lub [^"
 
 #: compat/regex.c:1004
 msgid "Unmatched ( or \\("
-msgstr "Znak ( ali \\( brez para"
+msgstr "Niesparowane ( lub \\("
 
 #: compat/regex.c:1005
 msgid "Unmatched \\{"
-msgstr "Znak \\{ brez para"
+msgstr "Niesparowane \\{"
 
 #: compat/regex.c:1006
 msgid "Invalid content of \\{\\}"
-msgstr "Neveljavna vsebina \\{\\}"
+msgstr "B³êdna zawarto¶æ \\{\\}"
 
 #: compat/regex.c:1007
 msgid "Invalid range end"
-msgstr "Neveljaven konec intervala"
+msgstr "B³êdny koniec zakresu"
 
 #: compat/regex.c:1008
 msgid "Memory exhausted"
-msgstr "Zmanjkalo pomnilnika"
+msgstr "Pamiêæ wyczerpana"
 
 #: compat/regex.c:1009
 msgid "Invalid preceding regular expression"
-msgstr "Neveljaven predhodni regularni izraz"
+msgstr "B³êdne poprzedzaj±ce wyra¿enie regularne"
 
 #: compat/regex.c:1010
 msgid "Premature end of regular expression"
-msgstr "Prezgodnji konec regularnega izraza"
+msgstr "Przedwczesny koniec wyra¿enia regularnego"
 
 #: compat/regex.c:1011
 msgid "Regular expression too big"
-msgstr "Prevelik regularni izraz"
+msgstr "Wyra¿enie regularne zbyt du¿e"
 
 #: compat/regex.c:1012
 msgid "Unmatched ) or \\)"
-msgstr "Znak ) ali \\) brez para"
+msgstr "Niesparowane ) lub \\)"
 
 #: compat/regex.c:5458
 msgid "No previous regular expression"
-msgstr "ManjkajoÄ predhodni regularni izraz"
+msgstr "Brak poprzedniego wyra¿enia regularnego"
 
 #: src/main.c:949
 #, no-c-format
 msgid "$3v $-40N $3% pages $4L lines  $E $C"
-msgstr "$3v $-40N $3% strani $4L vrstic  $E $C"
+msgstr "$3v $-40N $3% stron $4L linii  $E $C"
 
 #: src/main.c:979
 #, c-format
 msgid "couldn't get passwd entry for uid=%d: %s"
-msgstr "passwd ne vsebuje podatkov za UID=%d: %s"
+msgstr "nie uda³o siê uzyskaæ wpisu passwd dla uida %d: %s"
 
 #: src/main.c:1071
 #, c-format
 msgid "couldn't read config file \"%s/%s\": %s"
-msgstr "konfiguracijske datoteke \"%s/%s\" ni mogoÄe prebrati: %s"
+msgstr "nie uda³o siê odczytaæ pliku konfiguracyjnego \"%s/%s\": %s"
 
 #: src/main.c:1075
 msgid "I did also try the following directories:"
-msgstr "Poskusili smo tudi v naslednjih imenikih:"
+msgstr "Sprawdzano tak¿e w nastêpuj±cych katalogach:"
 
 #: src/main.c:1076 src/main.c:1077 src/main.c:1078
 #, c-format
@@ -194,7 +192,7 @@ msgstr "\t../../lib"
 
 #: src/main.c:1082
 msgid "This is probably an installation error.  Please, try to rebuild:"
-msgstr "Verjetno gre za napako pri namestitvi. Prosimo, ponovno prevedite:"
+msgstr "Prawdopodobnie jest to b³±d instalacji. Proszê spróbowaæ przebudowaæ:"
 
 #: src/main.c:1083
 msgid "\tmake distclean"
@@ -202,7 +200,7 @@ msgstr "\tmake distclean"
 
 #: src/main.c:1084
 msgid "\t./configure --prefix=PREFIX"
-msgstr "\t./configure --prefix=PREFIX"
+msgstr "\t./configure --prefix=PREFIKS"
 
 #: src/main.c:1085
 msgid "\tmake"
@@ -218,21 +216,21 @@ msgstr "\tmake install"
 
 #: src/main.c:1089
 msgid "or set the environment variable `ENSCRIPT_LIBRARY' to point to your"
-msgstr "ali nastavite lupinsko spremenljivko Â»ENSCRIPT_LIBRARYÂ« tako, da kaÅ¾e"
+msgstr "lub ustawiæ zmienn± ¶rodowiskow± `ENSCRIPT_LIBRARY', aby wskazywa³a"
 
 #: src/main.c:1091
 msgid "library directory."
-msgstr "na vaÅ¡ imenik s knjiÅ¾nicami."
+msgstr "na katalog z bibliotek±."
 
 #: src/main.c:1163
 #, c-format
 msgid "unknown encoding: %s"
-msgstr "neznani kodni nabor: %s"
+msgstr "nieznane kodowanie: %s"
 
 #: src/main.c:1182
 #, c-format
 msgid "couldn't open AFM library: %s"
-msgstr "knjiÅ¾nice AFM ni mogoÄe odpreti: %s"
+msgstr "nie uda³o siê otworzyæ biblioteki AFM: %s"
 
 #: src/main.c:1211
 #, c-format
@@ -241,57 +239,54 @@ msgid ""
 "name             width\theight\tllx\tlly\turx\tury\n"
 "------------------------------------------------------------\n"
 msgstr ""
-"znani formati papirja:\n"
-"ime              Å¡irina\tviÅ¡ina\tLLX\tLLY\tURX\tURY\n"
+"znane formaty:\n"
+"nazwa            szer.\twys.\tdlx\tdly\tgpx\tgpy\n"
 "------------------------------------------------------------\n"
 
 #: src/main.c:1230
 #, c-format
 msgid "do not know anything about media \"%s\""
-msgstr "format papirja \"%s\" je neznan"
+msgstr "brak informacji o formacie \"%s\""
 
 #: src/main.c:1274
 #, c-format
 msgid "set new marginals for media `%s' (%dx%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
-msgstr "nastavljeni novi robovi za medij Â»%sÂ« (%dÃ—%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
+msgstr "nowe marginesy dla formatu `%s' (%dx%d): dlx=%d, dly=%d, gpx=%d, gpy=%d\n"
 
 #: src/main.c:1285
 #, c-format
 msgid "illegal page label format \"%s\""
-msgstr "nedovoljena oznaka strani \"%s\""
+msgstr "niedozwolony format etykiety strony \"%s\""
 
-#  POZOR!!!  Tole je zelo grdo...
 #: src/main.c:1297
 #, c-format
 msgid "illegal non-printable format \"%s\""
-msgstr "nedovoljena ne-natisljiva oblika \"%s\""
+msgstr "niedozwolony, niedrukowalny format \"%s\""
 
 #: src/main.c:1311
 #, c-format
 msgid "illegal style for wrapped line marker: \"%s\""
-msgstr "nedovoljen slog oznaÄevalca nadaljevane vrstice: \"%s\""
+msgstr "niedozwolony znacznik stylu zawiniêtych linii: \"%s\""
 
 #: src/main.c:1321
 #, c-format
 msgid "illegal N-up argument: %d"
-msgstr "nedovoljen argument Â»N na stranÂ«: %d"
+msgstr "niedozwolony argument N-stron: %d"
 
 #: src/main.c:1326
 #, c-format
 msgid "N-up argument must be power of 2: %d"
-msgstr "pri Â»N na stranÂ« mora biti N potenca 2: %d"
+msgstr "Argument N-stron musi byæ potêg± 2: %d"
 
-#  POZOR!!!
 #: src/main.c:1403
 #, c-format
 msgid "malformed underlay position: %s"
-msgstr "skladenjska napaka pri poloÅ¾aju podlage: %s"
+msgstr "¼le okre¶lona pozycja podk³adu: %s"
 
-#  POZOR!!!
 #: src/main.c:1426
 #, c-format
 msgid "illegal underlay style: %s"
-msgstr "nedovoljen slog podlage: %s"
+msgstr "niedozwolony styl podk³adu: %s"
 
 #: src/main.c:1453
 #, c-format
@@ -299,118 +294,115 @@ msgid ""
 "Highlighting is supported for the following languages and file formats:\n"
 "\n"
 msgstr ""
-"Poudarjanje je podprto le za naslednje jezike in zapise datotek:\n"
+"Pod¶wietlanie jest obs³ugiwane dla nastêpuj±cych jêzyków i formatów plików:\n"
 "\n"
 
 #: src/main.c:1634
 #, c-format
 msgid "couldn't create temporary toc file: %s"
-msgstr "zaÄasne datoteke s kazalom ni mogoÄe ustvariti: %s"
+msgstr "nie uda³o siê utworzyæ pliku tymczasowego toc: %s"
 
 #: src/main.c:1681
 #, c-format
 msgid "couldn't stat input file \"%s\": %s"
-msgstr "ni moÄ priti do podatkov o datoteki \"%s\": %s"
+msgstr "nie uda³o siê wykonaæ stat na pliku wej¶ciowym \"%s\": %s"
 
 #: src/main.c:1701
 #, c-format
 msgid "couldn't rewind toc file: %s"
-msgstr "kazala ni moÄ previti na zaÄetek: %s"
+msgstr "nie uda³o siê przewin±æ pliku toc: %s"
 
 #: src/main.c:1707
 msgid "Table of Contents"
-msgstr "Kazalo"
+msgstr "Spis tre¶ci"
 
 #: src/main.c:1733
 msgid "no output generated\n"
-msgstr "brez izpisa\n"
+msgstr "nie utworzono wyj¶cia\n"
 
 #: src/main.c:1738
 #, c-format
 msgid "output sent to %s\n"
-msgstr "izpis poslan na %s\n"
+msgstr "wyj¶cie wys³ano do %s\n"
 
 #: src/main.c:1739 src/main.c:1763
 msgid "printer"
-msgstr "tiskalnik"
+msgstr "drukarki"
 
 #: src/main.c:1741
 #, c-format
 msgid "output left in %s\n"
-msgstr "izpis zapisan na %s\n"
+msgstr "wyj¶cie pozostawiono w %s\n"
 
 #: src/main.c:1759
 #, c-format
 msgid "[ %d pages * %d copy ]"
-msgstr "[ %d strani Ã— %d kopij ]"
+msgstr "[ %d stron * %d kopii ]"
 
 #: src/main.c:1762
 #, c-format
 msgid " sent to %s\n"
-msgstr " poslano na %s\n"
+msgstr " wys³ano do %s\n"
 
 #: src/main.c:1765
 #, c-format
 msgid " left in %s\n"
-msgstr " zapisanih na %s\n"
+msgstr " pozostawiono w %s\n"
 
 #: src/main.c:1771
 #, c-format
 msgid "%d line was %s\n"
 msgid_plural "%d lines were %s\n"
-msgstr[0] "%d vrstic je bilo %s\n"
-msgstr[1] "%d vrstica je bila %s\n"
-msgstr[2] "%d vrstici sta bili %s\n"
-msgstr[3] "%d vrstice so bile %s\n"
+msgstr[0] "%d liniê %s\n"
+msgstr[1] "%d linie %s\n"
+msgstr[2] "%d linii %s\n"
 
 #: src/main.c:1776
 msgid "truncated"
-msgstr "odrezanih"
+msgstr "uciêto"
 
 #: src/main.c:1776
 msgid "wrapped"
-msgstr "nadaljevanih v naslednji vrstici"
+msgstr "zawiniêto"
 
 #: src/main.c:1783
 #, c-format
 msgid "%d character was missing\n"
 msgid_plural "%d characters were missing\n"
-msgstr[0] "%d znakov je manjkalo\n"
-msgstr[1] "%d znak je manjkal\n"
-msgstr[2] "%d znaka sta manjkala\n"
-msgstr[3] "%d znaki so manjkali\n"
+msgstr[0] "%d brakuj±cy znak\n"
+msgstr[1] "%d brakuj±ce znaki\n"
+msgstr[2] "%d brakuj±cych znaków\n"
 
 #: src/main.c:1789
 msgid "missing character codes (decimal):\n"
-msgstr "kode manjkajoÄih znakov (desetiÅ¡ko):\n"
+msgstr "kody brakuj±cych znaków (dziesiêtnie):\n"
 
 #: src/main.c:1798
 #, c-format
 msgid "%d non-printable character\n"
 msgid_plural "%d non-printable characters\n"
-msgstr[0] "%d neizpisljivih znakov\n"
-msgstr[1] "%d neizpisljiv znak\n"
-msgstr[2] "%d neizpisljiva znaka\n"
-msgstr[3] "%d neizpisljivi znaki\n"
+msgstr[0] "%d znak niedrukowalny\n"
+msgstr[1] "%d znaki niedrukowalne\n"
+msgstr[2] "%d znaków niedrukowalnych\n"
 
 #: src/main.c:1805
 msgid "non-printable character codes (decimal):\n"
-msgstr "kode neizpisljivih znakov (desetiÅ¡ko):\n"
+msgstr "kody znaków niedrukowalnych (dziesiêtnie):\n"
 
 #: src/main.c:1854
 #, c-format
 msgid "couldn't open printer `%s': %s"
-msgstr "tiskalnik Â»%sÂ« ni dostopen: %s"
+msgstr "nie uda³o siê otworzyæ drukarki `%s': %s"
 
 #: src/main.c:1863
 #, c-format
 msgid "couldn't create output file \"%s\": %s"
-msgstr "izhodne datoteke \"%s\" ni mogoÄe zapisati: %s"
+msgstr "nie uda³o siê utworzyæ pliku wyj¶ciowego \"%s\": %s"
 
 #: src/main.c:1880
 #, c-format
 msgid "couldn't close output file \"%s\": %s"
-msgstr "izhodne datoteke \"%s\" ni mogoÄe zapreti: %s"
+msgstr "nie uda³o siê zamkn±æ pliku wyj¶ciowego \"%s\": %s"
 
 #: src/main.c:1938
 #, c-format
@@ -418,65 +410,65 @@ msgid ""
 "syntax error in option string %s=\"%s\":\n"
 "missing end of quotation: %c"
 msgstr ""
-"skladenjska napaka pri izbiri %s=\"%s\":\n"
-"manjka konÄni narekovaj: %c"
+"b³±d sk³adni w ³añcuchu opcji %s=\"%s\":\n"
+"brak koñca cytowania: %c"
 
 #: src/main.c:1970
 #, c-format
 msgid "warning: didn't process following options from environment variable %s:\n"
-msgstr "pozor: naslednje izbire v spremenljivki %s niso bile obdelane:\n"
+msgstr "uwaga: nie przetworzono nastêpuj±cych opcji ze zmiennej ¶rodowiskowej %s:\n"
 
 #: src/main.c:1974
 #, c-format
 msgid "  option %d = \"%s\"\n"
-msgstr "  izbira %d = \"%s\"\n"
+msgstr "  opcja %d = \"%s\"\n"
 
 #: src/main.c:2020
 msgid "number of columns must be larger than zero"
-msgstr "Å¡tevilo stolpcev mora biti veÄje od niÄ"
+msgstr "numery kolumn musz± byæ wiêksze od zera"
 
 #: src/main.c:2078
 msgid "file alignment must be larger than zero"
-msgstr "poravnava datotek mora biti veÄja od niÄ"
+msgstr "wyrównanie pliku musi byæ wiêksze od zera"
 
 #: src/main.c:2133 src/main.c:2139 src/main.c:2350 src/util.c:416
 #, c-format
 msgid "malformed font spec: %s"
-msgstr "slabo naveden font: %s"
+msgstr "¼le sformu³owane okre¶lenie fontu: %s"
 
 #: src/main.c:2155
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\""
-msgstr "datoteke \"%s.hdr\" z definicijo glave ni mogoÄe najti"
+msgstr "nie znaleziono pliku definicji nag³ówka \"%s.hdr\""
 
 #: src/main.c:2199
 #, c-format
 msgid "must print at least one line per each page: %s"
-msgstr "na vsaki strani mora biti vsaj ena vrstica: %s"
+msgstr "na ka¿dej stronie musi byæ przynajmniej jedna linia: %s"
 
 #: src/main.c:2219
 #, c-format
 msgid "%s: illegal newline character specifier: '%s': expected 'n' or 'r'\n"
-msgstr "%s: ,%s' ni dovoljeni znak za novo vrstico: ,n' ali ,r' sta\n"
+msgstr "%s: niedozwolone okre¶lenie znaku nowej linii: '%s': oczekiwano 'n' lub 'r'\n"
 
 #: src/main.c:2308
 #, c-format
 msgid "malformed argument `%s' for option -W, --option: no comma found"
-msgstr "skladenjska napaka pri argumentu Â»%sÂ« izbire -W, --izbira: manjkajoÄa vejica"
+msgstr "¼le sformu³owany argument `%s' dla opcji -W, --option: nie znaleziono przecinka"
 
 #: src/main.c:2313
 #, c-format
 msgid "helper application specification must be single character: %s"
-msgstr "doloÄitev pomoÅ¾nega programa mora biti dolga en znak: %s"
+msgstr "okre¶lenie aplikacji pomocniczej musi byæ jednym znakiem: %s"
 
 #: src/main.c:2409
 msgid "slice must be greater than zero"
-msgstr "rezina mora biti veÄja od niÄ"
+msgstr "pas musi byæ wiêkszy od zera"
 
 #: src/main.c:2490 states/main.c:318
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Poskusite ,%s --help' za obÅ¡irnejÅ¡e informacije.\n"
+msgstr "`%s --help' pozwoli uzyskaæ wiêcej informacji.\n"
 
 #: src/main.c:2510
 #, c-format
@@ -499,27 +491,27 @@ msgid ""
 "                             pass a page device definition to output\n"
 "  -e, --escapes[=CHAR]       enable special escape interpretation\n"
 msgstr ""
-"Uporaba: %s [izbire] [datoteka] ...\n"
-"Argumenti, obvezni za dolge oblike izbir, so obvezni tudi za kratke.\n"
-"  -#                         sopomenka za izbiro -n, --copies\n"
-"  -1                         isto kot --columns=1\n"
-"  -2                         isto kot --columns=2\n"
-"      --columns=NUM          Å¡tevilo stolpcev na strani\n"
-"  -a, --pages=STRANI         doloÄimo strani, ki naj se odtisnejo\n"
-"  -b, --header=GLAVA         naslovna glava na strani\n"
-"  -B, --no-header            brez naslovne glave\n"
-"  -c, --truncate-lines       predolge vrstice porezane (privzeta izbira\n"
-"                             je nadaljevanje v naslednji vrstici)\n"
-"  -C, --line-numbers[=START] vsaka vrstica oznaÄena s Å¡tevilko vrstice\n"
-"  -d                         sopomenka za izbiro --printer\n"
-"  -D, --setpagedevice=KLJUÄŒ[:VREDNOST]\n"
-"                             definicijo naprave strani posredujemo na izhod\n"
-"  -e, --escapes[=ZNAK]       omogoÄenje posebnih ubeÅ¾nih zaporedij\n"
+"Sk³adnia: %s [OPCJA]... [PLIK]...\n"
+"Argumenty obowi±zkowe dla opcji d³ugich s± obowi±zkowe tak¿e dla opcji krótkich.\n"
+"  -#                         alias dla opcji -n, --copies\n"
+"  -1                         to samo, co --columns=1\n"
+"  -2                         to samo, co --columns=2\n"
+"      --columns=LICZBA       okre¶lenie liczby kolumn na stronie\n"
+"  -a, --pages=STRONY         okre¶lenie stron do wydrukowania\n"
+"  -A, --file-align=WYRÓWN    wyrównanie osobnych plików wej¶ciowych\n"
+"  -b, --header=NAG£ÓWEK      ustawienie nag³ówka strony\n"
+"  -B, --no-header            bez nag³ówków stron\n"
+"  -c, --truncate-lines       ucinanie d³ugich linii (domy¶lne jest zawijanie).\n"
+"  -C, --line-numbers[=POCZ]  poprzedzanie wszystkich linii ich numerem\n"
+"  -d                         alias dla opcji --printer\n"
+"  -D, --setpagedevice=KLUCZ[:WARTO¦Æ]\n"
+"                             przekazanie na wyj¶cie definicji urz±dzenia str.\n"
+"  -e, --escapes[=ZNAK]       w³±czenie interpretacji znaków specjalnych\n"
 
 #: src/main.c:2530
 #, c-format
 msgid "  -E, --highlight[=LANG]     highlight source code\n"
-msgstr "  -E, --highlight[=JEZIK]    poudarki izvorne kode\n"
+msgstr "  -E, --highlight[=JÊZYK]    podkre¶lanie sk³adni kodu ¼ród³owego\n"
 
 #: src/main.c:2533
 #, c-format
@@ -541,20 +533,20 @@ msgid ""
 "                               --lines-per-page=66, --no-header, --portrait,\n"
 "                               --columns=1\n"
 msgstr ""
-"  -f, --font=IME             uporabimo font IME za glavno besedilo\n"
-"  -F, --header-font=IME      uporabimo font IME za naslovno glavo\n"
-"  -g, --print-anyway         niÄ (zdruÅ¾ljivost s prejÅ¡njimi verzijami)\n"
-"  -G                         isto kot --fancy-header\n"
-"      --fancy-header[=IME]   izberemo razkoÅ¡nejÅ¡o naslovno glavo\n"
-"  -h, --no-job-header        brez uvodne strani\n"
-"  -H, --highlight-bars=NUM   viÅ¡ina oznaÄb za poudarjanje\n"
-"  -i, --indent=NUM           zamik levega roba NUM znakov\n"
-"  -I, --filter=CMD           pri branju vhodnih datotek uporabimo filter CMD\n"
-"  -j, --borders              okvirji okoli stolpcev pri odtisu v veÄ stolpcih\n"
-"  -J                         sopomenka za izbiro --title\n"
-"  -k, --page-prefeed         omogoÄimo ,page prefeed'\n"
-"  -K, --no-page-prefeed      onemogoÄimo ,page prefeed'\n"
-"  -l, --lineprinter          imitacija vrstiÄnega tiskalnika; sopomenka za:\n"
+"  -f, --font=NAZWA           u¿ycie fontu o tej NAZWIE dla g³ównego tekstu\n"
+"  -F, --header-font=NAZWA    u¿ycie fontu o tej NAZWIE dla tekstu nag³ówków\n"
+"  -g, --print-anyway         nic (opcja dla kompatybilno¶ci)\n"
+"  -G                         to samo, co --fancy-header\n"
+"      --fancy-header[=NAZWA] wybór ozdobnego nag³ówka strony\n"
+"  -h, --no-job-header        pominiêcie strony nag³ówka zadania\n"
+"  -H, --highlight-bars=ILE   okre¶lenie wysoko¶ci pasków podkre¶lenia\n"
+"  -i, --indent=LICZBA        ustawienie wciêæ linii na podan± liczbê znaków\n"
+"  -I, --filter=POLECENIE     odczyt plików wej¶ciowych poprzez filtr wej¶ciowy\n"
+"  -j, --borders              drukowanie ramek wokó³ kolumn\n"
+"  -J                         alias dla opcji --title\n"
+"  -k, --page-prefeed         w³±czenie page_prefeed\n"
+"  -K, --no-page-prefeed      wy³±czenie page_prefeed\n"
+"  -l, --lineprinter          symulacja drukarki wierszowej - alias dla:\n"
 "                               --lines-per-page=66, --no-header, --portrait,\n"
 "                               --columns=1\n"
 
@@ -576,21 +568,20 @@ msgid ""
 "  -r, --landscape            print in landscape mode\n"
 "  -R, --portrait             print in portrait mode\n"
 msgstr ""
-"  -L, --lines-per-page=NUM   Å¡tevilo vrstic besedila na strani\n"
-"  -m, --mail                 sporoÄilo o opravljenem poslu po poÅ¡ti\n"
-"  -M, --media=IME            format papirja IME\n"
-"  -n, --copies=NUM           Å¡tevilo izvodov vsake strani\n"
-"  -N, --newline=NL           izbira znaka za konec vrstice.  MoÅ¾nosti za NL\n"
-"                             sta: n (Â»\\nÂ«) in r (Â»\\rÂ«).\n"
-"  -o                         sopomenka za izbiro --output\n"
-"  -O, --missing-characters   seznam kod manjkajoÄih znakov\n"
-"  -p, --output=IME           zapis izhoda na datoteko z imenom IME. ÄŒe je ime\n"
-"                             Â»-Â«, zapis na standardni izhod.\n"
-"                             ÄŒe je IME ,-', izpis na standardni izhod.\n"
-"  -P, --printer=IME          odtis izhoda na tiskalnik IME\n"
-"  -q, --quiet, --silent      brez obvestil\n"
-"  -r, --landscape            podolÅ¾ni odtis\n"
-"  -R, --portrait             pokonÄni odtis\n"
+"  -L, --lines-per-page=ILE   okre¶lenie liczby wierszy drukowanych na stronie\n"
+"  -m, --mail                 wys³anie e-mailem po zakoñczeniu\n"
+"  -M, --media=NAZWA          u¿ycie no¶nika wyj¶ciowego o podanej NAZWIE\n"
+"  -n, --copies=LICZBA        wydrukowanie podanej liczby kopii ka¿dej strony\n"
+"  -N, --newline=NL           wybór znaku nowej linii; mo¿liwe warto¶ci:\n"
+"                               n (`\\n'), r (`\\r').\n"
+"  -o                         alias dla opcji --output\n"
+"  -O, --missing-characters   wypisanie brakuj±cych znaków\n"
+"  -p, --output=PLIK          przekierowanie wyj¶cia do podanego PLIKU;\n"
+"                             je¶li PLIK to `-', to na standardowe wyj¶cie.\n"
+"  -P, --printer=NAZWA        wydrukowanie wyj¶cia na podanej drukarce\n"
+"  -q, --quiet, --silent      naprawdê cicha praca\n"
+"  -r, --landscape            drukowanie w trybie pejza¿owym\n"
+"  -R, --portrait             drukowanie w trybie portretowym\n"
 
 #: src/main.c:2567
 #, c-format
@@ -612,22 +603,22 @@ msgid ""
 "  -Z, --pass-through         pass through PostScript and PCL files\n"
 "                             without any modifications\n"
 msgstr ""
-"  -s, --baselineskip=NUM     razmik med vrsticami naj bo NUM (v 1/72\")\n"
-"  -S, --statusdict=KLJUÄŒ[:VREDNOST]\n"
-"                             definicije Â»statusdictÂ« posredujemo na izhod\n"
-"  -t, --title=NASLOV         nadnaslov, izpisan na vsaki strani. Izbira nastavi\n"
-"                             tudi ime vhodne datoteke standardni vhod.\n"
-"  -T, --tabsize=NUM          tabulator na NUM znakov (privzeto 8)\n"
-"  -u, --underlay[=BESEDILO]  besedilo, izpisano kot podloga na vsaki strani\n"
-"  -U, --nup=NUM              Å¡tevilo logiÄnih strani na vsaki strani papirja\n"
-"  -v, --verbose              z izÄrpnim poroÄilom med izvajanjem\n"
-"  -V, --version              izdaja programa\n"
-"  -w, --language=JEZIK       nastavi izhodni JEZIK\n"
-"  -W, --options=PROG,IZBIRA  posreduj IZBIRO pomoÅ¾nemu programu PROG\n"
-"  -X, --encoding=IME         IME kodnega nabora vhodnega besedila\n"
-"  -z, --no-formfeed          v besedilu ignoriraj znake za skok na novo stran\n"
-"  -Z, --pass-through         datoteke v formatu PostScript ali PCL\n"
-"                             odtisni brez sprememb\n"
+"  -s, --baselineskip=LICZBA  ustawienie baselineskip na podan± LICZBÊ\n"
+"  -S, --statusdict=KLUCZ[:WARTO¦Æ]\n"
+"                             przekazanie na wyj¶cie definicji statusdict\n"
+"  -t, --title=TYTU£          ustawienie tytu³u zadania strony tytu³owej;\n"
+"                             opcja ustawia tek¿e nazwê pliku dla stdin.\n"
+"  -T, --tabsize=LICZBA       ustawienie rozmiaru tabulatora na LICZBÊ\n"
+"  -u, --underlay[=TEKST]     drukowanie TEKSTU pod ka¿d± stron±\n"
+"  -U, --nup=ILE              drukowanie TYLU stron logicznych na ka¿dej stronie\n"
+"  -v, --verbose              informowanie o wykonywanych operacjach\n"
+"  -V, --version              wypisanie numeru wersji\n"
+"  -w, --language=JÊZYK       ustawienie podanego JÊZYKA dla wyj¶cia\n"
+"  -W, --options=AP,OPCJA     przekazanie OPCJI do aplikacji pomocniczej AP\n"
+"  -X, --encoding=NAZWA       u¿ycie podanego kodowania dla wej¶cia\n"
+"  -z, --no-formfeed          bez interpretowania znaków form feed\n"
+"  -Z, --pass-through         przepuszczanie plików PostScript i PCL bez\n"
+"                             ¿adnych modyfikacji\n"
 
 #: src/main.c:2585
 #, c-format
@@ -643,16 +634,16 @@ msgid ""
 "  --h-column-height=HEIGHT   set the horizontal column height to HEIGHT\n"
 "  --help                     print this help and exit\n"
 msgstr ""
-"Naslednje izbire imajo samo dolgo obliko:\n"
-"  --color[=bool]             ustvari barvne izpise s stanji\n"
-"  --continuous-page-numbers  Å¡tevilke strani se nadaljujejo prek veÄ vhodnih\n"
-"                             datotek; ne zaÄni paginacije pri vsaki datoteki od 1.\n"
-"  --download-font=IME        naloÅ¾imo pisavo IME\n"
-"  --extended-return-values   omogoÄi razÅ¡irjene izhodne kode\n"
-"  --filter-stdin=IME         kako je stdin predstavljen vhodnemu filtru\n"
-"  --footer=NOGA              nastavi nogo strani\n"
-"  --h-column-height=VIÅ INA   nastavi VIÅ INO vodoravnega stolpca\n"
-"  --help                     ta navodila\n"
+"Opcje tylko d³ugie:\n"
+"  --color[=FLAGA]            tworzenie kolorowego wyj¶cia ze stanami\n"
+"  --continuous-page-numbers  numerowanie stron poprzez wszystkie pliki wej.\n"
+"                             bez restartowania na pocz±tku ka¿dego pliku\n"
+"  --download-font=NAZWA      ¶ci±gniêcie fontu o podanej NAZWIE\n"
+"  --extended-return-values   w³±czenie rozszerzonych kodów wyj¶cia\n"
+"  --filter-stdin=NAZWA       okre¶lenie nazwy stdin przekazanej do filtra\n"
+"  --footer=STOPKA            ustawienie stopki strony\n"
+"  --h-column-height=WYS      ustawienie podanej wysoko¶ci kolumny poziomej\n"
+"  --help                     wy¶wietlenie tego opisu i zakoñczenie\n"
 
 #: src/main.c:2596
 #, c-format
@@ -667,13 +658,15 @@ msgid ""
 "                             mark wrapped lines in the output with STYLE\n"
 "  --non-printable-format=FMT specify how non-printable chars are printed\n"
 msgstr ""
-"  --help-highlight           opiÅ¡i vse podprte jezike in zapise za --highlight\n"
-"  --highlight-bar-gray=NUM   stopnja sivine Ärt za poudarke (0 - 1)\n"
-"  --list-media               izpis vseh znanih formatov papirja\n"
-"  --margins=LEVA:DESNA:VRH:DNO\n"
-"                             nastavi robove strani\n"
-"  --mark-wrapped-lines[SLOG] s SLOGOM oznaÄi prelomljene vrstice na izhodu\n"
-"  --non-printable-format=FMT kako naj se izpiÅ¡ejo non-printable znaki\n"
+"  --help-highlight           opis wszystkich obs³ugiwanych jêzyków i formatów\n"
+"                             dla --highlight\n"
+"  --highlight-bar-gray=ILE   drukowanie pasków podkre¶lenia szaro¶ci± (0-1)\n"
+"  --list-media               wypisanie nazw znanych no¶ników\n"
+"  --margins=LEWY:PRAWY:GÓRNY:DOLNY\n"
+"                             zmiana marginesów stron\n"
+"  --mark-wrapped-lines[STYL]\n"
+"                             oznaczenie zawieniêtych linii wyj¶cia\n"
+"  --non-printable-format=FMT okre¶lenie, jak drukowaæ znaki niedrukowalne\n"
 
 #: src/main.c:2607
 #, c-format
@@ -687,13 +680,14 @@ msgid ""
 "  --printer-options=OPTIONS  pass extra options to the printer command\n"
 "  --rotate-even-pages        rotate even-numbered pages 180 degrees\n"
 msgstr ""
-"  --nup-columnwise           postavitev veÄ logiÄnih strani na stran v stolpcih\n"
-"  --nup-xpad=NUM             nastavi razmak v smeri x pri tiskanju Â»veÄ na stranÂ«\n"
-"  --nup-ypad=NUM             nastavi razmak v smeri y pri tiskanju Â»veÄ na stranÂ«\n"
-"  --page-label-format=FMT    nastavi obliko oznake strani na FMT\n"
-"  --ps-level=LEVEL           nastavi raven PostScripta, ki naj jo enscript uporabi\n"
-"  --printer-options=IZBIRE   posreduj dodatne izbire ukazu za tiskanje\n"
-"  --rotate-even-pages        obrni lihe strani za 180Â°\n"
+"  --nup-columnwise           rozk³adanie wydruku kolumnowo po N stron\n"
+"  --nup-xpad=LICZBA          ustawienie wype³nienia poz. drukowania po N stron\n"
+"  --nup-ypad=LICZBA          ustawienie wype³nienia pion. drukowania po N stron\n"
+"  --page-label-format=FMT    ustawienie podanego formatu etykiety stron\n"
+"  --ps-level=POZIOM          ustawienie poziomu jêzyka PostScript, jaki ma\n"
+"                             u¿ywaæ enscript\n"
+"  --printer-options=OPCJE    przekazanie dodatkowych opcji poleceniu drukarki\n"
+"  --rotate-even-pages        obrócenie stron parzystych o 180 stopni\n"
 
 #: src/main.c:2617
 #, c-format
@@ -710,16 +704,17 @@ msgid ""
 "  --ul-style=STYLE           print underlays with style STYLE\n"
 "  --word-wrap                wrap long lines from word boundaries\n"
 msgstr ""
-"  --slice=NUM                odtisni navpiÄne rezine velikosti NUM\n"
-"  --style=SLOG               uporabi navedeni SLOG za poudarke\n"
-"  --swap-even-page-margins   zamenjaj levi in desni rob pri lihih straneh\n"
-"  --toc                      odtisni kazalo\n"
-"  --ul-angle=KOT             nastavi KOT izpisa podloÅ¾enega besedila\n"
-"  --ul-font=IME              izberi IME pisave podloÅ¾enega besedila\n"
-"  --ul-gray=NUM              nastavi stopnjo sivine podloÅ¾enega besedila\n"
-"  --ul-position=POLOÅ½AJ      nastavi zaÄetni POLOÅ½AJ podloÅ¾enega besedila\n"
-"  --ul-style=SLOG            odtisni podloÅ¾eno besedilo v navedenem SLOGU\n"
-"  --word-wrap                razdeli predolge vrstice na meji besed\n"
+"  --slice=NUMER              druk pasa pionowego o podanym NUMERZE\n"
+"  --style=STYL               u¿ycie podanego STYLU podkre¶leñ\n"
+"  --swap-even-page-margins   zamiana lewego i prawego marginesu dla wszystkich\n"
+"                             stron parzystych\n"
+"  --toc                      wydrukowanie spisu tre¶ci\n"
+"  --ul-angle=K¡T             ustawienie podanego K¡TA tekstu podk³adu\n"
+"  --ul-font=NAZWA            druk podk³adu fontem o podanej NAZWIE\n"
+"  --ul-gray=ILE              druk podk³adu szaro¶ci± o podanej warto¶ci\n"
+"  --ul-position=POZYCJA      ustawienie pocz±tkowej POZYCJI podk³adu\n"
+"  --ul-style=STYL            druk podk³adu przy u¿yciu podanego STYLU\n"
+"  --word-wrap                zawijanie d³ugich linii na granicy s³ów\n"
 
 #: src/main.c:2631
 #, c-format
@@ -728,50 +723,50 @@ msgid ""
 "Report bugs to <%s>.\n"
 msgstr ""
 "\n"
-"PoroÄila o napakah: <%s>.\n"
+"B³êdy prosimy zg³aszaæ na adres <%s>.\n"
 
 #: src/psgen.c:331
 #, c-format
 msgid "couldn't find prolog \"%s\": %s\n"
-msgstr "uvoda \"%s\" ni moÄ najti: %s\n"
+msgstr "nie znaleziono prologu \"%s\": %s\n"
 
 #: src/psgen.c:339
 #, c-format
 msgid "couldn't find encoding file \"%s.enc\": %s\n"
-msgstr "kodne datoteke \"%s.enc\" ni moÄ najti: %s\n"
+msgstr "nie znaleziono pliku kodowania \"%s.enc\": %s\n"
 
 #: src/psgen.c:471
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\": %s\n"
-msgstr "datoteke z definicijo glave \"%s.hdr\" ni moÄ najti: %s\n"
+msgstr "nie znaleziono pliku definicji nag³ówka \"%s.hdr\": %s\n"
 
 #: src/psgen.c:615
 #, c-format
 msgid "processing file \"%s\"...\n"
-msgstr "obdelujemo datoteko \"%s\"...\n"
+msgstr "przetwarzanie pliku \"%s\"...\n"
 
 #: src/psgen.c:913
 #, c-format
 msgid "EPS file \"%s\" is too large for page\n"
-msgstr "EPS datoteka \"%s\" je prevelika za stran\n"
+msgstr "plik EPS \"%s\" jest zbyt du¿y dla strony\n"
 
 #: src/psgen.c:986
 msgid "user font encoding can be only the system's default or `ps'"
-msgstr "uporabniÅ¡ki nabor pisave je lahko le privzeta sistemska izbira ali Â»psÂ«"
+msgstr "kodowanie fontu u¿ytkownika mo¿e byæ tylko domy¶lnym systemowym lub `ps'"
 
 #: src/psgen.c:1228
 #, c-format
 msgid "unknown special escape: %s"
-msgstr "neprepoznano posebna ubeÅ¾no zaporedje: %s"
+msgstr "nieznany znak specjalny: %s"
 
 #: src/psgen.c:1354
 #, c-format
 msgid "illegal option %c for ^@epsf escape"
-msgstr "nedovoljena izbira %c za ubeÅ¾no zaporedje ^@epsf"
+msgstr "niedozwolona opcja %c dla sekwencji ^@epsf"
 
 #: src/psgen.c:1360
 msgid "malformed ^@epsf escape: no ']' after options"
-msgstr "skladenjska napaka v ubeÅ¾nem zaporedju ^@epsf: manjka Â»]Â« za izbirami"
+msgstr "b³êdna sekwencja ^@epsf: brak ']' po opcjach"
 
 #: src/psgen.c:1372
 #, c-format
@@ -779,21 +774,21 @@ msgid ""
 "too long file name for ^@epsf escape:\n"
 "%.*s"
 msgstr ""
-"predolgo ime datoteke za ubeÅ¾no zaporedje ^@epsf:\n"
+"zbyt d³uga nazwa pliku dla sekwencji ^@epsf:\n"
 "%.*s"
 
 #: src/psgen.c:1376
 msgid "unexpected EOF while scanning ^@epsf escape"
-msgstr "nepriÄakovan znak EOF med branjem ubeÅ¾nega zaporedja ^@epsf"
+msgstr "nieoczekiwany koniec pliku przy przeszukiwaniu sekwencji ^@epsf"
 
 #: src/psgen.c:1382
 msgid "malformed ^@epsf escape: no '{' found"
-msgstr "skladenjska napaka v ubeÅ¾nem zaporedju ^@epsf: manjka Â»{Â«"
+msgstr "b³êdna sekwencja ^@epsf: nie znaleziono '{'"
 
 #: src/psgen.c:1440
 #, c-format
 msgid "malformed %s escape: no '{' found"
-msgstr "skladenjska napaka v ubeÅ¾nem zaporedju %s: manjka Â»{Â«"
+msgstr "b³êdna sekwencja specjalna %s: nie znaleziono '{'"
 
 #: src/psgen.c:1454
 #, c-format
@@ -801,38 +796,38 @@ msgid ""
 "too long argument for %s escape:\n"
 "%.*s"
 msgstr ""
-"predolg argument za ubeÅ¾no zaporedje %s:\n"
+"zbyt d³ugi argument dla sekwencji specjalnej %s:\n"
 "%.*s"
 
 #: src/psgen.c:1474
 #, c-format
 msgid "malformed font spec for ^@font escape: %s"
-msgstr "skladenjska napaka v doloÄitvi pisave za ubeÅ¾no zaporedje ^@font: %s"
+msgstr "b³êdna specyfikacja fontu dla sekwencji ^@font: %s"
 
 #: src/psgen.c:1511
 #, c-format
 msgid "malformed color spec for ^@%s escape: %s"
-msgstr "skladenjska napaka v doloÄitvi barve za ubeÅ¾no zaporedje ^@%s: %s"
+msgstr "b³êdna specyfikacja koloru dla sekwencji ^@%s: %s"
 
 #: src/psgen.c:1535
 #, c-format
 msgid "invalid value for ^@shade escape: %s"
-msgstr "neveljavna vrednost za ubeÅ¾no zaporedje ^@shade: %s"
+msgstr "b³êdna warto¶æ dla sekwencji ^@shade: %s"
 
 #: src/psgen.c:1543
 #, c-format
 msgid "invalid value for ^@bggray escape: %s"
-msgstr "neveljavna vrednost za ubeÅ¾no zaporedje ^@bggray: %s"
+msgstr "b³êdna warto¶æ dla sekwencji ^@bggray: %s"
 
 #: src/psgen.c:2412
 #, c-format
 msgid "couldn't open EPS file \"%s\": %s\n"
-msgstr "datoteke \"%s\" v obliki EPS ni mogoÄe odpreti: %s\n"
+msgstr "nie uda³o siê otworzyæ pliku EPS \"%s\": %s\n"
 
 #: src/psgen.c:2448
 #, c-format
 msgid "EPS file \"%s\" does not start with \"%%!\" magic\n"
-msgstr "datoteka \"%s\" v obliki EPS se ne zaÄne z nizom \"%%!\"\n"
+msgstr "plik EPS \"%s\" nie zaczyna siê od znacznika \"%%!\"\n"
 
 #: src/psgen.c:2473
 #, c-format
@@ -840,181 +835,181 @@ msgid ""
 "EPS file \"%s\" contains malformed %%%%BoundingBox row:\n"
 "\"%.*s\"\n"
 msgstr ""
-"Datoteka \"%s\" v obliki EPS vsebuje skladenjsko napaÄno vrstico %%%%BoundingBox:\n"
+"plik EPS \"%s\" zawiera b³êdny wiersz %%%%BoundingBox:\n"
 "\"%.*s\"\n"
 
 #: src/psgen.c:2498
 #, c-format
 msgid "EPS file \"%s\" is not a valid EPS file\n"
-msgstr "Datoteka \"%s\" ni v obliki EPS\n"
+msgstr "plik EPS \"%s\" nie jest poprawnym plikiem EPS\n"
 
 #: src/psgen.c:2640
 #, c-format
 msgid "passing through all input files for output language `%s'\n"
-msgstr "posredujemo vse vhodne datoteke za izhodni jezik Â»%sÂ«\n"
+msgstr "przepuszczanie wszystkich plików wej¶ciowych dla jêzyka wyj¶ciowego `%s'\n"
 
 #: src/psgen.c:2692
 #, c-format
 msgid "passing through %s file \"%s\"\n"
-msgstr "posredujemo %s datoteko \"%s\"\n"
+msgstr "przepuszczanie pliku %s \"%s\"\n"
 
 #: src/psgen.c:2795
 #, c-format
 msgid "couldn't create temporary divert file: %s"
-msgstr "preusmerjene izhodne datoteke ni mogoÄe ustvariti: %s"
+msgstr "nie uda³o siê utworzyæ pliku tymczasowego: %s"
 
 #: src/psgen.c:2812
 #, c-format
 msgid "couldn't rewind divert file: %s"
-msgstr "preusmerjene datoteke ni moÄ previti na zaÄetek: %s"
+msgstr "nie uda³o siê przewin±æ pliku tymczasowego: %s"
 
 #: src/util.c:93
 #, c-format
 msgid "missing argument: %s"
-msgstr "manjkajoÄ argument: %s"
+msgstr "brakuj±cy argument: %s"
 
 #: src/util.c:186 src/util.c:214
 #, c-format
 msgid "illegal value \"%s\" for option %s"
-msgstr "nedovoljena vrednost \"%s\" za izbiro %s"
+msgstr "niedozwolona warto¶æ \"%s\" dla opcji %s"
 
 #: src/util.c:202
 #, c-format
 msgid "invalid value \"%s\" for option %s"
-msgstr "neveljavna vrednost \"%s\" za izbiro %s"
+msgstr "b³êdna warto¶æ \"%s\" dla opcji %s"
 
 #: src/util.c:440
 #, c-format
 msgid "illegal option: %s"
-msgstr "nedovoljena izbira: %s"
+msgstr "niedozwolona opcja: %s"
 
 #: src/util.c:619
 #, c-format
 msgid "%s:%d: %%Format: no name"
-msgstr "%s:%d: %%Format: manjkajoÄe ime"
+msgstr "%s:%d: %%Format: brak nazwy"
 
 #: src/util.c:630
 #, c-format
 msgid "%s:%d: %%Format: too long name, maxlen=%d"
-msgstr "%s:%d: %%Format: ime je predolgo, najveÄja dolÅ¾ina je lahko %d"
+msgstr "%s:%d: %%Format: nazwa zbyt d³uga, maksymalna d³ugo¶æ=%d"
 
 #: src/util.c:653
 #, c-format
 msgid "%s:%d: %%Format: name \"%s\" is already defined"
-msgstr "%s:%d: %%Format: ime \"%s\" je Å¾e doloÄeno"
+msgstr "%s:%d: %%Format: nazwa \"%s\" jest ju¿ zdefiniowana"
 
 #: src/util.c:674
 #, c-format
 msgid "%s:%d: %%HeaderHeight: no argument"
-msgstr "%s:%d: %%HeaderHeight: manjkajoÄ argument"
+msgstr "%s:%d: %%HeaderHeight: brak argumentu"
 
 #: src/util.c:696
 #, c-format
 msgid "%s:%d: %%FooterHeight: no argument"
-msgstr "%s:%d: %%FooterHeight: manjkajoÄ argument"
+msgstr "%s:%d: %%FooterHeight: brak argumentu"
 
 #: src/util.c:843
 #, c-format
 msgid "%s: warning: font size is negative\n"
-msgstr "%s: opozorilo: velikost pisave je negativna\n"
+msgstr "%s: uwaga: rozmiar fontu jest ujemny\n"
 
 #: src/util.c:845
 #, c-format
 msgid "%s: warning: font width is negative\n"
-msgstr "%s: opozorilo: Å¡irina pisave je negativna\n"
+msgstr "%s: uwaga: szeroko¶æ fontu jest ujemna\n"
 
 #: src/util.c:847
 #, c-format
 msgid "%s: warning: font height is negative\n"
-msgstr "%s: opozorilo: viÅ¡ina pisave je negativna\n"
+msgstr "%s: uwaga: wysoko¶æ fontu jest ujemna\n"
 
 #: src/util.c:866
 #, c-format
 msgid "reading AFM info for font \"%s\"\n"
-msgstr "beremo metriÄno datoteko AFM za pisavo \"%s\"\n"
+msgstr "odczyt informacji AFM dla fontu \"%s\"\n"
 
 #: src/util.c:899
 #, c-format
 msgid "couldn't open AFM file for font \"%s\", using default\n"
-msgstr "datoteke AFM za pisavo \"%s\" ni moÄ odpreti, uporabljamo privzeto\n"
+msgstr "nie uda³o siê otworzyæ pliku AFM dla fontu \"%s\", u¿ycie domy¶lnego\n"
 
 #: src/util.c:906
 #, c-format
 msgid "couldn't open AFM file for the default font: %s"
-msgstr "datoteke AFM za privzeto pisavo ni moÄ odpreti: %s"
+msgstr "nie uda³o siê otworzyæ pliku AFM dla fontu domy¶lnego: %s"
 
 #: src/util.c:1095
 #, c-format
 msgid "downloading font \"%s\"\n"
-msgstr "nalagamo pisavo \"%s\"\n"
+msgstr "¶ci±ganie fontu \"%s\"\n"
 
 #: src/util.c:1100
 #, c-format
 msgid "couldn't open font description file \"%s\": %s\n"
-msgstr "datoteke z opisom pisave \"%s\" ni moÄ odpreti: %s\n"
+msgstr "nie uda³o siê otworzyæ pliku opisu fontu \"%s\": %s\n"
 
 #: src/util.c:1392
 #, c-format
 msgid "%s: too long format for %%D{} escape"
-msgstr "%s: predolg format za ubeÅ¾no zaporedje %%D{}"
+msgstr "%s: format zbyt d³ugi dla sekwencji %%D{}"
 
 #: src/util.c:1477
 #, c-format
 msgid "%s: unknown `%%' escape `%c' (%d)"
-msgstr "%s: neprepoznano Â»%%Â«-ubeÅ¾no zaporedje Â»%cÂ« (%d)"
+msgstr "%s: nieznana sekwencja specjalna `%%' `%c' (%d)"
 
 #: src/util.c:1515
 #, c-format
 msgid "%s: no closing ')' for $() escape"
-msgstr "%s: manjkajoÄ zaklepaj za ubeÅ¾no zaporedje $()"
+msgstr "%s: brak zamykaj±cego ')' dla sekwencji $()"
 
 #: src/util.c:1518
 #, c-format
 msgid "%s: too long variable name for $() escape"
-msgstr "%s: predolgo ime spremenljivke za ubeÅ¾no zaporedje $()"
+msgstr "%s: zbyt d³uga nazwa zmiennej dla sekwencji $()"
 
 #: src/util.c:1545
 #, c-format
 msgid "%s: too long format for $D{} escape"
-msgstr "%s: predolgo formatno doloÄilo za ubeÅ¾no sekvenco $D{}"
+msgstr "%s: zbyt d³ugi format dla sekwencji $D{}"
 
 #: src/util.c:1633
 #, c-format
 msgid "%s: unknown `$' escape `%c' (%d)"
-msgstr "%s: neprepoznano Â»$Â«-ubeÅ¾no zaporedje Â»%cÂ« (%d)"
+msgstr "%s: nieznana sekwencja specjalna `$' `%c' (%d)"
 
 #: src/util.c:1824
 #, c-format
 msgid "malformed float dimension: \"%s\""
-msgstr "skladenjska napaka dimenzije: \"%s\""
+msgstr "b³êdny wymiar odstêpu: \"%s\""
 
 #: src/util.c:1946
 #, c-format
 msgid "couldn't open input filter \"%s\" for file \"%s\": %s"
-msgstr "vhodnega filtra \"%s\" za datoteko \"%s\" ni moÄ odpreti: %s"
+msgstr "nie uda³o siê otworzyæ filtra wej¶ciowego \"%s\" dla pliku \"%s\": %s"
 
 #: src/util.c:1963
 #, c-format
 msgid "couldn't open input file \"%s\": %s"
-msgstr "vhodne datoteke \"%s\" ni mogoÄe odpreti: %s"
+msgstr "nie uda³o siê otworzyæ pliku wej¶ciowego \"%s\": %s"
 
 #: src/mkafmmap.c:171
 #, c-format
 msgid "file=%s\n"
-msgstr "datoteka=%s\n"
+msgstr "plik=%s\n"
 
 #: src/mkafmmap.c:171
 msgid "stdout"
-msgstr "standardni izhod"
+msgstr "standardowe wyj¶cie"
 
 #: src/mkafmmap.c:179
 #, c-format
 msgid "%s: couldn't open output file \"%s\""
-msgstr "%s: izhodne datoteke \"%s\" ni mogoÄe odpreti"
+msgstr "%s: nie uda³o siê otworzyæ pliku wyj¶ciowego \"%s\""
 
 #: src/mkafmmap.c:193
 msgid "couldn't create AFM library"
-msgstr "knjiÅ¾nice AFM ni mogoÄe ustvariti"
+msgstr "nie uda³o siê utworzyæ biblioteki AFM"
 
 #: src/mkafmmap.c:242
 #, c-format
@@ -1027,55 +1022,54 @@ msgid ""
 "                          stdout.\n"
 "  -V, --version           print version number\n"
 msgstr ""
-"Uporaba: %s [IZBIRA]... DATOTEKA...\n"
-"Argumenti, obvezni za dolge oblike izbir, so obvezni tudi za kratke.\n"
-"  -h, --help              ta navodila\n"
-"  -p, --output-file=IME   zapiÅ¡i izhod na datoteko IME (privzeto ime je \n"
-"                          font.map). ÄŒe je DATOTEKA Â»-Â«, piÅ¡i na standardni izhod.\n"
-"  -V, --version           izpis izdaje programa\n"
+"Sk³adnia: %s [OPCJA]... PLIK...\n"
+"Argumenty obowi±zkowe dla opcji d³ugich s± obowi±zkowe tak¿e dla opcji krótkich.\n"
+"  -h, --help              wy¶wietlenie tego opisu i zakoñczenie\n"
+"  -p, --output-file=NAZWA zapis wyj¶cia do pliku NAZWA (domy¶lny to font.map).\n"
+"                          Je¶li plik to `-', zapis na standardowe wyj¶cie.\n"
+"  -V, --version           wypisanie numeru wersji\n"
 
 #: states/lex.l:167 states/lex.l:173
 msgid "error: EOF in comment"
-msgstr "napaka: datoteka se konÄa sredi komentarja"
+msgstr "b³±d: EOF w komentarzu"
 
 #: states/lex.l:204
 msgid "error: EOF in string constant"
-msgstr "napaka: datoteka se konÄa sredi alfanumeriÄne konstante"
+msgstr "b³±d: EOF w sta³ej napisowej"
 
 #: states/lex.l:311
 msgid "error: EOF in regular expression"
-msgstr "napaka: datoteka se konÄa sredi regularnega izraza"
+msgstr "b³±d: EOF w wyra¿eniu regularnym"
 
-# Je to res to?
 #: states/main.c:197
 #, c-format
 msgid "states for %s"
-msgstr "stanja za %s"
+msgstr "stany dla %s"
 
 #: states/main.c:252
 #, c-format
 msgid "%s: malformed variable definition \"%s\"\n"
-msgstr "%s: skladenjska napaka pri definiciji spremenljivke \"%s\"\n"
+msgstr "%s: b³êdna definicja zmiennej \"%s\"\n"
 
 #: states/main.c:280
 #, c-format
 msgid "%s: couldn't create output file \"%s\": %s\n"
-msgstr "%s: ni mogoÄe ustvariti izhodne datoteke \"%s\": %s\n"
+msgstr "%s: nie uda³o siê utworzyæ pliku wyj¶ciowego \"%s\": %s\n"
 
 #: states/main.c:311
 #, c-format
 msgid "%s: unknown warning level `%s'\n"
-msgstr "%s: neznana raven opozoril Â»%sÂ«\n"
+msgstr "%s: nieznany poziom ostrze¿eñ `%s'\n"
 
 #: states/main.c:360 states/main.c:396 states/prims.c:1375 states/utils.c:227
 #, c-format
 msgid "%s: out of memory\n"
-msgstr "%s: zmanjkalo pomnilnika\n"
+msgstr "%s: brak pamiêci\n"
 
 #: states/main.c:421
 #, c-format
 msgid "%s: couldn't open input file `%s': %s\n"
-msgstr "%s: ni mogoÄe odpreti vhodne datoteke Â»%sÂ«: %s\n"
+msgstr "%s: nie uda³o siê otworzyæ pliku wej¶ciowego `%s': %s\n"
 
 #: states/main.c:445
 #, c-format
@@ -1083,8 +1077,8 @@ msgid ""
 "Usage: %s [OPTION]... [FILE]...\n"
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
-"Uporaba: %s [izbire] [datoteka] ...\n"
-"Argumenti, obvezni za dolge oblike izbir, so obvezni tudi za kratke.\n"
+"Sk³adnia: %s [OPCJA]... [PLIK]...\n"
+"Argumenty obowi±zkowe dla opcji d³ugich s± obowi±zkowe tak¿e dla opcji krótkich.\n"
 
 #: states/main.c:449
 #, c-format
@@ -1099,274 +1093,193 @@ msgid ""
 "  -V, --version              print version number\n"
 "  -W, --warning=LEVEL        set the warning level to LEVEL\n"
 msgstr ""
-"  -D, --define=SPR=VRED      nastavi vrednost spremenljivke SPR na VRED\n"
-"  -f, --file=DATOTEKA        preberi definicije stanja iz navedene DATOTEKE\n"
-"  -h, --help                 izpis te pomoÄi in izhod\n"
-"  -o, --output=DATOTEKA      shrani izhod v navedeno DATOTEKO\n"
-"  -p, --path=POT             nastavi nalagalno POT\n"
-"  -s, --state=IME            zaÄni iz navedenega stanja\n"
-"  -v, --verbose              poveÄaj izÄrpnost poroÄil med izvajanjem\n"
-"  -V, --version              izpis razliÄice programa\n"
-"  -W, --warning=RAVEN        nastavi RAVEN opozoril\n"
+"  -D, --define=ZM=WARTO¦Æ    zdefiniowanie ZMIENNEJ o podanej WARTO¦CI\n"
+"  -f, --file=PLIK            odczyt definicji stanu z podanego PLIKU\n"
+"  -h, --help                 wy¶wietlenie tego opisu i zakoñczenie\n"
+"  -o, --output=PLIK          zapis wyj¶cia do PLIKU\n"
+"  -p, --path=¦CIE¯KA         ustawienie podanej ¦CIE¯KI wczytywania\n"
+"  -s, --state=NAZWA          rozpoczêcie od stanu o podanej NAZWIE\n"
+"  -v, --verbose              zwiêkszenie liczby komunikatów\n"
+"  -V, --version              wypisanie numeru wersji\n"
+"  -W, --warning=POZIOM       ustawienie danego POZIOMU ostrze¿eñ\n"
 
 #: states/prims.c:44
 #, c-format
 msgid "%s:%d: %s: too few arguments\n"
-msgstr "%s:%d: %s: premalo argumentov\n"
+msgstr "%s:%d: %s: za ma³o argumentów\n"
 
 #: states/prims.c:54
 #, c-format
 msgid "%s:%d: %s: too many arguments\n"
-msgstr "%s:%d: %s: preveÄ argumentov\n"
+msgstr "%s:%d: %s: za du¿o argumentów\n"
 
 #: states/prims.c:107 states/prims.c:127 states/prims.c:253 states/prims.c:426
 #: states/prims.c:901
 #, c-format
 msgid "%s:%d: %s: illegal argument type\n"
-msgstr "%s:%d: %s: nedovoljena vrsta argumenta\n"
+msgstr "%s:%d: %s: niedozwolony rodzaj argumentu\n"
 
 #: states/prims.c:468
 #, c-format
 msgid "%s: panic: "
-msgstr "%s: preplah: "
+msgstr "%s: panika: "
 
 #: states/prims.c:502
 #, c-format
 msgid "%s:%d: %s: malformed version string `%s'\n"
-msgstr "%s:%d: %s: skadenjska napaka v nizu razliÄice Â»%sÂ«\n"
+msgstr "%s:%d: %s: b³êdny opis wersji `%s'\n"
 
 #: states/prims.c:517
 #, c-format
 msgid "%s: FATAL ERROR: States version %s or higher is required for this script\n"
-msgstr "%s: USODNA NAPAKA: za izvajanje tega skripta potrebujete vsaj razliÄico %s Â»statesÂ«\n"
+msgstr "%s: B£¡D KRYTYCZNY: Dla tego skryptu wymagane s± stany w wersji %s lub wy¿szej\n"
 
 #: states/prims.c:608 states/prims.c:1274
 #, c-format
 msgid "%s:%d: %s: start offset is bigger than end offset\n"
-msgstr "%s:%d: %s: zaÄetni odmik je veÄji od konÄnega\n"
+msgstr "%s:%d: %s: offset pocz±tkowy wiêkszy ni¿ offset koñcowy\n"
 
 #: states/prims.c:617 states/prims.c:633 states/prims.c:1280
 #, c-format
 msgid "%s:%d: %s: offset out of range\n"
-msgstr "%s:%d: %s: odmik izven obsega\n"
+msgstr "%s:%d: %s: offset spoza zakresu\n"
 
 #: states/prims.c:651
 #, c-format
 msgid "%s:%d: %s: illegal argument\n"
-msgstr "%s:%d: %s: nedovoljen argument\n"
+msgstr "%s:%d: %s: niedozwolony argument\n"
 
 #: states/prims.c:698
 #, c-format
 msgid "%s:%d: %s: illegal regexp character syntax: %c\n"
-msgstr "%s:%d: %s: nedovoljena skladnja znakov regularnega izraza: %c\n"
+msgstr "%s:%d: %s: niedozwolona sk³adnia znaku wyra¿enia regularnego: %c\n"
 
 #: states/prims.c:913
 #, c-format
 msgid "%s:%d: %s: couldn't define state `%s'\n"
-msgstr "%s:%d: %s: ni mogoÄe doloÄiti stanja Â»%sÂ«\n"
+msgstr "%s:%d: %s: nie uda³o siê zdefiniowaæ stanu `%s'\n"
 
 #: states/prims.c:1010
 #, c-format
 msgid "%s: primitive `%s': too few arguments for format\n"
-msgstr "%s: primitiv Â»%sÂ«: premalo argumentov za format\n"
+msgstr "%s: obiekt `%s': za ma³o argumentów dla formatu\n"
 
 #: states/prims.c:1038
 #, c-format
 msgid "%s:%d: %s: argument %d doesn't match format\n"
-msgstr "%s:%d: %s: argument %d ne ustreza obliki\n"
+msgstr "%s:%d: %s: argument %d nie pasuje do formatu\n"
 
 #: states/prims.c:1078
 #, c-format
 msgid "%s:%d: %s: no extra options can be specified for %%s\n"
-msgstr "%s:%d: %s: %%s ne sprejema dodatnih izbir\n"
+msgstr "%s:%d: %s: nie mo¿na podaæ dodatkowych opcji dla %%s\n"
 
 #: states/prims.c:1087
 #, c-format
 msgid "%s:%d: %s: illegal type specifier `%c'\n"
-msgstr "%s:%d: %s: nedovoljeno doloÄilo tipa Â»%cÂ«\n"
+msgstr "%s:%d: %s: niedozwolone okre¶lenie typu `%c'\n"
 
 #: states/process.c:115
 #, c-format
 msgid "%s: undefined state `%s'\n"
-msgstr "%s: nedoloÄeno stanje Â»%sÂ«\n"
+msgstr "%s: niezdefiniowany stan `%s'\n"
 
 #: states/process.c:196
 #, c-format
 msgid "%s: error: undefined variable `%s'\n"
-msgstr "%s: napaka: nedefinirana spremenljivka Â»%sÂ«\n"
+msgstr "%s: b³±d: niezdefiniowana zmienna `%s'\n"
 
 #: states/process.c:290
 #, c-format
 msgid "%s: undefined super state `%s'\n"
-msgstr "%s: nedefinirano superstanje Â»%sÂ«\n"
+msgstr "%s: niezdefiniowany stan nadrzêdny `%s'\n"
 
 #: states/utils.c:260
 #, c-format
 msgid "%s:%d: couldn't compile regular expression \"%s\": %s\n"
-msgstr "%s:%d: regularnega izraza \"%s\" ni mogoÄe prevesti: %s\n"
+msgstr "%s:%d: nie uda³o siê skompilowaæ wyra¿enia regularnego \"%s\": %s\n"
 
 #: states/utils.c:449 states/utils.c:477
 #, c-format
 msgid "%s: ouf of memory"
-msgstr "%s: zmanjkalo pomnilnika"
+msgstr "%s: brak pamiêci"
 
 #: states/utils.c:454
 #, c-format
 msgid "warning: redefining state `%s'"
-msgstr "opozorilo: redefiniramo stanje Â»%sÂ«"
+msgstr "uwaga: ponowna definicja stanu `%s'"
 
 #: states/utils.c:481
 #, c-format
 msgid "%s:%d: warning: redefining subroutine `%s'\n"
-msgstr "%s:%d: opozorilo: redefiniramo podprogram Â»%sÂ«\n"
+msgstr "%s:%d: uwaga: ponowna definicja procedury `%s'\n"
 
 #: states/utils.c:578
 #, c-format
 msgid "%s:%d: error: undefined variable `%s'\n"
-msgstr "%s:%d: napaka: nedefinirana spremenljivka Â»%sÂ«\n"
+msgstr "%s:%d: b³±d: niezdefiniowana zmienna `%s'\n"
 
 #: states/utils.c:616
 #, c-format
 msgid "%s:%d: error: couldn't set variable `%s'\n"
-msgstr "%s:%d: napaka: spremenljivke Â»%sÂ« ni mogoÄe nastaviti\n"
+msgstr "%s:%d: b³±d: nie mo¿na ustawiæ zmiennej `%s'\n"
 
 #: states/utils.c:767
 #, c-format
 msgid "%s:%d: error: expression between illegal types\n"
-msgstr "%s:%d: napaka: izraz med nedovoljenimi tipi\n"
+msgstr "%s:%d: b³±d: wyra¿enie miêdzy niedozwolonymi typami\n"
 
 #: states/utils.c:865
 #, c-format
 msgid "%s:%d: error: too few arguments for subroutine\n"
-msgstr "%s:%d: napaka: premalo argumentov za podprogram\n"
+msgstr "%s:%d: b³±d: zbyt ma³o argumentów dla procedury\n"
 
 #: states/utils.c:872
 #, c-format
 msgid "%s:%d: error: too many arguments for subroutine\n"
-msgstr "%s:%d: napaka: preveÄ argumentov za podprogram\n"
+msgstr "%s:%d: b³±d: zbyt du¿o argumentów dla procedury\n"
 
 #: states/utils.c:926
 #, c-format
 msgid "%s:%d: error: undefined procedure `%s'\n"
-msgstr "%s:%d: napaka: nedefiniran podprogram Â»%sÂ«\n"
+msgstr "%s:%d: b³±d: niezdefiniowana procedura `%s'\n"
 
 #: states/utils.c:1018
 #, c-format
 msgid "%s:%d: error: illegal lvalue for assignment\n"
-msgstr "%s:%d: napaka: nedovoljena vrednost leve strani prireditve\n"
+msgstr "%s:%d: b³±d: niedozwolona l-warto¶æ przy przypisaniu\n"
 
 #: states/utils.c:1026 states/utils.c:1110
 #, c-format
 msgid "%s:%d: error: array reference index is not integer\n"
-msgstr "%s:%d: napaka: indeks polja ni celo Å¡tevilo\n"
+msgstr "%s:%d: b³±d: indeks odwo³ania do tablicy nie jest liczb± ca³kowit±\n"
 
 #: states/utils.c:1032
 #, c-format
 msgid "%s:%d: error: negative array reference index\n"
-msgstr "%s:%d: napaka: indeks polja je negativen\n"
+msgstr "%s:%d: b³±d: ujemny indeks odwo³ania do tablicy\n"
 
 #: states/utils.c:1083
 #, c-format
 msgid "%s:%d: error: illegal rvalue for string assignment\n"
-msgstr "%s:%d: napaka: nedovoljena vrednost na desni strani prireditve niza\n"
+msgstr "%s:%d: b³±d: niedozwolona r-warto¶æ przy przypisaniu ³añcucha\n"
 
 #: states/utils.c:1102
 #, c-format
 msgid "%s:%d: error: illegal type for array reference\n"
-msgstr "%s:%d: napaka: nedovoljen tip sklica na polje\n"
+msgstr "%s:%d: b³±d: niedozwolony typ odwo³ania do tablicy\n"
 
 #: states/utils.c:1119
 #, c-format
 msgid "%s:%d: error: array reference index out of rance\n"
-msgstr "%s:%d: napaka: indeks polja izven obsega\n"
+msgstr "%s:%d: b³±d: indeks odwo³ania do tablicy spoza zakresu\n"
 
 #: states/utils.c:1345
 #, c-format
 msgid "%s: couldn't open definition file `%s': %s\n"
-msgstr "%s: definicijske datoteke Â»%sÂ« ni moÄ odpreti: %s\n"
+msgstr "%s: nie uda³o siê otworzyæ pliku definicji `%s': %s\n"
 
 #: states/utils.c:1401
 #, c-format
 msgid "%s: autoloading `%s' from `%s'\n"
-msgstr "%s: samodejno nalaganje Â»%sÂ« iz Â»%sÂ«\n"
-
-#~ msgid "epsf: couldn't open pipe to command \"%s\": %s\n"
-#~ msgstr "epsf: cevovoda ni mogoÄe napeljati do ukaza \"%s\": %s\n"
-
-#, fuzzy
-#~ msgid "couldn't create toc file name: %s"
-#~ msgstr "preusmerjene izhodne datoteke ni mogoÄe zapisati: %s"
-
-#, fuzzy
-#~ msgid "couldn't create divert file \"%s\": %s"
-#~ msgstr "preusmerjene izhodne datoteke \"%s\" ni mogoÄe zapisati: %s"
-
-#, fuzzy
-#~ msgid ""
-#~ "Long-only options:\n"
-#~ "  --download-font=NAME       download font NAME\n"
-#~ "  --filter-stdin=NAME        specify how stdin is shown to the input filter\n"
-#~ "  --help                     print this help and exit\n"
-#~ "  --highlight-bar-gray=NUM   print highlight bars with gray NUM (0 - 1)\n"
-#~ "  --list-media               list names of all known media\n"
-#~ "  --list-options             list all options and their values\n"
-#~ "  --non-printable-format=FMT specify how non-printable chars are printed\n"
-#~ "  --page-label-format=FMT    set page label format to FMT\n"
-#~ "  --printer-options=OPTIONS  pass extra options to the printer command\n"
-#~ "  --ul-angle=ANGLE           set underlay text's angle to ANGLE\n"
-#~ "  --ul-font=NAME             print underlays with font NAME\n"
-#~ "  --ul-gray=NUM              print underlays with gray value NUM\n"
-#~ "  --ul-position=POS          set underlay's starting position to POS\n"
-#~ "  --ul-style=STYLE           print underlays with style STYLE\n"
-#~ msgstr ""
-#~ "Naslednje izbire imajo samo dolgo obliko:\n"
-#~ "  --download-font=IME        naloÅ¾imo font IME\n"
-#~ "  --filter-stdin=IME         kako je stdin predstavljen vhodnemu filtru\n"
-#~ "  --help                     ta navodila\n"
-#~ "  --highlight-bar-gray=NUM   stopnja sivine Ärt za poudarke (0 - 1)\n"
-#~ "  --list-media               izpis vseh znanih formatov papirja\n"
-#~ "  --list-options             izpis nastavitev programa\n"
-#~ "  --non-printable-format=FMT kako naj se izpiÅ¡ejo non-printable znaki\n"
-#~ "  --page-label-format=FMT    doloÄimo, kako se izpiÅ¡e oznaka strani\n"
-#~ "  --printer-options=IZBIRE   dodatne izbire, ki jih podamo tiskalniku\n"
-#~ "  --ul-angle=KOT             KOT, pod katerim naj se izpiÅ¡e besedilo v podlagi\n"
-#~ "  --ul-font=IME              font, v katerem se izpiÅ¡e besedilo v podlagi\n"
-#~ "  --ul-gray=NUM              stopnja sivine za besedilo v podlagi (0 - 1)\n"
-#~ "  --ul-position=POS          podlaga naj se zaÄne na mestu POS\n"
-#~ "  --ul-style=STIL            STIL, uporabljen za izpis podlage\n"
-
-#~ msgid ""
-#~ "  -f NAME, --font=NAME\t\tuse font NAME for body text\n"
-#~ "  -F NAME, --header-font=NAME\tuse font NAME for header texts\n"
-#~ "  -g, --print-anyway\t\tnothing (compatibility option)\n"
-#~ "  -G, --fancy-header[=NAME]\tselect fancy page header\n"
-#~ "  -h, --help\t\t\tprint this help and exit\n"
-#~ "  -i NUM, --indent=NUM\t\tset line indent to NUM\n"
-#~ "  -l, --lineprinter\t\tsimulate lineprinter:\n"
-#~ "\t\t\t  \t  --lines-per-page=65, --no-header,\n"
-#~ "\t\t\t\t  --portrait, --columns=1\n"
-#~ "  -L NUM, --lines-per-page=NUM\tspecify how many lines are printed on\n"
-#~ "\t\t\t\teach page\n"
-#~ "  -m, --mail\t\t\tsend mail upon completion\n"
-#~ msgstr ""
-#~ "  -f IME, --font=IME\t\tuporabimo font IME za glavno besedilo\n"
-#~ "  -F IME, --header-font=IME\tuporabimo font IME za glavo\n"
-#~ "  -g, --print-anyway\t\tniÄ (zaradi zdruÅ¾ljivosti)\n"
-#~ "  -G, --fancy-header[=IME]\tizbira izumetniÄene glave\n"
-#~ "  -h, --help\t\t\tta navodila\n"
-#~ "  -i NUM, --indent=NUM\t\tNUM znakov zamika na levem robu\n"
-#~ "  -l, --lineprinter\t\timitacija vrstiÄnega tiskalnika:\n"
-#~ "\t\t\t  \t  --lines-per-page=65, --no-header,\n"
-#~ "\t\t\t\t  --portrait, --columns=1\n"
-#~ "  -L NUM, --lines-per-page=NUM\tkoliko vrstic besedila na stran\n"
-#~ "  -m, --mail\t\t\tsporoÄilo o opravljenem poslu po poÅ¡ti\n"
-
-#~ msgid ""
-#~ "too long font name for ^@font escape:\n"
-#~ "%.*s"
-#~ msgstr ""
-#~ "predolgo ime datoteke za ubeÅ¾no sekvenco ^@font:\n"
-#~ "%.*s"
-
-#~ msgid "malformed ^@font escape: no '{' found"
-#~ msgstr "slabo definirana ubeÅ¾na sekvenca ^@font: manjka ,{'"
+msgstr "%s: automatyczne ³adowanie `%s' z `%s'\n"

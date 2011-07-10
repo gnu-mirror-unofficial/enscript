@@ -1,202 +1,179 @@
-# Перевод сообщений для GNU enscript
-# Copyright (C) 1998, 1999 Free Software Foundation, Inc.
-# Oleg S. Tihonov <ost@tatnipi.ru>, 1998, 1999, 2003.
+# Pesan bahasa indonesia untuk enscript.
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the enscript package.
+# Arif E. Nugroho <arif_endro@yahoo.com>, 2008.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: enscript 1.6.3\n"
-"POT-Creation-Date: 2002-01-24 09:39+0200\n"
-"PO-Revision-Date: 2003-02-20 13:35+0300\n"
-"Last-Translator: Oleg S. Tihonov <tihonov@ffke-campus.mipt.ru>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"Project-Id-Version: enscript 1.6.4\n"
+"POT-Creation-Date: 2003-03-05 09:41+0200\n"
+"PO-Revision-Date: 2008-11-11 08:40+0700\n"
+"Last-Translator: Arif E. Nugroho <arif_endro@yahoo.com>\n"
+"Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=koi8-r\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: compat/getopt.c:628
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: неоднозначный ключ `%s'\n"
+msgstr "%s: opsi `%s' ambigu\n"
 
 #: compat/getopt.c:652
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: ключ `--%s' должен использоваться без аргумента\n"
+msgstr "%s: opsi `--%s' tidak mengijinkan sebuah argumen\n"
 
 #: compat/getopt.c:657
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: ключ `%c%s' должен использоваться без аргумента\n"
+msgstr "%s: opsi `%c%s' tidak mengijinkan sebuah argumen\n"
 
 #: compat/getopt.c:674 compat/getopt.c:847
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: ключ `%s' должен использоваться c аргументом\n"
+msgstr "%s: opsi `%s' membutuhkan sebuah argumen\n"
 
-#. --option
 #: compat/getopt.c:703
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s: неизвестный ключ `--%s'\n"
+msgstr "%s: opsi `--%s' tidak dikenal\n"
 
-#. +option or -option
 #: compat/getopt.c:707
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s: неизвестный ключ `%c%s'\n"
+msgstr "%s: opsi `%c%s' tidak dikenal\n"
 
-#. 1003.2 specifies the format of this message.
 #: compat/getopt.c:733
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s: недопустимый ключ -- %c\n"
+msgstr "%s: opsi -- %c tidak legal\n"
 
 #: compat/getopt.c:736
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: неверный ключ -- %c\n"
+msgstr "%s: opsi -- %c tidak valid\n"
 
-#. 1003.2 specifies the format of this message.
 #: compat/getopt.c:766 compat/getopt.c:896
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: ключ %c должен бы использоваться c аргументом\n"
+msgstr "%s: opsi membutuhkan sebuah argumen -- %c\n"
 
 #: compat/getopt.c:813
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: неоднозначный ключ `-W %s'\n"
+msgstr "%s: opsi `-W %s' adalah ambigu\n"
 
 #: compat/getopt.c:831
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: ключ `-W %s' должен использоваться без аргумента\n"
+msgstr "%s: opsi `-W %s' tidak mengijinkan sebuah argumen\n"
 
 #: compat/xalloc.c:70
 #, c-format
 msgid "xmalloc(): couldn't allocate %d bytes\n"
-msgstr "xmalloc(): невозможно выделить %d байт\n"
+msgstr "xmalloc(): tidak dapat mengalokasikan %d byte\n"
 
 #: compat/xalloc.c:88
 #, c-format
 msgid "xcalloc(): couldn't allocate %d bytes\n"
-msgstr "xcalloc(): невозможно выделить %d байт\n"
+msgstr "xcalloc(): tidak dapat mengalokasikan %d byte\n"
 
 #: compat/xalloc.c:109
 #, c-format
 msgid "xrealloc(): couldn't reallocate %d bytes\n"
-msgstr "xrealloc(): невозможно перераспределить %d байт\n"
+msgstr "xrealloc(): tidak dapat merealokasikan %d byte\n"
 
 #: compat/regex.c:996
 msgid "Success"
-msgstr "Успех"
+msgstr "Sukses"
 
-#. REG_NOERROR
 #: compat/regex.c:997
 msgid "No match"
-msgstr "Совпадений нет"
+msgstr "Tidak cocok"
 
-#. REG_NOMATCH
 #: compat/regex.c:998
 msgid "Invalid regular expression"
-msgstr "Неверное регулярное выражение"
+msgstr "Ekspresi regular tidak valid"
 
-#. REG_BADPAT
 #: compat/regex.c:999
 msgid "Invalid collation character"
-msgstr "Недопустимый для сортировки символ"
+msgstr "Karakter kolasi tidak valid"
 
-#. REG_ECOLLATE
 #: compat/regex.c:1000
 msgid "Invalid character class name"
-msgstr "Неверное имя класса символа"
+msgstr "Karakter nama kelas tidak valid"
 
-#. REG_ECTYPE
 #: compat/regex.c:1001
 msgid "Trailing backslash"
-msgstr "Обратная косая черта стоит последней"
+msgstr "Akhiran backslash"
 
-#. REG_EESCAPE
 #: compat/regex.c:1002
 msgid "Invalid back reference"
-msgstr "Неверная ссылка"
+msgstr "Referensi balik tidak valid"
 
-#. REG_ESUBREG
 #: compat/regex.c:1003
 msgid "Unmatched [ or [^"
-msgstr "Не имеющее пары [ или [^"
+msgstr "Tidak cocok [ atau [^"
 
-#. REG_EBRACK
 #: compat/regex.c:1004
 msgid "Unmatched ( or \\("
-msgstr "Не имеющее пары ( или \\\\("
+msgstr "Tidak cocok ( atau \\("
 
-#. REG_EPAREN
 #: compat/regex.c:1005
 msgid "Unmatched \\{"
-msgstr "Не имеющее пары \\{"
+msgstr "Tidak cocok \\{"
 
-#. REG_EBRACE
 #: compat/regex.c:1006
 msgid "Invalid content of \\{\\}"
-msgstr "Неверное содержимое \\{\\}"
+msgstr "Isi dari \\{\\} tidak valid"
 
-#. REG_BADBR
 #: compat/regex.c:1007
 msgid "Invalid range end"
-msgstr "Неверное содержимое \\{\\}"
+msgstr "Akhir jangkauan tidak valid"
 
-#. REG_ERANGE
 #: compat/regex.c:1008
 msgid "Memory exhausted"
-msgstr "Оперативная память исчерпана"
+msgstr "Kehabisan memori"
 
-#. REG_ESPACE
 #: compat/regex.c:1009
 msgid "Invalid preceding regular expression"
-msgstr "Неверное предшествующее регулярное выражение"
+msgstr "Ekspresi regular yang mengawali tidak valid"
 
-#. REG_BADRPT
 #: compat/regex.c:1010
 msgid "Premature end of regular expression"
-msgstr "Преждевременный конец регулярного выражения"
+msgstr "Akhir dari ekspresi regular prematur"
 
-#. REG_EEND
 #: compat/regex.c:1011
 msgid "Regular expression too big"
-msgstr "Регулярное выражение слишком велико"
+msgstr "Ekspresi regular terlalu besar"
 
-#. REG_ESIZE
 #: compat/regex.c:1012
 msgid "Unmatched ) or \\)"
-msgstr "Не имеющее пары ) или \\)"
+msgstr "Tidak cocok ) atau \\)"
 
 #: compat/regex.c:5458
 msgid "No previous regular expression"
-msgstr "Регулярное выражение не было задано раньше"
+msgstr "Tidak ada ekspresi regular sebelumnya"
 
-# msgfmt --statistics -f -c -v -o /dev/null
-# вызывает ошибку, вероятно это ошибка msgfmt
-#. Create the default TOC format string.  Wow, this is cool!
 #: src/main.c:966
 #, no-c-format
 msgid "$3v $-40N $3% pages $4L lines  $E $C"
-msgstr "$3v $-40N $3% страниц $4L строк  $E $C"
+msgstr "$3v $-40N $3% halaman $4L baris $E $C"
 
 #: src/main.c:996
 #, c-format
 msgid "couldn't get passwd entry for uid=%d: %s"
-msgstr "невозможно получить пароль для пользователя с uid=%d: %s"
+msgstr "tidak dapat memperoleh masukan passwd untuk uid=%d: %s"
 
-#. No luck, report error from the original config file.
 #: src/main.c:1088
 #, c-format
 msgid "couldn't read config file \"%s/%s\": %s"
-msgstr "невозможно считать файл конфигурации \"%s/%s\": %s"
+msgstr "tidak dapat membaca berkas konfigurasi \"%s/%s\": %s"
 
 #: src/main.c:1092
 msgid "I did also try the following directories:"
-msgstr "Также пробовались следующие каталоги:"
+msgstr "Saya juga mencoba direktori berikut:"
 
 #: src/main.c:1093 src/main.c:1094 src/main.c:1095
 #, c-format
@@ -213,7 +190,7 @@ msgstr "\t../../lib"
 
 #: src/main.c:1099
 msgid "This is probably an installation error.  Please, try to rebuild:"
-msgstr "Вероятно, это из-за ошибки при установке.  Попробуйте пересобрать:"
+msgstr "Ini mungkin sebuah error pemasangan. Mohon, coba untuk membuat kembali:"
 
 #: src/main.c:1100
 msgid "\tmake distclean"
@@ -221,7 +198,7 @@ msgstr "\tmake distclean"
 
 #: src/main.c:1101
 msgid "\t./configure --prefix=PREFIX"
-msgstr "\t./configure --prefix=ПРЕФИКС"
+msgstr "\t./configure --prefix=PREFIX"
 
 #: src/main.c:1102
 msgid "\tmake"
@@ -237,21 +214,21 @@ msgstr "\tmake install"
 
 #: src/main.c:1106
 msgid "or set the environment variable `ENSCRIPT_LIBRARY' to point to your"
-msgstr "либо установите переменную среды `ENSCRIPT_LIBRARY', чтобы она указывала на"
+msgstr "atau set variabel lingkungan `ENSCRIPT_LIBRARY' untuk menunjuk ke "
 
 #: src/main.c:1108
 msgid "library directory."
-msgstr "каталог, где у вас хранятся библиотеки."
+msgstr "direktori perpustakaan."
 
 #: src/main.c:1180
 #, c-format
 msgid "unknown encoding: %s"
-msgstr "кодировка %s неизвестна"
+msgstr "enkoding tidak diketahui: %s"
 
 #: src/main.c:1199
 #, c-format
 msgid "couldn't open AFM library: %s"
-msgstr "невозможно открыть AFM-библиотеку: %s"
+msgstr "tidak dapat membuka perpustakaan AFM: %s"
 
 #: src/main.c:1228
 msgid ""
@@ -259,168 +236,160 @@ msgid ""
 "name             width\theight\tllx\tlly\turx\tury\n"
 "------------------------------------------------------------\n"
 msgstr ""
-"известные форматы:\n"
-"имя             ширина\tвысота\tлнX\tлнY\tпвX\tпвY\n"
+"media yang diketahui:\n"
+"nama             lebar\ttinggi\tllx\tlly\turx\tury\n"
 "------------------------------------------------------------\n"
 
 #: src/main.c:1247
 #, c-format
 msgid "do not know anything about media \"%s\""
-msgstr "формат \"%s\" неизвестен"
+msgstr "tidak tahu apapun mengenai media \"%s\""
 
 #: src/main.c:1291
 #, c-format
 msgid "set new marginals for media `%s' (%dx%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
-msgstr ""
-"установить новые размеры полей для формата `%s' (%dx%d): \n"
-"лнX=%d, лнY=%d, пвX=%d, пвY=%d\n"
+msgstr "set margunam baru untuk media `%s' (%dx%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
 
 #: src/main.c:1302
 #, c-format
 msgid "illegal page label format \"%s\""
-msgstr "недопустимый формат метки страницы \"%s\""
+msgstr "format halaman label \"%s\" tidak legal"
 
 #: src/main.c:1314
 #, c-format
 msgid "illegal non-printable format \"%s\""
-msgstr "недопустимый формат для непечатных символов \"%s\""
+msgstr "format tidak dapat dicetak \"%s\" tidak legal"
 
 #: src/main.c:1328
 #, c-format
 msgid "illegal style for wrapped line marker: \"%s\""
-msgstr "недопустимый стиль пометки разбиения строки: \"%s\""
+msgstr "gaya untuk penanda baris: \"%s\" tidak legal"
 
 #: src/main.c:1338
 #, c-format
 msgid "illegal N-up argument: %d"
-msgstr "неверно задано число логических страниц на страницу: %d"
+msgstr "N-up argumen: %d tidak legal"
 
 #: src/main.c:1343
 #, c-format
 msgid "N-up argument must be power of 2: %d"
-msgstr "число логических страниц на страницу должно быть степенью 2: %d"
+msgstr "argumen N-up harus kelipatan dari 2: %d"
 
 #: src/main.c:1420
 #, c-format
 msgid "malformed underlay position: %s"
-msgstr "неправильно задана позиция подкладки: %s"
+msgstr "salah bentuk posisi yang membawahi: %s"
 
 #: src/main.c:1443
 #, c-format
 msgid "illegal underlay style: %s"
-msgstr "недопустимый стиль подкладки: %s"
+msgstr "gaya underlay tidak legal: %s"
 
-#. Create description with states.
 #: src/main.c:1470
 msgid ""
 "Highlighting is supported for the following languages and file formats:\n"
 "\n"
 msgstr ""
-"Выделение поддерживается для следующих языков и форматов файлов:\n"
+"Highlighting hanya didukung untuk bahasa dan format berkas berikut:\n"
 "\n"
 
 #: src/main.c:1641
 #, c-format
 msgid "couldn't create temporary toc file: %s"
-msgstr "невозможно создать файл содержания: %s"
+msgstr "tidak dapat membuat daftar isi berkas sementara: %s"
 
 #: src/main.c:1688
 #, c-format
 msgid "couldn't stat input file \"%s\": %s"
-msgstr "невозможно узнать статус входного файла \"%s\": %s"
+msgstr "tidak data memperoleh statistik berkas masukan \"%s\": %s"
 
 #: src/main.c:1708
 #, c-format
 msgid "couldn't rewind toc file: %s"
-msgstr "невозможно сместиться в файле содержания: %s"
+msgstr "tidak dapat rewind daftar isi berkas: %s"
 
 #: src/main.c:1714
 msgid "Table of Contents"
-msgstr "Содержание"
+msgstr "Daftar Isi"
 
-#.
-#. * The value of <ofp> is not reset in close_output_file(),
-#. * this is ugly but it saves one flag.
-#.
 #: src/main.c:1743
 msgid "no output generated\n"
-msgstr "вывод не произведен\n"
+msgstr "tidak ada keluaran yang dihasilkan\n"
 
 #: src/main.c:1748
 #, c-format
 msgid "output sent to %s\n"
-msgstr "вывод направлен на %s\n"
+msgstr "keluaran dikirim ke %s\n"
 
 #: src/main.c:1749 src/main.c:1773
 msgid "printer"
-msgstr "принтер"
+msgstr "pencetak"
 
 #: src/main.c:1751
 #, c-format
 msgid "output left in %s\n"
-msgstr "вывод записан в %s\n"
+msgstr "keluaran sisa dalam %s\n"
 
-#. We did something, tell what.
 #: src/main.c:1769
 #, c-format
 msgid "[ %d pages * %d copy ]"
-msgstr "[ %d страниц * %d копий ]"
+msgstr "[ %d halaman * %d salinan ]"
 
 #: src/main.c:1772
 #, c-format
 msgid " sent to %s\n"
-msgstr " направлено на %s\n"
+msgstr " dikirimkan ke %s\n"
 
 #: src/main.c:1775
 #, c-format
 msgid " left in %s\n"
-msgstr " записано в %s\n"
+msgstr " sisa dalam %s\n"
 
 #: src/main.c:1780
 #, c-format
 msgid "%d lines were %s\n"
-msgstr "%d строк были %s\n"
+msgstr "%d baris adalah %s\n"
 
 #: src/main.c:1782
 msgid "truncated"
-msgstr "усечены"
+msgstr "dipotong"
 
 #: src/main.c:1782
 msgid "wrapped"
-msgstr "разбиты"
+msgstr "wrapped"
 
 #: src/main.c:1788
 #, c-format
 msgid "%d characters were missing\n"
-msgstr "пропущено символов: %d\n"
+msgstr "%d karakter telah hilang\n"
 
 #: src/main.c:1792
 msgid "missing character codes (decimal):\n"
-msgstr "коды (десятичные) пропущенных символов:\n"
+msgstr "hilang kode karakter (desimal):\n"
 
 #: src/main.c:1800
 #, c-format
 msgid "%d non-printable characters\n"
-msgstr "непечатных символов: %d\n"
+msgstr "%d bukan karakter yang dapat dicetak\n"
 
 #: src/main.c:1805
 msgid "non-printable character codes (decimal):\n"
-msgstr "десятичные коды непечатных символов:\n"
+msgstr "kode karakter yang tidak dapat dicetak (desimal):\n"
 
 #: src/main.c:1854
 #, c-format
 msgid "couldn't open printer `%s': %s"
-msgstr "невозможно открыть принтер `%s': %s"
+msgstr "tidak dapat membuka pencetak `%s': %s"
 
 #: src/main.c:1863
 #, c-format
 msgid "couldn't create output file \"%s\": %s"
-msgstr "невозможно создать выходной файл \"%s\": %s"
+msgstr "tidak dapat membuat berkas keluaran \"%s\": %s"
 
 #: src/main.c:1880
 #, c-format
 msgid "couldn't close output file \"%s\": %s"
-msgstr "невозможно закрыть выходной файл \"%s\": %s"
+msgstr "tidak dapat menutup berkas keluaran \"%s\": %s"
 
 #: src/main.c:1938
 #, c-format
@@ -428,66 +397,65 @@ msgid ""
 "syntax error in option string %s=\"%s\":\n"
 "missing end of quotation: %c"
 msgstr ""
-"синтаксическая ошибка в ключе %s=\"%s\":\n"
-"нет закрывающих кавычек: %c"
+"sintaks error dalam opsi string %s=\"%s\":\n"
+"hilang akhir dari kuotasi: %c"
 
 #: src/main.c:1970
 #, c-format
 msgid "warning: didn't process following options from environment variable %s:\n"
-msgstr "предупреждение: следующие ключи из переменной среды %s не были использованы:\n"
+msgstr "peringatan: tidak memproses opsi berikut dari variabel lingkungan %s:\n"
 
 #: src/main.c:1974
 #, c-format
 msgid "  option %d = \"%s\"\n"
-msgstr "  ключ %d = \"%s\"\n"
+msgstr "  opsi %d = \"%s\"\n"
 
 #: src/main.c:2020
 msgid "number of columns must be larger than zero"
-msgstr "число колонок должно быть больше нуля"
+msgstr "jumlah dari kolom harus lebih besar dari nol"
 
 #: src/main.c:2078
 msgid "file alignment must be larger than zero"
-msgstr "аргумент выравнивания файлов должен быть больше нуля"
+msgstr "berkas alignmen harus lebih besar dari nol"
 
 #: src/main.c:2133 src/main.c:2139 src/main.c:2350 src/util.c:415
 #, c-format
 msgid "malformed font spec: %s"
-msgstr "неверно описан шрифт: %s"
+msgstr "spesifikasi font salah bentuk: %s"
 
 #: src/main.c:2155
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\""
-msgstr "невозможно найти заголовочный файл \"%s.hdr\""
+msgstr "tidak dapat menemukan definisi header berkas \"%s.hdr\""
 
 #: src/main.c:2199
 #, c-format
 msgid "must print at least one line per each page: %s"
-msgstr "необходимо печатать хотя бы одну строку на каждой странице: %s"
+msgstr "harus mencetak paling tidak satu baris untuk setiap halaman: %s"
 
 #: src/main.c:2219
 #, c-format
 msgid "%s: illegal newline character specifier: '%s': expected 'n' or 'r'\n"
-msgstr "%s: неверно задан символ новой строки: '%s': допустимы 'n' или 'r'\n"
+msgstr "%s: penspesifikasi karakter baris baru tidak legal: '%s': diduga 'n' atau 'r'\n"
 
 #: src/main.c:2308
 #, c-format
 msgid "malformed argument `%s' for option -W, --option: no comma found"
-msgstr "неправильно составлен аргумент `%s' для ключа -W, --option: нет запятой"
+msgstr "salah bentuk argumen `%s' untuk opsi -W, --option: tidak ada koma ditemukan"
 
 #: src/main.c:2313
 #, c-format
 msgid "helper application specification must be single character: %s"
-msgstr "спецификация вспомогательной программы должна быть одним знаком: %s"
+msgstr "spesifikasi aplikasi pembantu harus berupa karakter tunggal: %s"
 
 #: src/main.c:2409
 msgid "slice must be greater than zero"
-msgstr "номер фрагмента должен быть больше нуля"
+msgstr "slice harus lebih besar dari nol"
 
-#. Errors found during getopt_long().
 #: src/main.c:2490 states/main.c:320
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Попробуйте `%s --help' для получения более подробного описания.\n"
+msgstr "Coba `%s --help' untuk informasi lebih lanjut.\n"
 
 #: src/main.c:2510
 #, c-format
@@ -510,27 +478,27 @@ msgid ""
 "                             pass a page device definition to output\n"
 "  -e, --escapes[=CHAR]       enable special escape interpretation\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]... [ФАЙЛ]...\n"
-"Аргументы, обязательные для длинных ключей, обязательны и для коротких.\n"
-"  -#                         синоним -n, --copies\n"
-"  -1                         синоним --columns=1\n"
-"  -2                         синоним --columns=2\n"
-"      --columns=ЧИСЛО        задает ЧИСЛО колонок на странице\n"
-"  -a, --pages=СТАНИЦЫ        задает, какие СТРАНИЦЫ печатаются\n"
-"  -A, --file-align=ЧИСЛО     выравнивать входные файлы по ЧИСЛУ страниц\n"
-"  -b, --header=ЗАГОЛОВОК     задает ЗАГОЛОВОК страницы\n"
-"  -B, --no-header            не печатать заголовки\n"
-"  -c, --truncate-lines       усекать длинные строки (по умолчанию разбивать)\n"
-"  -C, --line-numbers[=START] добавлять в начало строки ее номер\n"
-"  -d                         синоним --printer\n"
-"  -D, --setpagedevice=КЛЮЧ[:ЗНАЧЕНИЕ]\n"
-"                             передать на выход определение page device\n"
-"  -e, --escapes[=СИМВОЛ]     разрешить использование управляющих\n"
-"                             последовательностей\n"
+"Penggunaan: %s [OPSI]... [BERKAS]...\n"
+"Argumen wajib untuk opsi panjang adalah wajib untuk opsi pendek juga.\n"
+"  -#                         sebuah alias untuk opsi -n, --copies\n"
+"  -1                         sama seperti --columns=1\n"
+"  -2                         sama seperti --columns=2\n"
+"      --columns=NUM          spesifikasikan jumlah dari kolom setiap halaman\n"
+"  -a, --pages=HALAMAN        spesifikasikan halaman mana yang akan dicetak\n"
+"  -A, --file-align=ALIGN     align berkas masukan terpisah ke ALIGN\n"
+"  -b, --header=HEADER        set header halaman\n"
+"  -B, --no-header            tidak ada header halaman\n"
+"  -c, --truncate-lines       potong baris panjang (baku adalah dilingkupi)\n"
+"  -C, --line-numbers[=START]\n"
+"                             awali setiap baris dengan nomor barisnya\n"
+"  -d                         sebuah alias untuk opsi --printer\n"
+"  -D, --setpagedevice=KUNCI[:NILAI]\n"
+"                             lewatkan sebuah halaman definisi perangkat ke keluaran\n"
+"  -e, --excapes[=KARAKTER]   aktifkan interpretasi escape spesial\n"
 
 #: src/main.c:2530
 msgid "  -E, --highlight[=LANG]     highlight source code\n"
-msgstr "  -E, --highlight[=ЯЗЫК]     выделять шрифтами синтаксис исходного кода\n"
+msgstr "  -E, --highlight[=LANG]     highlight kode program\n"
 
 #: src/main.c:2533
 msgid ""
@@ -551,23 +519,22 @@ msgid ""
 "                               --lines-per-page=66, --no-header, --portrait,\n"
 "                               --columns=1\n"
 msgstr ""
-"  -f, --font=ШРИФТ           использовать заданный ШРИФТ для тела\n"
-"  -F, --header-font=ШРИФТ    использовать заданный ШРИФТ для заголовков\n"
-"  -g, --print-anyway         игнорируется (введено для совместимости)\n"
-"  -G                         синоним --fancy-header\n"
-"      --fancy-header[=ИМЯ]   задает заголовок, определенный пользователем\n"
-"  -h, --no-job-header        не выводить заголовочную страницу задания\n"
-"  -H, --highlight-bars=ЧИСЛО задает высоту выделяющих полос\n"
-"  -i, --indent=ЧИСЛО         отступать заданное ЧИСЛО символов\n"
-"  -I, --filter=КОМАНДА       использовать КОМАНДУ для предварительной обработки\n"
-"                             входных файлов\n"
-"  -j, --borders              печатать рамки вокруг колонок\n"
-"  -J,                        синоним --title\n"
-"  -k, --page-prefeed         предварительно подавать страницы\n"
-"  -K, --no-page-prefeed      не подавать страницы предварительно\n"
-"  -l, --lineprinter          эмулировать строчный принтер, синоним\n"
-"                             --lines-per-page=66, --no-header, --portrait,\n"
-"                             --columns=1\n"
+"  -f, --font=NAMA            gunakan NAMA font untuk tubuh teks\n"
+"  -F, --header-font=NAMA     gunakan NAMA font untuk header teks\n"
+"  -g, --print-anyway         nothing (opsi untuk menjaga kompabilitas)\n"
+"  -G                         sama seperti --fancy-header\n"
+"      --fancy-header[=NAMA]  pilih header halaman fancy\n"
+"  -h, --no-job-header        tekan halaman job header\n"
+"  -H, --highlight-bars=NUM   spesifikasikan bagaimana high highlight bars\n"
+"  -i, --indent=NUM           set indentasi baris ke NUM karakter\n"
+"  -I, --filter=CMD           baca berkas masukan melalui saringan masukan CMD\n"
+"  -j, --borders              cetak batas disekitar kolom\n"
+"  -J,                        sebuah alias untuk opsi --title\n"
+"  -k, --page-prefeed         aktifkan halaman prefeed\n"
+"  -K, --no-page-prefeed      non-aktifkan halaman prefeed\n"
+"  -l, --lineprinter          simulasikan baris pencetak, ini adalah sebuah alias untuk:\n"
+"                                --lines-per-page=66, --no-header, --portrait,\n"
+"                                --columns=1\n"
 
 #: src/main.c:2551
 msgid ""
@@ -586,20 +553,20 @@ msgid ""
 "  -r, --landscape            print in landscape mode\n"
 "  -R, --portrait             print in portrait mode\n"
 msgstr ""
-"  -L, --lines-per-page=ЧИСЛО задает ЧИСЛО печатаемых строк на каждой странице\n"
-"  -m, --mail                 послать сообщение по окончании работы\n"
-"  -M, --media=ИМЯ            задает формат для печати\n"
-"  -n, --copies=ЧИСЛО         задает ЧИСЛО печатаемых копий каждой страницы\n"
-"  -N, --newline=НС           задает символ новой строки, допустимые значения n\n"
-"                             (`\\n') и r (`\\r')\n"
-"  -o                         синоним --output\n"
-"  -O, --missing-characters   показать пропущенные символы\n"
-"  -p, --output=ФАЙЛ          записать вывод в указанный ФАЙЛ. Если ФАЙЛ задан\n"
-"                             как -, печатать на стандартный вывод\n"
-"  -P, --printer=ИМЯ          напечатать вывод на указанном принтере\n"
-"  -q, --quiet, --silent      не выводить сообщений\n"
-"  -r, --landscape            печатать горизонтально (режим landscape)\n"
-"  -R, --portrait             печатать вертикально (режим portrait)\n"
+"  -L, --lines-per-page=NUM   spesifikasikan bagaimana banyak baris dicetak di setiap halaman\n"
+"  -m, --mail                 kirim pesan ketika selesai\n"
+"  -M, --media=NAMA           gunakan media keluaran NAMA\n"
+"  -n, --copies=NUM           cetak NUM salinan untuk setiap halaman\n"
+"  -N, --newline=NL           pilih karaketer baris baru. Jika memungkinkan\n"
+"                             nilai untuk NL adalah: n (`\\n' ) atau r (`\\r').\n"
+"  -o                         sebuah alias untuk opsi --output\n"
+"  -O, --missing-characters   daftar karakter yang hilang\n"
+"  -p, --output=BERKAS        tinggalkan keluaran ke berkas BERKAS. Jika BERKAS adalah `-',\n"
+"                             tinggalkan keluaran ke stdout.\n"
+"  -P, --printer=NAMA         cetak keluaran ke pencetak NAMA\n"
+"  -q, --quiet, --silent      jadi benar benar tenang\n"
+"  -r, --landscape            cetak dalam mode landscape\n"
+"  -R, --portrait             cetak dalam mode portrait\n"
 
 #: src/main.c:2567
 msgid ""
@@ -620,23 +587,22 @@ msgid ""
 "  -Z, --pass-through         pass through PostScript and PCL files\n"
 "                             without any modifications\n"
 msgstr ""
-"  -s, --baselineskip=ЧИСЛО   задает интерлиньяж\n"
-"  -S, --statusdict=КЛЮЧ[:ЗНАЧЕНИЕ]\n"
-"                             передать на выход определение statusdict\n"
-"  -t, --title=ИМЯ            задает имя задания.  Также устанавливает имя\n"
-"                             стандартного ввода.\n"
-"  -T, --tabsize=ЧИСЛО        задает ширину знака табуляции\n"
-"  -u, --underlay[=ТЕКСТ]     печатать ТЕКСТ на подложке каждой страницы\n"
-"  -U, --nup=ЧИСЛО            печатать заданное ЧИСЛО логических страниц на\n"
-"                             каждой выходной странице\n"
-"  -v, --verbose              сообщать производимые действия\n"
-"  -V, --version              показать информацию о версии\n"
-"  -w, --language=ЯЗЫК        задает ЯЗЫК для вывода\n"
-"  -W, --options=ВП,КЛЮЧ      передать КЛЮЧ вспомогательной программе ВП\n"
-"  -X, --encoding=ИМЯ         задает кодировку для входа\n"
-"  -z, --no-formfeed          игнорировать знаки перевода страницы\n"
-"  -Z, --pass-through         пропускать без изменений входные файлы в форматах\n"
-"                             PostScript и PCL\n"
+"  -s, --baselineskip=NUM     set baselineskip ke NUM\n"
+"  -S, --statusdict=KUNCI[:NILAI]\n"
+"                             lewatkan sebuah definisi status dict ke keluaran\n"
+"  -t, --title=JUDUL          set halamn banner judul pekerjaan ke JUDUL. Opsi\n"
+"                             juga menset nama dari berkas masukan stdin.\n"
+"  -T, --tabsize=NUM          set ukuran tabulator ke NUM\n"
+"  -u, --underlay[=TEKS]      cetak TEKS dibawah setiap halaman\n"
+"  -U, --nup=NUM              CETAK NUM halaman logikal di setiap halaman keluaran\n"
+"  -v, --verbose              tampilkan apa yang sedang kita kerjakan\n"
+"  -V, --version              tampilkan nomor versi\n"
+"  -w, --languange=BAHASA     set bahasa keluaran ke BAHASA\n"
+"  -W, --options=APP,OPTION   lewatkan opsi OPSI ke aplikasi pembantu APP\n"
+"  -X, --encoding=NAMA        gunakan enkoding masukan NAMA\n"
+"  -z, --no-formfeed          jangan interpretasikan karakter form feed\n"
+"  -Z, --pass-through         lewatkan melalui berkas PostScript dan PCL\n"
+"                             tanpa modifikasi apapun\n"
 
 #: src/main.c:2585
 msgid ""
@@ -651,17 +617,16 @@ msgid ""
 "  --h-column-height=HEIGHT   set the horizontal column height to HEIGHT\n"
 "  --help                     print this help and exit\n"
 msgstr ""
-"Длинные ключи:\n"
-"  --color[=bool]             выводить в разных цветах\n"
-"  --continuous-page-numbers  считать номера страниц непрерывно по всем входным\n"
-"                             файлам.  Не начинать заново с начала каждого файла.\n"
-"  --download-font=ИМЯ        включить в вывод шрифт с указанным ИМЕНЕМ\n"
-"  --extended-return-values   включить расширенные коды возрврата\n"
-"  --filter-stdin=ИМЯ         указывает, как именовать стандартный ввод для\n"
-"                             входного фильтра\n"
-"  --footer=ЗАГОЛОВОК         устанавливает нижний заголовок страницы\n"
-"  --h-column-height=ВЫСОТА   устанавливает ВЫСОТУ горизонтальной колонки\n"
-"  --help                     показать эту справку и выйти\n"
+"Opsi panjang saja:\n"
+"  --color[=bool]             buat keluaran berwarna dengan states\n"
+"  --continuous-page-numbers  hitung jumlah halaman melewati berkas masukan. Jangan\n"
+"                             restart penomoran di awal dari setiap berkas.\n"
+"  --download-font=NAMA       download font NAMA\n"
+"  --extended-return-values   aktifkan nilai kembali ekstensi\n"
+"  --filter-stdin=NAMA        spesifikasikan bagaimana stdin diperlihatkan ke saringan masukan\n"
+"  --footer=FOOTER            set halaman footer\n"
+"  --h-column-height=HEIGHT   set tinggi kolom horisontal ke TINGGI\n"
+"  --help                     tampilkan bantuan ini dan keluar\n"
 
 #: src/main.c:2596
 msgid ""
@@ -675,13 +640,15 @@ msgid ""
 "                             mark wrapped lines in the output with STYLE\n"
 "  --non-printable-format=FMT specify how non-printable chars are printed\n"
 msgstr ""
-"  --help-highlight           описать все языки, поддерживаемые --highlight\n"
-"  --highlight-bar-gray=ЧИСЛО печатать выделяющие полосы заданным оттенком \n"
-"                             серого цвета (0 - 1)\n"
-"  --list-media               перечислить все известные форматы\n"
-"  --margins=ЛЕВ:ПРАВ:ВЕРХ:НИЗ  настраивает размеры полей страницы\n"
-"  --mark-wrapped-lines[СТИЛЬ]  задает СТИЛЬ пометки разбитых строк\n"
-"  --non-printable-format=ФМТ указывает, как выводить непечатные знаки\n"
+"  --help-highlight           deskripsikan seluruh bahasa --highlight yang didukung\n"
+"                             dan format berkas\n"
+"  --highlight-bar-gray=NUM   tampilkan bar highlight dengan gray NUM (0 - 1)\n"
+"  --list-media               daftar nama dari seluruh media yang diketahui\n"
+"  --margins=KIRI:KANAN:ATAS:BAWAH\n"
+"                             sesuaikan halaman marginal\n"
+"  --mark-wrapped-lines[STYLE]\n"
+"                             tandai baris wrapped dalam keluaran dengan GAYA\n"
+"  --non-printable-format=FMT spesifikasikan bagaimana karakter tidak tercetak dicetak\n"
 
 #: src/main.c:2607
 msgid ""
@@ -694,17 +661,14 @@ msgid ""
 "  --printer-options=OPTIONS  pass extra options to the printer command\n"
 "  --rotate-even-pages        rotate even-numbered pages 180 degrees\n"
 msgstr ""
-"  --nup-columnwise           размещать страницы по столбцам при печати \n"
-"                             нескольких страниц на лист\n"
-"  --nup-xpad=ЧИСЛО           установить заполнение страницы по x при печати \n"
-"                             нескольких страниц на лист равным ЧИСЛУ\n"
-"  --nup-ypad=ЧИСЛО           установить заполнение страницы по y при печати \n"
-"                             нескольких страниц на лист равным ЧИСЛУ\n"
-"  --page-label-format=ФМТ    устанавливает формат метки страницы\n"
-"  --ps-level=УРОВЕНЬ         устанавливает уровень языка PostScript, который \n"
-"                             должен использовать enscript\n"
-"  --printer-options=КЛЮЧИ    передает дополнительные параметры команде печати\n"
-"  --rotate-even-pages        поворачивать четные страницы на 180 градусов\n"
+"  --nup-columnwise           layout halaman dalam N-up pencetakan columnwise\n"
+"  --nup-xpad=NUM             set halaman x-padding dari N-up pencetakan ke NUM\n"
+"  --nup-ypad=NUM             set halaman y-padding dari N-up pencetakan ke NUM\n"
+"  --page-label-format=FMT    set format label halaman ke FMT\n"
+"  --ps-level=TINGKAT         set tingkat bahasa PostScript yang enscript\n"
+"                             seharusnya gunakan\n"
+"  --printer-options=OPSI     lewatkan ekstra opsi ke perintah printer\n"
+"  --rotate-even-pages        rotasikan halaman bernomor genap 180 derajat\n"
 
 #: src/main.c:2617
 msgid ""
@@ -720,16 +684,17 @@ msgid ""
 "  --ul-style=STYLE           print underlays with style STYLE\n"
 "  --word-wrap                wrap long lines from word boundaries\n"
 msgstr ""
-"  --slice=ЧИСЛО              печатать заданный вертикальный фрагмент\n"
-"  --style=СТИЛЬ              использовать заданный стиль выделения\n"
-"  --swap-even-page-margins   менять левое и правое поля для четных страниц\n"
-"  --toc                      печатать содержание\n"
-"  --ul-angle=УГОЛ            задает УГОЛ наклона текста подкладки\n"
-"  --ul-font=ИМЯ              задает шрифт для подкладки\n"
-"  --ul-gray=ЧИСЛО            печатать подкладку заданным серым цветом\n"
-"  --ul-position=ПОЗ          задает начальную позицию для подкладки\n"
-"  --ul-style=СТИЛЬ           задает СТИЛЬ подкладки\n"
-"  --word-wrap                обрывать длинные строки на границах слов\n"
+"  --slice=NUM                tampilkan vertikal slice NUM\n"
+"  --style=GAYA               gunakan gaya highlight GAYA\n"
+"  --swap-even-page-margins   tukar sisi kiri dan kanan margin untuk setiap\n"
+"                             halaman bernomor genap\n"
+"  --toc                      cetak daftar isi\n"
+"  --ul-angle=SUDUT           set teks underlay sudut ke SUDUT\n"
+"  --ul-font=NAMA             cetak underlay dengan NAMA font\n"
+"  --ul-gray=NUM              cetak underlay dengan nilai gray NUM\n"
+"  --ul-position=POS          set posisi underlay dimulai ke POS\n"
+"  --ul-style=GAYA            cetak underlay dengan gaya GAYA\n"
+"  --word-wrap                wrap baris panjang dari batas kata\n"
 
 #: src/main.c:2631
 msgid ""
@@ -737,56 +702,50 @@ msgid ""
 "Report bugs to mtr@iki.fi.\n"
 msgstr ""
 "\n"
-"Об ошибках сообщайте по адресу mtr@iki.fi.\n"
+"Laporkan bugs ke mtr@iki.fi.\n"
 
 #: src/psgen.c:324
 #, c-format
 msgid "couldn't find prolog \"%s\": %s\n"
-msgstr "невозможно найти пролог \"%s\": %s\n"
+msgstr "tidak dapat menemukan prolog \"%s\": %s\n"
 
 #: src/psgen.c:332
 #, c-format
 msgid "couldn't find encoding file \"%s.enc\": %s\n"
-msgstr "невозможно найти файл описания кодировки \"%s.enc\": %s\n"
+msgstr "tidak dapat menemukan penkodean berkas \"%s.enc\": %s\n"
 
 #: src/psgen.c:464
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\": %s\n"
-msgstr "невозможно найти заголовочный файл \"%s.hdr\": %s\n"
+msgstr "tidak dapat menemukan definisi header berkas \"%s.hdr\": %s\n"
 
 #: src/psgen.c:608
 #, c-format
 msgid "processing file \"%s\"...\n"
-msgstr "обработка файла \"%s\"...\n"
+msgstr "memproses berkas \"%s\"...\n"
 
-#.
-#. * At the beginning of the column, warn user
-#. * and print image.
-#.
 #: src/psgen.c:906
 #, c-format
 msgid "EPS file \"%s\" is too large for page\n"
-msgstr "EPS-файл \"%s\" слишком велик\n"
+msgstr "berkas EPS \"%s\" terlalu besar untuk halaman\n"
 
 #: src/psgen.c:979
 msgid "user font encoding can be only the system's default or `ps'"
-msgstr ""
-"определяемая пользователем кодировка шрифта может быть только\n"
-"системной по умолчанию или `ps'"
+msgstr "pengkodean font pengguna hanya dapat sistem baku atau `ps'"
 
 #: src/psgen.c:1220
 #, c-format
 msgid "unknown special escape: %s"
-msgstr "неизвестная управляющая последовательность: %s"
+msgstr "escape spesial: %s tidak diketahui"
 
 #: src/psgen.c:1346
 #, c-format
 msgid "illegal option %c for ^@epsf escape"
-msgstr "недопустимый ключ %c для директивы ^@epsf"
+msgstr "opsi %c untuk ^@epsf escape tidak legal"
 
 #: src/psgen.c:1352
 msgid "malformed ^@epsf escape: no ']' after options"
-msgstr "неверно задана директива ^@epsf: после ключей отсутствует `]'"
+msgstr "salah bentuk ^@epsf escape: tidak ada ']' setelah opsi"
 
 #: src/psgen.c:1364
 #, c-format
@@ -794,21 +753,21 @@ msgid ""
 "too long file name for ^@epsf escape:\n"
 "%.*s"
 msgstr ""
-"слишком длинное имя файла для директивы ^@epsf:\n"
+"nama berkas terlalu panjang untuk escape ^@epsf:\n"
 "%.*s"
 
 #: src/psgen.c:1368
 msgid "unexpected EOF while scanning ^@epsf escape"
-msgstr "преждевременный конец файла при чтении директивы ^@epsf"
+msgstr "tidak terduga EOF ketika mencari ^@epsf escape"
 
 #: src/psgen.c:1374
 msgid "malformed ^@epsf escape: no '{' found"
-msgstr "неверно задана директива ^@epsf: отсутствует '{'"
+msgstr "salah bentuk ^@epsf escape: Tidak ada '{' ditemukan"
 
 #: src/psgen.c:1432
 #, c-format
 msgid "malformed %s escape: no '{' found"
-msgstr "неверно задана директива %s: отсутствует '{'"
+msgstr "salah bentuk %s escape: tidak ada '{' ditemukan"
 
 #: src/psgen.c:1446
 #, c-format
@@ -816,214 +775,225 @@ msgid ""
 "too long argument for %s escape:\n"
 "%.*s"
 msgstr ""
-"слишком длинный аргумент для директивы %s:\n"
+"argumen untuk %s escape terlalu panjang:\n"
 "%.*s"
 
 #: src/psgen.c:1465
 #, c-format
 msgid "malformed font spec for ^@font escape: %s"
-msgstr "неправильное описание шрифта в директиве ^@font: %s"
+msgstr "spesifikasi font salah bentuk untuk ^@font escape: %s"
 
 #: src/psgen.c:1501
 #, c-format
 msgid "malformed color spec for ^@%s escape: %s"
-msgstr "неправильное описание цвета в директиве ^@%s: %s"
+msgstr "spesifikasi warna salah bentuk untuk escape ^@%s: %s"
 
 #: src/psgen.c:1525
 #, c-format
 msgid "invalid value for ^@shade escape: %s"
-msgstr "неверное значение для директивы ^@shade: %s"
+msgstr "nilai tidak valid untuk escape ^@shade: %s"
 
 #: src/psgen.c:1533
 #, c-format
 msgid "invalid value for ^@bggray escape: %s"
-msgstr "неверное значение для директивы ^@bggray: %s"
+msgstr "nilai tidak valid untuk escape ^@bggray: %s"
 
 #: src/psgen.c:2397
 #, c-format
 msgid "epsf: couldn't open pipe to command \"%s\": %s\n"
-msgstr "epsf: невозможно открыть канал для команды \"%s\": %s\n"
+msgstr "epsf: tidak dapat membuka pipe untuk perintah \"%s\": %s\n"
 
 #: src/psgen.c:2430
 #, c-format
 msgid "couldn't open EPS file \"%s\": %s\n"
-msgstr "невозможно открыть EPS-файл \"%s\": %s\n"
+msgstr "tidak dapat membuka berkas EPS \"%s\": %s\n"
 
 #: src/psgen.c:2467
+#, c-format
 msgid "EPS file \"%s\" does not start with \"%%!\" magic\n"
-msgstr "EPS-файл \"%s\" не начинается волшебным комментарием \"%%!\"\n"
+msgstr "berkas EPS \"%s\" tidak dapat dimulai dengan \"%%!\" magik\n"
 
-#. No, this BoundingBox comment is corrupted.
 #: src/psgen.c:2492
+#, c-format
 msgid ""
 "EPS file \"%s\" contains malformed %%%%BoundingBox row:\n"
 "\"%.*s\"\n"
 msgstr ""
-"EPS-файл \"%s\" содержит неправильную строку %%%%BoundingBox:\n"
+"berkas EPS \"%s\" beisi salah bentuk baris %%%%BoundingBox:\n"
 "\"%.*s\"\n"
 
 #: src/psgen.c:2517
 #, c-format
 msgid "EPS file \"%s\" is not a valid EPS file\n"
-msgstr "EPS-файл \"%s\" не является верным EPS-файлом\n"
+msgstr "berkas EPS \"%s\" bukan sebuah berkas EPS yang valid\n"
 
 #: src/psgen.c:2659
 #, c-format
 msgid "passing through all input files for output language `%s'\n"
-msgstr "обрабатываются все входные файлы с выходным языком `%s'\n"
+msgstr "melewatkan seleuruh berkas masukan untuk bahasa keluaran `%s'\n"
 
 #: src/psgen.c:2711
 #, c-format
 msgid "passing through %s file \"%s\"\n"
-msgstr "обрабатывается файл %s \"%s\"\n"
+msgstr "melewatkan %s berkas \"%s\n"
 
 #: src/psgen.c:2814
 #, c-format
 msgid "couldn't create temporary divert file: %s"
-msgstr "невозможно создать временный файл: %s"
+msgstr "tidak dapat membuat berkas  divert sementara: %s"
 
 #: src/psgen.c:2831
 #, c-format
 msgid "couldn't rewind divert file: %s"
-msgstr "невозможно сместиться во временном файле: %s"
+msgstr "tidak dapat rewind berkas divert: %s"
+
+#: src/util.c:95
+#, c-format
+msgid "missing argument: %s"
+msgstr "hilang argumen: %s"
 
 #: src/util.c:185 src/util.c:213
 #, c-format
 msgid "illegal value \"%s\" for option %s"
-msgstr "недопустимое значение \"%s\" для ключа %s"
+msgstr "nilai \"%s\" tidak legal untuk opsi %s"
 
 #: src/util.c:201
 #, c-format
 msgid "invalid value \"%s\" for option %s"
-msgstr "неверное значение \"%s\" для ключа %s"
+msgstr "nilai \"%s\" tidak valid untuk opsi %s"
 
 #: src/util.c:439
 #, c-format
 msgid "illegal option: %s"
-msgstr "недопустимый ключ: %s"
+msgstr "opsi: %s tidak legal"
 
 #: src/util.c:616
+#, c-format
 msgid "%s:%d: %%Format: no name"
-msgstr "%s:%d: %%Format: не задан"
+msgstr "%s:%d: %%Format: tidak ada nama"
 
 #: src/util.c:627
+#, c-format
 msgid "%s:%d: %%Format: too long name, maxlen=%d"
-msgstr "%s:%d %%Format: слишком длинное имя, максимальная длина %d"
+msgstr "%s:%d: %%Format: nama terlalu panjang, maxlen=%d"
 
 #: src/util.c:650
+#, c-format
 msgid "%s:%d: %%Format: name \"%s\" is already defined"
-msgstr "%s:%d: %%Format: имя \"%s\" уже определено"
+msgstr "%s:%d: %%Format: nama \"%s\" telah didefinisikan"
 
 #: src/util.c:671
+#, c-format
 msgid "%s:%d: %%HeaderHeight: no argument"
-msgstr "%s:%d: %%HeaderHeight: аргумент не задан"
+msgstr "%s:%d: %%HeaderHeight: tidak ada argumen"
 
 #: src/util.c:693
+#, c-format
 msgid "%s:%d: %%FooterHeight: no argument"
-msgstr "%s:%d: %%FooterHeight: аргумент не задан"
+msgstr "%s:%d: %%FooterHeight: tidak ada argumen"
 
 #: src/util.c:840
 #, c-format
 msgid "%s: warning: font size is negative\n"
-msgstr "%s:  предупреждение: отрицательный размер шрифта\n"
+msgstr "%s: peringatan: ukuran font negatif\n"
 
 #: src/util.c:842
 #, c-format
 msgid "%s: warning: font width is negative\n"
-msgstr "%s:  предупреждение: отрицательная ширина шрифта\n"
+msgstr "%s: peringatan: lebar font negatif\n"
 
 #: src/util.c:844
 #, c-format
 msgid "%s: warning: font height is negative\n"
-msgstr "%s:  предупреждение: отрицательная высота шрифта\n"
+msgstr "%s: peringatan: tinggi font negatif\n"
 
 #: src/util.c:863
 #, c-format
 msgid "reading AFM info for font \"%s\"\n"
-msgstr "чтение AFM-информации для шрифта \"%s\"\n"
+msgstr "membaca info AFM untuk font \"%s\"\n"
 
 #: src/util.c:896
 #, c-format
 msgid "couldn't open AFM file for font \"%s\", using default\n"
-msgstr "невозможно открыть AFM-файл для шрифта \"%s\", используется шрифт по умолчанию\n"
+msgstr "tidak dapat membuka berkas AFM untuk font \"%s\", menggunaka baku\n"
 
 #: src/util.c:903
 #, c-format
 msgid "couldn't open AFM file for the default font: %s"
-msgstr "невозможно открыть AFM-файл для шрифта по умолчанию: %s"
+msgstr "tidak dapat membuka berkas AFM untuk font baku: %s"
 
-#. Ok, fine.  Font was found.
 #: src/util.c:1092
 #, c-format
 msgid "downloading font \"%s\"\n"
-msgstr "загрузка шрифта \"%s\"\n"
+msgstr "mendonlod font \"%s\"\n"
 
 #: src/util.c:1097
 #, c-format
 msgid "couldn't open font description file \"%s\": %s\n"
-msgstr "невозможно открыть файл описания шрифта \"%s\": %s\n"
+msgstr "tidak dapat membuka berkas deskripsi font \"%s\": %s\n"
 
 #: src/util.c:1387
+#, c-format
 msgid "%s: too long format for %%D{} escape"
-msgstr "%s: слишком длинный формат для директивы %%D{}"
+msgstr "%s: format terlalu panjang untuk %%D{} escape"
 
 #: src/util.c:1472
+#, c-format
 msgid "%s: unknown `%%' escape `%c' (%d)"
-msgstr "%s: неизвестная %%-директива `%c' (%d)"
+msgstr "%s: tidak diketahui `%%' escape `%c' (%d)"
 
 #: src/util.c:1510
 #, c-format
 msgid "%s: no closing ')' for $() escape"
-msgstr "%s: отсутствует закрывающая ')' для директивы $()"
+msgstr "%s: tidak ada penutup ')' untuk escape $()"
 
 #: src/util.c:1513
 #, c-format
 msgid "%s: too long variable name for $() escape"
-msgstr "%s: слишком длинное имя переменной для директивы $()"
+msgstr "%s: nama variabel terlalu panjang untuk escape $()"
 
 #: src/util.c:1540
 #, c-format
 msgid "%s: too long format for $D{} escape"
-msgstr "%s: слишком длинный формат для директивы $D{}"
+msgstr "%s: format terlalu panjang untuk escape $D{}"
 
 #: src/util.c:1628
 #, c-format
 msgid "%s: unknown `$' escape `%c' (%d)"
-msgstr "%s: неизвестная $-директива `%c' (%d)"
+msgstr "%s: tidak diketahui `$' escape `%c' (%d)"
 
 #: src/util.c:1819
 #, c-format
 msgid "malformed float dimension: \"%s\""
-msgstr "неправильное число с плавающей точкой: \"%s\""
+msgstr "salah bentuk dimensi float: \"%s\""
 
 #: src/util.c:1936
 #, c-format
 msgid "couldn't open input filter \"%s\" for file \"%s\": %s"
-msgstr "невозможно открыть входной фильтр \"%s\" для файла \"%s\": %s"
+msgstr "tidak dapat membuka saringan masukan \"%s\" untuk berkas \"%s\": %s"
 
 #: src/util.c:1953
 #, c-format
 msgid "couldn't open input file \"%s\": %s"
-msgstr "невозможно открыть входной файл \"%s\": %s"
+msgstr "tidak dapat membuka berkas masukan \"%s\": %s"
 
-#. Open output file.
 #: src/mkafmmap.c:173
 #, c-format
 msgid "file=%s\n"
-msgstr "файл=%s\n"
+msgstr "berkas=%s\n"
 
 #: src/mkafmmap.c:173
 msgid "stdout"
-msgstr "стандартный вывод"
+msgstr "stdout"
 
 #: src/mkafmmap.c:181
 #, c-format
 msgid "%s: couldn't open output file \"%s\""
-msgstr "%s: невозможно открыть выходной файл \"%s\""
+msgstr "%s: tidak dapat membuka berkas keluaran \"%s\""
 
 #: src/mkafmmap.c:195
 msgid "couldn't create AFM library"
-msgstr "невозможно создать AFM-библиотеку"
+msgstr "tidak dapat membuat perpustakaan AFM"
 
 #: src/mkafmmap.c:244
 #, c-format
@@ -1036,55 +1006,55 @@ msgid ""
 "                          stdout.\n"
 "  -V, --version           print version number\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]... ФАЙЛ\n"
-"Аргументы, обязательные для длинных ключей, обязательны и для коротких.\n"
-"  -h, --help              показать эту справку и выйти\n"
-"  -p, --output-file=ФАЙЛ  выводить в указанный ФАЙЛ (по умолчанию font.map).\n"
-"                          Если ФАЙЛ задан как -, печатать на стандартный вывод.\n"
-"  -V, --version           показать информацию о версии и выйти\n"
+"Penggunaan: %s [OPSI]... BERKAS...\n"
+"Argumen wajib untuk opsi panjang juga wajib untuk opsi pendek juga.\n"
+"  -h, --help              tampilkan bantuan ini dan keluar\n"
+"  -p, --output-file=NAMA  tampilkan keluaran ke berkas NAMA (berkas baku\n"
+"                          adalah font.map). Jikan BERKAS adalah `-', biarkan\n"
+"                          keluaran ke stdout.\n"
+"  -V, --version           tampilkan nomor versi\n"
 
 #: states/lex.l:169 states/lex.l:175
 msgid "error: EOF in comment"
-msgstr "ошибка: EOF в комментарии"
+msgstr "error: EOF dalam komentar"
 
 #: states/lex.l:206
 msgid "error: EOF in string constant"
-msgstr "ошибка: EOF в строковой константе"
+msgstr "error: EOF dalam konstanta string"
 
 #: states/lex.l:313
 msgid "error: EOF in regular expression"
-msgstr "ошибка: EOF в регулярном выражении"
+msgstr "error: EOF dalam ekspresi regular"
 
-#. Format version string.
 #: states/main.c:199
 #, c-format
 msgid "states for GNU %s %s"
-msgstr "states для GNU %s %s"
+msgstr "keadaan untuk GNU %s %s"
 
 #: states/main.c:254
 #, c-format
 msgid "%s: malformed variable definition \"%s\"\n"
-msgstr "%s: переменная \"%s\" определена неправильно\n"
+msgstr "%s: definisi variabel salah bentuk \"%s\"\n"
 
 #: states/main.c:282
 #, c-format
 msgid "%s: couldn't create output file \"%s\": %s\n"
-msgstr "%s: невозможно создать выходной файл \"%s\": %s\n"
+msgstr "%s: tidak dapat membuat berkas keluaran \"%s\": %s\n"
 
 #: states/main.c:313
 #, c-format
 msgid "%s: unknown warning level `%s'\n"
-msgstr "%s: уровень подробности предупреждений `%s' неизвестен\n"
+msgstr "%s: tingkat peringatan `%s' tidak diketahui\n"
 
 #: states/main.c:362 states/main.c:398 states/prims.c:1377 states/utils.c:229
 #, c-format
 msgid "%s: out of memory\n"
-msgstr "%s: оперативная память исчерпана\n"
+msgstr "%s: kehabisan memori\n"
 
 #: states/main.c:423
 #, c-format
 msgid "%s: couldn't open input file `%s': %s\n"
-msgstr "%s: невозможно открыть входной файл `%s': %s\n"
+msgstr "%s: tidak dapat membuka berkas masukan `%s': %s\n"
 
 #: states/main.c:447
 #, c-format
@@ -1092,8 +1062,8 @@ msgid ""
 "Usage: %s [OPTION]... [FILE]...\n"
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]... [ФАЙЛ]...\n"
-"Аргументы, обязательные для длинных ключей, обязательны и для коротких.\n"
+"Penggunaan: %s [OPSI]... [BERKAS]...\n"
+"Argumen wajib untuk opsi panjang juga wajib untuk opsi pendek juga.\n"
 
 #: states/main.c:451
 msgid ""
@@ -1107,185 +1077,193 @@ msgid ""
 "  -V, --version              print version number\n"
 "  -W, --warning=LEVEL        set the warning level to LEVEL\n"
 msgstr ""
-"  -D, --define=ПЕРЕМЕННАЯ=ЗНАЧЕНИЕ\n"
-"                             определяет ПЕРЕМЕННУЮ и присваивает ей ЗНАЧЕНИЕ\n"
-"  -f, --file=ФАЙЛ            читать определения состояний из заданного ФАЙЛА\n"
-"  -h, --help                 показать эту справку и выйти\n"
-"  -o, --output=ФАЙЛ          выводить в указанный ФАЙЛ\n"
-"  -p, --path=ПУТЬ            устанавливает путь поиска\n"
-"  -s, --state=ИМЯ            начать с указанного состояния\n"
-"  -v, --verbose              увеличивает подробность сообщений программы\n"
-"  -V, --version              показать информацию о версии и выйти\n"
-"  -W, --warning=ЧИСЛО        задает степень подробности предупреждений\n"
+"  -D, --define=VAR=VAL       definisikan variabel VAR untuk memiliki nilai VAR\n"
+"  -f, --file=NAMA            baca definisi keadaan dari berkas NAMA\n"
+"  -h, --help                 tampilkan bantuan ini dan keluar\n"
+"  -o, --output=NAMA          simpan keluaran ke berkas NAMA\n"
+"  -p, --path=JALUR           set jalur load ke JALUR\n"
+"  -s, --state=NAMA           mulai dari keadaan NAMA\n"
+"  -v, --verbose              naikan verbositi dari aplikasi\n"
+"  -V, --version              tampilkan nomor versi\n"
+"  -W, --warning=TINGKAT      set tingkat peringatan ke TINGKAT\n"
+
+#: states/prims.c:46
+#, c-format
+msgid "%s:%d: %s: too few arguments\n"
+msgstr "%s:%d: %s: terlalu sedikit argumen\n"
+
+#: states/prims.c:56
+#, c-format
+msgid "%s:%d: %s: too many arguments\n"
+msgstr "%s:%d: %s: terlalu banyak argumen\n"
 
 #: states/prims.c:109 states/prims.c:129 states/prims.c:255 states/prims.c:428
 #: states/prims.c:903
 #, c-format
 msgid "%s:%d: %s: illegal argument type\n"
-msgstr "%s:%d: %s: недопустимый тип аргумента\n"
+msgstr "%s:%d: %s: tipe argumen tidak legal\n"
 
 #: states/prims.c:470
 #, c-format
 msgid "%s: panic: "
-msgstr "%s: аварийная ситуация: "
+msgstr "%s: panik: "
 
 #: states/prims.c:504
 #, c-format
 msgid "%s:%d: %s: malformed version string `%s'\n"
-msgstr "%s:%d: %s: неправильная запись версии `%s'\n"
+msgstr "%s:%d: %s: string versi salah bentuk `%s'\n"
 
 #: states/prims.c:519
 #, c-format
 msgid "%s: FATAL ERROR: States version %s or higher is required for this script\n"
-msgstr "%s: КРИТИЧЕСКАЯ ОШИБКА: для этой программы необходим states версии %s или выше\n"
+msgstr "%s: FATAL ERROR: Versi state %s atau lebih tinggi dibutuhkan untuk script ini\n"
 
 #: states/prims.c:610 states/prims.c:1276
 #, c-format
 msgid "%s:%d: %s: start offset is bigger than end offset\n"
-msgstr "%s:%d: %s: начальное смещение больше конечного\n"
+msgstr "%s:%d: %s: awal ofset lebih besar daripada akhir ofset\n"
 
 #: states/prims.c:619 states/prims.c:635 states/prims.c:1282
 #, c-format
 msgid "%s:%d: %s: offset out of range\n"
-msgstr "%s:%d: %s: смещение вне допустимых пределов\n"
+msgstr "%s:%d: %s: ofset diluar dari jangkauan\n"
 
 #: states/prims.c:653
 #, c-format
 msgid "%s:%d: %s: illegal argument\n"
-msgstr "%s:%d: %s: недопустимый аргумент\n"
+msgstr "%s:%d: %s: argumen tidak legal\n"
 
 #: states/prims.c:700
 #, c-format
 msgid "%s:%d: %s: illegal regexp character syntax: %c\n"
-msgstr "%s:%d: %s: недопустимый синтаксис знака в регулярном выражении: %c\n"
+msgstr "%s:%d: %s: sintaks karakter regexp tidak legal: %c\n"
 
 #: states/prims.c:915
 #, c-format
 msgid "%s:%d: %s: couldn't define state `%s'\n"
-msgstr "%s:%d: %s: невозможно определить состояние `%s'\n"
+msgstr "%s:%d: %s: tidak dapat mendefinisikan keadaan `%s'\n"
 
 #: states/prims.c:1012
 #, c-format
 msgid "%s: primitive `%s': too few arguments for format\n"
-msgstr "%s: примитив `%s': недостаточно аргументов\n"
+msgstr "%s: primitive `%s': terlalu sedikit argumen untuk format\n"
 
 #: states/prims.c:1040
 #, c-format
 msgid "%s:%d: %s: argument %d doesn't match format\n"
-msgstr "%s:%d: %s: аргумент %d не соответствует формату\n"
+msgstr "%s:%d: %s: argumen %d tidak memiliki format yang cocok\n"
 
 #: states/prims.c:1080
+#, c-format
 msgid "%s:%d: %s: no extra options can be specified for %%s\n"
-msgstr "%s:%d: %s: для %%s нельзя задать дополнительные аргументы\n"
+msgstr "%s:%d: %s: tidak ada ekstra opsi yang dapat dispesifikasikan untuk %%s\n"
 
 #: states/prims.c:1089
 #, c-format
 msgid "%s:%d: %s: illegal type specifier `%c'\n"
-msgstr "%s:%d: %s: тип `%c' недопустим\n"
+msgstr "%s:%d: %s: tipe penspesifikasi tidak legal `%c'\n"
 
 #: states/process.c:117
 #, c-format
 msgid "%s: undefined state `%s'\n"
-msgstr "%s: состояние `%s' неопределено\n"
+msgstr "%s: keadaan tidak terdefinisi `%s'\n"
 
 #: states/process.c:198
 #, c-format
 msgid "%s: error: undefined variable `%s'\n"
-msgstr "%s: ошибка: переменная `%s' неопределена\n"
+msgstr "%s: error: variabel tidak terdefinisi `%s'\n"
 
 #: states/process.c:292
 #, c-format
 msgid "%s: undefined super state `%s'\n"
-msgstr "%s: супер-состояние `%s' неопределено\n"
+msgstr "%s: keadaan super `%s' tidak terdefinisi\n"
 
 #: states/utils.c:262
 #, c-format
 msgid "%s:%d: couldn't compile regular expression \"%s\": %s\n"
-msgstr "%s:%d: невозможно скомпилировать регулярное выражение \"%s\": %s\n"
+msgstr "%s:%d: tidak dapat mengkompile ekspresi regular \"%s\": %s\n"
 
 #: states/utils.c:451 states/utils.c:479
 #, c-format
 msgid "%s: ouf of memory"
-msgstr "%s: оперативная память исчерпана"
+msgstr "%s: kehabisan memori"
 
 #: states/utils.c:456
 #, c-format
 msgid "warning: redefining state `%s'"
-msgstr "предупреждение: переопределение состояния `%s'"
+msgstr "peringatan: redefinisi keadaan `%s'"
 
 #: states/utils.c:483
 #, c-format
 msgid "%s:%d: warning: redefining subroutine `%s'\n"
-msgstr "%s:%d: предупреждение: переопределение подпрограммы `%s'\n"
+msgstr "%s:%d: peringatan: redefinisi subroutine `%s'\n"
 
-#. Undefined variable.
 #: states/utils.c:580
 #, c-format
 msgid "%s:%d: error: undefined variable `%s'\n"
-msgstr "%s:%d: ошибка: переменная `%s' неопределена\n"
+msgstr "%s:%d: error: variabel tidak terdefinisi `%s'\n"
 
-#. Couldn't set value for variable.
 #: states/utils.c:618
 #, c-format
 msgid "%s:%d: error: couldn't set variable `%s'\n"
-msgstr "%s:%d: ошибка: невозможно установить значение переменной `%s'\n"
+msgstr "%s:%d: error: tidak dapat menset variabel `%s'\n"
 
 #: states/utils.c:769
 #, c-format
 msgid "%s:%d: error: expression between illegal types\n"
-msgstr "%s:%d: ошибка: недопустимые типы аргументов выражения\n"
+msgstr "%s:%d: error: ekspresi diantara tipe tidak legal\n"
 
 #: states/utils.c:867
 #, c-format
 msgid "%s:%d: error: too few arguments for subroutine\n"
-msgstr "%s:%d: ошибка: недостаточно аргументов для подпрограммы\n"
+msgstr "%s:%d: error: terlalu sedikit argumen untuk subroutine\n"
 
 #: states/utils.c:874
 #, c-format
 msgid "%s:%d: error: too many arguments for subroutine\n"
-msgstr "%s:%d: ошибка: слишком много аргументов для подпрограммы\n"
+msgstr "%s:%d: error: terlalu banyak argumen untuk subroutine\n"
 
 #: states/utils.c:928
 #, c-format
 msgid "%s:%d: error: undefined procedure `%s'\n"
-msgstr "%s:%d: ошибка: процедура `%s' не определена\n"
+msgstr "%s:%d: error: prosedur `%s' tidak terdefinisi\n"
 
 #: states/utils.c:1020
 #, c-format
 msgid "%s:%d: error: illegal lvalue for assignment\n"
-msgstr "%s:%d: ошибка: недопустимая левая часть оператора присваивания\n"
+msgstr "%s:%d: error: lvalue untuk assignmen tidak legal\n"
 
 #: states/utils.c:1028 states/utils.c:1112
 #, c-format
 msgid "%s:%d: error: array reference index is not integer\n"
-msgstr "%s:%d: ошибка: индекс массива не является целым числом\n"
+msgstr "%s:%d: error: indeks referensi array bukan integer\n"
 
 #: states/utils.c:1034
 #, c-format
 msgid "%s:%d: error: negative array reference index\n"
-msgstr "%s:%d: ошибка: отрицательный индекс массива\n"
+msgstr "%s:%d: error: indeks referensi array negatif\n"
 
 #: states/utils.c:1085
 #, c-format
 msgid "%s:%d: error: illegal rvalue for string assignment\n"
-msgstr "%s:%d: ошибка: недопустимая правая часть оператора присваивания строк\n"
+msgstr "%s:%d: error: rvalue untuk assignmen string tidak legal\n"
 
 #: states/utils.c:1104
 #, c-format
 msgid "%s:%d: error: illegal type for array reference\n"
-msgstr "%s%d: ошибка: недопустимый тип для ссылки по индексу\n"
+msgstr "%s:%d: error: tipe untuk referensi array tidak legal\n"
 
 #: states/utils.c:1121
 #, c-format
 msgid "%s:%d: error: array reference index out of rance\n"
-msgstr "%s%d: ошибка: индекс массива вне допустимых пределов\n"
+msgstr "%s:%d: error: indeks referensi array diluar dari rance\n"
 
 #: states/utils.c:1347
 #, c-format
 msgid "%s: couldn't open definition file `%s': %s\n"
-msgstr "%s: невозможно открыть конфигурационный файл `%s': %s\n"
+msgstr "%s: tidak dapat membuka berkas definisi `%s': %s\n"
 
 #: states/utils.c:1403
 #, c-format
 msgid "%s: autoloading `%s' from `%s'\n"
-msgstr "%s: автозагрузка `%s' из `%s'\n"
+msgstr "%s: autoloading `%s' dari `%s'\n"

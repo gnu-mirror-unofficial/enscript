@@ -1,202 +1,178 @@
-# Перевод сообщений для GNU enscript
-# Copyright (C) 1998, 1999 Free Software Foundation, Inc.
-# Oleg S. Tihonov <ost@tatnipi.ru>, 1998, 1999, 2003.
+# Irish translations for enscript.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Kevin Patrick Scannell <scannell@SLU.EDU>, 2005, 2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: enscript 1.6.3\n"
-"POT-Creation-Date: 2002-01-24 09:39+0200\n"
-"PO-Revision-Date: 2003-02-20 13:35+0300\n"
-"Last-Translator: Oleg S. Tihonov <tihonov@ffke-campus.mipt.ru>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"Project-Id-Version: enscript 1.6.4\n"
+"POT-Creation-Date: 2003-03-05 09:41+0200\n"
+"PO-Revision-Date: 2007-01-30 18:27-05\n"
+"Last-Translator: Kevin Patrick Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=koi8-r\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: compat/getopt.c:628
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: неоднозначный ключ `%s'\n"
+msgstr "%s: TА an rogha `%s' dИbhrМoch\n"
 
 #: compat/getopt.c:652
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: ключ `--%s' должен использоваться без аргумента\n"
+msgstr "%s: nМ cheadaМtear argСint i ndiaidh na rogha `--%s'\n"
 
 #: compat/getopt.c:657
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: ключ `%c%s' должен использоваться без аргумента\n"
+msgstr "%s: nМ cheadaМtear argСint i ndiaidh na rogha `%c%s'\n"
 
 #: compat/getopt.c:674 compat/getopt.c:847
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: ключ `%s' должен использоваться c аргументом\n"
+msgstr "%s: tА argСint de dhМth i ndiaidh na rogha `%s'\n"
 
-#. --option
 #: compat/getopt.c:703
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s: неизвестный ключ `--%s'\n"
+msgstr "%s: rogha anaithnid `--%s'\n"
 
-#. +option or -option
 #: compat/getopt.c:707
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s: неизвестный ключ `%c%s'\n"
+msgstr "%s: rogha anaithnid `%c%s'\n"
 
-#. 1003.2 specifies the format of this message.
 #: compat/getopt.c:733
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s: недопустимый ключ -- %c\n"
+msgstr "%s: rogha neamhcheadaithe -- %c\n"
 
 #: compat/getopt.c:736
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: неверный ключ -- %c\n"
+msgstr "%s: rogha neamhbhailМ -- %c\n"
 
-#. 1003.2 specifies the format of this message.
 #: compat/getopt.c:766 compat/getopt.c:896
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: ключ %c должен бы использоваться c аргументом\n"
+msgstr "%s: tА argСint de dhМth i ndiaidh na rogha -- %c\n"
 
 #: compat/getopt.c:813
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: неоднозначный ключ `-W %s'\n"
+msgstr "%s: TА an rogha `-W %s' dИbhrМoch\n"
 
 #: compat/getopt.c:831
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: ключ `-W %s' должен использоваться без аргумента\n"
+msgstr "%s: nМ cheadaМtear argСint i ndiaidh na rogha `-W %s'\n"
 
 #: compat/xalloc.c:70
 #, c-format
 msgid "xmalloc(): couldn't allocate %d bytes\n"
-msgstr "xmalloc(): невозможно выделить %d байт\n"
+msgstr "xmalloc(): nМorbh fhИidir %d beart a dhАileadh\n"
 
 #: compat/xalloc.c:88
 #, c-format
 msgid "xcalloc(): couldn't allocate %d bytes\n"
-msgstr "xcalloc(): невозможно выделить %d байт\n"
+msgstr "xcalloc(): nМorbh fhИidir %d beart a dhАileadh\n"
 
 #: compat/xalloc.c:109
 #, c-format
 msgid "xrealloc(): couldn't reallocate %d bytes\n"
-msgstr "xrealloc(): невозможно перераспределить %d байт\n"
+msgstr "xrealloc(): nМorbh fhИidir %d beart a dhАileadh\n"
 
 #: compat/regex.c:996
 msgid "Success"
-msgstr "Успех"
+msgstr "D'Иirigh leis"
 
-#. REG_NOERROR
 #: compat/regex.c:997
 msgid "No match"
-msgstr "Совпадений нет"
+msgstr "NМl a leithИid ann"
 
-#. REG_NOMATCH
 #: compat/regex.c:998
 msgid "Invalid regular expression"
-msgstr "Неверное регулярное выражение"
+msgstr "Slonn ionadaМochta neamhbhailМ"
 
-#. REG_BADPAT
 #: compat/regex.c:999
 msgid "Invalid collation character"
-msgstr "Недопустимый для сортировки символ"
+msgstr "Carachtar neamhbhailМ comhordaithe"
 
-#. REG_ECOLLATE
 #: compat/regex.c:1000
 msgid "Invalid character class name"
-msgstr "Неверное имя класса символа"
+msgstr "Ainm neamhbhailМ ar aicme charachtar"
 
-#. REG_ECTYPE
 #: compat/regex.c:1001
 msgid "Trailing backslash"
-msgstr "Обратная косая черта стоит последней"
+msgstr "CЗlslais ag deireadh"
 
-#. REG_EESCAPE
 #: compat/regex.c:1002
 msgid "Invalid back reference"
-msgstr "Неверная ссылка"
+msgstr "CЗltagairt neamhbhailМ"
 
-#. REG_ESUBREG
 #: compat/regex.c:1003
 msgid "Unmatched [ or [^"
-msgstr "Не имеющее пары [ или [^"
+msgstr "[ nС [^ corr"
 
-#. REG_EBRACK
 #: compat/regex.c:1004
 msgid "Unmatched ( or \\("
-msgstr "Не имеющее пары ( или \\\\("
+msgstr "( nС \\( corr"
 
-#. REG_EPAREN
 #: compat/regex.c:1005
 msgid "Unmatched \\{"
-msgstr "Не имеющее пары \\{"
+msgstr "\\{ corr"
 
-#. REG_EBRACE
 #: compat/regex.c:1006
 msgid "Invalid content of \\{\\}"
-msgstr "Неверное содержимое \\{\\}"
+msgstr "аbhar neamhbhailМ idir \\{\\}"
 
-#. REG_BADBR
 #: compat/regex.c:1007
 msgid "Invalid range end"
-msgstr "Неверное содержимое \\{\\}"
+msgstr "Deireadh raoin neamhbhailМ"
 
-#. REG_ERANGE
 #: compat/regex.c:1008
 msgid "Memory exhausted"
-msgstr "Оперативная память исчерпана"
+msgstr "Cuimhne Мdithe"
 
-#. REG_ESPACE
 #: compat/regex.c:1009
 msgid "Invalid preceding regular expression"
-msgstr "Неверное предшествующее регулярное выражение"
+msgstr "Is neamhbhailМ an slonn ionadaМochta roimhe seo"
 
-#. REG_BADRPT
 #: compat/regex.c:1010
 msgid "Premature end of regular expression"
-msgstr "Преждевременный конец регулярного выражения"
+msgstr "Deireadh le slonn ionadaМochta gan choinne"
 
-#. REG_EEND
 #: compat/regex.c:1011
 msgid "Regular expression too big"
-msgstr "Регулярное выражение слишком велико"
+msgstr "Slonn ionadaМochta rСmhСr"
 
-#. REG_ESIZE
 #: compat/regex.c:1012
 msgid "Unmatched ) or \\)"
-msgstr "Не имеющее пары ) или \\)"
+msgstr ") nС \\) corr"
 
 #: compat/regex.c:5458
 msgid "No previous regular expression"
-msgstr "Регулярное выражение не было задано раньше"
+msgstr "NМl aon slonn ionadaМochta roimhe seo"
 
-# msgfmt --statistics -f -c -v -o /dev/null
-# вызывает ошибку, вероятно это ошибка msgfmt
-#. Create the default TOC format string.  Wow, this is cool!
 #: src/main.c:966
 #, no-c-format
 msgid "$3v $-40N $3% pages $4L lines  $E $C"
-msgstr "$3v $-40N $3% страниц $4L строк  $E $C"
+msgstr "$3v $-40N $3% leathanaigh $4L lМnte  $E $C"
 
 #: src/main.c:996
 #, c-format
 msgid "couldn't get passwd entry for uid=%d: %s"
-msgstr "невозможно получить пароль для пользователя с uid=%d: %s"
+msgstr "nМ raibh aon fhАil ar an iontrАil passwd do uid=%d: %s"
 
-#. No luck, report error from the original config file.
 #: src/main.c:1088
 #, c-format
 msgid "couldn't read config file \"%s/%s\": %s"
-msgstr "невозможно считать файл конфигурации \"%s/%s\": %s"
+msgstr "nМorbh fhИidir an comhad cumraМochta \"%s/%s\" a lИamh: %s"
 
 #: src/main.c:1092
 msgid "I did also try the following directories:"
-msgstr "Также пробовались следующие каталоги:"
+msgstr "Bhain mИ triail as na comhadlanna seo a leanas freisin:"
 
 #: src/main.c:1093 src/main.c:1094 src/main.c:1095
 #, c-format
@@ -213,7 +189,7 @@ msgstr "\t../../lib"
 
 #: src/main.c:1099
 msgid "This is probably an installation error.  Please, try to rebuild:"
-msgstr "Вероятно, это из-за ошибки при установке.  Попробуйте пересобрать:"
+msgstr "Is dСcha gur earrАid suiteАla М seo.  DИan iarracht И a atСgАil:"
 
 #: src/main.c:1100
 msgid "\tmake distclean"
@@ -221,7 +197,7 @@ msgstr "\tmake distclean"
 
 #: src/main.c:1101
 msgid "\t./configure --prefix=PREFIX"
-msgstr "\t./configure --prefix=ПРЕФИКС"
+msgstr "\t./configure --prefix=RиIMмR"
 
 #: src/main.c:1102
 msgid "\tmake"
@@ -237,21 +213,21 @@ msgstr "\tmake install"
 
 #: src/main.c:1106
 msgid "or set the environment variable `ENSCRIPT_LIBRARY' to point to your"
-msgstr "либо установите переменную среды `ENSCRIPT_LIBRARY', чтобы она указывала на"
+msgstr "nС socraigh an athrСg thimpeallachta `ENSCRIPT_LIBRARY' a bheith"
 
 #: src/main.c:1108
 msgid "library directory."
-msgstr "каталог, где у вас хранятся библиотеки."
+msgstr "comhadlann na leabharlann s'agat."
 
 #: src/main.c:1180
 #, c-format
 msgid "unknown encoding: %s"
-msgstr "кодировка %s неизвестна"
+msgstr "ionchСdЗ anaithnid: %s"
 
 #: src/main.c:1199
 #, c-format
 msgid "couldn't open AFM library: %s"
-msgstr "невозможно открыть AFM-библиотеку: %s"
+msgstr "nМorbh fhИidir leabharlann AFM a oscailt: %s"
 
 #: src/main.c:1228
 msgid ""
@@ -259,168 +235,160 @@ msgid ""
 "name             width\theight\tllx\tlly\turx\tury\n"
 "------------------------------------------------------------\n"
 msgstr ""
-"известные форматы:\n"
-"имя             ширина\tвысота\tлнX\tлнY\tпвX\tпвY\n"
+"meАin ar eolas:\n"
+"ainm             leithead\tairde\tllx\tlly\turx\tury\n"
 "------------------------------------------------------------\n"
 
 #: src/main.c:1247
 #, c-format
 msgid "do not know anything about media \"%s\""
-msgstr "формат \"%s\" неизвестен"
+msgstr "nМl fhios agam faoi mheАn \"%s\""
 
 #: src/main.c:1291
 #, c-format
 msgid "set new marginals for media `%s' (%dx%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
-msgstr ""
-"установить новые размеры полей для формата `%s' (%dx%d): \n"
-"лнX=%d, лнY=%d, пвX=%d, пвY=%d\n"
+msgstr "socraigh imill nua le haghaidh meАin `%s' (%dв%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
 
 #: src/main.c:1302
 #, c-format
 msgid "illegal page label format \"%s\""
-msgstr "недопустимый формат метки страницы \"%s\""
+msgstr "formАid neamhcheadaithe \"%s\" ar lipИid leathanaigh"
 
 #: src/main.c:1314
 #, c-format
 msgid "illegal non-printable format \"%s\""
-msgstr "недопустимый формат для непечатных символов \"%s\""
+msgstr "formАid neamhcheadaithe neamh-inphriontАilte \"%s\""
 
 #: src/main.c:1328
 #, c-format
 msgid "illegal style for wrapped line marker: \"%s\""
-msgstr "недопустимый стиль пометки разбиения строки: \"%s\""
+msgstr "stМl neamhcheadaithe ar mharcАlaМ na lМnte timfhillte: \"%s\""
 
 #: src/main.c:1338
 #, c-format
 msgid "illegal N-up argument: %d"
-msgstr "неверно задано число логических страниц на страницу: %d"
+msgstr "argСint neamhcheadaithe N-suas: %d"
 
 #: src/main.c:1343
 #, c-format
 msgid "N-up argument must be power of 2: %d"
-msgstr "число логических страниц на страницу должно быть степенью 2: %d"
+msgstr "Caithfidh an argСint N-suas a bheith cumhacht de 2: %d"
 
 #: src/main.c:1420
 #, c-format
 msgid "malformed underlay position: %s"
-msgstr "неправильно задана позиция подкладки: %s"
+msgstr "ionad mМchumtha an fholeathАin: %s"
 
 #: src/main.c:1443
 #, c-format
 msgid "illegal underlay style: %s"
-msgstr "недопустимый стиль подкладки: %s"
+msgstr "stМl neamhcheadaithe an fholeathАin: %s"
 
-#. Create description with states.
 #: src/main.c:1470
 msgid ""
 "Highlighting is supported for the following languages and file formats:\n"
 "\n"
 msgstr ""
-"Выделение поддерживается для следующих языков и форматов файлов:\n"
+"TacaМtear le haibhsiЗ le haghaidh na dteangacha agus na bhformАidМ comhaid seo a leanas:\n"
 "\n"
 
 #: src/main.c:1641
 #, c-format
 msgid "couldn't create temporary toc file: %s"
-msgstr "невозможно создать файл содержания: %s"
+msgstr "nМorbh fhИidir comhad sealadach clАir na n-Аbhar a chruthЗ: %s"
 
 #: src/main.c:1688
 #, c-format
 msgid "couldn't stat input file \"%s\": %s"
-msgstr "невозможно узнать статус входного файла \"%s\": %s"
+msgstr "nМorbh fhИidir inchomhad \"%s\" a `stat': %s"
 
 #: src/main.c:1708
 #, c-format
 msgid "couldn't rewind toc file: %s"
-msgstr "невозможно сместиться в файле содержания: %s"
+msgstr "nМorbh fhИidir comhad clАir na n-Аbhar a atochras: %s"
 
 #: src/main.c:1714
 msgid "Table of Contents"
-msgstr "Содержание"
+msgstr "ClАr аbhair"
 
-#.
-#. * The value of <ofp> is not reset in close_output_file(),
-#. * this is ugly but it saves one flag.
-#.
 #: src/main.c:1743
 msgid "no output generated\n"
-msgstr "вывод не произведен\n"
+msgstr "nМor gineadh aschur ar bith\n"
 
 #: src/main.c:1748
 #, c-format
 msgid "output sent to %s\n"
-msgstr "вывод направлен на %s\n"
+msgstr "seoladh an t-aschur chuig %s\n"
 
 #: src/main.c:1749 src/main.c:1773
 msgid "printer"
-msgstr "принтер"
+msgstr "printИir"
 
 #: src/main.c:1751
 #, c-format
 msgid "output left in %s\n"
-msgstr "вывод записан в %s\n"
+msgstr "fАgadh an t-aschur i %s\n"
 
-#. We did something, tell what.
 #: src/main.c:1769
 #, c-format
 msgid "[ %d pages * %d copy ]"
-msgstr "[ %d страниц * %d копий ]"
+msgstr "[ %d leathanach * %d cСip ]"
 
 #: src/main.c:1772
 #, c-format
 msgid " sent to %s\n"
-msgstr " направлено на %s\n"
+msgstr " seolta chuig %s\n"
 
 #: src/main.c:1775
 #, c-format
 msgid " left in %s\n"
-msgstr " записано в %s\n"
+msgstr " fАgtha i %s\n"
 
 #: src/main.c:1780
 #, c-format
 msgid "%d lines were %s\n"
-msgstr "%d строк были %s\n"
+msgstr "%d lМnte %s\n"
 
 #: src/main.c:1782
 msgid "truncated"
-msgstr "усечены"
+msgstr "teasctha"
 
 #: src/main.c:1782
 msgid "wrapped"
-msgstr "разбиты"
+msgstr "timfhillte"
 
 #: src/main.c:1788
 #, c-format
 msgid "%d characters were missing\n"
-msgstr "пропущено символов: %d\n"
+msgstr "%d carachtar ar iarraidh\n"
 
 #: src/main.c:1792
 msgid "missing character codes (decimal):\n"
-msgstr "коды (десятичные) пропущенных символов:\n"
+msgstr "cСid charachtair ar iarraidh (deachЗlach):\n"
 
 #: src/main.c:1800
 #, c-format
 msgid "%d non-printable characters\n"
-msgstr "непечатных символов: %d\n"
+msgstr "%d carachtair neamh-inphriontАilte\n"
 
 #: src/main.c:1805
 msgid "non-printable character codes (decimal):\n"
-msgstr "десятичные коды непечатных символов:\n"
+msgstr "cСid charachtair neamh-inphriontАilte (deachЗlach):\n"
 
 #: src/main.c:1854
 #, c-format
 msgid "couldn't open printer `%s': %s"
-msgstr "невозможно открыть принтер `%s': %s"
+msgstr "nМorbh fhИidir printИir `%s' a oscailt: %s"
 
 #: src/main.c:1863
 #, c-format
 msgid "couldn't create output file \"%s\": %s"
-msgstr "невозможно создать выходной файл \"%s\": %s"
+msgstr "nМorbh fhИidir aschomhad \"%s\" a chruthЗ: %s"
 
 #: src/main.c:1880
 #, c-format
 msgid "couldn't close output file \"%s\": %s"
-msgstr "невозможно закрыть выходной файл \"%s\": %s"
+msgstr "nМorbh fhИidir aschomhad \"%s\" a dhЗnadh: %s"
 
 #: src/main.c:1938
 #, c-format
@@ -428,66 +396,65 @@ msgid ""
 "syntax error in option string %s=\"%s\":\n"
 "missing end of quotation: %c"
 msgstr ""
-"синтаксическая ошибка в ключе %s=\"%s\":\n"
-"нет закрывающих кавычек: %c"
+"earrАid chomhrИire i dteaghrАn rogha %s=\"%s\":\n"
+"deireadh an athfhriotail ar iarraidh: %c"
 
 #: src/main.c:1970
 #, c-format
 msgid "warning: didn't process following options from environment variable %s:\n"
-msgstr "предупреждение: следующие ключи из переменной среды %s не были использованы:\n"
+msgstr "rabhadh: nМor prСiseАladh na roghanna seo a leanas Сn athrСg thimpeallachta %s:\n"
 
 #: src/main.c:1974
 #, c-format
 msgid "  option %d = \"%s\"\n"
-msgstr "  ключ %d = \"%s\"\n"
+msgstr "  rogha %d = \"%s\"\n"
 
 #: src/main.c:2020
 msgid "number of columns must be larger than zero"
-msgstr "число колонок должно быть больше нуля"
+msgstr "caithfidh lМon na gcolЗn a bheith nМos mС nА 0"
 
 #: src/main.c:2078
 msgid "file alignment must be larger than zero"
-msgstr "аргумент выравнивания файлов должен быть больше нуля"
+msgstr "caithfidh ailМniЗ an chomhaid a bheith nМos mС nА 0"
 
 #: src/main.c:2133 src/main.c:2139 src/main.c:2350 src/util.c:415
 #, c-format
 msgid "malformed font spec: %s"
-msgstr "неверно описан шрифт: %s"
+msgstr "sonraМocht mhМchumtha chlС: %s"
 
 #: src/main.c:2155
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\""
-msgstr "невозможно найти заголовочный файл \"%s.hdr\""
+msgstr "nМorbh fhИidir comhad sainmhМnithe an cheanntАisc \"%s.hdr\""
 
 #: src/main.c:2199
 #, c-format
 msgid "must print at least one line per each page: %s"
-msgstr "необходимо печатать хотя бы одну строку на каждой странице: %s"
+msgstr "nМ mСr lМne amhАin ar a laghad a phriontАil sa leathanach: %s"
 
 #: src/main.c:2219
 #, c-format
 msgid "%s: illegal newline character specifier: '%s': expected 'n' or 'r'\n"
-msgstr "%s: неверно задан символ новой строки: '%s': допустимы 'n' или 'r'\n"
+msgstr "%s: sonraitheoir neamhcheadaithe ar lМnte nua: '%s': bhМothas ag sЗil le 'n' nС 'r'\n"
 
 #: src/main.c:2308
 #, c-format
 msgid "malformed argument `%s' for option -W, --option: no comma found"
-msgstr "неправильно составлен аргумент `%s' для ключа -W, --option: нет запятой"
+msgstr "argСint mhМchumtha `%s' i ndiaidh na rogha -W, --option: nМor aimsМodh camСg"
 
 #: src/main.c:2313
 #, c-format
 msgid "helper application specification must be single character: %s"
-msgstr "спецификация вспомогательной программы должна быть одним знаком: %s"
+msgstr "caithfidh sonraitheoir an fheidhmchlАir chabhraigh a bheith ina charachtar aonair: %s"
 
 #: src/main.c:2409
 msgid "slice must be greater than zero"
-msgstr "номер фрагмента должен быть больше нуля"
+msgstr "caithfidh slis a bheith nМos mС nА 0"
 
-#. Errors found during getopt_long().
 #: src/main.c:2490 states/main.c:320
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Попробуйте `%s --help' для получения более подробного описания.\n"
+msgstr "Bain triail as `%s --help' chun tuilleadh eolais a fhАil.\n"
 
 #: src/main.c:2510
 #, c-format
@@ -510,27 +477,27 @@ msgid ""
 "                             pass a page device definition to output\n"
 "  -e, --escapes[=CHAR]       enable special escape interpretation\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]... [ФАЙЛ]...\n"
-"Аргументы, обязательные для длинных ключей, обязательны и для коротких.\n"
-"  -#                         синоним -n, --copies\n"
-"  -1                         синоним --columns=1\n"
-"  -2                         синоним --columns=2\n"
-"      --columns=ЧИСЛО        задает ЧИСЛО колонок на странице\n"
-"  -a, --pages=СТАНИЦЫ        задает, какие СТРАНИЦЫ печатаются\n"
-"  -A, --file-align=ЧИСЛО     выравнивать входные файлы по ЧИСЛУ страниц\n"
-"  -b, --header=ЗАГОЛОВОК     задает ЗАГОЛОВОК страницы\n"
-"  -B, --no-header            не печатать заголовки\n"
-"  -c, --truncate-lines       усекать длинные строки (по умолчанию разбивать)\n"
-"  -C, --line-numbers[=START] добавлять в начало строки ее номер\n"
-"  -d                         синоним --printer\n"
-"  -D, --setpagedevice=КЛЮЧ[:ЗНАЧЕНИЕ]\n"
-"                             передать на выход определение page device\n"
-"  -e, --escapes[=СИМВОЛ]     разрешить использование управляющих\n"
-"                             последовательностей\n"
+"зsАid: %s [ROGHA]... [COMHAD]...\n"
+"Is riachtanach le rogha ghearr aon argСint atА riachtanach leis an rogha fhada.\n"
+"  -#                         ar comhbhrМ le -n, --copies\n"
+"  -1                         ar comhbhrМ le --columns=1\n"
+"  -2                         ar comhbhrМ le --columns=2\n"
+"      --columns=NUM          sonraigh lМon na gcolЗn sa leathanach\n"
+"  -a, --pages=LEATHANAIGH    sonraigh na leathanaigh le priontАil\n"
+"  -A, --file-align=AILмNIGH  ailМnigh comhaid ionchurtha\n"
+"  -b, --header=CEANNTаSC     socraigh ceanntАsc an leathanaigh\n"
+"  -B, --no-header            gan ceanntАsca leathanaigh\n"
+"  -c, --truncate-lines       gearr lМnte fada (fill de rИir rИamhshocraithe)\n"
+"  -C, --line-numbers[=TOSACH]\n"
+"                             taispeАin an lМne-uimhir ag tosach gach lМne\n"
+"  -d                         ar comhbhrМ le --printer\n"
+"  -D, --setpagedevice=EOCHAIR[:LUACH]\n"
+"                             seol eolas faoin ghlИas leathanaigh chuig aschur\n"
+"  -e, --escapes[=CARACHTAR]  cumasaigh lИirmhМniЗ speisialta Иalaithe\n"
 
 #: src/main.c:2530
 msgid "  -E, --highlight[=LANG]     highlight source code\n"
-msgstr "  -E, --highlight[=ЯЗЫК]     выделять шрифтами синтаксис исходного кода\n"
+msgstr "  -E, --highlight[=TEANGA]   aibhsigh cСd foinseach\n"
 
 #: src/main.c:2533
 msgid ""
@@ -551,23 +518,22 @@ msgid ""
 "                               --lines-per-page=66, --no-header, --portrait,\n"
 "                               --columns=1\n"
 msgstr ""
-"  -f, --font=ШРИФТ           использовать заданный ШРИФТ для тела\n"
-"  -F, --header-font=ШРИФТ    использовать заданный ШРИФТ для заголовков\n"
-"  -g, --print-anyway         игнорируется (введено для совместимости)\n"
-"  -G                         синоним --fancy-header\n"
-"      --fancy-header[=ИМЯ]   задает заголовок, определенный пользователем\n"
-"  -h, --no-job-header        не выводить заголовочную страницу задания\n"
-"  -H, --highlight-bars=ЧИСЛО задает высоту выделяющих полос\n"
-"  -i, --indent=ЧИСЛО         отступать заданное ЧИСЛО символов\n"
-"  -I, --filter=КОМАНДА       использовать КОМАНДУ для предварительной обработки\n"
-"                             входных файлов\n"
-"  -j, --borders              печатать рамки вокруг колонок\n"
-"  -J,                        синоним --title\n"
-"  -k, --page-prefeed         предварительно подавать страницы\n"
-"  -K, --no-page-prefeed      не подавать страницы предварительно\n"
-"  -l, --lineprinter          эмулировать строчный принтер, синоним\n"
-"                             --lines-per-page=66, --no-header, --portrait,\n"
-"                             --columns=1\n"
+"  -f, --font=AINM            ЗsАid clС AINM le haghaidh an phrМomhthИacs\n"
+"  -F, --header-font=AINM     ЗsАid clС AINM le haghaidh na gceanntАsc\n"
+"  -g, --print-anyway         neamhnМ (rogha chomhoiriЗnachta)\n"
+"  -G                         ar comhbhrМ le --fancy-header\n"
+"      --fancy-header[=AINM]  roghnaigh ceanntАsc maisiЗil leathanaigh\n"
+"  -h, --no-job-header        nА hЗsАid leathanach ceanntАisc an jab\n"
+"  -H, --highlight-bars=UIMH  socraigh airde na mbarraМ aibhsithe\n"
+"  -i, --indent=UIMHIR        socraigh an t-eangЗ a bheith UIMHIR carachtar\n"
+"  -I, --filter=ORDз          lИigh inchomhaid trМ scagaire ionchurtha ORDз\n"
+"  -j, --borders              priontАil imlМnte timpeall na gcolЗn\n"
+"  -J,                        ar comhbhrМ le --title\n"
+"  -k, --page-prefeed         cumasaigh rИamhfhotha an leathanaigh\n"
+"  -K, --no-page-prefeed      dМchumasaigh rИamhfhotha an leathanaigh\n"
+"  -l, --lineprinter          insamhail lМnephrintИir; ar comhbhrМ le:\n"
+"                               --lines-per-page=66, --no-header, --portrait,\n"
+"                               --columns=1\n"
 
 #: src/main.c:2551
 msgid ""
@@ -586,20 +552,21 @@ msgid ""
 "  -r, --landscape            print in landscape mode\n"
 "  -R, --portrait             print in portrait mode\n"
 msgstr ""
-"  -L, --lines-per-page=ЧИСЛО задает ЧИСЛО печатаемых строк на каждой странице\n"
-"  -m, --mail                 послать сообщение по окончании работы\n"
-"  -M, --media=ИМЯ            задает формат для печати\n"
-"  -n, --copies=ЧИСЛО         задает ЧИСЛО печатаемых копий каждой страницы\n"
-"  -N, --newline=НС           задает символ новой строки, допустимые значения n\n"
-"                             (`\\n') и r (`\\r')\n"
-"  -o                         синоним --output\n"
-"  -O, --missing-characters   показать пропущенные символы\n"
-"  -p, --output=ФАЙЛ          записать вывод в указанный ФАЙЛ. Если ФАЙЛ задан\n"
-"                             как -, печатать на стандартный вывод\n"
-"  -P, --printer=ИМЯ          напечатать вывод на указанном принтере\n"
-"  -q, --quiet, --silent      не выводить сообщений\n"
-"  -r, --landscape            печатать горизонтально (режим landscape)\n"
-"  -R, --portrait             печатать вертикально (режим portrait)\n"
+"  -L, --lines-per-page=UIMH  socraigh lМon na lМnte le priontАil\n"
+"                                ar gach leathanach\n"
+"  -m, --mail                 seol rМomhphost ag am crМochnaithe\n"
+"  -M, --media=AINM           ЗsАid meАn aschurtha AINM\n"
+"  -n, --copies=UIMHIR        priontАil UIMHIR cСip de gach leathanach\n"
+"  -N, --newline=NL           roghnaigh carachtar lМne nua.  Is fИidir na\n"
+"                               luachanna seo a leanas: n (`\\n') nС r (`\\r')\n"
+"  -o                         ar comhbhrМ le --output\n"
+"  -O, --missing-characters   taispeАin carachtair atА ar iarraidh\n"
+"  -p, --output=COMHAD        fАg an t-aschur go COMHAD. MАs `-' И an COMHAD,\n"
+"                               fАg an t-aschur go stdout.\n"
+"  -P, --printer=AINM         priontАil an t-aschur go dtМ an printИir AINM\n"
+"  -q, --quiet, --silent      bМ an-tostach\n"
+"  -r, --landscape            priontАil sa mhСd tМrdhreacha\n"
+"  -R, --portrait             priontАil sa mhСd portrАide\n"
 
 #: src/main.c:2567
 msgid ""
@@ -620,23 +587,23 @@ msgid ""
 "  -Z, --pass-through         pass through PostScript and PCL files\n"
 "                             without any modifications\n"
 msgstr ""
-"  -s, --baselineskip=ЧИСЛО   задает интерлиньяж\n"
-"  -S, --statusdict=КЛЮЧ[:ЗНАЧЕНИЕ]\n"
-"                             передать на выход определение statusdict\n"
-"  -t, --title=ИМЯ            задает имя задания.  Также устанавливает имя\n"
-"                             стандартного ввода.\n"
-"  -T, --tabsize=ЧИСЛО        задает ширину знака табуляции\n"
-"  -u, --underlay[=ТЕКСТ]     печатать ТЕКСТ на подложке каждой страницы\n"
-"  -U, --nup=ЧИСЛО            печатать заданное ЧИСЛО логических страниц на\n"
-"                             каждой выходной странице\n"
-"  -v, --verbose              сообщать производимые действия\n"
-"  -V, --version              показать информацию о версии\n"
-"  -w, --language=ЯЗЫК        задает ЯЗЫК для вывода\n"
-"  -W, --options=ВП,КЛЮЧ      передать КЛЮЧ вспомогательной программе ВП\n"
-"  -X, --encoding=ИМЯ         задает кодировку для входа\n"
-"  -z, --no-formfeed          игнорировать знаки перевода страницы\n"
-"  -Z, --pass-through         пропускать без изменений входные файлы в форматах\n"
-"                             PostScript и PCL\n"
+"  -s, --baselineskip=UIMHIR  socraigh baselineskip\n"
+"  -S, --statusdict=EOCHAIR[:LUACH]\n"
+"                             seol sainmhМniЗ ar statusdict go dtМ an t-aschur\n"
+"  -t, --title=TEIDEAL        socraigh TEIDEAL an jab ar an leathanach meirge.\n"
+"                                SocraМonn an rogha seo ainm an inchomhaid С\n"
+"                                stdin freisin.\n"
+"  -T, --tabsize=UIMHIR       socraigh mИid tАib\n"
+"  -u, --underlay[=TиACS]     priontАil TиACS faoi gach leathanach\n"
+"  -U, --nup=UIMHIR           priontАil UIMHIR leathanach loighciЗil ar gach\n"
+"                                leathanach aschurtha\n"
+"  -v, --verbose              bМ foclach\n"
+"  -V, --version              taispeАin an leagan\n"
+"  -w, --language=TEANGA      socraigh an teanga aschurtha\n"
+"  -W, --options=CLаR,ROGHA   seol an ROGHA go dtМ an CLаR cabhrach\n"
+"  -X, --encoding=AINM        ЗsАid an t-ionchСdЗ ionchurtha AINM\n"
+"  -z, --no-formfeed          nА lИirmhМnigh carachtair fhoirmfhotha\n"
+"  -Z, --pass-through         seol trМ chomhaid PostScript agus PCL gan athrЗ\n"
 
 #: src/main.c:2585
 msgid ""
@@ -651,17 +618,17 @@ msgid ""
 "  --h-column-height=HEIGHT   set the horizontal column height to HEIGHT\n"
 "  --help                     print this help and exit\n"
 msgstr ""
-"Длинные ключи:\n"
-"  --color[=bool]             выводить в разных цветах\n"
-"  --continuous-page-numbers  считать номера страниц непрерывно по всем входным\n"
-"                             файлам.  Не начинать заново с начала каждого файла.\n"
-"  --download-font=ИМЯ        включить в вывод шрифт с указанным ИМЕНЕМ\n"
-"  --extended-return-values   включить расширенные коды возрврата\n"
-"  --filter-stdin=ИМЯ         указывает, как именовать стандартный ввод для\n"
-"                             входного фильтра\n"
-"  --footer=ЗАГОЛОВОК         устанавливает нижний заголовок страницы\n"
-"  --h-column-height=ВЫСОТА   устанавливает ВЫСОТУ горизонтальной колонки\n"
-"  --help                     показать эту справку и выйти\n"
+"Roghanna fada:\n"
+"  --color[=boole]            cruthaigh aschur datha le staideanna\n"
+"  --continuous-page-numbers  uimhrigh leathanaigh trasna inchomhaid; .i. nА\n"
+"                             tosaigh na huimhreacha ag tosach gach comhaid.\n"
+"  --download-font=AINM       Мosluchtaigh an chlСfhoireann AINM\n"
+"  --extended-return-values   cumasaigh luachanna breisithe fillte\n"
+"  --filter-stdin=AINM        conas a thaispeАntar stdin go dtМ an\n"
+"                                scagaire ionchurtha\n"
+"  --footer=BUNTаSC           socraigh buntАsc na leathanach\n"
+"  --h-column-height=AIRDE    socraigh AIRDE na gcolЗn cothromАnach\n"
+"  --help                     taispeАin an chabhair seo agus scoir\n"
 
 #: src/main.c:2596
 msgid ""
@@ -675,13 +642,16 @@ msgid ""
 "                             mark wrapped lines in the output with STYLE\n"
 "  --non-printable-format=FMT specify how non-printable chars are printed\n"
 msgstr ""
-"  --help-highlight           описать все языки, поддерживаемые --highlight\n"
-"  --highlight-bar-gray=ЧИСЛО печатать выделяющие полосы заданным оттенком \n"
-"                             серого цвета (0 - 1)\n"
-"  --list-media               перечислить все известные форматы\n"
-"  --margins=ЛЕВ:ПРАВ:ВЕРХ:НИЗ  настраивает размеры полей страницы\n"
-"  --mark-wrapped-lines[СТИЛЬ]  задает СТИЛЬ пометки разбитых строк\n"
-"  --non-printable-format=ФМТ указывает, как выводить непечатные знаки\n"
+"  --help-highlight           dИan cur sМos ar gach teanga agus gach formАid\n"
+"                               chomhaid le haghaidh --highlight\n"
+"  --highlight-bar-gray=UIMH  taispeАin barraМ aibhsithe le liath UIMH (0 - 1)\n"
+"  --list-media               taispeАin ainmneacha ar gach meАn ar eolas\n"
+"  --margins=CLи:DEAS:BARR:BUN\n"
+"                             coigeartaigh imill an leathanaigh\n"
+"  --mark-wrapped-lines[STмL]\n"
+"                             marcАil lМnte fillte san aschur de rИir STмL\n"
+"  --non-printable-format=FMD conas a thaispeАntar carachtair neamh-\n"
+"                               inphriontАilte\n"
 
 #: src/main.c:2607
 msgid ""
@@ -694,17 +664,16 @@ msgid ""
 "  --printer-options=OPTIONS  pass extra options to the printer command\n"
 "  --rotate-even-pages        rotate even-numbered pages 180 degrees\n"
 msgstr ""
-"  --nup-columnwise           размещать страницы по столбцам при печати \n"
-"                             нескольких страниц на лист\n"
-"  --nup-xpad=ЧИСЛО           установить заполнение страницы по x при печати \n"
-"                             нескольких страниц на лист равным ЧИСЛУ\n"
-"  --nup-ypad=ЧИСЛО           установить заполнение страницы по y при печати \n"
-"                             нескольких страниц на лист равным ЧИСЛУ\n"
-"  --page-label-format=ФМТ    устанавливает формат метки страницы\n"
-"  --ps-level=УРОВЕНЬ         устанавливает уровень языка PostScript, который \n"
-"                             должен использовать enscript\n"
-"  --printer-options=КЛЮЧИ    передает дополнительные параметры команде печати\n"
-"  --rotate-even-pages        поворачивать четные страницы на 180 градусов\n"
+"  --nup-columnwise           leag leathanaigh amach de rИir colЗn sa\n"
+"                                mhСd priontАla N-suas\n"
+"  --nup-xpad=UIMHIR          socraigh x-stuАil an leathanaigh le haghaidh\n"
+"                                priontАla N-suas\n"
+"  --nup-ypad=UIMHIR          socraigh y-stuАil an leathanaigh le haghaidh\n"
+"                                priontАla N-suas\n"
+"  --page-label-format=FMD    socraigh formАid na lipИad leathanaigh\n"
+"  --ps-level=LEIBHиAL        socraigh LEIBHиAL na teanga PostScript\n"
+"  --printer-options=ROGHANNA seol roghanna breise go dtМ an t-ordЗ priontАla\n"
+"  --rotate-even-pages        rothlaigh leathanaigh chothroma trМ 180 cИim\n"
 
 #: src/main.c:2617
 msgid ""
@@ -720,16 +689,17 @@ msgid ""
 "  --ul-style=STYLE           print underlays with style STYLE\n"
 "  --word-wrap                wrap long lines from word boundaries\n"
 msgstr ""
-"  --slice=ЧИСЛО              печатать заданный вертикальный фрагмент\n"
-"  --style=СТИЛЬ              использовать заданный стиль выделения\n"
-"  --swap-even-page-margins   менять левое и правое поля для четных страниц\n"
-"  --toc                      печатать содержание\n"
-"  --ul-angle=УГОЛ            задает УГОЛ наклона текста подкладки\n"
-"  --ul-font=ИМЯ              задает шрифт для подкладки\n"
-"  --ul-gray=ЧИСЛО            печатать подкладку заданным серым цветом\n"
-"  --ul-position=ПОЗ          задает начальную позицию для подкладки\n"
-"  --ul-style=СТИЛЬ           задает СТИЛЬ подкладки\n"
-"  --word-wrap                обрывать длинные строки на границах слов\n"
+"  --slice=UIMHIR             priontАil slis ingearach UIMHIR\n"
+"  --style=STмL               ЗsАid an STмL aibhsithe seo\n"
+"  --swap-even-page-margins   malartaigh na himill ar an taobh clИ agus ar an\n"
+"                               taobh deas le haghaidh gach leathanach cothrom\n"
+"  --toc                      priontАil clАr na n-Аbhar\n"
+"  --ul-angle=UILLINN         socraigh UILLINN an tИacs foleata\n"
+"  --ul-font=AINM             priontАil foleathАin le clСfhoireann AINM\n"
+"  --ul-gray=UIMHIR           priontАil foleathАin le liath UIMHIR\n"
+"  --ul-position=IONAD        socraigh IONAD tosaithe an fholeathАin\n"
+"  --ul-style=STмL            priontАil foleathАin de rИir na STмLE\n"
+"  --word-wrap                timfhill lМnte fada С theorainneacha focal\n"
 
 #: src/main.c:2631
 msgid ""
@@ -737,56 +707,50 @@ msgid ""
 "Report bugs to mtr@iki.fi.\n"
 msgstr ""
 "\n"
-"Об ошибках сообщайте по адресу mtr@iki.fi.\n"
+"Seol tuairiscМ fabhtanna chuig mtr@iki.fi.\n"
 
 #: src/psgen.c:324
 #, c-format
 msgid "couldn't find prolog \"%s\": %s\n"
-msgstr "невозможно найти пролог \"%s\": %s\n"
+msgstr "nМorbh fhИidir rИamhfhocal \"%s\" a aimsiЗ: %s\n"
 
 #: src/psgen.c:332
 #, c-format
 msgid "couldn't find encoding file \"%s.enc\": %s\n"
-msgstr "невозможно найти файл описания кодировки \"%s.enc\": %s\n"
+msgstr "nМorbh fhИidir comhad ionchСdaithe \"%s.enc\" a aimsiЗ: %s\n"
 
 #: src/psgen.c:464
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\": %s\n"
-msgstr "невозможно найти заголовочный файл \"%s.hdr\": %s\n"
+msgstr "nМorbh fhИidir comhad sainmhМnithe an cheanntАisc \"%s.hdr\" a aimsiЗ: %s\n"
 
 #: src/psgen.c:608
 #, c-format
 msgid "processing file \"%s\"...\n"
-msgstr "обработка файла \"%s\"...\n"
+msgstr "comhad \"%s\" А phrСiseАil...\n"
 
-#.
-#. * At the beginning of the column, warn user
-#. * and print image.
-#.
 #: src/psgen.c:906
 #, c-format
 msgid "EPS file \"%s\" is too large for page\n"
-msgstr "EPS-файл \"%s\" слишком велик\n"
+msgstr "Is rСmhСr don leathanach И an comhad EPS \"%s\"\n"
 
 #: src/psgen.c:979
 msgid "user font encoding can be only the system's default or `ps'"
-msgstr ""
-"определяемая пользователем кодировка шрифта может быть только\n"
-"системной по умолчанию или `ps'"
+msgstr "nМ cheadaМtear ionchСdЗ clС an ЗsАideora ach amhАin rИamhshocrЗ an chСrais, nС `ps'"
 
 #: src/psgen.c:1220
 #, c-format
 msgid "unknown special escape: %s"
-msgstr "неизвестная управляющая последовательность: %s"
+msgstr "ИalЗchАn anaithnid speisialta: %s"
 
 #: src/psgen.c:1346
 #, c-format
 msgid "illegal option %c for ^@epsf escape"
-msgstr "недопустимый ключ %c для директивы ^@epsf"
+msgstr "rogha neamhcheadaithe %c d'ИalЗchАn ^@epsf"
 
 #: src/psgen.c:1352
 msgid "malformed ^@epsf escape: no ']' after options"
-msgstr "неверно задана директива ^@epsf: после ключей отсутствует `]'"
+msgstr "ИalЗchАn mМchumtha ^@epsf: nМl ']' i ndiaidh na roghanna"
 
 #: src/psgen.c:1364
 #, c-format
@@ -794,21 +758,21 @@ msgid ""
 "too long file name for ^@epsf escape:\n"
 "%.*s"
 msgstr ""
-"слишком длинное имя файла для директивы ^@epsf:\n"
+"comhadainm rСfhada d'ИalЗchАn ^@epsf:\n"
 "%.*s"
 
 #: src/psgen.c:1368
 msgid "unexpected EOF while scanning ^@epsf escape"
-msgstr "преждевременный конец файла при чтении директивы ^@epsf"
+msgstr "comhadchrМoch gan choinne agus ИalЗchАn ^@epsf А scanadh"
 
 #: src/psgen.c:1374
 msgid "malformed ^@epsf escape: no '{' found"
-msgstr "неверно задана директива ^@epsf: отсутствует '{'"
+msgstr "ИalЗchАn mМchumtha ^@epsf: nМor aimsМodh '{'"
 
 #: src/psgen.c:1432
 #, c-format
 msgid "malformed %s escape: no '{' found"
-msgstr "неверно задана директива %s: отсутствует '{'"
+msgstr "ИalЗchАn mМchumtha %s: nМor aimsМodh '{'"
 
 #: src/psgen.c:1446
 #, c-format
@@ -816,214 +780,230 @@ msgid ""
 "too long argument for %s escape:\n"
 "%.*s"
 msgstr ""
-"слишком длинный аргумент для директивы %s:\n"
+"argСint rСfhada d'ИalЗchАn %s:\n"
 "%.*s"
 
 #: src/psgen.c:1465
 #, c-format
 msgid "malformed font spec for ^@font escape: %s"
-msgstr "неправильное описание шрифта в директиве ^@font: %s"
+msgstr "sonraМocht mhМchumtha chlС d'ИalЗchАn ^@font: %s"
 
 #: src/psgen.c:1501
 #, c-format
 msgid "malformed color spec for ^@%s escape: %s"
-msgstr "неправильное описание цвета в директиве ^@%s: %s"
+msgstr "sonraМocht mhМchumtha datha d'ИalЗchАn ^@%s: %s"
 
 #: src/psgen.c:1525
 #, c-format
 msgid "invalid value for ^@shade escape: %s"
-msgstr "неверное значение для директивы ^@shade: %s"
+msgstr "luach neamhbhailМ ar ИalЗchАn ^@shade: %s"
 
 #: src/psgen.c:1533
 #, c-format
 msgid "invalid value for ^@bggray escape: %s"
-msgstr "неверное значение для директивы ^@bggray: %s"
+msgstr "luach neamhbhailМ ar ИalЗchАn ^@bggray: %s"
 
 #: src/psgen.c:2397
 #, c-format
 msgid "epsf: couldn't open pipe to command \"%s\": %s\n"
-msgstr "epsf: невозможно открыть канал для команды \"%s\": %s\n"
+msgstr "epsf: nМorbh fhИidir pМopa a oscailt go hordЗ \"%s\": %s\n"
 
 #: src/psgen.c:2430
 #, c-format
 msgid "couldn't open EPS file \"%s\": %s\n"
-msgstr "невозможно открыть EPS-файл \"%s\": %s\n"
+msgstr "nМorbh fhИidir comhad EPS \"%s\" a oscailt: %s\n"
 
 #: src/psgen.c:2467
+#, c-format
 msgid "EPS file \"%s\" does not start with \"%%!\" magic\n"
-msgstr "EPS-файл \"%s\" не начинается волшебным комментарием \"%%!\"\n"
+msgstr "NМ thosaМonn an comhad EPS \"%s\" le draМocht  \"%%!\"\n"
 
-#. No, this BoundingBox comment is corrupted.
 #: src/psgen.c:2492
+#, c-format
 msgid ""
 "EPS file \"%s\" contains malformed %%%%BoundingBox row:\n"
 "\"%.*s\"\n"
 msgstr ""
-"EPS-файл \"%s\" содержит неправильную строку %%%%BoundingBox:\n"
+"TА rС mМchumtha %%%%BoundingBox sa chomhad EPS \"%s\":\n"
 "\"%.*s\"\n"
 
 #: src/psgen.c:2517
 #, c-format
 msgid "EPS file \"%s\" is not a valid EPS file\n"
-msgstr "EPS-файл \"%s\" не является верным EPS-файлом\n"
+msgstr "NМ comhad bailМ EPS И an comhad \"%s\"\n"
 
 #: src/psgen.c:2659
 #, c-format
 msgid "passing through all input files for output language `%s'\n"
-msgstr "обрабатываются все входные файлы с выходным языком `%s'\n"
+msgstr "ag dul trМ gach inchomhad le haghaidh teanga aschurtha `%s'\n"
 
 #: src/psgen.c:2711
 #, c-format
 msgid "passing through %s file \"%s\"\n"
-msgstr "обрабатывается файл %s \"%s\"\n"
+msgstr "ag dul trМ chomhad %s \"%s\"\n"
 
 #: src/psgen.c:2814
 #, c-format
 msgid "couldn't create temporary divert file: %s"
-msgstr "невозможно создать временный файл: %s"
+msgstr "nМorbh fhИidir comhad sealadach atreoraithe a chruthЗ: %s"
 
 #: src/psgen.c:2831
 #, c-format
 msgid "couldn't rewind divert file: %s"
-msgstr "невозможно сместиться во временном файле: %s"
+msgstr "nМorbh fhИidir an comhad atreoraithe a atochras: %s"
+
+#: src/util.c:95
+#, c-format
+msgid "missing argument: %s"
+msgstr "argСint ar iarraidh: %s"
 
 #: src/util.c:185 src/util.c:213
 #, c-format
 msgid "illegal value \"%s\" for option %s"
-msgstr "недопустимое значение \"%s\" для ключа %s"
+msgstr "luach neamhcheadaithe \"%s\" ar rogha %s"
 
 #: src/util.c:201
 #, c-format
 msgid "invalid value \"%s\" for option %s"
-msgstr "неверное значение \"%s\" для ключа %s"
+msgstr "luach neamhbhailМ \"%s\" ar rogha %s"
 
 #: src/util.c:439
 #, c-format
 msgid "illegal option: %s"
-msgstr "недопустимый ключ: %s"
+msgstr "rogha neamhcheadaithe: %s"
 
+# leave "Format"
 #: src/util.c:616
+#, c-format
 msgid "%s:%d: %%Format: no name"
-msgstr "%s:%d: %%Format: не задан"
+msgstr "%s:%d: %%Format: gan ainm"
 
+# leave "Format"
 #: src/util.c:627
+#, c-format
 msgid "%s:%d: %%Format: too long name, maxlen=%d"
-msgstr "%s:%d %%Format: слишком длинное имя, максимальная длина %d"
+msgstr "%s:%d: %%Format: ainm rСfhada, uasmhИid=%d"
 
+# leave "Format"
 #: src/util.c:650
+#, c-format
 msgid "%s:%d: %%Format: name \"%s\" is already defined"
-msgstr "%s:%d: %%Format: имя \"%s\" уже определено"
+msgstr "%s:%d: %%Format: sainmhМnМodh ainm \"%s\" cheana"
 
+# leave HeaderHeight
 #: src/util.c:671
+#, c-format
 msgid "%s:%d: %%HeaderHeight: no argument"
-msgstr "%s:%d: %%HeaderHeight: аргумент не задан"
+msgstr "%s:%d: %%HeaderHeight: gan argСint"
 
+# leave FooterHeight
 #: src/util.c:693
+#, c-format
 msgid "%s:%d: %%FooterHeight: no argument"
-msgstr "%s:%d: %%FooterHeight: аргумент не задан"
+msgstr "%s:%d: %%FooterHeight: gan argСint"
 
 #: src/util.c:840
 #, c-format
 msgid "%s: warning: font size is negative\n"
-msgstr "%s:  предупреждение: отрицательный размер шрифта\n"
+msgstr "%s: rabhadh: clСmhИid dhiЗltach\n"
 
 #: src/util.c:842
 #, c-format
 msgid "%s: warning: font width is negative\n"
-msgstr "%s:  предупреждение: отрицательная ширина шрифта\n"
+msgstr "%s: rabhadh: leithead diЗltach an chlС\n"
 
 #: src/util.c:844
 #, c-format
 msgid "%s: warning: font height is negative\n"
-msgstr "%s:  предупреждение: отрицательная высота шрифта\n"
+msgstr "%s: rabhadh: airde dhiЗltach an chlС\n"
 
 #: src/util.c:863
 #, c-format
 msgid "reading AFM info for font \"%s\"\n"
-msgstr "чтение AFM-информации для шрифта \"%s\"\n"
+msgstr "eolas AFM А lИamh le haghaidh clС \"%s\"\n"
 
 #: src/util.c:896
 #, c-format
 msgid "couldn't open AFM file for font \"%s\", using default\n"
-msgstr "невозможно открыть AFM-файл для шрифта \"%s\", используется шрифт по умолчанию\n"
+msgstr "nМorbh fhИidir an comhad AFM a oscailt le haghaidh clС \"%s\", ag ЗsАid an rИamhshocrЗ\n"
 
 #: src/util.c:903
 #, c-format
 msgid "couldn't open AFM file for the default font: %s"
-msgstr "невозможно открыть AFM-файл для шрифта по умолчанию: %s"
+msgstr "nМorbh fhИidir an comhad AFM a oscailt le haghaidh an chlС rИamhshocraithe: %s"
 
-#. Ok, fine.  Font was found.
 #: src/util.c:1092
 #, c-format
 msgid "downloading font \"%s\"\n"
-msgstr "загрузка шрифта \"%s\"\n"
+msgstr "clС \"%s\" А МosluchtЗ\n"
 
 #: src/util.c:1097
 #, c-format
 msgid "couldn't open font description file \"%s\": %s\n"
-msgstr "невозможно открыть файл описания шрифта \"%s\": %s\n"
+msgstr "nМorbh fhИidir comhad clСfhoirne \"%s\" a oscailt: %s\n"
 
 #: src/util.c:1387
+#, c-format
 msgid "%s: too long format for %%D{} escape"
-msgstr "%s: слишком длинный формат для директивы %%D{}"
+msgstr "%s: formАid rСfhada d'ИalЗchАn %%D{}"
 
 #: src/util.c:1472
+#, c-format
 msgid "%s: unknown `%%' escape `%c' (%d)"
-msgstr "%s: неизвестная %%-директива `%c' (%d)"
+msgstr "%s: ИalЗchАn anaithnid `%%' `%c' (%d)"
 
 #: src/util.c:1510
 #, c-format
 msgid "%s: no closing ')' for $() escape"
-msgstr "%s: отсутствует закрывающая ')' для директивы $()"
+msgstr "%s: gan ')' d'ИalЗchАn $()"
 
 #: src/util.c:1513
 #, c-format
 msgid "%s: too long variable name for $() escape"
-msgstr "%s: слишком длинное имя переменной для директивы $()"
+msgstr "%s: ainm rСfhada athrСige d'ИalЗchАn $()"
 
 #: src/util.c:1540
 #, c-format
 msgid "%s: too long format for $D{} escape"
-msgstr "%s: слишком длинный формат для директивы $D{}"
+msgstr "%s: formАid rСfhada d'ИalЗchАn $D{}"
 
 #: src/util.c:1628
 #, c-format
 msgid "%s: unknown `$' escape `%c' (%d)"
-msgstr "%s: неизвестная $-директива `%c' (%d)"
+msgstr "%s: ИalЗchАn anaithnid `$' `%c' (%d)"
 
 #: src/util.c:1819
 #, c-format
 msgid "malformed float dimension: \"%s\""
-msgstr "неправильное число с плавающей точкой: \"%s\""
+msgstr "toise mМchumtha snАmhphointe: \"%s\""
 
 #: src/util.c:1936
 #, c-format
 msgid "couldn't open input filter \"%s\" for file \"%s\": %s"
-msgstr "невозможно открыть входной фильтр \"%s\" для файла \"%s\": %s"
+msgstr "nМorbh fhИidir scagaire ionchurtha \"%s\" a oscailt le haghaidh an chomhaid \"%s\": %s"
 
 #: src/util.c:1953
 #, c-format
 msgid "couldn't open input file \"%s\": %s"
-msgstr "невозможно открыть входной файл \"%s\": %s"
+msgstr "nМorbh fhИidir inchomhad \"%s\" a oscailt: %s"
 
-#. Open output file.
 #: src/mkafmmap.c:173
 #, c-format
 msgid "file=%s\n"
-msgstr "файл=%s\n"
+msgstr "comhad=%s\n"
 
 #: src/mkafmmap.c:173
 msgid "stdout"
-msgstr "стандартный вывод"
+msgstr "stdout"
 
 #: src/mkafmmap.c:181
 #, c-format
 msgid "%s: couldn't open output file \"%s\""
-msgstr "%s: невозможно открыть выходной файл \"%s\""
+msgstr "%s: nМorbh fhИidir aschomhad \"%s\" a oscailt"
 
 #: src/mkafmmap.c:195
 msgid "couldn't create AFM library"
-msgstr "невозможно создать AFM-библиотеку"
+msgstr "nМorbh fhИidir leabharlann AFM a chruthЗ"
 
 #: src/mkafmmap.c:244
 #, c-format
@@ -1036,55 +1016,55 @@ msgid ""
 "                          stdout.\n"
 "  -V, --version           print version number\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]... ФАЙЛ\n"
-"Аргументы, обязательные для длинных ключей, обязательны и для коротких.\n"
-"  -h, --help              показать эту справку и выйти\n"
-"  -p, --output-file=ФАЙЛ  выводить в указанный ФАЙЛ (по умолчанию font.map).\n"
-"                          Если ФАЙЛ задан как -, печатать на стандартный вывод.\n"
-"  -V, --version           показать информацию о версии и выйти\n"
+"зsАid: %s [ROGHA]... COMHAD...\n"
+"Is riachtanach le rogha ghearr aon argСint atА riachtanach leis an rogha fhada.\n"
+"  -h, --help              TaispeАin an chabhair seo agus scoir\n"
+"  -p, --output-file=AINM  PriontАil aschur go comhad AINM (de rИir\n"
+"                            rИamhshocraithe, \"font.map\").  MАs `-' И an\n"
+"                            COMHAD, scrМobh aschur go stdout.\n"
+"  -V, --version           TaispeАin eolas faoin leagan\n"
 
 #: states/lex.l:169 states/lex.l:175
 msgid "error: EOF in comment"
-msgstr "ошибка: EOF в комментарии"
+msgstr "earrАid: comhadchrМoch i nСta trАchta"
 
 #: states/lex.l:206
 msgid "error: EOF in string constant"
-msgstr "ошибка: EOF в строковой константе"
+msgstr "earrАid: comhadchrМoch i dteaghrАn tairiseach"
 
 #: states/lex.l:313
 msgid "error: EOF in regular expression"
-msgstr "ошибка: EOF в регулярном выражении"
+msgstr "earrАid: comhadchrМoch i slonn ionadaМochta"
 
-#. Format version string.
 #: states/main.c:199
 #, c-format
 msgid "states for GNU %s %s"
-msgstr "states для GNU %s %s"
+msgstr "staideanna le haghaidh %s GNU %s"
 
 #: states/main.c:254
 #, c-format
 msgid "%s: malformed variable definition \"%s\"\n"
-msgstr "%s: переменная \"%s\" определена неправильно\n"
+msgstr "%s: sainmhМniЗ mМchumtha ar athrСg \"%s\"\n"
 
 #: states/main.c:282
 #, c-format
 msgid "%s: couldn't create output file \"%s\": %s\n"
-msgstr "%s: невозможно создать выходной файл \"%s\": %s\n"
+msgstr "%s: nМorbh fhИidir aschomhad \"%s\" a chruthЗ: %s\n"
 
 #: states/main.c:313
 #, c-format
 msgid "%s: unknown warning level `%s'\n"
-msgstr "%s: уровень подробности предупреждений `%s' неизвестен\n"
+msgstr "%s: leibhИal anaithnid rabhaidh `%s'\n"
 
 #: states/main.c:362 states/main.c:398 states/prims.c:1377 states/utils.c:229
 #, c-format
 msgid "%s: out of memory\n"
-msgstr "%s: оперативная память исчерпана\n"
+msgstr "%s: cuimhne Мdithe\n"
 
 #: states/main.c:423
 #, c-format
 msgid "%s: couldn't open input file `%s': %s\n"
-msgstr "%s: невозможно открыть входной файл `%s': %s\n"
+msgstr "%s: nМorbh fhИidir inchomhad `%s' a oscailt: %s\n"
 
 #: states/main.c:447
 #, c-format
@@ -1092,8 +1072,8 @@ msgid ""
 "Usage: %s [OPTION]... [FILE]...\n"
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]... [ФАЙЛ]...\n"
-"Аргументы, обязательные для длинных ключей, обязательны и для коротких.\n"
+"зsАid: %s [ROGHA]... [COMHAD]...\n"
+"Is riachtanach le rogha ghearr aon argСint atА riachtanach leis an rogha fhada.\n"
 
 #: states/main.c:451
 msgid ""
@@ -1107,185 +1087,193 @@ msgid ""
 "  -V, --version              print version number\n"
 "  -W, --warning=LEVEL        set the warning level to LEVEL\n"
 msgstr ""
-"  -D, --define=ПЕРЕМЕННАЯ=ЗНАЧЕНИЕ\n"
-"                             определяет ПЕРЕМЕННУЮ и присваивает ей ЗНАЧЕНИЕ\n"
-"  -f, --file=ФАЙЛ            читать определения состояний из заданного ФАЙЛА\n"
-"  -h, --help                 показать эту справку и выйти\n"
-"  -o, --output=ФАЙЛ          выводить в указанный ФАЙЛ\n"
-"  -p, --path=ПУТЬ            устанавливает путь поиска\n"
-"  -s, --state=ИМЯ            начать с указанного состояния\n"
-"  -v, --verbose              увеличивает подробность сообщений программы\n"
-"  -V, --version              показать информацию о версии и выйти\n"
-"  -W, --warning=ЧИСЛО        задает степень подробности предупреждений\n"
+"  -D, --define=ATHRсG=LUACH  sainmhМnigh ATHRсG leis an LUACH seo\n"
+"  -f, --file=COMHAD          lИigh sainmhМnithe de staideanna С CHOMHAD\n"
+"  -h, --help                 taispeАin an chabhair seo agus scoir\n"
+"  -o, --output=COMHAD        sАbhАil an t-aschur i gCOMHAD\n"
+"  -p, --path=CONAIR          socraigh an CHONAIR luchtaithe\n"
+"  -s, --state=AINM           tosaigh le staid AINM\n"
+"  -v, --verbose              bМ foclach\n"
+"  -V, --version              taispeАin an leagan\n"
+"  -W, --warning=LEIBHиAL     socraigh an LEIBHиAL rabhaidh\n"
+
+#: states/prims.c:46
+#, c-format
+msgid "%s:%d: %s: too few arguments\n"
+msgstr "%s:%d: %s: easpa argСintМ\n"
+
+#: states/prims.c:56
+#, c-format
+msgid "%s:%d: %s: too many arguments\n"
+msgstr "%s:%d: %s: an iomarca argСintМ\n"
 
 #: states/prims.c:109 states/prims.c:129 states/prims.c:255 states/prims.c:428
 #: states/prims.c:903
 #, c-format
 msgid "%s:%d: %s: illegal argument type\n"
-msgstr "%s:%d: %s: недопустимый тип аргумента\n"
+msgstr "%s:%d: %s: cineАl neamhcheadaithe argСinte\n"
 
 #: states/prims.c:470
 #, c-format
 msgid "%s: panic: "
-msgstr "%s: аварийная ситуация: "
+msgstr "%s: scaoll: "
 
 #: states/prims.c:504
 #, c-format
 msgid "%s:%d: %s: malformed version string `%s'\n"
-msgstr "%s:%d: %s: неправильная запись версии `%s'\n"
+msgstr "%s:%d: %s: teaghrАn mМchumtha leagain `%s'\n"
 
 #: states/prims.c:519
 #, c-format
 msgid "%s: FATAL ERROR: States version %s or higher is required for this script\n"
-msgstr "%s: КРИТИЧЕСКАЯ ОШИБКА: для этой программы необходим states версии %s или выше\n"
+msgstr "%s: EARRаID MHARFACH: TА gА le leagan %s nС nМos mС i gcomhair na scripte seo\n"
 
 #: states/prims.c:610 states/prims.c:1276
 #, c-format
 msgid "%s:%d: %s: start offset is bigger than end offset\n"
-msgstr "%s:%d: %s: начальное смещение больше конечного\n"
+msgstr "%s:%d: %s: tА an frithАireamh tosaithe nМos mС nА an frithАireamh deiridh\n"
 
 #: states/prims.c:619 states/prims.c:635 states/prims.c:1282
 #, c-format
 msgid "%s:%d: %s: offset out of range\n"
-msgstr "%s:%d: %s: смещение вне допустимых пределов\n"
+msgstr "%s:%d: %s: frithАireamh as raon\n"
 
 #: states/prims.c:653
 #, c-format
 msgid "%s:%d: %s: illegal argument\n"
-msgstr "%s:%d: %s: недопустимый аргумент\n"
+msgstr "%s:%d: %s: argСint neamhcheadaithe\n"
 
 #: states/prims.c:700
 #, c-format
 msgid "%s:%d: %s: illegal regexp character syntax: %c\n"
-msgstr "%s:%d: %s: недопустимый синтаксис знака в регулярном выражении: %c\n"
+msgstr "%s:%d: %s: comhrИir neamhcheadaithe ar charachtar i slonn ionadaМochta: %c\n"
 
 #: states/prims.c:915
 #, c-format
 msgid "%s:%d: %s: couldn't define state `%s'\n"
-msgstr "%s:%d: %s: невозможно определить состояние `%s'\n"
+msgstr "%s:%d: %s: nМorbh fhИidir staid `%s' a shainmhМniЗ\n"
 
 #: states/prims.c:1012
 #, c-format
 msgid "%s: primitive `%s': too few arguments for format\n"
-msgstr "%s: примитив `%s': недостаточно аргументов\n"
+msgstr "%s: bunaМoch `%s': nМl go leor argСintМ don fhormАid\n"
 
 #: states/prims.c:1040
 #, c-format
 msgid "%s:%d: %s: argument %d doesn't match format\n"
-msgstr "%s:%d: %s: аргумент %d не соответствует формату\n"
+msgstr "%s:%d: %s: nМl argСint %d comhoiriЗnach leis an bhformАid\n"
 
 #: states/prims.c:1080
+#, c-format
 msgid "%s:%d: %s: no extra options can be specified for %%s\n"
-msgstr "%s:%d: %s: для %%s нельзя задать дополнительные аргументы\n"
+msgstr "%s:%d: %s: nМ cheadaМtear roghanna breise le %%s\n"
 
 #: states/prims.c:1089
 #, c-format
 msgid "%s:%d: %s: illegal type specifier `%c'\n"
-msgstr "%s:%d: %s: тип `%c' недопустим\n"
+msgstr "%s:%d: %s: sonraitheoir neamhcheadaithe cineАil `%c'\n"
 
 #: states/process.c:117
 #, c-format
 msgid "%s: undefined state `%s'\n"
-msgstr "%s: состояние `%s' неопределено\n"
+msgstr "%s: staid `%s' gan sainmhМniЗ\n"
 
 #: states/process.c:198
 #, c-format
 msgid "%s: error: undefined variable `%s'\n"
-msgstr "%s: ошибка: переменная `%s' неопределена\n"
+msgstr "%s: earrАid: athrСg `%s' gan sainmhМniЗ\n"
 
 #: states/process.c:292
 #, c-format
 msgid "%s: undefined super state `%s'\n"
-msgstr "%s: супер-состояние `%s' неопределено\n"
+msgstr "%s: sАrstaid `%s' gan sainmhМniЗ\n"
 
 #: states/utils.c:262
 #, c-format
 msgid "%s:%d: couldn't compile regular expression \"%s\": %s\n"
-msgstr "%s:%d: невозможно скомпилировать регулярное выражение \"%s\": %s\n"
+msgstr "%s:%d: nМorbh fhИidir slonn ionadaМochta \"%s\" a thiomsЗ: %s\n"
 
 #: states/utils.c:451 states/utils.c:479
 #, c-format
 msgid "%s: ouf of memory"
-msgstr "%s: оперативная память исчерпана"
+msgstr "%s: cuimhne Мdithe"
 
 #: states/utils.c:456
 #, c-format
 msgid "warning: redefining state `%s'"
-msgstr "предупреждение: переопределение состояния `%s'"
+msgstr "rabhadh: staid `%s' А shainmhМniЗ arМs"
 
 #: states/utils.c:483
 #, c-format
 msgid "%s:%d: warning: redefining subroutine `%s'\n"
-msgstr "%s:%d: предупреждение: переопределение подпрограммы `%s'\n"
+msgstr "%s:%d: rabhadh: foghnАthamh `%s' А shainmhМniЗ arМs\n"
 
-#. Undefined variable.
 #: states/utils.c:580
 #, c-format
 msgid "%s:%d: error: undefined variable `%s'\n"
-msgstr "%s:%d: ошибка: переменная `%s' неопределена\n"
+msgstr "%s:%d: earrАid: athrСg `%s' gan sainmhМniЗ\n"
 
-#. Couldn't set value for variable.
 #: states/utils.c:618
 #, c-format
 msgid "%s:%d: error: couldn't set variable `%s'\n"
-msgstr "%s:%d: ошибка: невозможно установить значение переменной `%s'\n"
+msgstr "%s:%d: earrАid: nМorbh fhИidir athrСg `%s' a shocrЗ\n"
 
 #: states/utils.c:769
 #, c-format
 msgid "%s:%d: error: expression between illegal types\n"
-msgstr "%s:%d: ошибка: недопустимые типы аргументов выражения\n"
+msgstr "%s:%d: earrАid: slonn idir cineАlacha neamhcheadaithe\n"
 
 #: states/utils.c:867
 #, c-format
 msgid "%s:%d: error: too few arguments for subroutine\n"
-msgstr "%s:%d: ошибка: недостаточно аргументов для подпрограммы\n"
+msgstr "%s:%d: earrАid: nМl go leor argСintМ don fhoghnАthamh\n"
 
 #: states/utils.c:874
 #, c-format
 msgid "%s:%d: error: too many arguments for subroutine\n"
-msgstr "%s:%d: ошибка: слишком много аргументов для подпрограммы\n"
+msgstr "%s:%d: earrАid: an iomarca argСintМ don fhoghnАthamh\n"
 
 #: states/utils.c:928
 #, c-format
 msgid "%s:%d: error: undefined procedure `%s'\n"
-msgstr "%s:%d: ошибка: процедура `%s' не определена\n"
+msgstr "%s:%d: earrАid: gnАs `%s' gan sainmhМniЗ\n"
 
 #: states/utils.c:1020
 #, c-format
 msgid "%s:%d: error: illegal lvalue for assignment\n"
-msgstr "%s:%d: ошибка: недопустимая левая часть оператора присваивания\n"
+msgstr "%s:%d: earrАid: clИluach neamhcheadaithe i sannachАn\n"
 
 #: states/utils.c:1028 states/utils.c:1112
 #, c-format
 msgid "%s:%d: error: array reference index is not integer\n"
-msgstr "%s:%d: ошибка: индекс массива не является целым числом\n"
+msgstr "%s:%d: earrАid: nМ slАnuimhir И an t-innИacs eagair\n"
 
 #: states/utils.c:1034
 #, c-format
 msgid "%s:%d: error: negative array reference index\n"
-msgstr "%s:%d: ошибка: отрицательный индекс массива\n"
+msgstr "%s:%d: earrАid: is diЗltach И an t-innИacs eagair\n"
 
 #: states/utils.c:1085
 #, c-format
 msgid "%s:%d: error: illegal rvalue for string assignment\n"
-msgstr "%s:%d: ошибка: недопустимая правая часть оператора присваивания строк\n"
+msgstr "%s:%d: earrАid: deasluach neamhcheadaithe i sannachАn teaghrАin\n"
 
 #: states/utils.c:1104
 #, c-format
 msgid "%s:%d: error: illegal type for array reference\n"
-msgstr "%s%d: ошибка: недопустимый тип для ссылки по индексу\n"
+msgstr "%s:%d: earrАid: cineАl neamhcheadaithe de thagairt eagair\n"
 
 #: states/utils.c:1121
 #, c-format
 msgid "%s:%d: error: array reference index out of rance\n"
-msgstr "%s%d: ошибка: индекс массива вне допустимых пределов\n"
+msgstr "%s:%d: earrАid: innИacs eagair as raon\n"
 
 #: states/utils.c:1347
 #, c-format
 msgid "%s: couldn't open definition file `%s': %s\n"
-msgstr "%s: невозможно открыть конфигурационный файл `%s': %s\n"
+msgstr "%s: nМorbh fhИidir comhad sainmhМnithe `%s' a oscailt: %s\n"
 
 #: states/utils.c:1403
 #, c-format
 msgid "%s: autoloading `%s' from `%s'\n"
-msgstr "%s: автозагрузка `%s' из `%s'\n"
+msgstr "%s: `%s' А uasluchtЗ С `%s'\n"

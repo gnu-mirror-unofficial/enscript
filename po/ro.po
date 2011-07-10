@@ -1,202 +1,200 @@
-# Перевод сообщений для GNU enscript
-# Copyright (C) 1998, 1999 Free Software Foundation, Inc.
-# Oleg S. Tihonov <ost@tatnipi.ru>, 1998, 1999, 2003.
+# Mesajele Нn limba romБnЦ pentru pachetul enscript.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Eugen Hoanca <eugenh@urban-grafx.ro>, 2003.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: enscript 1.6.3\n"
 "POT-Creation-Date: 2002-01-24 09:39+0200\n"
-"PO-Revision-Date: 2003-02-20 13:35+0300\n"
-"Last-Translator: Oleg S. Tihonov <tihonov@ffke-campus.mipt.ru>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"PO-Revision-Date: 2003-11-21 09:42+0200\n"
+"Last-Translator: Eugen Hoanca <eugenh@urban-grafx.ro>\n"
+"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=koi8-r\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: compat/getopt.c:628
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: неоднозначный ключ `%s'\n"
+msgstr "%s: opЧiunea `%s' este ambiguЦ\n"
 
 #: compat/getopt.c:652
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: ключ `--%s' должен использоваться без аргумента\n"
+msgstr "%s: opЧiunea `--%s' nu permite parametrii\n"
 
 #: compat/getopt.c:657
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: ключ `%c%s' должен использоваться без аргумента\n"
+msgstr "%s: opЧiunea `%c%s' nu permite parametrii\n"
 
 #: compat/getopt.c:674 compat/getopt.c:847
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: ключ `%s' должен использоваться c аргументом\n"
+msgstr "%s: opЧiunea `%s' necesitЦ un argument\n"
 
 #. --option
 #: compat/getopt.c:703
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s: неизвестный ключ `--%s'\n"
+msgstr "%s: opЧiune necunoscutЦ `--%s'\n"
 
 #. +option or -option
 #: compat/getopt.c:707
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s: неизвестный ключ `%c%s'\n"
+msgstr "%s: opЧiune necunoscutЦ `%c%s'\n"
 
 #. 1003.2 specifies the format of this message.
 #: compat/getopt.c:733
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s: недопустимый ключ -- %c\n"
+msgstr "%s: opЧiune ilegalЦ -- %c\n"
 
 #: compat/getopt.c:736
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: неверный ключ -- %c\n"
+msgstr "%s: opЧiune invalidЦ -- %c\n"
 
 #. 1003.2 specifies the format of this message.
 #: compat/getopt.c:766 compat/getopt.c:896
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: ключ %c должен бы использоваться c аргументом\n"
+msgstr "%s: opЧiunea necesitЦ un argument -- %c\n"
 
 #: compat/getopt.c:813
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: неоднозначный ключ `-W %s'\n"
+msgstr "%s: opЧiunea `-W %s' este ambiguЦ\n"
 
 #: compat/getopt.c:831
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: ключ `-W %s' должен использоваться без аргумента\n"
+msgstr "%s: opЧiunea `-W %s' nu permite parametrii\n"
 
 #: compat/xalloc.c:70
 #, c-format
 msgid "xmalloc(): couldn't allocate %d bytes\n"
-msgstr "xmalloc(): невозможно выделить %d байт\n"
+msgstr "xmalloc(): nu s-au putut aloca %d octeЧi\n"
 
 #: compat/xalloc.c:88
 #, c-format
 msgid "xcalloc(): couldn't allocate %d bytes\n"
-msgstr "xcalloc(): невозможно выделить %d байт\n"
+msgstr "xcalloc(): nu s-au putut aloca %d octeЧi\n"
 
 #: compat/xalloc.c:109
 #, c-format
 msgid "xrealloc(): couldn't reallocate %d bytes\n"
-msgstr "xrealloc(): невозможно перераспределить %d байт\n"
+msgstr "xrealloc(): nu s-au putut realoca %d octeЧi\n"
 
 #: compat/regex.c:996
 msgid "Success"
-msgstr "Успех"
+msgstr "Succes"
 
 #. REG_NOERROR
 #: compat/regex.c:997
 msgid "No match"
-msgstr "Совпадений нет"
+msgstr "Nici o potrivire"
 
 #. REG_NOMATCH
 #: compat/regex.c:998
 msgid "Invalid regular expression"
-msgstr "Неверное регулярное выражение"
+msgstr "Expresie regulatЦ invalidЦ"
 
 #. REG_BADPAT
 #: compat/regex.c:999
 msgid "Invalid collation character"
-msgstr "Недопустимый для сортировки символ"
+msgstr "Caracter de comparare(collation) invalid"
 
 #. REG_ECOLLATE
 #: compat/regex.c:1000
 msgid "Invalid character class name"
-msgstr "Неверное имя класса символа"
+msgstr "Nume clasЦ caracter invalid"
 
 #. REG_ECTYPE
 #: compat/regex.c:1001
 msgid "Trailing backslash"
-msgstr "Обратная косая черта стоит последней"
+msgstr "Backslash de sfБr╨it(trailing)"
 
 #. REG_EESCAPE
 #: compat/regex.c:1002
 msgid "Invalid back reference"
-msgstr "Неверная ссылка"
+msgstr "ReferinЧЦ Нnapoi invalidЦ"
 
 #. REG_ESUBREG
 #: compat/regex.c:1003
 msgid "Unmatched [ or [^"
-msgstr "Не имеющее пары [ или [^"
+msgstr "Nepotrivire de [ sau [^"
 
 #. REG_EBRACK
 #: compat/regex.c:1004
 msgid "Unmatched ( or \\("
-msgstr "Не имеющее пары ( или \\\\("
+msgstr "Nepotrivire de ( sau \\("
 
 #. REG_EPAREN
 #: compat/regex.c:1005
 msgid "Unmatched \\{"
-msgstr "Не имеющее пары \\{"
+msgstr "Nepotrivire de \\{"
 
 #. REG_EBRACE
 #: compat/regex.c:1006
 msgid "Invalid content of \\{\\}"
-msgstr "Неверное содержимое \\{\\}"
+msgstr "ConЧinut invalid al \\{\\}"
 
 #. REG_BADBR
 #: compat/regex.c:1007
 msgid "Invalid range end"
-msgstr "Неверное содержимое \\{\\}"
+msgstr "SfБr╨it de domeniu(range) invalid"
 
 #. REG_ERANGE
 #: compat/regex.c:1008
 msgid "Memory exhausted"
-msgstr "Оперативная память исчерпана"
+msgstr "Memorie plinЦ"
 
 #. REG_ESPACE
 #: compat/regex.c:1009
 msgid "Invalid preceding regular expression"
-msgstr "Неверное предшествующее регулярное выражение"
+msgstr "Expresie regulatЦ precedentЦ invalidЦ"
 
 #. REG_BADRPT
 #: compat/regex.c:1010
 msgid "Premature end of regular expression"
-msgstr "Преждевременный конец регулярного выражения"
+msgstr "SfБr╨it prematur de expresie regulatЦ"
 
 #. REG_EEND
 #: compat/regex.c:1011
 msgid "Regular expression too big"
-msgstr "Регулярное выражение слишком велико"
+msgstr "Expresie regulatЦ prea mare"
 
 #. REG_ESIZE
 #: compat/regex.c:1012
 msgid "Unmatched ) or \\)"
-msgstr "Не имеющее пары ) или \\)"
+msgstr "Nepotrivire de ) sau \\)"
 
 #: compat/regex.c:5458
 msgid "No previous regular expression"
-msgstr "Регулярное выражение не было задано раньше"
+msgstr "Nu existЦ expresie regulatЦ anterioarЦ"
 
-# msgfmt --statistics -f -c -v -o /dev/null
-# вызывает ошибку, вероятно это ошибка msgfmt
 #. Create the default TOC format string.  Wow, this is cool!
 #: src/main.c:966
 #, no-c-format
 msgid "$3v $-40N $3% pages $4L lines  $E $C"
-msgstr "$3v $-40N $3% страниц $4L строк  $E $C"
+msgstr "$3v $-40N $3% pagini $4L linii  $E $C"
 
 #: src/main.c:996
 #, c-format
 msgid "couldn't get passwd entry for uid=%d: %s"
-msgstr "невозможно получить пароль для пользователя с uid=%d: %s"
+msgstr "nu s-a putut lua parola pentru uid=%d: %s"
 
 #. No luck, report error from the original config file.
 #: src/main.c:1088
 #, c-format
 msgid "couldn't read config file \"%s/%s\": %s"
-msgstr "невозможно считать файл конфигурации \"%s/%s\": %s"
+msgstr "nu s-a putut citi fi╨ierul de configurare \"%s/%s\": %s"
 
 #: src/main.c:1092
 msgid "I did also try the following directories:"
-msgstr "Также пробовались следующие каталоги:"
+msgstr "Am Нncercat de asemenea urmЦtoarele directoare:"
 
 #: src/main.c:1093 src/main.c:1094 src/main.c:1095
 #, c-format
@@ -213,7 +211,7 @@ msgstr "\t../../lib"
 
 #: src/main.c:1099
 msgid "This is probably an installation error.  Please, try to rebuild:"
-msgstr "Вероятно, это из-за ошибки при установке.  Попробуйте пересобрать:"
+msgstr "Aceasta este probabil o eroare de instalare. VЦ rugЦm НncercaЧi s-o reconstruiЧi(rebuild):"
 
 #: src/main.c:1100
 msgid "\tmake distclean"
@@ -221,7 +219,7 @@ msgstr "\tmake distclean"
 
 #: src/main.c:1101
 msgid "\t./configure --prefix=PREFIX"
-msgstr "\t./configure --prefix=ПРЕФИКС"
+msgstr "\t./configure --prefix=PREFIX"
 
 #: src/main.c:1102
 msgid "\tmake"
@@ -237,21 +235,21 @@ msgstr "\tmake install"
 
 #: src/main.c:1106
 msgid "or set the environment variable `ENSCRIPT_LIBRARY' to point to your"
-msgstr "либо установите переменную среды `ENSCRIPT_LIBRARY', чтобы она указывала на"
+msgstr "sau setaЧi variabila de mediu `ENSCRIPT_LIBRARY' sЦ ЧinteascЦ spre"
 
 #: src/main.c:1108
 msgid "library directory."
-msgstr "каталог, где у вас хранятся библиотеки."
+msgstr "directorul cu biblioteca."
 
 #: src/main.c:1180
 #, c-format
 msgid "unknown encoding: %s"
-msgstr "кодировка %s неизвестна"
+msgstr "codare(encoding) necunoscutЦ: %s"
 
 #: src/main.c:1199
 #, c-format
 msgid "couldn't open AFM library: %s"
-msgstr "невозможно открыть AFM-библиотеку: %s"
+msgstr "Nu s-a putut deschide biblioteca AFM: %s"
 
 #: src/main.c:1228
 msgid ""
@@ -259,56 +257,54 @@ msgid ""
 "name             width\theight\tllx\tlly\turx\tury\n"
 "------------------------------------------------------------\n"
 msgstr ""
-"известные форматы:\n"
-"имя             ширина\tвысота\tлнX\tлнY\tпвX\tпвY\n"
+"media cunoscutЦ:\n"
+"nume             lЦЧime\tНnЦlЧimet\tllx\tlly\turx\tury\n"
 "------------------------------------------------------------\n"
 
 #: src/main.c:1247
 #, c-format
 msgid "do not know anything about media \"%s\""
-msgstr "формат \"%s\" неизвестен"
+msgstr "nu ╨tiu nimic despre media \"%s\""
 
 #: src/main.c:1291
 #, c-format
 msgid "set new marginals for media `%s' (%dx%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
-msgstr ""
-"установить новые размеры полей для формата `%s' (%dx%d): \n"
-"лнX=%d, лнY=%d, пвX=%d, пвY=%d\n"
+msgstr "setare margini pentru media `%s' (%dx%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
 
 #: src/main.c:1302
 #, c-format
 msgid "illegal page label format \"%s\""
-msgstr "недопустимый формат метки страницы \"%s\""
+msgstr "format etichetЦ(label) paginЦ ilegal \"%s\""
 
 #: src/main.c:1314
 #, c-format
 msgid "illegal non-printable format \"%s\""
-msgstr "недопустимый формат для непечатных символов \"%s\""
+msgstr "format netipЦribil \"%s\" ilegal"
 
 #: src/main.c:1328
 #, c-format
 msgid "illegal style for wrapped line marker: \"%s\""
-msgstr "недопустимый стиль пометки разбиения строки: \"%s\""
+msgstr "stil ilegal pentru markerul de linie forЧatЦ(wrapped) \"%s\""
 
 #: src/main.c:1338
 #, c-format
 msgid "illegal N-up argument: %d"
-msgstr "неверно задано число логических страниц на страницу: %d"
+msgstr "argument N-up ilegal : %d"
 
 #: src/main.c:1343
 #, c-format
 msgid "N-up argument must be power of 2: %d"
-msgstr "число логических страниц на страницу должно быть степенью 2: %d"
+msgstr "Argumentul N-up trebuie sЦ fie putere a lui 2: %d"
 
 #: src/main.c:1420
 #, c-format
 msgid "malformed underlay position: %s"
-msgstr "неправильно задана позиция подкладки: %s"
+msgstr "subpoziЧie(underlay) malformatЦ: %s"
 
 #: src/main.c:1443
 #, c-format
 msgid "illegal underlay style: %s"
-msgstr "недопустимый стиль подкладки: %s"
+msgstr "substil ilegal: %s"
 
 #. Create description with states.
 #: src/main.c:1470
@@ -316,27 +312,27 @@ msgid ""
 "Highlighting is supported for the following languages and file formats:\n"
 "\n"
 msgstr ""
-"Выделение поддерживается для следующих языков и форматов файлов:\n"
+"SelecЧia(higlighting) e suportatЦ pentru urmЦtoarele limbaje ╨i formate de fi╨iere:\n"
 "\n"
 
 #: src/main.c:1641
 #, c-format
 msgid "couldn't create temporary toc file: %s"
-msgstr "невозможно создать файл содержания: %s"
+msgstr "nu se poate crea fi╨ierul toc temporar: %s"
 
 #: src/main.c:1688
 #, c-format
 msgid "couldn't stat input file \"%s\": %s"
-msgstr "невозможно узнать статус входного файла \"%s\": %s"
+msgstr "nu se poate stabili(stat) fi╨ierul de intrare(input): \"%s\": %s"
 
 #: src/main.c:1708
 #, c-format
 msgid "couldn't rewind toc file: %s"
-msgstr "невозможно сместиться в файле содержания: %s"
+msgstr "nu se poate da Нnapoi(rewind) fi╨ierul toc: %s"
 
 #: src/main.c:1714
 msgid "Table of Contents"
-msgstr "Содержание"
+msgstr "Tabel de ConЧinut"
 
 #.
 #. * The value of <ofp> is not reset in close_output_file(),
@@ -344,83 +340,83 @@ msgstr "Содержание"
 #.
 #: src/main.c:1743
 msgid "no output generated\n"
-msgstr "вывод не произведен\n"
+msgstr "nici un output generat\n"
 
 #: src/main.c:1748
 #, c-format
 msgid "output sent to %s\n"
-msgstr "вывод направлен на %s\n"
+msgstr "output trimis la %s\n"
 
 #: src/main.c:1749 src/main.c:1773
 msgid "printer"
-msgstr "принтер"
+msgstr "imprimantЦ"
 
 #: src/main.c:1751
 #, c-format
 msgid "output left in %s\n"
-msgstr "вывод записан в %s\n"
+msgstr "output lЦsat Нn %s\n"
 
 #. We did something, tell what.
 #: src/main.c:1769
 #, c-format
 msgid "[ %d pages * %d copy ]"
-msgstr "[ %d страниц * %d копий ]"
+msgstr "[ %d pagini * %d copii ]"
 
 #: src/main.c:1772
 #, c-format
 msgid " sent to %s\n"
-msgstr " направлено на %s\n"
+msgstr " trimise la %s\n"
 
 #: src/main.c:1775
 #, c-format
 msgid " left in %s\n"
-msgstr " записано в %s\n"
+msgstr " lЦsate Нn %s\n"
 
 #: src/main.c:1780
 #, c-format
 msgid "%d lines were %s\n"
-msgstr "%d строк были %s\n"
+msgstr "%d linii din care %s\n"
 
 #: src/main.c:1782
 msgid "truncated"
-msgstr "усечены"
+msgstr "trunchiate"
 
 #: src/main.c:1782
 msgid "wrapped"
-msgstr "разбиты"
+msgstr "potrivite(wrapped)"
 
 #: src/main.c:1788
 #, c-format
 msgid "%d characters were missing\n"
-msgstr "пропущено символов: %d\n"
+msgstr "%d caractere lipsesc\n"
 
 #: src/main.c:1792
 msgid "missing character codes (decimal):\n"
-msgstr "коды (десятичные) пропущенных символов:\n"
+msgstr "lipsesc codurile de caractere (zecimal):\n"
 
 #: src/main.c:1800
 #, c-format
 msgid "%d non-printable characters\n"
-msgstr "непечатных символов: %d\n"
+msgstr "%d caractere netipЦribile\n"
 
 #: src/main.c:1805
 msgid "non-printable character codes (decimal):\n"
-msgstr "десятичные коды непечатных символов:\n"
+msgstr "coduri caractere netipЦribile (zecimal):\n"
 
 #: src/main.c:1854
 #, c-format
 msgid "couldn't open printer `%s': %s"
-msgstr "невозможно открыть принтер `%s': %s"
+msgstr "nu s-a putut deschide imprimanta: `%s': %s"
 
 #: src/main.c:1863
 #, c-format
 msgid "couldn't create output file \"%s\": %s"
-msgstr "невозможно создать выходной файл \"%s\": %s"
+msgstr "nu s-a putut crea fi╨ierul de ie╨ire(output) \"%s\": %s"
 
 #: src/main.c:1880
 #, c-format
 msgid "couldn't close output file \"%s\": %s"
-msgstr "невозможно закрыть выходной файл \"%s\": %s"
+msgstr "nu s-a putut Нnchide fi╨ierul de ie╨ire(output) \"%s\": %s"
 
 #: src/main.c:1938
 #, c-format
@@ -428,66 +424,66 @@ msgid ""
 "syntax error in option string %s=\"%s\":\n"
 "missing end of quotation: %c"
 msgstr ""
-"синтаксическая ошибка в ключе %s=\"%s\":\n"
-"нет закрывающих кавычек: %c"
+"eroare de sintaxЦ Нn ╨irul opЧiunii %s=\"%s\":\n"
+"lipse╨te sfБr╨itul citatului: %c"
 
 #: src/main.c:1970
 #, c-format
 msgid "warning: didn't process following options from environment variable %s:\n"
-msgstr "предупреждение: следующие ключи из переменной среды %s не были использованы:\n"
+msgstr "avertisment: nu am procesat urmЦtoarele opЧiuni din variabila de mediu %s:\n"
 
 #: src/main.c:1974
 #, c-format
 msgid "  option %d = \"%s\"\n"
-msgstr "  ключ %d = \"%s\"\n"
+msgstr "  opЧiunea %d = \"%s\"\n"
 
 #: src/main.c:2020
 msgid "number of columns must be larger than zero"
-msgstr "число колонок должно быть больше нуля"
+msgstr "numЦrul de coloane trebuie sЦ fie mai mare de zero"
 
 #: src/main.c:2078
 msgid "file alignment must be larger than zero"
-msgstr "аргумент выравнивания файлов должен быть больше нуля"
+msgstr "aliniamentul fi╨ierului trebuie sЦ fie mai mare de zero"
 
 #: src/main.c:2133 src/main.c:2139 src/main.c:2350 src/util.c:415
 #, c-format
 msgid "malformed font spec: %s"
-msgstr "неверно описан шрифт: %s"
+msgstr "specificaЧie font malformatЦ: %s"
 
 #: src/main.c:2155
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\""
-msgstr "невозможно найти заголовочный файл \"%s.hdr\""
+msgstr "nu s-a gЦsit fi╨ierul heder definiЧie \"%s.hdr\""
 
 #: src/main.c:2199
 #, c-format
 msgid "must print at least one line per each page: %s"
-msgstr "необходимо печатать хотя бы одну строку на каждой странице: %s"
+msgstr "trebuie tipЦritЦ cel puЧin o linie pe fiecare paginЦ: %s"
 
 #: src/main.c:2219
 #, c-format
 msgid "%s: illegal newline character specifier: '%s': expected 'n' or 'r'\n"
-msgstr "%s: неверно задан символ новой строки: '%s': допустимы 'n' или 'r'\n"
+msgstr "%s: specificator caracter linie_nouЦ (newline) ilegal: '%s': se a╨tepta 'n' sau 'r'\n"
 
 #: src/main.c:2308
 #, c-format
 msgid "malformed argument `%s' for option -W, --option: no comma found"
-msgstr "неправильно составлен аргумент `%s' для ключа -W, --option: нет запятой"
+msgstr "argument malformat '%s' pentru opЧiunea -W, --option: nu s-a gЦsit virgulЦ"
 
 #: src/main.c:2313
 #, c-format
 msgid "helper application specification must be single character: %s"
-msgstr "спецификация вспомогательной программы должна быть одним знаком: %s"
+msgstr "specificarea aplicaЧiei de ajutorare trebuie sЦ fie un singur caracter: %s"
 
 #: src/main.c:2409
 msgid "slice must be greater than zero"
-msgstr "номер фрагмента должен быть больше нуля"
+msgstr "componenta(slice) trebuie sЦ fie mai mare de zero"
 
 #. Errors found during getopt_long().
 #: src/main.c:2490 states/main.c:320
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Попробуйте `%s --help' для получения более подробного описания.\n"
+msgstr "нncercaЧi `%s --help' pentru mai multe informaЧii.\n"
 
 #: src/main.c:2510
 #, c-format
@@ -510,27 +506,27 @@ msgid ""
 "                             pass a page device definition to output\n"
 "  -e, --escapes[=CHAR]       enable special escape interpretation\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]... [ФАЙЛ]...\n"
-"Аргументы, обязательные для длинных ключей, обязательны и для коротких.\n"
-"  -#                         синоним -n, --copies\n"
-"  -1                         синоним --columns=1\n"
-"  -2                         синоним --columns=2\n"
-"      --columns=ЧИСЛО        задает ЧИСЛО колонок на странице\n"
-"  -a, --pages=СТАНИЦЫ        задает, какие СТРАНИЦЫ печатаются\n"
-"  -A, --file-align=ЧИСЛО     выравнивать входные файлы по ЧИСЛУ страниц\n"
-"  -b, --header=ЗАГОЛОВОК     задает ЗАГОЛОВОК страницы\n"
-"  -B, --no-header            не печатать заголовки\n"
-"  -c, --truncate-lines       усекать длинные строки (по умолчанию разбивать)\n"
-"  -C, --line-numbers[=START] добавлять в начало строки ее номер\n"
-"  -d                         синоним --printer\n"
-"  -D, --setpagedevice=КЛЮЧ[:ЗНАЧЕНИЕ]\n"
-"                             передать на выход определение page device\n"
-"  -e, --escapes[=СИМВОЛ]     разрешить использование управляющих\n"
-"                             последовательностей\n"
+"Folosire: %s [OPчIUNE]... [FI╙IER]...\n"
+"Parametrii obligatorii pentru opЧiunile lungi sunt obligatorii ╨i pentru cele scurte.\n"
+"  -#                         alias pentru opЧiunea -n, --copies\n"
+"  -1                         asemenea lui --columns=1\n"
+"  -2                         asemenea lui --columns=2\n"
+"      --columns=NUM          specificЦ numЦrul de coloane pe paginЦ\n"
+"  -a, --pages=PAGINI          specificЦ cБte pagini sunt tipЦrite\n"
+"  -A, --file-align=ALINIAT     aliniazЦ fi╨iere de intrare(input) separate la ALINIAT\n"
+"  -b, --header=HEADER        seteazЦ header-ul paginii\n"
+"  -B, --no-header            fЦrЦ header de paginЦ\n"
+"  -c, --truncate-lines       trunchiazЦ liniile lungi (implicit este potrivire (wrap))\n"
+"  -C, --line-numbers[=START]\n"
+"                             precede fiecare linie cu numЦrul sЦu de linie\n"
+"  -d                         un alias pentru opЧiunea --printer\n"
+"  -D, --setpagedevice=CHEIE[:VALOARE]\n"
+"                             trimite o definiЧie a dispozitivului de paginЦ la ie╨ire(output)\n"
+"  -e, --escapes[=CAR]       activeazЦ interpretarea escape-ului special\n"
 
 #: src/main.c:2530
 msgid "  -E, --highlight[=LANG]     highlight source code\n"
-msgstr "  -E, --highlight[=ЯЗЫК]     выделять шрифтами синтаксис исходного кода\n"
+msgstr "  -E, --highlight[=LIMB]     selecteazЦ(highlight) codul sursЦ\n"
 
 #: src/main.c:2533
 msgid ""
@@ -551,23 +547,22 @@ msgid ""
 "                               --lines-per-page=66, --no-header, --portrait,\n"
 "                               --columns=1\n"
 msgstr ""
-"  -f, --font=ШРИФТ           использовать заданный ШРИФТ для тела\n"
-"  -F, --header-font=ШРИФТ    использовать заданный ШРИФТ для заголовков\n"
-"  -g, --print-anyway         игнорируется (введено для совместимости)\n"
-"  -G                         синоним --fancy-header\n"
-"      --fancy-header[=ИМЯ]   задает заголовок, определенный пользователем\n"
-"  -h, --no-job-header        не выводить заголовочную страницу задания\n"
-"  -H, --highlight-bars=ЧИСЛО задает высоту выделяющих полос\n"
-"  -i, --indent=ЧИСЛО         отступать заданное ЧИСЛО символов\n"
-"  -I, --filter=КОМАНДА       использовать КОМАНДУ для предварительной обработки\n"
-"                             входных файлов\n"
-"  -j, --borders              печатать рамки вокруг колонок\n"
-"  -J,                        синоним --title\n"
-"  -k, --page-prefeed         предварительно подавать страницы\n"
-"  -K, --no-page-prefeed      не подавать страницы предварительно\n"
-"  -l, --lineprinter          эмулировать строчный принтер, синоним\n"
-"                             --lines-per-page=66, --no-header, --portrait,\n"
-"                             --columns=1\n"
+"  -f, --font=NUME            folose╨te fontul NUME pentru corpul textului\n"
+"  -F, --header-font=NUME     folose╨te fontul NUME pentru header-ul textului\n"
+"  -g, --print-anyway         nimic (opЧiune de compatibilitate)\n"
+"  -G                         asemenea lui --fancy-header\n"
+"      --fancy-header[=NUME]  alege header de paginЦ trЦsnit(fancy)\n"
+"  -h, --no-job-header        suprimЦ pagina header-ului de job\n"
+"  -H, --highlight-bars=NUM   specificЦ Нn ce mod sunt barele de selecЧie(higlight)\n"
+"  -i, --indent=NUM           seteazЦ indentarea liniei la NUM caractere\n"
+"  -I, --filter=CMD           cite╨te fi╨ierele de iintrare(input) prin filtrul CMD\n"
+"  -j, --borders              tipЦre╨te marginile coloanelor\n"
+"  -J,                        alias pentru opЧiunea --title\n"
+"  -k, --page-prefeed         activeazЦ preНncЦrcarea(prefeed) paginii\n"
+"  -K, --no-page-prefeed      dezactiveazЦ preНncЦrcarea(prefeed) paginii\n"
+"  -l, --lineprinter          simuleazЦ imprimanta de linii(lineprinter), alias pentru:\n"
+"                               --lines-per-page=66, --no-header, --portrait,\n"
+"                               --columns=1\n"
 
 #: src/main.c:2551
 msgid ""
@@ -586,20 +581,20 @@ msgid ""
 "  -r, --landscape            print in landscape mode\n"
 "  -R, --portrait             print in portrait mode\n"
 msgstr ""
-"  -L, --lines-per-page=ЧИСЛО задает ЧИСЛО печатаемых строк на каждой странице\n"
-"  -m, --mail                 послать сообщение по окончании работы\n"
-"  -M, --media=ИМЯ            задает формат для печати\n"
-"  -n, --copies=ЧИСЛО         задает ЧИСЛО печатаемых копий каждой страницы\n"
-"  -N, --newline=НС           задает символ новой строки, допустимые значения n\n"
-"                             (`\\n') и r (`\\r')\n"
-"  -o                         синоним --output\n"
-"  -O, --missing-characters   показать пропущенные символы\n"
-"  -p, --output=ФАЙЛ          записать вывод в указанный ФАЙЛ. Если ФАЙЛ задан\n"
-"                             как -, печатать на стандартный вывод\n"
-"  -P, --printer=ИМЯ          напечатать вывод на указанном принтере\n"
-"  -q, --quiet, --silent      не выводить сообщений\n"
-"  -r, --landscape            печатать горизонтально (режим landscape)\n"
-"  -R, --portrait             печатать вертикально (режим portrait)\n"
+"  -L, --lines-per-page=NUM   specificЦ numЦrul de linii de tipЦrit pe fiecarepaginЦ\n"
+"  -m, --mail                 trimite mail dupЦ completare\n"
+"  -M, --media=NUME           folose╨te media de ie╨ire(output) NUME\n"
+"  -n, --copies=NUM           tipЦre╨te NUM copii ale fiecЦrei pagini\n"
+"  -N, --newline=NL           selecteazЦ caracterul linie_nouЦ(newline).  Posibile\n"
+"                             valori pentru NL : n (`\\n') ╨i r (`\\r').\n"
+"  -o                         alias pentru opЧiunea --output\n"
+"  -O, --missing-characters   listeazЦ caracterele lipsЦ\n"
+"  -p, --output=FI╙IER          lasЦ output-ul Нn FI╙IER.  DacЦ FI╙IER este `-',\n"
+"                             lasЦ output-ul la stdout.\n"
+"  -P, --printer=NUME         tipЦre╨te output-ul la imprimanta NUME\n"
+"  -q, --quiet, --silent      realmente silenЧios\n"
+"  -r, --landscape            tipЦre╨te Нn format peisaj(landscape)\n"
+"  -R, --portrait             tipЦre╨te Нn format portret\n"
 
 #: src/main.c:2567
 msgid ""
@@ -620,23 +615,23 @@ msgid ""
 "  -Z, --pass-through         pass through PostScript and PCL files\n"
 "                             without any modifications\n"
 msgstr ""
-"  -s, --baselineskip=ЧИСЛО   задает интерлиньяж\n"
-"  -S, --statusdict=КЛЮЧ[:ЗНАЧЕНИЕ]\n"
-"                             передать на выход определение statusdict\n"
-"  -t, --title=ИМЯ            задает имя задания.  Также устанавливает имя\n"
-"                             стандартного ввода.\n"
-"  -T, --tabsize=ЧИСЛО        задает ширину знака табуляции\n"
-"  -u, --underlay[=ТЕКСТ]     печатать ТЕКСТ на подложке каждой страницы\n"
-"  -U, --nup=ЧИСЛО            печатать заданное ЧИСЛО логических страниц на\n"
-"                             каждой выходной странице\n"
-"  -v, --verbose              сообщать производимые действия\n"
-"  -V, --version              показать информацию о версии\n"
-"  -w, --language=ЯЗЫК        задает ЯЗЫК для вывода\n"
-"  -W, --options=ВП,КЛЮЧ      передать КЛЮЧ вспомогательной программе ВП\n"
-"  -X, --encoding=ИМЯ         задает кодировку для входа\n"
-"  -z, --no-formfeed          игнорировать знаки перевода страницы\n"
-"  -Z, --pass-through         пропускать без изменений входные файлы в форматах\n"
-"                             PostScript и PCL\n"
+"  -s, --baselineskip=NUM     setare saltliniebazЦ la NUM\n"
+"  -S, --statusdict=CHEIE[:VALOARE]\n"
+"                             trimite o definiЧie statusdict la ie╨ire(output)\n"
+"  -t, --title=TITLU          seteazЦ titlul paginii de job Нn TITLU.  OpЧiunea\n"
+"                             seteazЦ de asemenea numele fi╨ierului de intrare(input).\n"
+"                             Нn stdin\n"
+"  -T, --tabsize=NUM          seteazЦ mЦrimea tabulatorului Нn NUM\n"
+"  -u, --underlay[=TEXT]      tipЦre╨te TEXT sub fiecare paginЦ\n"
+"  -U, --nup=NUM              tipЦre╨te NUM pagini logice pe fiecare paginЦ ie╨itЦ\n"
+"  -v, --verbose              spune ce se НntБmplЦ\n"
+"  -V, --version              afi╨eazЦ numЦrul versiunii\n"
+"  -w, --language=LIMB        seteazЦ limba de afi╨are la LIMB\n"
+"  -W, --options=APP,OPчIUNE   trimte OPчIUNE la aplicaЧia de ajutorare APP\n"
+"  -X, --encoding=NUME        folose╨te codarea(encoding) de intrare NUME\n"
+"  -z, --no-formfeed          nu interpreteazЦ caracterele form feed\n"
+"  -Z, --pass-through         trece prin fi╨ierele PostScript ╨i PCL \n"
+"                             fЦrЦ nici o modificare\n"
 
 #: src/main.c:2585
 msgid ""
@@ -651,17 +646,18 @@ msgid ""
 "  --h-column-height=HEIGHT   set the horizontal column height to HEIGHT\n"
 "  --help                     print this help and exit\n"
 msgstr ""
-"Длинные ключи:\n"
-"  --color[=bool]             выводить в разных цветах\n"
-"  --continuous-page-numbers  считать номера страниц непрерывно по всем входным\n"
-"                             файлам.  Не начинать заново с начала каждого файла.\n"
-"  --download-font=ИМЯ        включить в вывод шрифт с указанным ИМЕНЕМ\n"
-"  --extended-return-values   включить расширенные коды возрврата\n"
-"  --filter-stdin=ИМЯ         указывает, как именовать стандартный ввод для\n"
-"                             входного фильтра\n"
-"  --footer=ЗАГОЛОВОК         устанавливает нижний заголовок страницы\n"
-"  --h-column-height=ВЫСОТА   устанавливает ВЫСОТУ горизонтальной колонки\n"
-"  --help                     показать эту справку и выйти\n"
+"OpЧiuni cu caracter exclusiv lung:\n"
+"  --color[=bool]             creazЦ output-uri colorate cu stЦri\n"
+"  --continuous-page-numbers  Чine socoteala numЦrului de pagini al fi╨ierelor de\n"
+"                             intrare(input). Nu reНncepe numЦrЦtoarea la Нnceputul\n"
+"                             fiecЦrui fi╨ier.\n"
+"  --download-font=NUME       downloadeazЦ fontul NUME\n"
+"  --extended-return-values   activeazЦ valorile de returnare extinse\n"
+"  --filter-stdin=NUME        specificЦ modul Нn care stdin e afi╨at filtrului de intrare\n"
+"  --footer=FOOTER            setare footer paginЦ\n"
+"  --h-column-height=нNцLчIME   seteazЦ НnЦlЧimea coloanelor orizontale la                              нNцLчIME\n"
+"\n"
+"  --help                     afi╨eazЦ acest ajutor ╨i iese\n"
 
 #: src/main.c:2596
 msgid ""
@@ -675,13 +671,16 @@ msgid ""
 "                             mark wrapped lines in the output with STYLE\n"
 "  --non-printable-format=FMT specify how non-printable chars are printed\n"
 msgstr ""
-"  --help-highlight           описать все языки, поддерживаемые --highlight\n"
-"  --highlight-bar-gray=ЧИСЛО печатать выделяющие полосы заданным оттенком \n"
-"                             серого цвета (0 - 1)\n"
-"  --list-media               перечислить все известные форматы\n"
-"  --margins=ЛЕВ:ПРАВ:ВЕРХ:НИЗ  настраивает размеры полей страницы\n"
-"  --mark-wrapped-lines[СТИЛЬ]  задает СТИЛЬ пометки разбитых строк\n"
-"  --non-printable-format=ФМТ указывает, как выводить непечатные знаки\n"
+"  --help-highlight           descrie toate limbajele ╨i formatele de fi╨iere \n"
+"                             --highlight suportate\n"
+"  --highlight-bar-gray=NUM   afi╨eazЦ barele de selecЧie(highlight) cu gri NUM (0 - 1)\n"
+"  --list-media               listeazЦ numele tuturor mediilor cunoscute\n"
+"  --margins=STбNGA:DREAPTA:SUS:JOS\n"
+"                             ajusteazЦ marginile paginii\n"
+"  --mark-wrapped-lines[STIL]\n"
+"                             marcheazЦ liniile potrivite(wrapped) Нn output cu STIL\n"
+"  --non-printable-format=FMT specificЦ modul Нn care caracterele netipЦribile\n"
+"                             sunt tipЦrite\n"
 
 #: src/main.c:2607
 msgid ""
@@ -694,17 +693,15 @@ msgid ""
 "  --printer-options=OPTIONS  pass extra options to the printer command\n"
 "  --rotate-even-pages        rotate even-numbered pages 180 degrees\n"
 msgstr ""
-"  --nup-columnwise           размещать страницы по столбцам при печати \n"
-"                             нескольких страниц на лист\n"
-"  --nup-xpad=ЧИСЛО           установить заполнение страницы по x при печати \n"
-"                             нескольких страниц на лист равным ЧИСЛУ\n"
-"  --nup-ypad=ЧИСЛО           установить заполнение страницы по y при печати \n"
-"                             нескольких страниц на лист равным ЧИСЛУ\n"
-"  --page-label-format=ФМТ    устанавливает формат метки страницы\n"
-"  --ps-level=УРОВЕНЬ         устанавливает уровень языка PostScript, который \n"
-"                             должен использовать enscript\n"
-"  --printer-options=КЛЮЧИ    передает дополнительные параметры команде печати\n"
-"  --rotate-even-pages        поворачивать четные страницы на 180 градусов\n"
+"  --nup-columnwise           potrive╨te paginile Нn stil de tipЦrire N-up columnwise\n"
+"  --nup-xpad=NUM             seteazЦ x-padding pentru tipЦrire N-up cu NUM\n"
+"  --nup-ypad=NUM             seteazЦ y-padding pentru tipЦrire N-up cu NUM\n"
+"  --page-label-format=FMT    seteazЦ formatul etichetei(label) paginii cu FMT\n"
+"  --ps-level=NIVEL           seteazЦ nivelul limbajului PostScript pe care\n"
+" enscript\n"
+"                             ar trebui sЦ-l foloseascЦ\n"
+"  --printer-options=OPчIUNI  trimite extra-opЧiuni la comanda imprimantei\n"
+"  --rotate-even-pages        rote╨te paginile par-numerotate cu 180 de grade\n"
 
 #: src/main.c:2617
 msgid ""
@@ -720,16 +717,17 @@ msgid ""
 "  --ul-style=STYLE           print underlays with style STYLE\n"
 "  --word-wrap                wrap long lines from word boundaries\n"
 msgstr ""
-"  --slice=ЧИСЛО              печатать заданный вертикальный фрагмент\n"
-"  --style=СТИЛЬ              использовать заданный стиль выделения\n"
-"  --swap-even-page-margins   менять левое и правое поля для четных страниц\n"
-"  --toc                      печатать содержание\n"
-"  --ul-angle=УГОЛ            задает УГОЛ наклона текста подкладки\n"
-"  --ul-font=ИМЯ              задает шрифт для подкладки\n"
-"  --ul-gray=ЧИСЛО            печатать подкладку заданным серым цветом\n"
-"  --ul-position=ПОЗ          задает начальную позицию для подкладки\n"
-"  --ul-style=СТИЛЬ           задает СТИЛЬ подкладки\n"
-"  --word-wrap                обрывать длинные строки на границах слов\n"
+"  --slice=NUM                tipЦre╨te componenta(slice) verticalЦ NUM\n"
+"  --style=STIL                folose╨te stilul de evidenЧiere(highlight) STIL\n"
+"  --swap-even-page-margins   interchimbЦ marginile stБnga ╨i dreapta pentru\n"
+"                             fiecare paginЦ par-numerotatЦ\n"
+"  --toc                      tipЦre╨te tabela de conЧinut\n"
+"  --ul-angle=UNGHI           setazЦ unghiul subtextului Нn UNGHI\n"
+"  --ul-font=NUME             tipЦre╨te subtextele cu fontul NUME\n"
+"  --ul-gray=NUM              tipЦre╨te subtextele cu valoarea de gri NUM\n"
+"  --ul-position=POZ         seteazЦ poziЧia de start a subtextului la POZ\n"
+"  --ul-style=STIL              tipЦre╨te subtextele cu stilul STIL\n"
+"  --word-wrap                potrivesЧe(wrap) liniile lungi din marginile cuvintelor\n"
 
 #: src/main.c:2631
 msgid ""
@@ -737,27 +735,27 @@ msgid ""
 "Report bugs to mtr@iki.fi.\n"
 msgstr ""
 "\n"
-"Об ошибках сообщайте по адресу mtr@iki.fi.\n"
+"RaportaЧi bug-urile la mtr@iki.fi.\n"
 
 #: src/psgen.c:324
 #, c-format
 msgid "couldn't find prolog \"%s\": %s\n"
-msgstr "невозможно найти пролог \"%s\": %s\n"
+msgstr "nu se poate gЦsi prolog \"%s\": %s\n"
 
 #: src/psgen.c:332
 #, c-format
 msgid "couldn't find encoding file \"%s.enc\": %s\n"
-msgstr "невозможно найти файл описания кодировки \"%s.enc\": %s\n"
+msgstr "nu se poate gЦsi fi╨ierul de codare(encoding) \"%s.enc\": %s\n"
 
 #: src/psgen.c:464
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\": %s\n"
-msgstr "невозможно найти заголовочный файл \"%s.hdr\": %s\n"
+msgstr "nu se poate gЦsi fi╨ierul header de definiЧii \"%s.hdr\": %s\n"
 
 #: src/psgen.c:608
 #, c-format
 msgid "processing file \"%s\"...\n"
-msgstr "обработка файла \"%s\"...\n"
+msgstr "procesare fi╨ier \"%s\"...\n"
 
 #.
 #. * At the beginning of the column, warn user
@@ -766,27 +764,25 @@ msgstr "обработка файла \"%s\"...\n"
 #: src/psgen.c:906
 #, c-format
 msgid "EPS file \"%s\" is too large for page\n"
-msgstr "EPS-файл \"%s\" слишком велик\n"
+msgstr "Fi╨ierul EPS \"%s\" e prea mare pentru paginЦ\n"
 
 #: src/psgen.c:979
 msgid "user font encoding can be only the system's default or `ps'"
-msgstr ""
-"определяемая пользователем кодировка шрифта может быть только\n"
-"системной по умолчанию или `ps'"
+msgstr "codarea(encoding) fontului utilizatorului poate fi ori implicitЦ sistem ori `ps'"
 
 #: src/psgen.c:1220
 #, c-format
 msgid "unknown special escape: %s"
-msgstr "неизвестная управляющая последовательность: %s"
+msgstr "escape special necunoscut:%s"
 
 #: src/psgen.c:1346
 #, c-format
 msgid "illegal option %c for ^@epsf escape"
-msgstr "недопустимый ключ %c для директивы ^@epsf"
+msgstr "opЧiune ilegalЦ %c pentru ^@epsf escape"
 
 #: src/psgen.c:1352
 msgid "malformed ^@epsf escape: no ']' after options"
-msgstr "неверно задана директива ^@epsf: после ключей отсутствует `]'"
+msgstr "^@epsf escape malformat: nu existЦ ']' dupЦ opЧiuni"
 
 #: src/psgen.c:1364
 #, c-format
@@ -794,21 +790,21 @@ msgid ""
 "too long file name for ^@epsf escape:\n"
 "%.*s"
 msgstr ""
-"слишком длинное имя файла для директивы ^@epsf:\n"
+"nume de fi╨ier prea lung pentru ^@epsf escape:\n"
 "%.*s"
 
 #: src/psgen.c:1368
 msgid "unexpected EOF while scanning ^@epsf escape"
-msgstr "преждевременный конец файла при чтении директивы ^@epsf"
+msgstr "EOF nea╨teptat Нn timp ce se scana ^@epsf escape"
 
 #: src/psgen.c:1374
 msgid "malformed ^@epsf escape: no '{' found"
-msgstr "неверно задана директива ^@epsf: отсутствует '{'"
+msgstr "^@epsf escape malformat: nu s-a gЦsit '{'"
 
 #: src/psgen.c:1432
 #, c-format
 msgid "malformed %s escape: no '{' found"
-msgstr "неверно задана директива %s: отсутствует '{'"
+msgstr "%s escape malformat: nu s-a gЦsit '{'"
 
 #: src/psgen.c:1446
 #, c-format
@@ -816,42 +812,42 @@ msgid ""
 "too long argument for %s escape:\n"
 "%.*s"
 msgstr ""
-"слишком длинный аргумент для директивы %s:\n"
+"argument prea lung pentru escape %s:\n"
 "%.*s"
 
 #: src/psgen.c:1465
 #, c-format
 msgid "malformed font spec for ^@font escape: %s"
-msgstr "неправильное описание шрифта в директиве ^@font: %s"
+msgstr "specificare font malformatЦ pentru ^@font escape: %s"
 
 #: src/psgen.c:1501
 #, c-format
 msgid "malformed color spec for ^@%s escape: %s"
-msgstr "неправильное описание цвета в директиве ^@%s: %s"
+msgstr "specificare culoare malformatЦ pentru ^@%s escape: %s"
 
 #: src/psgen.c:1525
 #, c-format
 msgid "invalid value for ^@shade escape: %s"
-msgstr "неверное значение для директивы ^@shade: %s"
+msgstr "valoare invalidЦ pentru ^@shade escape: %s"
 
 #: src/psgen.c:1533
 #, c-format
 msgid "invalid value for ^@bggray escape: %s"
-msgstr "неверное значение для директивы ^@bggray: %s"
+msgstr "valoare invalidЦ pentru ^@bggray escape: %s"
 
 #: src/psgen.c:2397
 #, c-format
 msgid "epsf: couldn't open pipe to command \"%s\": %s\n"
-msgstr "epsf: невозможно открыть канал для команды \"%s\": %s\n"
+msgstr "epsf: nu s-a putut realiza legЦtura(pipe) spre comanda \"%s\": %s\n"
 
 #: src/psgen.c:2430
 #, c-format
 msgid "couldn't open EPS file \"%s\": %s\n"
-msgstr "невозможно открыть EPS-файл \"%s\": %s\n"
+msgstr "nu s-a putut deschide fi╨ierul EPS \"%s\": %s\n"
 
 #: src/psgen.c:2467
 msgid "EPS file \"%s\" does not start with \"%%!\" magic\n"
-msgstr "EPS-файл \"%s\" не начинается волшебным комментарием \"%%!\"\n"
+msgstr "Fi╨ierul EPS \"%s\" nu Нncepe cu magic \"%%!\"\n"
 
 #. No, this BoundingBox comment is corrupted.
 #: src/psgen.c:2492
@@ -859,171 +855,171 @@ msgid ""
 "EPS file \"%s\" contains malformed %%%%BoundingBox row:\n"
 "\"%.*s\"\n"
 msgstr ""
-"EPS-файл \"%s\" содержит неправильную строку %%%%BoundingBox:\n"
+"Fi╨ierul EPS \"%s\" conЧine rБnd %%%%BoundingBox malformat:\n"
 "\"%.*s\"\n"
 
 #: src/psgen.c:2517
 #, c-format
 msgid "EPS file \"%s\" is not a valid EPS file\n"
-msgstr "EPS-файл \"%s\" не является верным EPS-файлом\n"
+msgstr "Fi╨ierul EPS \"%s\" nu este un fi╨ier EPS valid\n"
 
 #: src/psgen.c:2659
 #, c-format
 msgid "passing through all input files for output language `%s'\n"
-msgstr "обрабатываются все входные файлы с выходным языком `%s'\n"
+msgstr "trecere prin toate fi╨ierele de intrare(input pentru limbajul de ie╨ire(output) `%s'\n"
 
 #: src/psgen.c:2711
 #, c-format
 msgid "passing through %s file \"%s\"\n"
-msgstr "обрабатывается файл %s \"%s\"\n"
+msgstr "trecere prin fi╨ierul %s \"%s\"\n"
 
 #: src/psgen.c:2814
 #, c-format
 msgid "couldn't create temporary divert file: %s"
-msgstr "невозможно создать временный файл: %s"
+msgstr "nu s-a putut crea fi╨ierul divert temporar: %s"
 
 #: src/psgen.c:2831
 #, c-format
 msgid "couldn't rewind divert file: %s"
-msgstr "невозможно сместиться во временном файле: %s"
+msgstr "nu s-a putut da Нnapoi(rewind) fi╨ierul divert: %s"
 
 #: src/util.c:185 src/util.c:213
 #, c-format
 msgid "illegal value \"%s\" for option %s"
-msgstr "недопустимое значение \"%s\" для ключа %s"
+msgstr "valoare ilegalЦ \"%s\" pentru opЧiunea %s"
 
 #: src/util.c:201
 #, c-format
 msgid "invalid value \"%s\" for option %s"
-msgstr "неверное значение \"%s\" для ключа %s"
+msgstr "valoare ilegalЦ \"%s\" pentru opЧiunea %s"
 
 #: src/util.c:439
 #, c-format
 msgid "illegal option: %s"
-msgstr "недопустимый ключ: %s"
+msgstr "opЧiune ilegalЦ: %s"
 
 #: src/util.c:616
 msgid "%s:%d: %%Format: no name"
-msgstr "%s:%d: %%Format: не задан"
+msgstr "%s:%d: %%Format: fЦrЦ nume"
 
 #: src/util.c:627
 msgid "%s:%d: %%Format: too long name, maxlen=%d"
-msgstr "%s:%d %%Format: слишком длинное имя, максимальная длина %d"
+msgstr "%s:%d: %%Format: nume prea lung, maxlen=%d"
 
 #: src/util.c:650
 msgid "%s:%d: %%Format: name \"%s\" is already defined"
-msgstr "%s:%d: %%Format: имя \"%s\" уже определено"
+msgstr "%s:%d: %%Format: numele \"%s\" este definit deja"
 
 #: src/util.c:671
 msgid "%s:%d: %%HeaderHeight: no argument"
-msgstr "%s:%d: %%HeaderHeight: аргумент не задан"
+msgstr "%s:%d: %%HeaderHeight: fЦrЦ argument"
 
 #: src/util.c:693
 msgid "%s:%d: %%FooterHeight: no argument"
-msgstr "%s:%d: %%FooterHeight: аргумент не задан"
+msgstr "%s:%d: %%FooterHeight: fЦrЦ argument"
 
 #: src/util.c:840
 #, c-format
 msgid "%s: warning: font size is negative\n"
-msgstr "%s:  предупреждение: отрицательный размер шрифта\n"
+msgstr "%s: avertisment: mЦrimea fontului este negativЦ\n"
 
 #: src/util.c:842
 #, c-format
 msgid "%s: warning: font width is negative\n"
-msgstr "%s:  предупреждение: отрицательная ширина шрифта\n"
+msgstr "%s: avertisment: lЦЧimea fontului este negativЦ\n"
 
 #: src/util.c:844
 #, c-format
 msgid "%s: warning: font height is negative\n"
-msgstr "%s:  предупреждение: отрицательная высота шрифта\n"
+msgstr "%s: avertisment: НnЦlЧimea fontului este negativЦ\n"
 
 #: src/util.c:863
 #, c-format
 msgid "reading AFM info for font \"%s\"\n"
-msgstr "чтение AFM-информации для шрифта \"%s\"\n"
+msgstr "citire informaЧii AFM pentru fontul \"%s\"\n"
 
 #: src/util.c:896
 #, c-format
 msgid "couldn't open AFM file for font \"%s\", using default\n"
-msgstr "невозможно открыть AFM-файл для шрифта \"%s\", используется шрифт по умолчанию\n"
+msgstr "nu s-a putut deschide fi╨ierul AFM pentru fontul \"%s\", se folose╨te implicit\n"
 
 #: src/util.c:903
 #, c-format
 msgid "couldn't open AFM file for the default font: %s"
-msgstr "невозможно открыть AFM-файл для шрифта по умолчанию: %s"
+msgstr "nu s-a putut deschide fi╨ierul AFM pentru fontul implicit: %s"
 
 #. Ok, fine.  Font was found.
 #: src/util.c:1092
 #, c-format
 msgid "downloading font \"%s\"\n"
-msgstr "загрузка шрифта \"%s\"\n"
+msgstr "downloadare font \"%s\"\n"
 
 #: src/util.c:1097
 #, c-format
 msgid "couldn't open font description file \"%s\": %s\n"
-msgstr "невозможно открыть файл описания шрифта \"%s\": %s\n"
+msgstr "nu s-a putut deschide fi╨ierul cu descrierea fontului \"%s\": %s\n"
 
 #: src/util.c:1387
 msgid "%s: too long format for %%D{} escape"
-msgstr "%s: слишком длинный формат для директивы %%D{}"
+msgstr "%s: format prea lung pentru escape %%D{}"
 
 #: src/util.c:1472
 msgid "%s: unknown `%%' escape `%c' (%d)"
-msgstr "%s: неизвестная %%-директива `%c' (%d)"
+msgstr "%s: escape `%%' necunoscut `%c' (%d)"
 
 #: src/util.c:1510
 #, c-format
 msgid "%s: no closing ')' for $() escape"
-msgstr "%s: отсутствует закрывающая ')' для директивы $()"
+msgstr "%s: nu se Нnchide ')' pentru escape $()"
 
 #: src/util.c:1513
 #, c-format
 msgid "%s: too long variable name for $() escape"
-msgstr "%s: слишком длинное имя переменной для директивы $()"
+msgstr "%s: nume prea lung de variabilЦ pentru escape $()"
 
 #: src/util.c:1540
 #, c-format
 msgid "%s: too long format for $D{} escape"
-msgstr "%s: слишком длинный формат для директивы $D{}"
+msgstr "%s:format prea lung pentru escape $D{}"
 
 #: src/util.c:1628
 #, c-format
 msgid "%s: unknown `$' escape `%c' (%d)"
-msgstr "%s: неизвестная $-директива `%c' (%d)"
+msgstr "%s: escape `$' necunoscut `%c' (%d)"
 
 #: src/util.c:1819
 #, c-format
 msgid "malformed float dimension: \"%s\""
-msgstr "неправильное число с плавающей точкой: \"%s\""
+msgstr "dimensiune float malformatЦ: \"%s\""
 
 #: src/util.c:1936
 #, c-format
 msgid "couldn't open input filter \"%s\" for file \"%s\": %s"
-msgstr "невозможно открыть входной фильтр \"%s\" для файла \"%s\": %s"
+msgstr "nu s-a putut deschide filtrul de intrare(input) \"%s\" pentru fi╨ierul \"%s\": %s"
 
 #: src/util.c:1953
 #, c-format
 msgid "couldn't open input file \"%s\": %s"
-msgstr "невозможно открыть входной файл \"%s\": %s"
+msgstr "nu s-a putut deschide fi╨ierul de intrare(input) \"%s\": %s"
 
 #. Open output file.
 #: src/mkafmmap.c:173
 #, c-format
 msgid "file=%s\n"
-msgstr "файл=%s\n"
+msgstr "file=%s\n"
 
 #: src/mkafmmap.c:173
 msgid "stdout"
-msgstr "стандартный вывод"
+msgstr "stdout"
 
 #: src/mkafmmap.c:181
 #, c-format
 msgid "%s: couldn't open output file \"%s\""
-msgstr "%s: невозможно открыть выходной файл \"%s\""
+msgstr "%s: nu s-a putut deschide fi╨ierul de ie╨ire(output) \"%s\""
 
 #: src/mkafmmap.c:195
 msgid "couldn't create AFM library"
-msgstr "невозможно создать AFM-библиотеку"
+msgstr "nu s-a putut crea biblioteca AFM"
 
 #: src/mkafmmap.c:244
 #, c-format
@@ -1036,55 +1032,56 @@ msgid ""
 "                          stdout.\n"
 "  -V, --version           print version number\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]... ФАЙЛ\n"
-"Аргументы, обязательные для длинных ключей, обязательны и для коротких.\n"
-"  -h, --help              показать эту справку и выйти\n"
-"  -p, --output-file=ФАЙЛ  выводить в указанный ФАЙЛ (по умолчанию font.map).\n"
-"                          Если ФАЙЛ задан как -, печатать на стандартный вывод.\n"
-"  -V, --version           показать информацию о версии и выйти\n"
+"Folosire: %s [OPчIUNE]... FI╙IER...\n"
+"Parametrii obligatorii pentru opЧiunile lungi sunt obligatorii ╨i pentru cele scurte.\n"
+"  -h, --help              afi╨eazЦ acest ajutor ╨i iese\n"
+"  -p, --output-file=NUME  afi╨eazЦ output-ul la fi╨ierul NUME (implicit fi╨ierul\n"
+"                          este font.map).  DacЦ FI╙IERul este `-', lasЦ output-ul la\n"
+"                          stdout.\n"
+"  -V, --version           afi╨eazЦ numЦrul de versiune\n"
 
 #: states/lex.l:169 states/lex.l:175
 msgid "error: EOF in comment"
-msgstr "ошибка: EOF в комментарии"
+msgstr "eroare: EOF Нn comentariu"
 
 #: states/lex.l:206
 msgid "error: EOF in string constant"
-msgstr "ошибка: EOF в строковой константе"
+msgstr "eroare: EOF Нn constantЦ ╨ir"
 
 #: states/lex.l:313
 msgid "error: EOF in regular expression"
-msgstr "ошибка: EOF в регулярном выражении"
+msgstr "eroare: EOF Нn expresie regulatЦ"
 
 #. Format version string.
 #: states/main.c:199
 #, c-format
 msgid "states for GNU %s %s"
-msgstr "states для GNU %s %s"
+msgstr "states pentru GNU %s %s"
 
 #: states/main.c:254
 #, c-format
 msgid "%s: malformed variable definition \"%s\"\n"
-msgstr "%s: переменная \"%s\" определена неправильно\n"
+msgstr "%s: definiЧie de variabilЦ malformatЦ \"%s\"\n"
 
 #: states/main.c:282
 #, c-format
 msgid "%s: couldn't create output file \"%s\": %s\n"
-msgstr "%s: невозможно создать выходной файл \"%s\": %s\n"
+msgstr "%s: nu se poate crea fi╨ierul de ie╨ire(output) \"%s\": %s\n"
 
 #: states/main.c:313
 #, c-format
 msgid "%s: unknown warning level `%s'\n"
-msgstr "%s: уровень подробности предупреждений `%s' неизвестен\n"
+msgstr "%s: nivel de avertizare necunoscut `%s'\n"
 
 #: states/main.c:362 states/main.c:398 states/prims.c:1377 states/utils.c:229
 #, c-format
 msgid "%s: out of memory\n"
-msgstr "%s: оперативная память исчерпана\n"
+msgstr "%s: memorie plinЦ\n"
 
 #: states/main.c:423
 #, c-format
 msgid "%s: couldn't open input file `%s': %s\n"
-msgstr "%s: невозможно открыть входной файл `%s': %s\n"
+msgstr "%s: nu se poate deschide fi╨ierul de intrare(input) `%s': %s\n"
 
 #: states/main.c:447
 #, c-format
@@ -1092,8 +1089,8 @@ msgid ""
 "Usage: %s [OPTION]... [FILE]...\n"
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
-"Использование: %s [КЛЮЧ]... [ФАЙЛ]...\n"
-"Аргументы, обязательные для длинных ключей, обязательны и для коротких.\n"
+"Usage: %s [OPTION]... [FILE]...\n"
+"Mandatory arguments to long options are mandatory for short options too.\n"
 
 #: states/main.c:451
 msgid ""
@@ -1107,185 +1104,185 @@ msgid ""
 "  -V, --version              print version number\n"
 "  -W, --warning=LEVEL        set the warning level to LEVEL\n"
 msgstr ""
-"  -D, --define=ПЕРЕМЕННАЯ=ЗНАЧЕНИЕ\n"
-"                             определяет ПЕРЕМЕННУЮ и присваивает ей ЗНАЧЕНИЕ\n"
-"  -f, --file=ФАЙЛ            читать определения состояний из заданного ФАЙЛА\n"
-"  -h, --help                 показать эту справку и выйти\n"
-"  -o, --output=ФАЙЛ          выводить в указанный ФАЙЛ\n"
-"  -p, --path=ПУТЬ            устанавливает путь поиска\n"
-"  -s, --state=ИМЯ            начать с указанного состояния\n"
-"  -v, --verbose              увеличивает подробность сообщений программы\n"
-"  -V, --version              показать информацию о версии и выйти\n"
-"  -W, --warning=ЧИСЛО        задает степень подробности предупреждений\n"
+"  -D, --define=VAR=VAL       define╨te valoarea VAL pentru variabila VAR  -f, --file=NUME            cite╨te definiЧiile stЦrilor din fi╨ierul NUME\n"
+"  -h, --help                 afi╨eazЦ acest ajutor ╨i iese\n"
+"  -o, --output=NUME          salvare output Нn fi╨ierul NUME\n"
+"  -p, --path=CALE            setare cale de НncЦrcare la CALE\n"
+"  -s, --state=NUME           Нncepe de la starea NUME\n"
+"  -v, --verbose              mЦre╨te detalierea programului\n"
+"  -V, --version              afi╨eazЦ numЦrul de versiune\n"
+"  -W, --warning=NIVEL        seteazЦ nivelul de avertizare la NIVEL\n"
 
 #: states/prims.c:109 states/prims.c:129 states/prims.c:255 states/prims.c:428
 #: states/prims.c:903
 #, c-format
 msgid "%s:%d: %s: illegal argument type\n"
-msgstr "%s:%d: %s: недопустимый тип аргумента\n"
+msgstr "%s:%d: %s: tip ilegal de argument\n"
 
 #: states/prims.c:470
 #, c-format
 msgid "%s: panic: "
-msgstr "%s: аварийная ситуация: "
+msgstr "%s: panicЦ: "
 
 #: states/prims.c:504
 #, c-format
 msgid "%s:%d: %s: malformed version string `%s'\n"
-msgstr "%s:%d: %s: неправильная запись версии `%s'\n"
+msgstr "%s:%d: %s: ╨ir malformat de versiune `%s'\n"
 
 #: states/prims.c:519
 #, c-format
 msgid "%s: FATAL ERROR: States version %s or higher is required for this script\n"
-msgstr "%s: КРИТИЧЕСКАЯ ОШИБКА: для этой программы необходим states версии %s или выше\n"
+msgstr ""
+"%s: EROARE FATALц: States versiunea %s sau mai mare este necesarЦ pentru\n"
+"acest script\n"
 
 #: states/prims.c:610 states/prims.c:1276
 #, c-format
 msgid "%s:%d: %s: start offset is bigger than end offset\n"
-msgstr "%s:%d: %s: начальное смещение больше конечного\n"
+msgstr "%s:%d: %s: offset-ul de Нnceput este mai mare decБt offset-ul de sfБr╨it\n"
 
 #: states/prims.c:619 states/prims.c:635 states/prims.c:1282
 #, c-format
 msgid "%s:%d: %s: offset out of range\n"
-msgstr "%s:%d: %s: смещение вне допустимых пределов\n"
+msgstr "%s:%d: %s: offset dincolo de limite\n"
 
 #: states/prims.c:653
 #, c-format
 msgid "%s:%d: %s: illegal argument\n"
-msgstr "%s:%d: %s: недопустимый аргумент\n"
+msgstr "%s:%d: %s: argument ilegal \n"
 
 #: states/prims.c:700
 #, c-format
 msgid "%s:%d: %s: illegal regexp character syntax: %c\n"
-msgstr "%s:%d: %s: недопустимый синтаксис знака в регулярном выражении: %c\n"
+msgstr "%s:%d: %s: sintaxЦ de caracter regexp ilegalЦ: %c\n"
 
 #: states/prims.c:915
 #, c-format
 msgid "%s:%d: %s: couldn't define state `%s'\n"
-msgstr "%s:%d: %s: невозможно определить состояние `%s'\n"
+msgstr "%s:%d: %s: nu s-a putut defini starea `%s'\n"
 
 #: states/prims.c:1012
 #, c-format
 msgid "%s: primitive `%s': too few arguments for format\n"
-msgstr "%s: примитив `%s': недостаточно аргументов\n"
+msgstr "%s: primitiva `%s': prea puЧine argumente pentru formatare\n"
 
 #: states/prims.c:1040
 #, c-format
 msgid "%s:%d: %s: argument %d doesn't match format\n"
-msgstr "%s:%d: %s: аргумент %d не соответствует формату\n"
+msgstr "%s:%d: %s: argumentul %d nu se potrive╨te formatului\n"
 
 #: states/prims.c:1080
 msgid "%s:%d: %s: no extra options can be specified for %%s\n"
-msgstr "%s:%d: %s: для %%s нельзя задать дополнительные аргументы\n"
+msgstr "%s:%d: %s: n-au fost specificate opЧiuni suplimentare pentru %%s\n"
 
 #: states/prims.c:1089
 #, c-format
 msgid "%s:%d: %s: illegal type specifier `%c'\n"
-msgstr "%s:%d: %s: тип `%c' недопустим\n"
+msgstr "%s:%d: %s: specificator de tip invalid `%c'\n"
 
 #: states/process.c:117
 #, c-format
 msgid "%s: undefined state `%s'\n"
-msgstr "%s: состояние `%s' неопределено\n"
+msgstr "%s: stare nedefinitЦ `%s'\n"
 
 #: states/process.c:198
 #, c-format
 msgid "%s: error: undefined variable `%s'\n"
-msgstr "%s: ошибка: переменная `%s' неопределена\n"
+msgstr "%s: eroare: variabilЦ nedefinitЦ `%s'\n"
 
 #: states/process.c:292
 #, c-format
 msgid "%s: undefined super state `%s'\n"
-msgstr "%s: супер-состояние `%s' неопределено\n"
+msgstr "%s: super stare nedefinitЦ `%s'\n"
 
 #: states/utils.c:262
 #, c-format
 msgid "%s:%d: couldn't compile regular expression \"%s\": %s\n"
-msgstr "%s:%d: невозможно скомпилировать регулярное выражение \"%s\": %s\n"
+msgstr "%s:%d: nu s-a putut compila expresia regulatЦ \"%s\": %s\n"
 
 #: states/utils.c:451 states/utils.c:479
 #, c-format
 msgid "%s: ouf of memory"
-msgstr "%s: оперативная память исчерпана"
+msgstr "%s: memorie plinЦ"
 
 #: states/utils.c:456
 #, c-format
 msgid "warning: redefining state `%s'"
-msgstr "предупреждение: переопределение состояния `%s'"
+msgstr "avertisment: redefinirea stЦrii `%s'"
 
 #: states/utils.c:483
 #, c-format
 msgid "%s:%d: warning: redefining subroutine `%s'\n"
-msgstr "%s:%d: предупреждение: переопределение подпрограммы `%s'\n"
+msgstr "%s:%d: avertisment: redefinire subrutinЦ `%s'\n"
 
 #. Undefined variable.
 #: states/utils.c:580
 #, c-format
 msgid "%s:%d: error: undefined variable `%s'\n"
-msgstr "%s:%d: ошибка: переменная `%s' неопределена\n"
+msgstr "%s:%d: eroare: variabilЦ nedefinitЦ `%s'\n"
 
 #. Couldn't set value for variable.
 #: states/utils.c:618
 #, c-format
 msgid "%s:%d: error: couldn't set variable `%s'\n"
-msgstr "%s:%d: ошибка: невозможно установить значение переменной `%s'\n"
+msgstr "%s:%d: eroare: nu s-a putut seta variabila `%s'\n"
 
 #: states/utils.c:769
 #, c-format
 msgid "%s:%d: error: expression between illegal types\n"
-msgstr "%s:%d: ошибка: недопустимые типы аргументов выражения\n"
+msgstr "%s:%d: eroare: expresie Нntre tipuri ilegale\n"
 
 #: states/utils.c:867
 #, c-format
 msgid "%s:%d: error: too few arguments for subroutine\n"
-msgstr "%s:%d: ошибка: недостаточно аргументов для подпрограммы\n"
+msgstr "%s:%d: eroare: prea puЧine argumente pentru subrutinЦ\n"
 
 #: states/utils.c:874
 #, c-format
 msgid "%s:%d: error: too many arguments for subroutine\n"
-msgstr "%s:%d: ошибка: слишком много аргументов для подпрограммы\n"
+msgstr "%s:%d: eroare: prea multe argumente pentru subrutinЦ\n"
 
 #: states/utils.c:928
 #, c-format
 msgid "%s:%d: error: undefined procedure `%s'\n"
-msgstr "%s:%d: ошибка: процедура `%s' не определена\n"
+msgstr "%s:%d: eroare: procedurЦ nedefinitЦ `%s'\n"
 
 #: states/utils.c:1020
 #, c-format
 msgid "%s:%d: error: illegal lvalue for assignment\n"
-msgstr "%s:%d: ошибка: недопустимая левая часть оператора присваивания\n"
+msgstr "%s:%d: eroare: valoare ilegalЦ pentru atribuire\n"
 
 #: states/utils.c:1028 states/utils.c:1112
 #, c-format
 msgid "%s:%d: error: array reference index is not integer\n"
-msgstr "%s:%d: ошибка: индекс массива не является целым числом\n"
+msgstr "%s:%d: eroare: indexul de referinЧЦ al intervalului(array) nu este un Нntreg\n"
 
 #: states/utils.c:1034
 #, c-format
 msgid "%s:%d: error: negative array reference index\n"
-msgstr "%s:%d: ошибка: отрицательный индекс массива\n"
+msgstr "%s:%d: eroare: indexul de referinЧЦ al intervalului(array) este negativ\n"
 
 #: states/utils.c:1085
 #, c-format
 msgid "%s:%d: error: illegal rvalue for string assignment\n"
-msgstr "%s:%d: ошибка: недопустимая правая часть оператора присваивания строк\n"
+msgstr "%s:%d: eroare: valoare ilegalЦ pentru atribuire de ╨ir\n"
 
 #: states/utils.c:1104
 #, c-format
 msgid "%s:%d: error: illegal type for array reference\n"
-msgstr "%s%d: ошибка: недопустимый тип для ссылки по индексу\n"
+msgstr "%s:%d: eroare: tip ilegal pentru referinЧЦ interval(array)\n"
 
 #: states/utils.c:1121
 #, c-format
 msgid "%s:%d: error: array reference index out of rance\n"
-msgstr "%s%d: ошибка: индекс массива вне допустимых пределов\n"
+msgstr "%s:%d: eroare: indexul de referinЧЦ al intervalului(array) Нn afara domeniului(range)\n"
 
 #: states/utils.c:1347
 #, c-format
 msgid "%s: couldn't open definition file `%s': %s\n"
-msgstr "%s: невозможно открыть конфигурационный файл `%s': %s\n"
+msgstr "%s: nu s-a putut deschide fi╨ierul de definiЧie `%s': %s\n"
 
 #: states/utils.c:1403
 #, c-format
 msgid "%s: autoloading `%s' from `%s'\n"
-msgstr "%s: автозагрузка `%s' из `%s'\n"
+msgstr "%s: autoНncЦrcare `%s' din `%s'\n"

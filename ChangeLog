@@ -1,5 +1,7 @@
 2011-07-10  Tim Retout  <diocles@gnu.org>
 
+	* po/: Sync all translations from the Translation Project.
+
 	* compat/gettext.h: New file.
 	* compat/Makefile.am (EXTRA_DIST): Add gettext.h.
 	* src/gsint.h: Use gettext.h instead of own libintl.h include.

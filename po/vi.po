@@ -1,238 +1,245 @@
-# -*- mode:po; coding:utf-8; -*- Slovenian messages for GNU enscript.
-# Copyright (C) 1996, 2005, 2007, 2011 Free Software Foundation, Inc.
+# Vietnamese translation for Enscript.
+# Copyright © 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the enscript package.
-# Primož Peterlin <primoz.peterlin@biofiz.mf.uni-lj.si>, 1996, 2005, 2007, 2011.
-#
-# $Id: enscript-1.6.5.2.sl.po,v 1.3 2011/01/12 12:55:47 peterlin Exp $
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: enscript 1.6.5.2\n"
 "Report-Msgid-Bugs-To: bug-enscript@gnu.org\n"
 "POT-Creation-Date: 2010-06-02 00:17+0100\n"
-"PO-Revision-Date: 2011-01-12 13:55+0100\n"
-"Last-Translator: Primož Peterlin <primozz.peterlin@gmail.com>\n"
-"Language-Team: Slovenian <translation-team-sl@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2010-10-04 22:08+1030\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8-bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.8\n"
 
 #: compat/getopt.c:628
 #, c-format
 msgid "%s: option `%s' is ambiguous\n"
-msgstr "%s: izbira »%s« ni enopomenska\n"
+msgstr "%s: tùy chọn « %s » vẫn mơ hồ\n"
 
 #: compat/getopt.c:652
 #, c-format
 msgid "%s: option `--%s' doesn't allow an argument\n"
-msgstr "%s: izbira »--%s« ne dovoljuje argumenta\n"
+msgstr "%s: tùy chọn « --%s » không cho phép đối số\n"
 
 #: compat/getopt.c:657
 #, c-format
 msgid "%s: option `%c%s' doesn't allow an argument\n"
-msgstr "%s: izbira »%c%s« ne dovoljuje argumenta\n"
+msgstr "%s: tùy chọn « %c%s » không cho phép đối số\n"
 
 #: compat/getopt.c:674 compat/getopt.c:847
 #, c-format
 msgid "%s: option `%s' requires an argument\n"
-msgstr "%s: izbira »%s« zahteva argument\n"
+msgstr "%s: tùy chọn « %s » yêu cầu một đối số\n"
 
 #: compat/getopt.c:703
 #, c-format
 msgid "%s: unrecognized option `--%s'\n"
-msgstr "%s: neprepoznana izbira »--%s«\n"
+msgstr "%s: không nhận ra tùy chọn « --%s »\n"
 
 #: compat/getopt.c:707
 #, c-format
 msgid "%s: unrecognized option `%c%s'\n"
-msgstr "%s: neprepoznana izbira »%c%s«\n"
+msgstr "%s:  không nhận ra tùy chọn « %c%s »\n"
 
 #: compat/getopt.c:733
 #, c-format
 msgid "%s: illegal option -- %c\n"
-msgstr "%s: nedovoljena izbira -- %c\n"
+msgstr "%s: không cho phép tùy chọn « -- %c »\n"
 
 #: compat/getopt.c:736
 #, c-format
 msgid "%s: invalid option -- %c\n"
-msgstr "%s: neveljavna izbira -- %c\n"
+msgstr "%s: tùy chọn không hợp lệ « -- %c »\n"
 
 #: compat/getopt.c:766 compat/getopt.c:896
 #, c-format
 msgid "%s: option requires an argument -- %c\n"
-msgstr "%s: izbira zahteva argument -- %c\n"
+msgstr "%s: tùy chọn yêu cầu một đối số « -- %c »\n"
 
 #: compat/getopt.c:813
 #, c-format
 msgid "%s: option `-W %s' is ambiguous\n"
-msgstr "%s: izbira »-W %s« ni enopomenska\n"
+msgstr "%s: tùy chọn « -W %s » vẫn mơ hồ\n"
 
 #: compat/getopt.c:831
 #, c-format
 msgid "%s: option `-W %s' doesn't allow an argument\n"
-msgstr "%s: izbira »-W %s« ne dovoljuje argumenta\n"
+msgstr "%s: tùy chọn « -W %s » không cho phép đối số\n"
 
 #: compat/xalloc.c:70
 #, c-format
 msgid "xmalloc(): couldn't allocate %d bytes\n"
-msgstr "xmalloc(): ni mogoče rezervirati %d bajtov pomnilnika\n"
+msgstr "xmalloc(): không thể cấp phát %d byte\n"
 
 #: compat/xalloc.c:88
 #, c-format
 msgid "xcalloc(): couldn't allocate %d bytes\n"
-msgstr "xcalloc(): ni mogoče rezervirati %d bajtov pomnilnika\n"
+msgstr "xcalloc(): không thể cấp phát %d byte\n"
 
 #: compat/xalloc.c:109
 #, c-format
 msgid "xrealloc(): couldn't reallocate %d bytes\n"
-msgstr "xrealloc(): ni mogoče ponovno rezervirati %d bajtov pomnilnika\n"
+msgstr "xrealloc(): không thể cấp phát lại %d byte\n"
 
 #: compat/regex.c:996
 msgid "Success"
-msgstr "Uspešno"
+msgstr "Thành công"
 
 #: compat/regex.c:997
 msgid "No match"
-msgstr "Brez zadetkov"
+msgstr "Không khớp"
 
 #: compat/regex.c:998
 msgid "Invalid regular expression"
-msgstr "Neveljaven regularni izraz"
+msgstr "Biểu thức chính quy không hợp lệ"
 
 #: compat/regex.c:999
 msgid "Invalid collation character"
-msgstr "Neveljaven razvrščevalni znak"
+msgstr "Ký tự đối chiếu không hợp lệ"
 
 #: compat/regex.c:1000
 msgid "Invalid character class name"
-msgstr "Neveljavno ime razreda znakov"
+msgstr "Tên hạng ký tự không hợp lệ"
 
 #: compat/regex.c:1001
 msgid "Trailing backslash"
-msgstr "Zaključna nagibnica"
+msgstr "Có dấu chéo ngược theo sau"
 
 #: compat/regex.c:1002
 msgid "Invalid back reference"
-msgstr "Neveljavna povratna zveza"
+msgstr "Tham chiếu trở lại không hợp lệ"
 
 #: compat/regex.c:1003
 msgid "Unmatched [ or [^"
-msgstr "Znak [ ali [^ brez para"
+msgstr "Có một ký tự « [ » hay « [^ » riêng lẻ"
 
 #: compat/regex.c:1004
 msgid "Unmatched ( or \\("
-msgstr "Znak ( ali \\( brez para"
+msgstr "Có một ký tự « ( » hay « \\( » riêng lẻ"
 
 #: compat/regex.c:1005
 msgid "Unmatched \\{"
-msgstr "Znak \\{ brez para"
+msgstr "Có một ký tự « \\{ » riêng lẻ"
 
 #: compat/regex.c:1006
 msgid "Invalid content of \\{\\}"
-msgstr "Neveljavna vsebina \\{\\}"
+msgstr "Nội dụng « \\{\\} » không hợp lệ"
 
 #: compat/regex.c:1007
 msgid "Invalid range end"
-msgstr "Neveljaven konec intervala"
+msgstr "Sai kết thúc phạm vi"
 
 #: compat/regex.c:1008
 msgid "Memory exhausted"
-msgstr "Zmanjkalo pomnilnika"
+msgstr "Cạn bộ nhớ"
 
 #: compat/regex.c:1009
 msgid "Invalid preceding regular expression"
-msgstr "Neveljaven predhodni regularni izraz"
+msgstr "Sai đặt biểu thức chính quy đi trước"
 
 #: compat/regex.c:1010
 msgid "Premature end of regular expression"
-msgstr "Prezgodnji konec regularnega izraza"
+msgstr "Kết thúc sớm biểu thức chính quy"
 
 #: compat/regex.c:1011
 msgid "Regular expression too big"
-msgstr "Prevelik regularni izraz"
+msgstr "Biểu thức chính quy quá lớn"
 
 #: compat/regex.c:1012
 msgid "Unmatched ) or \\)"
-msgstr "Znak ) ali \\) brez para"
+msgstr "Có một ký tự « ) » hay « \\) » riêng lẻ"
 
 #: compat/regex.c:5458
 msgid "No previous regular expression"
-msgstr "Manjkajoč predhodni regularni izraz"
+msgstr "Không có biểu thức chính quy đi trước"
 
 #: src/main.c:949
 #, no-c-format
 msgid "$3v $-40N $3% pages $4L lines  $E $C"
-msgstr "$3v $-40N $3% strani $4L vrstic  $E $C"
+msgstr "$3v $-40N $3% trang $4L dòng  $E $C"
 
 #: src/main.c:979
 #, c-format
 msgid "couldn't get passwd entry for uid=%d: %s"
-msgstr "passwd ne vsebuje podatkov za UID=%d: %s"
+msgstr "không thể lấy mục nhập « passwd » (mật khẩu) cho uid=%d: %s"
 
 #: src/main.c:1071
 #, c-format
 msgid "couldn't read config file \"%s/%s\": %s"
-msgstr "konfiguracijske datoteke \"%s/%s\" ni mogoče prebrati: %s"
+msgstr "không thể đọc tập tin cấu hình « %s/%s »: %s"
 
 #: src/main.c:1075
 msgid "I did also try the following directories:"
-msgstr "Poskusili smo tudi v naslednjih imenikih:"
+msgstr "Cũng đã thử trong những thư mục theo đây:"
 
+# Variable: do not translate/ biến: đừng dịch
 #: src/main.c:1076 src/main.c:1077 src/main.c:1078
 #, c-format
 msgid "\t%s"
 msgstr "\t%s"
 
+# Literal: don't translate; Nghĩa chữ : dừng dịch
 #: src/main.c:1079
 msgid "\t../lib"
 msgstr "\t../lib"
 
+# Literal: don't translate; Nghĩa chữ : dừng dịch
 #: src/main.c:1080
 msgid "\t../../lib"
 msgstr "\t../../lib"
 
 #: src/main.c:1082
 msgid "This is probably an installation error.  Please, try to rebuild:"
-msgstr "Verjetno gre za napako pri namestitvi. Prosimo, ponovno prevedite:"
+msgstr "Rất có thể là một lỗi cài đặt. Xin hãy thử xây dựng lại:"
 
+# Literal: don't translate; Nghĩa chữ : dừng dịch
 #: src/main.c:1083
 msgid "\tmake distclean"
 msgstr "\tmake distclean"
 
+# Literal: don't translate; Nghĩa chữ : dừng dịch
 #: src/main.c:1084
 msgid "\t./configure --prefix=PREFIX"
-msgstr "\t./configure --prefix=PREFIX"
+msgstr "\t./configure --prefix=TIỀN_TỐ"
 
+# Literal: don't translate; Nghĩa chữ : dừng dịch
 #: src/main.c:1085
 msgid "\tmake"
 msgstr "\tmake"
 
+# Literal: don't translate; Nghĩa chữ : dừng dịch
 #: src/main.c:1086
 msgid "\tmake check"
 msgstr "\tmake check"
 
+# Literal: don't translate; Nghĩa chữ : dừng dịch
 #: src/main.c:1087
 msgid "\tmake install"
 msgstr "\tmake install"
 
 #: src/main.c:1089
 msgid "or set the environment variable `ENSCRIPT_LIBRARY' to point to your"
-msgstr "ali nastavite lupinsko spremenljivko »ENSCRIPT_LIBRARY« tako, da kaže"
+msgstr "hoặc đặt biến môi trường « ENSCRIPT_LIBRARY » chỉ tới "
 
 #: src/main.c:1091
 msgid "library directory."
-msgstr "na vaš imenik s knjižnicami."
+msgstr "thư mục thư viện của bạn."
 
 #: src/main.c:1163
 #, c-format
 msgid "unknown encoding: %s"
-msgstr "neznani kodni nabor: %s"
+msgstr "không rõ mã ký tự : %s"
 
 #: src/main.c:1182
 #, c-format
 msgid "couldn't open AFM library: %s"
-msgstr "knjižnice AFM ni mogoče odpreti: %s"
+msgstr "không thể mở thư viện AFM: %s"
 
 #: src/main.c:1211
 #, c-format
@@ -241,57 +248,54 @@ msgid ""
 "name             width\theight\tllx\tlly\turx\tury\n"
 "------------------------------------------------------------\n"
 msgstr ""
-"znani formati papirja:\n"
-"ime              širina\tvišina\tLLX\tLLY\tURX\tURY\n"
-"------------------------------------------------------------\n"
+"môi giới đã biết:\n"
+"tên             rộng\tcao\tllx\tlly\turx\tury\n"
+"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
 
 #: src/main.c:1230
 #, c-format
 msgid "do not know anything about media \"%s\""
-msgstr "format papirja \"%s\" je neznan"
+msgstr "không biết gì về môi giới « %s »"
 
 #: src/main.c:1274
 #, c-format
 msgid "set new marginals for media `%s' (%dx%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
-msgstr "nastavljeni novi robovi za medij »%s« (%d×%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
+msgstr "đặt sát giới hạn mới cho môi giới « %s » (%dx%d): llx=%d, lly=%d, urx=%d, ury=%d\n"
 
 #: src/main.c:1285
 #, c-format
 msgid "illegal page label format \"%s\""
-msgstr "nedovoljena oznaka strani \"%s\""
+msgstr "không cho phép định dạng nhãn trang « %s »"
 
-#  POZOR!!!  Tole je zelo grdo...
 #: src/main.c:1297
 #, c-format
 msgid "illegal non-printable format \"%s\""
-msgstr "nedovoljena ne-natisljiva oblika \"%s\""
+msgstr "không cho phép định dạng không thể in « %s »"
 
 #: src/main.c:1311
 #, c-format
 msgid "illegal style for wrapped line marker: \"%s\""
-msgstr "nedovoljen slog označevalca nadaljevane vrstice: \"%s\""
+msgstr "không cho phép kiểu dạng cho dấu dòng ngắt lại: « %s »"
 
 #: src/main.c:1321
 #, c-format
 msgid "illegal N-up argument: %d"
-msgstr "nedovoljen argument »N na stran«: %d"
+msgstr "không cho phép đối số N-up (lên): %d"
 
 #: src/main.c:1326
 #, c-format
 msgid "N-up argument must be power of 2: %d"
-msgstr "pri »N na stran« mora biti N potenca 2: %d"
+msgstr "Đối số N-up (lên) phải là lũy thừa 2: %d"
 
-#  POZOR!!!
 #: src/main.c:1403
 #, c-format
 msgid "malformed underlay position: %s"
-msgstr "skladenjska napaka pri položaju podlage: %s"
+msgstr "vị trí cơ sở dạng sai: %s"
 
-#  POZOR!!!
 #: src/main.c:1426
 #, c-format
 msgid "illegal underlay style: %s"
-msgstr "nedovoljen slog podlage: %s"
+msgstr "không cho phép kiểu dạng cơ sở: %s"
 
 #: src/main.c:1453
 #, c-format
@@ -299,118 +303,109 @@ msgid ""
 "Highlighting is supported for the following languages and file formats:\n"
 "\n"
 msgstr ""
-"Poudarjanje je podprto le za naslednje jezike in zapise datotek:\n"
+"Có hỗ trợ khả năng tô sáng cho những ngôn ngữ và định dạng tập tin nằm theo đây:\n"
 "\n"
 
 #: src/main.c:1634
 #, c-format
 msgid "couldn't create temporary toc file: %s"
-msgstr "začasne datoteke s kazalom ni mogoče ustvariti: %s"
+msgstr "không thể tạo tập tin toc tạm thời: %s"
 
 #: src/main.c:1681
 #, c-format
 msgid "couldn't stat input file \"%s\": %s"
-msgstr "ni moč priti do podatkov o datoteki \"%s\": %s"
+msgstr "không thể stat (tìm tất cả thông tin hiện thời về) tập tin nhập « %s »: %s"
 
 #: src/main.c:1701
 #, c-format
 msgid "couldn't rewind toc file: %s"
-msgstr "kazala ni moč previti na začetek: %s"
+msgstr "không thể tua lại tập tin toc: %s"
 
 #: src/main.c:1707
 msgid "Table of Contents"
-msgstr "Kazalo"
+msgstr "Mục lục"
 
 #: src/main.c:1733
 msgid "no output generated\n"
-msgstr "brez izpisa\n"
+msgstr "chưa xuất gì\n"
 
 #: src/main.c:1738
 #, c-format
 msgid "output sent to %s\n"
-msgstr "izpis poslan na %s\n"
+msgstr "dữ liệu xuất cho %s\n"
 
 #: src/main.c:1739 src/main.c:1763
 msgid "printer"
-msgstr "tiskalnik"
+msgstr "máy in"
 
 #: src/main.c:1741
 #, c-format
 msgid "output left in %s\n"
-msgstr "izpis zapisan na %s\n"
+msgstr "dữ liệu xuất còn lại trong %s\n"
 
 #: src/main.c:1759
 #, c-format
 msgid "[ %d pages * %d copy ]"
-msgstr "[ %d strani × %d kopij ]"
+msgstr "[ %d trang * %d bản sao ]"
 
 #: src/main.c:1762
 #, c-format
 msgid " sent to %s\n"
-msgstr " poslano na %s\n"
+msgstr " đã gởi cho %s\n"
 
 #: src/main.c:1765
 #, c-format
 msgid " left in %s\n"
-msgstr " zapisanih na %s\n"
+msgstr " còn lại trong %s\n"
 
 #: src/main.c:1771
 #, c-format
 msgid "%d line was %s\n"
 msgid_plural "%d lines were %s\n"
-msgstr[0] "%d vrstic je bilo %s\n"
-msgstr[1] "%d vrstica je bila %s\n"
-msgstr[2] "%d vrstici sta bili %s\n"
-msgstr[3] "%d vrstice so bile %s\n"
+msgstr[0] "%d dòng bị %s\n"
 
 #: src/main.c:1776
 msgid "truncated"
-msgstr "odrezanih"
+msgstr "cắt xén"
 
 #: src/main.c:1776
 msgid "wrapped"
-msgstr "nadaljevanih v naslednji vrstici"
+msgstr "ngắt"
 
 #: src/main.c:1783
 #, c-format
 msgid "%d character was missing\n"
 msgid_plural "%d characters were missing\n"
-msgstr[0] "%d znakov je manjkalo\n"
-msgstr[1] "%d znak je manjkal\n"
-msgstr[2] "%d znaka sta manjkala\n"
-msgstr[3] "%d znaki so manjkali\n"
+msgstr[0] "%d ký tự còn thiếu\n"
 
 #: src/main.c:1789
 msgid "missing character codes (decimal):\n"
-msgstr "kode manjkajočih znakov (desetiško):\n"
+msgstr "mã ký tự còn thiếu (thập phân):\n"
 
 #: src/main.c:1798
 #, c-format
 msgid "%d non-printable character\n"
 msgid_plural "%d non-printable characters\n"
-msgstr[0] "%d neizpisljivih znakov\n"
-msgstr[1] "%d neizpisljiv znak\n"
-msgstr[2] "%d neizpisljiva znaka\n"
-msgstr[3] "%d neizpisljivi znaki\n"
+msgstr[0] "%d ký tự không thể in được\n"
 
 #: src/main.c:1805
 msgid "non-printable character codes (decimal):\n"
-msgstr "kode neizpisljivih znakov (desetiško):\n"
+msgstr "mã ký tự không thể in được (thập phân):\n"
 
 #: src/main.c:1854
 #, c-format
 msgid "couldn't open printer `%s': %s"
-msgstr "tiskalnik »%s« ni dostopen: %s"
+msgstr "không thể mở máy in « %s »: %s"
 
 #: src/main.c:1863
 #, c-format
 msgid "couldn't create output file \"%s\": %s"
-msgstr "izhodne datoteke \"%s\" ni mogoče zapisati: %s"
+msgstr "không thể tạo tập tin kết xuất « %s »: %s"
 
 #: src/main.c:1880
 #, c-format
 msgid "couldn't close output file \"%s\": %s"
-msgstr "izhodne datoteke \"%s\" ni mogoče zapreti: %s"
+msgstr "Không thể đóng tập tin kết xuất « %s »: %s"
 
 #: src/main.c:1938
 #, c-format
@@ -418,65 +413,65 @@ msgid ""
 "syntax error in option string %s=\"%s\":\n"
 "missing end of quotation: %c"
 msgstr ""
-"skladenjska napaka pri izbiri %s=\"%s\":\n"
-"manjka končni narekovaj: %c"
+"gặp lỗi cú pháp trong chuỗi tùy chọn %s=« %s »:\n"
+"thiếu kết thúc của đoạn trích dẫn: %c"
 
 #: src/main.c:1970
 #, c-format
 msgid "warning: didn't process following options from environment variable %s:\n"
-msgstr "pozor: naslednje izbire v spremenljivki %s niso bile obdelane:\n"
+msgstr "cảnh báo : chưa xử lý những tùy chọn theo sau từ biến môi trường %s:\n"
 
 #: src/main.c:1974
 #, c-format
 msgid "  option %d = \"%s\"\n"
-msgstr "  izbira %d = \"%s\"\n"
+msgstr "  tùy chọn %d = « %s »\n"
 
 #: src/main.c:2020
 msgid "number of columns must be larger than zero"
-msgstr "število stolpcev mora biti večje od nič"
+msgstr "phải có số các cột hơn số không"
 
 #: src/main.c:2078
 msgid "file alignment must be larger than zero"
-msgstr "poravnava datotek mora biti večja od nič"
+msgstr "phải có chỉnh canh tập tin hơn số không"
 
 #: src/main.c:2133 src/main.c:2139 src/main.c:2350 src/util.c:416
 #, c-format
 msgid "malformed font spec: %s"
-msgstr "slabo naveden font: %s"
+msgstr "đặc tả phông chữ dạng sai: %s"
 
 #: src/main.c:2155
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\""
-msgstr "datoteke \"%s.hdr\" z definicijo glave ni mogoče najti"
+msgstr "không tìm thấy tập tin định nghĩa phần đầu « %s.hdr »"
 
 #: src/main.c:2199
 #, c-format
 msgid "must print at least one line per each page: %s"
-msgstr "na vsaki strani mora biti vsaj ena vrstica: %s"
+msgstr "phải in ra ít nhất một dòng trên mỗi trang: %s"
 
 #: src/main.c:2219
 #, c-format
 msgid "%s: illegal newline character specifier: '%s': expected 'n' or 'r'\n"
-msgstr "%s: ,%s' ni dovoljeni znak za novo vrstico: ,n' ali ,r' sta\n"
+msgstr "%s: không cho phép đặc tả ký tự dòng mới: « %s »: lẽ ra phải là « n » hay « r »\n"
 
 #: src/main.c:2308
 #, c-format
 msgid "malformed argument `%s' for option -W, --option: no comma found"
-msgstr "skladenjska napaka pri argumentu »%s« izbire -W, --izbira: manjkajoča vejica"
+msgstr "đối số dạng sai « %s » cho tùy chọn « -W », « --option »: không tìm thấy dấu phẩy"
 
 #: src/main.c:2313
 #, c-format
 msgid "helper application specification must be single character: %s"
-msgstr "določitev pomožnega programa mora biti dolga en znak: %s"
+msgstr "đặc tả ứng dụng hỗ trợ phải là một ký tự riêng lẻ: %s"
 
 #: src/main.c:2409
 msgid "slice must be greater than zero"
-msgstr "rezina mora biti večja od nič"
+msgstr "phải có lát hơn số không"
 
 #: src/main.c:2490 states/main.c:318
 #, c-format
 msgid "Try `%s --help' for more information.\n"
-msgstr "Poskusite ,%s --help' za obširnejše informacije.\n"
+msgstr "Hãy thử lệnh « %s --help » (trợ giúp) để tìm thêm thông tin.\n"
 
 #: src/main.c:2510
 #, c-format
@@ -499,27 +494,27 @@ msgid ""
 "                             pass a page device definition to output\n"
 "  -e, --escapes[=CHAR]       enable special escape interpretation\n"
 msgstr ""
-"Uporaba: %s [izbire] [datoteka] ...\n"
-"Argumenti, obvezni za dolge oblike izbir, so obvezni tudi za kratke.\n"
-"  -#                         sopomenka za izbiro -n, --copies\n"
-"  -1                         isto kot --columns=1\n"
-"  -2                         isto kot --columns=2\n"
-"      --columns=NUM          število stolpcev na strani\n"
-"  -a, --pages=STRANI         določimo strani, ki naj se odtisnejo\n"
-"  -b, --header=GLAVA         naslovna glava na strani\n"
-"  -B, --no-header            brez naslovne glave\n"
-"  -c, --truncate-lines       predolge vrstice porezane (privzeta izbira\n"
-"                             je nadaljevanje v naslednji vrstici)\n"
-"  -C, --line-numbers[=START] vsaka vrstica označena s številko vrstice\n"
-"  -d                         sopomenka za izbiro --printer\n"
-"  -D, --setpagedevice=KLJUČ[:VREDNOST]\n"
-"                             definicijo naprave strani posredujemo na izhod\n"
-"  -e, --escapes[=ZNAK]       omogočenje posebnih ubežnih zaporedij\n"
+"Sử dụng: %s [TÙY_CHỌN]... [TỆP]...\n"
+"Mọi đối số bắt buộc phải sử dụng với tùy chọn dài cũng bắt buộc với tùy chọn ngắn.\n"
+"  -#                         bí danh cho « -n, --copies »\n"
+"  -1                         bằng « --columns=1 »\n"
+"  -2                         bằng « --columns=2 »\n"
+"      --columns=SỐ                ghi rõ số các cột trên mỗi trang\n"
+"  -a, --pages=TRANG          ghi rõ những trang cần in ấn\n"
+"  -A, --file-align=XẾP_HÀNG        xếp hàng theo giá trị này các trang nhập vào\n"
+"  -b, --header=ĐẦU_TRANG        lập phần đầu của trang\n"
+"  -B, --no-header            không có phần đầu trang\n"
+"  -c, --truncate-lines       cắt ngắn dòng dài (mặc định là cuộn lại)\n"
+"  -C, --line-numbers[=ĐẦU]    thêm vào đầu mỗi dòng số thứ tự dòng của nó\n"
+"                                                    bí danh cho « --printer »\n"
+"  -D, --setpagedevice=KHOÁ[:GIÁ_TRỊ]\n"
+"                              gửi cho kết xuất một lời xác định thiết bị trangt\n"
+"  -e, --escapes[=KÝ_TỰ]        hiệu lực chức năng đọc ký tự thoát đặc biệt\n"
 
 #: src/main.c:2530
 #, c-format
 msgid "  -E, --highlight[=LANG]     highlight source code\n"
-msgstr "  -E, --highlight[=JEZIK]    poudarki izvorne kode\n"
+msgstr "  -E, --highlight[=NGÔN_NGỮ]      tô sáng mã nguồn\n"
 
 #: src/main.c:2533
 #, c-format
@@ -541,20 +536,20 @@ msgid ""
 "                               --lines-per-page=66, --no-header, --portrait,\n"
 "                               --columns=1\n"
 msgstr ""
-"  -f, --font=IME             uporabimo font IME za glavno besedilo\n"
-"  -F, --header-font=IME      uporabimo font IME za naslovno glavo\n"
-"  -g, --print-anyway         nič (združljivost s prejšnjimi verzijami)\n"
-"  -G                         isto kot --fancy-header\n"
-"      --fancy-header[=IME]   izberemo razkošnejšo naslovno glavo\n"
-"  -h, --no-job-header        brez uvodne strani\n"
-"  -H, --highlight-bars=NUM   višina označb za poudarjanje\n"
-"  -i, --indent=NUM           zamik levega roba NUM znakov\n"
-"  -I, --filter=CMD           pri branju vhodnih datotek uporabimo filter CMD\n"
-"  -j, --borders              okvirji okoli stolpcev pri odtisu v več stolpcih\n"
-"  -J                         sopomenka za izbiro --title\n"
-"  -k, --page-prefeed         omogočimo ,page prefeed'\n"
-"  -K, --no-page-prefeed      onemogočimo ,page prefeed'\n"
-"  -l, --lineprinter          imitacija vrstičnega tiskalnika; sopomenka za:\n"
+"  -f, --font=TÊN                     dùng phông chữ tên này cho thân của văn bản\n"
+"  -F, --header-font=TÊN     dùng phông chữ tên này cho phần đầu của trang\n"
+"  -g, --print-anyway             không gì (tuỳ chọn khả năng tương thích)\n"
+"  -G                                        bằng « --fancy-header »\n"
+"      --fancy-header[=TÊN]      chọn phần đầu trang có trang trí\n"
+"  -h, --no-job-header               thu hồi trang là phần đầu của công việc\n"
+"  -H, --highlight-bars=SỐ       chi rõ chiều cao của thanh tô sáng\n"
+"  -i, --indent=SỐ                  lập thành số các ký tự này khoảng thụt vào dòng\n"
+"  -I, --filter=LỆNH                đọc các tập tin nhập vào qua bộ lọc này\n"
+"  -j, --borders                       in ấn viền chung quanh cột\n"
+"  -J,                                        bí danh cho « --title »\n"
+"  -k, --page-prefeed           hiệu lực chức năng chèn sẵn trang\n"
+"  -K, --no-page-prefeed     tắt chức năng chèn sẵn trang\n"
+"  -l, --lineprinter          mô phỏng máy in từng dòng (lineprinter); bí danh cho :\n"
 "                               --lines-per-page=66, --no-header, --portrait,\n"
 "                               --columns=1\n"
 
@@ -576,21 +571,19 @@ msgid ""
 "  -r, --landscape            print in landscape mode\n"
 "  -R, --portrait             print in portrait mode\n"
 msgstr ""
-"  -L, --lines-per-page=NUM   število vrstic besedila na strani\n"
-"  -m, --mail                 sporočilo o opravljenem poslu po pošti\n"
-"  -M, --media=IME            format papirja IME\n"
-"  -n, --copies=NUM           število izvodov vsake strani\n"
-"  -N, --newline=NL           izbira znaka za konec vrstice.  Možnosti za NL\n"
-"                             sta: n (»\\n«) in r (»\\r«).\n"
-"  -o                         sopomenka za izbiro --output\n"
-"  -O, --missing-characters   seznam kod manjkajočih znakov\n"
-"  -p, --output=IME           zapis izhoda na datoteko z imenom IME. Če je ime\n"
-"                             »-«, zapis na standardni izhod.\n"
-"                             Če je IME ,-', izpis na standardni izhod.\n"
-"  -P, --printer=IME          odtis izhoda na tiskalnik IME\n"
-"  -q, --quiet, --silent      brez obvestil\n"
-"  -r, --landscape            podolžni odtis\n"
-"  -R, --portrait             pokončni odtis\n"
+"  -L, --lines-per-page=SỐ     ghi rõ số các dòng cần in trên mỗi trang\n"
+"  -m, --mail                               gửi thư một khi hoàn tất\n"
+"  -M, --media=TÊN                 dùng môi giới kết xuất này\n"
+"  -n, --copies=SỐ                    in ấn số các bản sao này của mỗi trang\n"
+"  -N, --newline=XD                lập ký tự xuống dòng: có thể là: n (`\\n') hay r (`\\r').\n"
+"  -o                                            bí danh cho « --output »\n"
+"  -O, --missing-characters    liệt kê những ký tự còn thiếu\n"
+"  -p, --output=TỆP                 xuất vào tập tin này;\n"
+"                                                 nếu nó là « - » thì xuất vào đầu ra tiêu chuẩn\n"
+"  -P, --printer=TÊN                in ra máy in này\n"
+"  -q, --quiet, --silent               hiển thị rất ít thông tin về tiến trình\n"
+"  -r, --landscape                    in trong chế độ nằm ngang\n"
+"  -R, --portrait                        in trong chế độ thẳng đứng\n"
 
 #: src/main.c:2567
 #, c-format
@@ -612,22 +605,20 @@ msgid ""
 "  -Z, --pass-through         pass through PostScript and PCL files\n"
 "                             without any modifications\n"
 msgstr ""
-"  -s, --baselineskip=NUM     razmik med vrsticami naj bo NUM (v 1/72\")\n"
-"  -S, --statusdict=KLJUČ[:VREDNOST]\n"
-"                             definicije »statusdict« posredujemo na izhod\n"
-"  -t, --title=NASLOV         nadnaslov, izpisan na vsaki strani. Izbira nastavi\n"
-"                             tudi ime vhodne datoteke standardni vhod.\n"
-"  -T, --tabsize=NUM          tabulator na NUM znakov (privzeto 8)\n"
-"  -u, --underlay[=BESEDILO]  besedilo, izpisano kot podloga na vsaki strani\n"
-"  -U, --nup=NUM              število logičnih strani na vsaki strani papirja\n"
-"  -v, --verbose              z izčrpnim poročilom med izvajanjem\n"
-"  -V, --version              izdaja programa\n"
-"  -w, --language=JEZIK       nastavi izhodni JEZIK\n"
-"  -W, --options=PROG,IZBIRA  posreduj IZBIRO pomožnemu programu PROG\n"
-"  -X, --encoding=IME         IME kodnega nabora vhodnega besedila\n"
-"  -z, --no-formfeed          v besedilu ignoriraj znake za skok na novo stran\n"
-"  -Z, --pass-through         datoteke v formatu PostScript ali PCL\n"
-"                             odtisni brez sprememb\n"
+"  -s, --baselineskip=SỐ     lập thành số này baselineskip\n"
+"  -S, --statusdict=KHOÁ[:GIÁ_TRỊ]\n"
+"                                              gửi cho kết xuất một lời xác định statusdictn  -t, --title=TỰA_ĐỀ      lập thành tựa đề này tựa đề công việc của trang biểu ngữ\n"
+"                       tuỳ chọn này cũng lập tên của đầu vào tiêu chuẩn tập tin nhập vào.\n"
+"  -T, --tabsize=SỐ               lập thành số này kích cỡ của cột tab\n"
+"  -u, --underlay[=CHUỖI]   in ấn chuỗi này bên dưới mỗi trang\n"
+"  -U, --nup=SỐ                     in ấn số các trang hợp lý này trên mỗi trang kết xuất\n"
+"  -v, --verbose                      hiển thị chi tiết về tiến trình đang chạy\n"
+"  -V, --version                       in ra số thứ tự phiên bản\n"
+"  -w, --language=NGÔN_NGỮ             lập ngôn ngữ kết xuất thành ngôn ngữ này\n"
+"  -W, --options=TRÌNH,TÙY_CHỌN    gửi tuỳ chọn này cho chương trình bổ trợ này\n"
+"  -X, --encoding=TÊN         sử dụng bộ ký tự nhập vào có tên này\n"
+"  -z, --no-formfeed               đừng đọc ký tự nạp giấy\n"
+"  -Z, --pass-through            gửi tập tin kiểu PostScript và PCL qua mà không sửa đổi\n"
 
 #: src/main.c:2585
 #, c-format
@@ -643,16 +634,16 @@ msgid ""
 "  --h-column-height=HEIGHT   set the horizontal column height to HEIGHT\n"
 "  --help                     print this help and exit\n"
 msgstr ""
-"Naslednje izbire imajo samo dolgo obliko:\n"
-"  --color[=bool]             ustvari barvne izpise s stanji\n"
-"  --continuous-page-numbers  številke strani se nadaljujejo prek več vhodnih\n"
-"                             datotek; ne začni paginacije pri vsaki datoteki od 1.\n"
-"  --download-font=IME        naložimo pisavo IME\n"
-"  --extended-return-values   omogoči razširjene izhodne kode\n"
-"  --filter-stdin=IME         kako je stdin predstavljen vhodnemu filtru\n"
-"  --footer=NOGA              nastavi nogo strani\n"
-"  --h-column-height=VIŠINA   nastavi VIŠINO vodoravnega stolpca\n"
-"  --help                     ta navodila\n"
+"Tuỳ chọn chỉ dài:\n"
+"  --color[=LUẬN_LÝ]                       tạo kết xuất màu sắc với tình trạng\n"
+"  --continuous-page-numbers      đếm các số thứ tự trang qua các trang nhập vào.\n"
+"                                                           Đừng bắt đầu lại tiến trình đếm ở đầu mỗi trang.\n"
+"  --download-font=TÊN                  tải về phông chữ tên này\n"
+"  --extended-return-values            hiệu lực giá trị trả lại đã mở rộng\n"
+"  --filter-stdin=TÊN      ghi rõ cách hiển thị đầu vào tiêu chuẩn cho bộ lọc nhập vào\n"
+"  --footer=CHÂN_TRANG              lập phần chân của trang\n"
+"  --h-column-height=CAO              lập chiều cao của cột nằm ngang\n"
+"  --help                                               hiển thị trợ giúp này, sau đó thoát\n"
 
 #: src/main.c:2596
 #, c-format
@@ -667,13 +658,15 @@ msgid ""
 "                             mark wrapped lines in the output with STYLE\n"
 "  --non-printable-format=FMT specify how non-printable chars are printed\n"
 msgstr ""
-"  --help-highlight           opiši vse podprte jezike in zapise za --highlight\n"
-"  --highlight-bar-gray=NUM   stopnja sivine črt za poudarke (0 - 1)\n"
-"  --list-media               izpis vseh znanih formatov papirja\n"
-"  --margins=LEVA:DESNA:VRH:DNO\n"
-"                             nastavi robove strani\n"
-"  --mark-wrapped-lines[SLOG] s SLOGOM označi prelomljene vrstice na izhodu\n"
-"  --non-printable-format=FMT kako naj se izpišejo non-printable znaki\n"
+"  --help-highlight                     diễn tả tất cả các ngôn ngữ và định dạng tập tin\n"
+"                                                   được hỗ trợ cho « --highlight »\n"
+"  --highlight-bar-gray=SỐ      in ấn thanh tô sáng với SỐ màu xám (0 - 1)\n"
+"  --list-media                             liệt kê tên của mọi môi giới được biết đến\n"
+"  --margins=LEFT:RIGHT:TOP:BOTTOM             điều chỉnh lề của trang\n"
+"                                                   LEFT (trái), RIGHT (phải), TOP (trên), BOTTOM (dưới)\n"
+"  --mark-wrapped-lines[KIỂU]\n"
+"                                   đánh dấu dùng kiểu dáng này các dòng cuộn lại trong kết xuất\n"
+"  --non-printable-format=DẠNG         ghi rõ cách in ấn ký tự không thể in được\n"
 
 #: src/main.c:2607
 #, c-format
@@ -687,13 +680,13 @@ msgid ""
 "  --printer-options=OPTIONS  pass extra options to the printer command\n"
 "  --rotate-even-pages        rotate even-numbered pages 180 degrees\n"
 msgstr ""
-"  --nup-columnwise           postavitev več logičnih strani na stran v stolpcih\n"
-"  --nup-xpad=NUM             nastavi razmak v smeri x pri tiskanju »več na stran«\n"
-"  --nup-ypad=NUM             nastavi razmak v smeri y pri tiskanju »več na stran«\n"
-"  --page-label-format=FMT    nastavi obliko oznake strani na FMT\n"
-"  --ps-level=LEVEL           nastavi raven PostScripta, ki naj jo enscript uporabi\n"
-"  --printer-options=IZBIRE   posreduj dodatne izbire ukazu za tiskanje\n"
-"  --rotate-even-pages        obrni lihe strani za 180°\n"
+"  --nup-columnwise           sắp đặt các trang theo cột trong việc in ấn N-up\n"
+"  --nup-xpad=SỐ      lập thành số này khoảng đệm theo trục x trong việc in ấn N-up\n"
+"  --nup-ypad=SỐ      lập thành số này khoảng đệm theo trục y trong việc in ấn N-up\n"
+"  --page-label-format=DẠNG       lập định dạng nhãn trang thành định dạng này\n"
+"  --ps-level=CẤP               lập cấp ngôn ngữ PostScript cho enscript sử dụng\n"
+"  --printer-options=TÙY_CHỌN      gửi cho lệnh máy in (các) tuỳ chọn bổ sung này\n"
+"  --rotate-even-pages       quay theo 180º các trang có số thứ tự chẵn\n"
 
 #: src/main.c:2617
 #, c-format
@@ -710,16 +703,17 @@ msgid ""
 "  --ul-style=STYLE           print underlays with style STYLE\n"
 "  --word-wrap                wrap long lines from word boundaries\n"
 msgstr ""
-"  --slice=NUM                odtisni navpične rezine velikosti NUM\n"
-"  --style=SLOG               uporabi navedeni SLOG za poudarke\n"
-"  --swap-even-page-margins   zamenjaj levi in desni rob pri lihih straneh\n"
-"  --toc                      odtisni kazalo\n"
-"  --ul-angle=KOT             nastavi KOT izpisa podloženega besedila\n"
-"  --ul-font=IME              izberi IME pisave podloženega besedila\n"
-"  --ul-gray=NUM              nastavi stopnjo sivine podloženega besedila\n"
-"  --ul-position=POLOŽAJ      nastavi začetni POLOŽAJ podloženega besedila\n"
-"  --ul-style=SLOG            odtisni podloženo besedilo v navedenem SLOGU\n"
-"  --word-wrap                razdeli predolge vrstice na meji besed\n"
+"  --slice=SỐ                       in ấn lát mỏng thẳng đứng có số này\n"
+"  --style=KIỂU                   sử dụng kiểu dáng tô sáng này\n"
+"  --swap-even-page-margins         trao đổi hai lề bên trái và phải\n"
+"                                                            cho mỗi trang có số thứ tự chẵn\n"
+"  --toc                                  in ấn mục lục\n"
+"  --ul-angle=GÓC             lập thành góc này góc của văn bản cơ bản\n"
+"  --ul-font=TÊN                  in ấn các điều cơ bản dùng phông chữ tên này\n"
+"  --ul-gray=SỐ                   in ấn các điều cơ bản dùng giá trị màu xám này\n"
+"  --ul-position=VỊ_TRÍ      lập thành vị trí này vị trí bắt đầu của điều cơ bản\n"
+"  --ul-style=KIỂU               in các điều cơ bản theo kiểu dáng này\n"
+"  --word-wrap                    cuộn lại dòng dài từ biên giới từ\n"
 
 #: src/main.c:2631
 #, c-format
@@ -728,50 +722,50 @@ msgid ""
 "Report bugs to <%s>.\n"
 msgstr ""
 "\n"
-"Poročila o napakah: <%s>.\n"
+"Hãy thông báo lỗi cho <%s>.\n"
 
 #: src/psgen.c:331
 #, c-format
 msgid "couldn't find prolog \"%s\": %s\n"
-msgstr "uvoda \"%s\" ni moč najti: %s\n"
+msgstr "không tìm thấy đoạn mở đầu « %s »: %s\n"
 
 #: src/psgen.c:339
 #, c-format
 msgid "couldn't find encoding file \"%s.enc\": %s\n"
-msgstr "kodne datoteke \"%s.enc\" ni moč najti: %s\n"
+msgstr "không tìm thấy tập tin mã hóa « %s.enc »: %s\n"
 
 #: src/psgen.c:471
 #, c-format
 msgid "couldn't find header definition file \"%s.hdr\": %s\n"
-msgstr "datoteke z definicijo glave \"%s.hdr\" ni moč najti: %s\n"
+msgstr "không tìm thấy tập tin định nghĩa phần đầu « %s.hdr »: %s\n"
 
 #: src/psgen.c:615
 #, c-format
 msgid "processing file \"%s\"...\n"
-msgstr "obdelujemo datoteko \"%s\"...\n"
+msgstr "đang xử lý tập tin « %s »....\n"
 
 #: src/psgen.c:913
 #, c-format
 msgid "EPS file \"%s\" is too large for page\n"
-msgstr "EPS datoteka \"%s\" je prevelika za stran\n"
+msgstr "Tập tin EPS « %s » quá lớn so sánh với trang\n"
 
 #: src/psgen.c:986
 msgid "user font encoding can be only the system's default or `ps'"
-msgstr "uporabniški nabor pisave je lahko le privzeta sistemska izbira ali »ps«"
+msgstr "mã hóa phông chữ người dùng chỉ có thể là mặc định hệ thống hay « ps » thôi"
 
 #: src/psgen.c:1228
 #, c-format
 msgid "unknown special escape: %s"
-msgstr "neprepoznano posebna ubežno zaporedje: %s"
+msgstr "dãy thoát đặc biệt lạ: %s"
 
 #: src/psgen.c:1354
 #, c-format
 msgid "illegal option %c for ^@epsf escape"
-msgstr "nedovoljena izbira %c za ubežno zaporedje ^@epsf"
+msgstr "không cho phép tùy chọn « %c » cho dãy thoát « ^@epsf »"
 
 #: src/psgen.c:1360
 msgid "malformed ^@epsf escape: no ']' after options"
-msgstr "skladenjska napaka v ubežnem zaporedju ^@epsf: manjka »]« za izbirami"
+msgstr "dãy thoát « ^@epsf » dạng sai: không có ngoặc vu đóng « ] » nằm sau các tùy chọn"
 
 #: src/psgen.c:1372
 #, c-format
@@ -779,21 +773,21 @@ msgid ""
 "too long file name for ^@epsf escape:\n"
 "%.*s"
 msgstr ""
-"predolgo ime datoteke za ubežno zaporedje ^@epsf:\n"
+"tên tập tin quá dài cho dãy thoát « ^@epsf »\n"
 "%.*s"
 
 #: src/psgen.c:1376
 msgid "unexpected EOF while scanning ^@epsf escape"
-msgstr "nepričakovan znak EOF med branjem ubežnega zaporedja ^@epsf"
+msgstr "gặp kết thúc tập tin bất ngờ khi quét dãy thoát « ^@epsf »"
 
 #: src/psgen.c:1382
 msgid "malformed ^@epsf escape: no '{' found"
-msgstr "skladenjska napaka v ubežnem zaporedju ^@epsf: manjka »{«"
+msgstr "dãy thoát « ^@epsf » dạng sai: không tìm thấy ngoặc móc mở « { »"
 
 #: src/psgen.c:1440
 #, c-format
 msgid "malformed %s escape: no '{' found"
-msgstr "skladenjska napaka v ubežnem zaporedju %s: manjka »{«"
+msgstr "dãy thoát « %s » dạng sai: không tìm thấy ngoặc móc mở « { »"
 
 #: src/psgen.c:1454
 #, c-format
@@ -801,38 +795,38 @@ msgid ""
 "too long argument for %s escape:\n"
 "%.*s"
 msgstr ""
-"predolg argument za ubežno zaporedje %s:\n"
+"đối số quá dài cho dãy thoát %s\n"
 "%.*s"
 
 #: src/psgen.c:1474
 #, c-format
 msgid "malformed font spec for ^@font escape: %s"
-msgstr "skladenjska napaka v določitvi pisave za ubežno zaporedje ^@font: %s"
+msgstr "đặc tả phông chữ dạng sai cho dãy « ^@font »: %s"
 
 #: src/psgen.c:1511
 #, c-format
 msgid "malformed color spec for ^@%s escape: %s"
-msgstr "skladenjska napaka v določitvi barve za ubežno zaporedje ^@%s: %s"
+msgstr "đặc tả màu dạng sai cho dãy thoát « ^@%s »: %s"
 
 #: src/psgen.c:1535
 #, c-format
 msgid "invalid value for ^@shade escape: %s"
-msgstr "neveljavna vrednost za ubežno zaporedje ^@shade: %s"
+msgstr "giá trị không hợp lệ cho dãy thoát « ^@shade » (bóng): %s"
 
 #: src/psgen.c:1543
 #, c-format
 msgid "invalid value for ^@bggray escape: %s"
-msgstr "neveljavna vrednost za ubežno zaporedje ^@bggray: %s"
+msgstr "giá trị không hợp lệ cho dãy thoát « ^@bggray » (nền màu xám): %s"
 
 #: src/psgen.c:2412
 #, c-format
 msgid "couldn't open EPS file \"%s\": %s\n"
-msgstr "datoteke \"%s\" v obliki EPS ni mogoče odpreti: %s\n"
+msgstr "không thể mở tập tin EPS « %s »: %s\n"
 
 #: src/psgen.c:2448
 #, c-format
 msgid "EPS file \"%s\" does not start with \"%%!\" magic\n"
-msgstr "datoteka \"%s\" v obliki EPS se ne začne z nizom \"%%!\"\n"
+msgstr "Tập tin EPS « %s » không bắt đầu với ma thuật « %%! »\n"
 
 #: src/psgen.c:2473
 #, c-format
@@ -840,181 +834,181 @@ msgid ""
 "EPS file \"%s\" contains malformed %%%%BoundingBox row:\n"
 "\"%.*s\"\n"
 msgstr ""
-"Datoteka \"%s\" v obliki EPS vsebuje skladenjsko napačno vrstico %%%%BoundingBox:\n"
-"\"%.*s\"\n"
+"Tập tin EPS « %s » chứa hàng « %%%%BoundingBox » dạng sai:\n"
+"« %.*s »\n"
 
 #: src/psgen.c:2498
 #, c-format
 msgid "EPS file \"%s\" is not a valid EPS file\n"
-msgstr "Datoteka \"%s\" ni v obliki EPS\n"
+msgstr "Tập tin EPS « %s » không phải là tập tin EPS hợp lệ\n"
 
 #: src/psgen.c:2640
 #, c-format
 msgid "passing through all input files for output language `%s'\n"
-msgstr "posredujemo vse vhodne datoteke za izhodni jezik »%s«\n"
+msgstr "đang gởi qua mọi tập tin gõ cho ngôn ngữ xuất « %s »\n"
 
 #: src/psgen.c:2692
 #, c-format
 msgid "passing through %s file \"%s\"\n"
-msgstr "posredujemo %s datoteko \"%s\"\n"
+msgstr "đang gọi qua tập tin %s « %s »\n"
 
 #: src/psgen.c:2795
 #, c-format
 msgid "couldn't create temporary divert file: %s"
-msgstr "preusmerjene izhodne datoteke ni mogoče ustvariti: %s"
+msgstr "không thể tạo tập tin làm trệch hướng tạm thời: %s"
 
 #: src/psgen.c:2812
 #, c-format
 msgid "couldn't rewind divert file: %s"
-msgstr "preusmerjene datoteke ni moč previti na začetek: %s"
+msgstr "không thể tua lại tập tin làm trệch hướng: %s"
 
 #: src/util.c:93
 #, c-format
 msgid "missing argument: %s"
-msgstr "manjkajoč argument: %s"
+msgstr "thiếu đối số : %s"
 
 #: src/util.c:186 src/util.c:214
 #, c-format
 msgid "illegal value \"%s\" for option %s"
-msgstr "nedovoljena vrednost \"%s\" za izbiro %s"
+msgstr "không cho phép giá trị « %s » cho tùy chọn %s"
 
 #: src/util.c:202
 #, c-format
 msgid "invalid value \"%s\" for option %s"
-msgstr "neveljavna vrednost \"%s\" za izbiro %s"
+msgstr "giá trị không hợp lệ « %s » cho tùy chọn %s"
 
 #: src/util.c:440
 #, c-format
 msgid "illegal option: %s"
-msgstr "nedovoljena izbira: %s"
+msgstr "không cho phép tùy chọn: %s"
 
 #: src/util.c:619
 #, c-format
 msgid "%s:%d: %%Format: no name"
-msgstr "%s:%d: %%Format: manjkajoče ime"
+msgstr "%s:%d: %%Định dạng: không tên"
 
 #: src/util.c:630
 #, c-format
 msgid "%s:%d: %%Format: too long name, maxlen=%d"
-msgstr "%s:%d: %%Format: ime je predolgo, največja dolžina je lahko %d"
+msgstr "%s:%d: %%Định dạng: tên quá dài, độ dài tối đa=%d"
 
 #: src/util.c:653
 #, c-format
 msgid "%s:%d: %%Format: name \"%s\" is already defined"
-msgstr "%s:%d: %%Format: ime \"%s\" je že določeno"
+msgstr "%s:%d: %%Định dạng: tên « %s » đã được định nghĩa"
 
 #: src/util.c:674
 #, c-format
 msgid "%s:%d: %%HeaderHeight: no argument"
-msgstr "%s:%d: %%HeaderHeight: manjkajoč argument"
+msgstr "%s:%d: %%CaoPhầnĐầu: không có đối số"
 
 #: src/util.c:696
 #, c-format
 msgid "%s:%d: %%FooterHeight: no argument"
-msgstr "%s:%d: %%FooterHeight: manjkajoč argument"
+msgstr "%s:%d: %%CaoPhầnChân: không có đối số"
 
 #: src/util.c:843
 #, c-format
 msgid "%s: warning: font size is negative\n"
-msgstr "%s: opozorilo: velikost pisave je negativna\n"
+msgstr "%s: cảnh báo : kích cỡ phông chữ âm\n"
 
 #: src/util.c:845
 #, c-format
 msgid "%s: warning: font width is negative\n"
-msgstr "%s: opozorilo: širina pisave je negativna\n"
+msgstr "%s: cảnh báo : độ rộng phông chữ âm\n"
 
 #: src/util.c:847
 #, c-format
 msgid "%s: warning: font height is negative\n"
-msgstr "%s: opozorilo: višina pisave je negativna\n"
+msgstr "%s: cảnh báo : độ cao phông chữ âm\n"
 
 #: src/util.c:866
 #, c-format
 msgid "reading AFM info for font \"%s\"\n"
-msgstr "beremo metrično datoteko AFM za pisavo \"%s\"\n"
+msgstr "đang đọc thông tin AFM về phông chữ « %s »\n"
 
 #: src/util.c:899
 #, c-format
 msgid "couldn't open AFM file for font \"%s\", using default\n"
-msgstr "datoteke AFM za pisavo \"%s\" ni moč odpreti, uporabljamo privzeto\n"
+msgstr "không thể mở tập tin AFM cho phông chữ « %s » nên dùng mặc định\n"
 
 #: src/util.c:906
 #, c-format
 msgid "couldn't open AFM file for the default font: %s"
-msgstr "datoteke AFM za privzeto pisavo ni moč odpreti: %s"
+msgstr "không thể mở tập tin AFM cho phông chữ mặc định: %s"
 
 #: src/util.c:1095
 #, c-format
 msgid "downloading font \"%s\"\n"
-msgstr "nalagamo pisavo \"%s\"\n"
+msgstr "đang tải về phông chữ « %s »\n"
 
 #: src/util.c:1100
 #, c-format
 msgid "couldn't open font description file \"%s\": %s\n"
-msgstr "datoteke z opisom pisave \"%s\" ni moč odpreti: %s\n"
+msgstr "không thể mở tập tin mô tả phông chữ « %s »: %s\n"
 
 #: src/util.c:1392
 #, c-format
 msgid "%s: too long format for %%D{} escape"
-msgstr "%s: predolg format za ubežno zaporedje %%D{}"
+msgstr "%s: định dạng quá dài cho dãy thoát « %%D{} »"
 
 #: src/util.c:1477
 #, c-format
 msgid "%s: unknown `%%' escape `%c' (%d)"
-msgstr "%s: neprepoznano »%%«-ubežno zaporedje »%c« (%d)"
+msgstr "%s: không biết « %% » dãy thoát « %c » (%d)"
 
 #: src/util.c:1515
 #, c-format
 msgid "%s: no closing ')' for $() escape"
-msgstr "%s: manjkajoč zaklepaj za ubežno zaporedje $()"
+msgstr "%s: thiếu ngoặc đóng « ) » cho dãy thoát « $() »"
 
 #: src/util.c:1518
 #, c-format
 msgid "%s: too long variable name for $() escape"
-msgstr "%s: predolgo ime spremenljivke za ubežno zaporedje $()"
+msgstr "%s: tên biến quá dài cho dãy thoát « $() »"
 
 #: src/util.c:1545
 #, c-format
 msgid "%s: too long format for $D{} escape"
-msgstr "%s: predolgo formatno določilo za ubežno sekvenco $D{}"
+msgstr "%s: định dạng quá dài cho dãy thoát « $D{} »"
 
 #: src/util.c:1633
 #, c-format
 msgid "%s: unknown `$' escape `%c' (%d)"
-msgstr "%s: neprepoznano »$«-ubežno zaporedje »%c« (%d)"
+msgstr "%s: không biết « $ » dãy thoát « %c » (%d)"
 
 #: src/util.c:1824
 #, c-format
 msgid "malformed float dimension: \"%s\""
-msgstr "skladenjska napaka dimenzije: \"%s\""
+msgstr "chiều nổi dạng sai: « %s »"
 
 #: src/util.c:1946
 #, c-format
 msgid "couldn't open input filter \"%s\" for file \"%s\": %s"
-msgstr "vhodnega filtra \"%s\" za datoteko \"%s\" ni moč odpreti: %s"
+msgstr "không thể mở bộ lọc gõ « %s » cho tập tin « %s »: %s"
 
 #: src/util.c:1963
 #, c-format
 msgid "couldn't open input file \"%s\": %s"
-msgstr "vhodne datoteke \"%s\" ni mogoče odpreti: %s"
+msgstr "không thể mở tập tin gõ « %s »: %s"
 
 #: src/mkafmmap.c:171
 #, c-format
 msgid "file=%s\n"
-msgstr "datoteka=%s\n"
+msgstr "tập tin=%s\n"
 
 #: src/mkafmmap.c:171
 msgid "stdout"
-msgstr "standardni izhod"
+msgstr "thiết bị xuất chuẩn"
 
 #: src/mkafmmap.c:179
 #, c-format
 msgid "%s: couldn't open output file \"%s\""
-msgstr "%s: izhodne datoteke \"%s\" ni mogoče odpreti"
+msgstr "%s: không thể mở tập tin xuất « %s »"
 
 #: src/mkafmmap.c:193
 msgid "couldn't create AFM library"
-msgstr "knjižnice AFM ni mogoče ustvariti"
+msgstr "không thể tạo thư viện AFM"
 
 #: src/mkafmmap.c:242
 #, c-format
@@ -1027,55 +1021,55 @@ msgid ""
 "                          stdout.\n"
 "  -V, --version           print version number\n"
 msgstr ""
-"Uporaba: %s [IZBIRA]... DATOTEKA...\n"
-"Argumenti, obvezni za dolge oblike izbir, so obvezni tudi za kratke.\n"
-"  -h, --help              ta navodila\n"
-"  -p, --output-file=IME   zapiši izhod na datoteko IME (privzeto ime je \n"
-"                          font.map). Če je DATOTEKA »-«, piši na standardni izhod.\n"
-"  -V, --version           izpis izdaje programa\n"
+"Sử dụng: %s [TÙY_CHỌN]... TỆP...\n"
+"Mọi đối số bắt buộc phải sử dụng với tùy chọn dài cũng bắt buộc với tùy chọn ngắn.\n"
+"  -h, --help              hiển thị trợ giúp này, sau đó thoát\n"
+"  -p, --output-file=TÊN\n"
+"                          in ấn kết xuất vào tập tin này (tập tin mặc định là « font.map »).\n"
+"                          Nếu tập tin là « - » thì để lại kết xuất vào đầu ra tiêu chuẩn.\n"
+"  -V, --version           hiển thị số thứ tự phiên bản\n"
 
 #: states/lex.l:167 states/lex.l:173
 msgid "error: EOF in comment"
-msgstr "napaka: datoteka se konča sredi komentarja"
+msgstr "lỗi: gặp kết thúc tập tin trong ghi chú"
 
 #: states/lex.l:204
 msgid "error: EOF in string constant"
-msgstr "napaka: datoteka se konča sredi alfanumerične konstante"
+msgstr "lỗi: gặp kết thúc tập tin trong hằng số chuỗi"
 
 #: states/lex.l:311
 msgid "error: EOF in regular expression"
-msgstr "napaka: datoteka se konča sredi regularnega izraza"
+msgstr "lỗi: gặp kết thúc tập tin trong biểu thức chính quy"
 
-# Je to res to?
 #: states/main.c:197
 #, c-format
 msgid "states for %s"
-msgstr "stanja za %s"
+msgstr "tình trạng cho %s"
 
 #: states/main.c:252
 #, c-format
 msgid "%s: malformed variable definition \"%s\"\n"
-msgstr "%s: skladenjska napaka pri definiciji spremenljivke \"%s\"\n"
+msgstr "%s: lời định nghĩa biến dạng sai « %s »\n"
 
 #: states/main.c:280
 #, c-format
 msgid "%s: couldn't create output file \"%s\": %s\n"
-msgstr "%s: ni mogoče ustvariti izhodne datoteke \"%s\": %s\n"
+msgstr "%s: không thể tạo tập tin kết xuất « %s »: %s\n"
 
 #: states/main.c:311
 #, c-format
 msgid "%s: unknown warning level `%s'\n"
-msgstr "%s: neznana raven opozoril »%s«\n"
+msgstr "%s: không rõ cấp cảnh báo « %s »\n"
 
 #: states/main.c:360 states/main.c:396 states/prims.c:1375 states/utils.c:227
 #, c-format
 msgid "%s: out of memory\n"
-msgstr "%s: zmanjkalo pomnilnika\n"
+msgstr "%s: không đủ bộ nhớ\n"
 
 #: states/main.c:421
 #, c-format
 msgid "%s: couldn't open input file `%s': %s\n"
-msgstr "%s: ni mogoče odpreti vhodne datoteke »%s«: %s\n"
+msgstr "%s: không thể mở tập tin nhập vào « %s »: %s\n"
 
 #: states/main.c:445
 #, c-format
@@ -1083,8 +1077,8 @@ msgid ""
 "Usage: %s [OPTION]... [FILE]...\n"
 "Mandatory arguments to long options are mandatory for short options too.\n"
 msgstr ""
-"Uporaba: %s [izbire] [datoteka] ...\n"
-"Argumenti, obvezni za dolge oblike izbir, so obvezni tudi za kratke.\n"
+"Sử dụng: %s [TÙY_CHỌN]... [TẬP_TIN]...\n"
+"Mọi đối số bắt buộc phải sử dụng với tùy chọn dài cũng bắt buộc với tùy chọn ngắn.\n"
 
 #: states/main.c:449
 #, c-format
@@ -1099,274 +1093,193 @@ msgid ""
 "  -V, --version              print version number\n"
 "  -W, --warning=LEVEL        set the warning level to LEVEL\n"
 msgstr ""
-"  -D, --define=SPR=VRED      nastavi vrednost spremenljivke SPR na VRED\n"
-"  -f, --file=DATOTEKA        preberi definicije stanja iz navedene DATOTEKE\n"
-"  -h, --help                 izpis te pomoči in izhod\n"
-"  -o, --output=DATOTEKA      shrani izhod v navedeno DATOTEKO\n"
-"  -p, --path=POT             nastavi nalagalno POT\n"
-"  -s, --state=IME            začni iz navedenega stanja\n"
-"  -v, --verbose              povečaj izčrpnost poročil med izvajanjem\n"
-"  -V, --version              izpis različice programa\n"
-"  -W, --warning=RAVEN        nastavi RAVEN opozoril\n"
+"  -D, --define=BIẾN=GIÁ_TRỊ       xác định rằng biến này có giá trị này\n"
+"  -f, --file=TÊN                         đọc từ tập tin tên này các lời xác định tình trạng\n"
+"  -h, --help                               hiển thị trợ giúp này, sau đó thoát\n"
+"  -o, --output=TÊN                 lưu kết xuất vào tập tin tên này\n"
+"  -p, --path=ĐƯỜNG_DẪN           lập thành đường dẫn này đường dẫn nạp\n"
+"  -s, --state=TÊN                    bắt đầu từ tình trạng có tên này\n"
+"  -v, --verbose                        tăng cấp chi tiết được chương trình hiển thị\n"
+"  -V, --version                         hiển thị số thứ tự phiên bản\n"
+"  -W, --warning=CẤP            lập thành cấp này cấp cảnh báo\n"
 
 #: states/prims.c:44
 #, c-format
 msgid "%s:%d: %s: too few arguments\n"
-msgstr "%s:%d: %s: premalo argumentov\n"
+msgstr "%s:%d: %s: quá ít đối số\n"
 
 #: states/prims.c:54
 #, c-format
 msgid "%s:%d: %s: too many arguments\n"
-msgstr "%s:%d: %s: preveč argumentov\n"
+msgstr "%s:%d: %s: quá nhiều đối số\n"
 
 #: states/prims.c:107 states/prims.c:127 states/prims.c:253 states/prims.c:426
 #: states/prims.c:901
 #, c-format
 msgid "%s:%d: %s: illegal argument type\n"
-msgstr "%s:%d: %s: nedovoljena vrsta argumenta\n"
+msgstr "%s:%d: %s: không cho phép loại đối số\n"
 
 #: states/prims.c:468
 #, c-format
 msgid "%s: panic: "
-msgstr "%s: preplah: "
+msgstr "%s: không thể phục hồi được: "
 
 #: states/prims.c:502
 #, c-format
 msgid "%s:%d: %s: malformed version string `%s'\n"
-msgstr "%s:%d: %s: skadenjska napaka v nizu različice »%s«\n"
+msgstr "%s:%d: %s: chuỗi phiên bản dạng sai « %s »\n"
 
 #: states/prims.c:517
 #, c-format
 msgid "%s: FATAL ERROR: States version %s or higher is required for this script\n"
-msgstr "%s: USODNA NAPAKA: za izvajanje tega skripta potrebujete vsaj različico %s »states«\n"
+msgstr "%s: LỖI NGHIÊM TRỌNG: tình trạng phiên bản %s hay cao hơn cần thiết cho văn lệnh này\n"
 
 #: states/prims.c:608 states/prims.c:1274
 #, c-format
 msgid "%s:%d: %s: start offset is bigger than end offset\n"
-msgstr "%s:%d: %s: začetni odmik je večji od končnega\n"
+msgstr "%s:%d: %s: hiệu số bắt đầu lớn hơn hiệu số kết thúc\n"
 
 #: states/prims.c:617 states/prims.c:633 states/prims.c:1280
 #, c-format
 msgid "%s:%d: %s: offset out of range\n"
-msgstr "%s:%d: %s: odmik izven obsega\n"
+msgstr "%s:%d: %s: hiệu số ở ngoại phạm vị\n"
 
 #: states/prims.c:651
 #, c-format
 msgid "%s:%d: %s: illegal argument\n"
-msgstr "%s:%d: %s: nedovoljen argument\n"
+msgstr "%s:%d: %s: không cho phép đối số\n"
 
 #: states/prims.c:698
 #, c-format
 msgid "%s:%d: %s: illegal regexp character syntax: %c\n"
-msgstr "%s:%d: %s: nedovoljena skladnja znakov regularnega izraza: %c\n"
+msgstr "%s:%d: %s: không cho phép cú pháp ký tự biểu thức chính quy: %c\n"
 
 #: states/prims.c:913
 #, c-format
 msgid "%s:%d: %s: couldn't define state `%s'\n"
-msgstr "%s:%d: %s: ni mogoče določiti stanja »%s«\n"
+msgstr "%s:%d: %s: không thể định nghĩa tình trạng « %s »\n"
 
 #: states/prims.c:1010
 #, c-format
 msgid "%s: primitive `%s': too few arguments for format\n"
-msgstr "%s: primitiv »%s«: premalo argumentov za format\n"
+msgstr "%s: « %s » có sẵn: quá ít đối số cho định dạng\n"
 
 #: states/prims.c:1038
 #, c-format
 msgid "%s:%d: %s: argument %d doesn't match format\n"
-msgstr "%s:%d: %s: argument %d ne ustreza obliki\n"
+msgstr "%s:%d: %s: đối số « %d » không khớp với định dạng\n"
 
 #: states/prims.c:1078
 #, c-format
 msgid "%s:%d: %s: no extra options can be specified for %%s\n"
-msgstr "%s:%d: %s: %%s ne sprejema dodatnih izbir\n"
+msgstr "%s:%d: %s: không thể xác định tùy chọn thêm cho « %%s »\n"
 
 #: states/prims.c:1087
 #, c-format
 msgid "%s:%d: %s: illegal type specifier `%c'\n"
-msgstr "%s:%d: %s: nedovoljeno določilo tipa »%c«\n"
+msgstr "%s:%d: %s: không cho phép đặc tả kiểu « %c »\n"
 
 #: states/process.c:115
 #, c-format
 msgid "%s: undefined state `%s'\n"
-msgstr "%s: nedoločeno stanje »%s«\n"
+msgstr "%s: chưa định nghĩa tình trạng « %s »\n"
 
 #: states/process.c:196
 #, c-format
 msgid "%s: error: undefined variable `%s'\n"
-msgstr "%s: napaka: nedefinirana spremenljivka »%s«\n"
+msgstr "%s: lỗi: chưa định nghĩa biến « %s »\n"
 
 #: states/process.c:290
 #, c-format
 msgid "%s: undefined super state `%s'\n"
-msgstr "%s: nedefinirano superstanje »%s«\n"
+msgstr "%s: chưa định nghĩa siêu tình trạng « %s »\n"
 
 #: states/utils.c:260
 #, c-format
 msgid "%s:%d: couldn't compile regular expression \"%s\": %s\n"
-msgstr "%s:%d: regularnega izraza \"%s\" ni mogoče prevesti: %s\n"
+msgstr "%s:%d: không thể biên dịch biểu thức chính quy « %s »: %s\n"
 
 #: states/utils.c:449 states/utils.c:477
 #, c-format
 msgid "%s: ouf of memory"
-msgstr "%s: zmanjkalo pomnilnika"
+msgstr "%s: hết bộ nhớ"
 
 #: states/utils.c:454
 #, c-format
 msgid "warning: redefining state `%s'"
-msgstr "opozorilo: redefiniramo stanje »%s«"
+msgstr "cảnh báo : đang định nghĩa lại tình trạng « %s »"
 
 #: states/utils.c:481
 #, c-format
 msgid "%s:%d: warning: redefining subroutine `%s'\n"
-msgstr "%s:%d: opozorilo: redefiniramo podprogram »%s«\n"
+msgstr "%s:%d: cảnh báo : đang định nghĩa lại chương trình con « %s »\n"
 
 #: states/utils.c:578
 #, c-format
 msgid "%s:%d: error: undefined variable `%s'\n"
-msgstr "%s:%d: napaka: nedefinirana spremenljivka »%s«\n"
+msgstr "%s:%d: lỗi: chưa định nghĩa biến « %s »\n"
 
 #: states/utils.c:616
 #, c-format
 msgid "%s:%d: error: couldn't set variable `%s'\n"
-msgstr "%s:%d: napaka: spremenljivke »%s« ni mogoče nastaviti\n"
+msgstr "%s:%d: lỗi: không thể đặt biến « %s »\n"
 
 #: states/utils.c:767
 #, c-format
 msgid "%s:%d: error: expression between illegal types\n"
-msgstr "%s:%d: napaka: izraz med nedovoljenimi tipi\n"
+msgstr "%s:%d: lỗi: biểu thức nằm giữa nhiều kiểu không cho phép\n"
 
 #: states/utils.c:865
 #, c-format
 msgid "%s:%d: error: too few arguments for subroutine\n"
-msgstr "%s:%d: napaka: premalo argumentov za podprogram\n"
+msgstr "%s:%d: lỗi: quá ít đối số cho chương trình con\n"
 
 #: states/utils.c:872
 #, c-format
 msgid "%s:%d: error: too many arguments for subroutine\n"
-msgstr "%s:%d: napaka: preveč argumentov za podprogram\n"
+msgstr "%s:%d: lỗi: quá nhiều đối số cho chương trình con\n"
 
 #: states/utils.c:926
 #, c-format
 msgid "%s:%d: error: undefined procedure `%s'\n"
-msgstr "%s:%d: napaka: nedefiniran podprogram »%s«\n"
+msgstr "%s:%d: lỗi: chưa định nghĩa thủ tục « %s »\n"
 
 #: states/utils.c:1018
 #, c-format
 msgid "%s:%d: error: illegal lvalue for assignment\n"
-msgstr "%s:%d: napaka: nedovoljena vrednost leve strani prireditve\n"
+msgstr "%s:%d: lỗi: không cho phép giá trị l (lvalue) cho việc gán\n"
 
 #: states/utils.c:1026 states/utils.c:1110
 #, c-format
 msgid "%s:%d: error: array reference index is not integer\n"
-msgstr "%s:%d: napaka: indeks polja ni celo število\n"
+msgstr "%s:%d: lỗi: chỉ mục tham chiếu mảng không phải số nguyên\n"
 
 #: states/utils.c:1032
 #, c-format
 msgid "%s:%d: error: negative array reference index\n"
-msgstr "%s:%d: napaka: indeks polja je negativen\n"
+msgstr "%s:%d: lỗi: chỉ mục tham chiếu mảng âm\n"
 
 #: states/utils.c:1083
 #, c-format
 msgid "%s:%d: error: illegal rvalue for string assignment\n"
-msgstr "%s:%d: napaka: nedovoljena vrednost na desni strani prireditve niza\n"
+msgstr "%s:%d: lỗi: không cho phép giá trị cho việc gán chuỗi\n"
 
 #: states/utils.c:1102
 #, c-format
 msgid "%s:%d: error: illegal type for array reference\n"
-msgstr "%s:%d: napaka: nedovoljen tip sklica na polje\n"
+msgstr "%s:%d: lỗi: không cho phép kiểu cho tham chiếu mảng\n"
 
 #: states/utils.c:1119
 #, c-format
 msgid "%s:%d: error: array reference index out of rance\n"
-msgstr "%s:%d: napaka: indeks polja izven obsega\n"
+msgstr "%s:%d: lỗi: chỉ mục tham chiếu mảng ở ngoại phạm vị\n"
 
 #: states/utils.c:1345
 #, c-format
 msgid "%s: couldn't open definition file `%s': %s\n"
-msgstr "%s: definicijske datoteke »%s« ni moč odpreti: %s\n"
+msgstr "%s: không thể mở tập tin định nghĩa « %s »: %s\n"
 
 #: states/utils.c:1401
 #, c-format
 msgid "%s: autoloading `%s' from `%s'\n"
-msgstr "%s: samodejno nalaganje »%s« iz »%s«\n"
-
-#~ msgid "epsf: couldn't open pipe to command \"%s\": %s\n"
-#~ msgstr "epsf: cevovoda ni mogoče napeljati do ukaza \"%s\": %s\n"
-
-#, fuzzy
-#~ msgid "couldn't create toc file name: %s"
-#~ msgstr "preusmerjene izhodne datoteke ni mogoče zapisati: %s"
-
-#, fuzzy
-#~ msgid "couldn't create divert file \"%s\": %s"
-#~ msgstr "preusmerjene izhodne datoteke \"%s\" ni mogoče zapisati: %s"
-
-#, fuzzy
-#~ msgid ""
-#~ "Long-only options:\n"
-#~ "  --download-font=NAME       download font NAME\n"
-#~ "  --filter-stdin=NAME        specify how stdin is shown to the input filter\n"
-#~ "  --help                     print this help and exit\n"
-#~ "  --highlight-bar-gray=NUM   print highlight bars with gray NUM (0 - 1)\n"
-#~ "  --list-media               list names of all known media\n"
-#~ "  --list-options             list all options and their values\n"
-#~ "  --non-printable-format=FMT specify how non-printable chars are printed\n"
-#~ "  --page-label-format=FMT    set page label format to FMT\n"
-#~ "  --printer-options=OPTIONS  pass extra options to the printer command\n"
-#~ "  --ul-angle=ANGLE           set underlay text's angle to ANGLE\n"
-#~ "  --ul-font=NAME             print underlays with font NAME\n"
-#~ "  --ul-gray=NUM              print underlays with gray value NUM\n"
-#~ "  --ul-position=POS          set underlay's starting position to POS\n"
-#~ "  --ul-style=STYLE           print underlays with style STYLE\n"
-#~ msgstr ""
-#~ "Naslednje izbire imajo samo dolgo obliko:\n"
-#~ "  --download-font=IME        naložimo font IME\n"
-#~ "  --filter-stdin=IME         kako je stdin predstavljen vhodnemu filtru\n"
-#~ "  --help                     ta navodila\n"
-#~ "  --highlight-bar-gray=NUM   stopnja sivine črt za poudarke (0 - 1)\n"
-#~ "  --list-media               izpis vseh znanih formatov papirja\n"
-#~ "  --list-options             izpis nastavitev programa\n"
-#~ "  --non-printable-format=FMT kako naj se izpišejo non-printable znaki\n"
-#~ "  --page-label-format=FMT    določimo, kako se izpiše oznaka strani\n"
-#~ "  --printer-options=IZBIRE   dodatne izbire, ki jih podamo tiskalniku\n"
-#~ "  --ul-angle=KOT             KOT, pod katerim naj se izpiše besedilo v podlagi\n"
-#~ "  --ul-font=IME              font, v katerem se izpiše besedilo v podlagi\n"
-#~ "  --ul-gray=NUM              stopnja sivine za besedilo v podlagi (0 - 1)\n"
-#~ "  --ul-position=POS          podlaga naj se začne na mestu POS\n"
-#~ "  --ul-style=STIL            STIL, uporabljen za izpis podlage\n"
-
-#~ msgid ""
-#~ "  -f NAME, --font=NAME\t\tuse font NAME for body text\n"
-#~ "  -F NAME, --header-font=NAME\tuse font NAME for header texts\n"
-#~ "  -g, --print-anyway\t\tnothing (compatibility option)\n"
-#~ "  -G, --fancy-header[=NAME]\tselect fancy page header\n"
-#~ "  -h, --help\t\t\tprint this help and exit\n"
-#~ "  -i NUM, --indent=NUM\t\tset line indent to NUM\n"
-#~ "  -l, --lineprinter\t\tsimulate lineprinter:\n"
-#~ "\t\t\t  \t  --lines-per-page=65, --no-header,\n"
-#~ "\t\t\t\t  --portrait, --columns=1\n"
-#~ "  -L NUM, --lines-per-page=NUM\tspecify how many lines are printed on\n"
-#~ "\t\t\t\teach page\n"
-#~ "  -m, --mail\t\t\tsend mail upon completion\n"
-#~ msgstr ""
-#~ "  -f IME, --font=IME\t\tuporabimo font IME za glavno besedilo\n"
-#~ "  -F IME, --header-font=IME\tuporabimo font IME za glavo\n"
-#~ "  -g, --print-anyway\t\tnič (zaradi združljivosti)\n"
-#~ "  -G, --fancy-header[=IME]\tizbira izumetničene glave\n"
-#~ "  -h, --help\t\t\tta navodila\n"
-#~ "  -i NUM, --indent=NUM\t\tNUM znakov zamika na levem robu\n"
-#~ "  -l, --lineprinter\t\timitacija vrstičnega tiskalnika:\n"
-#~ "\t\t\t  \t  --lines-per-page=65, --no-header,\n"
-#~ "\t\t\t\t  --portrait, --columns=1\n"
-#~ "  -L NUM, --lines-per-page=NUM\tkoliko vrstic besedila na stran\n"
-#~ "  -m, --mail\t\t\tsporočilo o opravljenem poslu po pošti\n"
-
-#~ msgid ""
-#~ "too long font name for ^@font escape:\n"
-#~ "%.*s"
-#~ msgstr ""
-#~ "predolgo ime datoteke za ubežno sekvenco ^@font:\n"
-#~ "%.*s"
-
-#~ msgid "malformed ^@font escape: no '{' found"
-#~ msgstr "slabo definirana ubežna sekvenca ^@font: manjka ,{'"
+msgstr "%s: đang tự động nạp « %s » từ « %s »\n"
