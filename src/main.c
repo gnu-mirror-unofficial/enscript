@@ -2519,16 +2519,16 @@ Mandatory arguments to long options are mandatory for short options too.\n\
   -b, --header=HEADER        set page header\n\
   -B, --no-header            no page headers\n\
   -c, --truncate-lines       cut long lines (default is to wrap)\n\
-  -C, --line-numbers[=START]\n\
+  -C[START], --line-numbers[=START]\n\
                              precede each line with its line number\n\
   -d                         an alias for option --printer\n\
   -D, --setpagedevice=KEY[:VALUE]\n\
                              pass a page device definition to output\n\
-  -e, --escapes[=CHAR]       enable special escape interpretation\n"),
+  -e[CHAR], --escapes[=CHAR]       enable special escape interpretation\n"),
           program);
 
   printf (_("\
-  -E, --highlight[=LANG]     highlight source code\n"));
+  -E[LANG], --highlight[=LANG]     highlight source code\n"));
 
   printf (_("\
   -f, --font=NAME            use font NAME for body text\n\
@@ -2537,7 +2537,7 @@ Mandatory arguments to long options are mandatory for short options too.\n\
   -G                         same as --fancy-header\n\
       --fancy-header[=NAME]  select fancy page header\n\
   -h, --no-job-header        suppress the job header page\n\
-  -H, --highlight-bars=NUM   specify how high highlight bars are\n\
+  -H[NUM], --highlight-bars[=NUM]  specify how high highlight bars are\n\
   -i, --indent=NUM           set line indent to NUM characters\n\
   -I, --filter=CMD           read input files through input filter CMD\n\
   -j, --borders              print borders around columns\n\
@@ -2571,7 +2571,7 @@ Mandatory arguments to long options are mandatory for short options too.\n\
   -t, --title=TITLE          set banner page's job title to TITLE.  Option\n\
                              sets also the name of the input file stdin.\n\
   -T, --tabsize=NUM          set tabulator size to NUM\n\
-  -u, --underlay[=TEXT]      print TEXT under every page\n\
+  -u[TEXT], --underlay[=TEXT]      print TEXT under every page\n\
   -U, --nup=NUM              print NUM logical pages on each output page\n\
   -v, --verbose              tell what we are doing\n\
   -V, --version              print version number\n\
