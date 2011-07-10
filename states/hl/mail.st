@@ -27,7 +27,7 @@ state mail_header extends Highlight
   END {
     comment_face (true);
   }
-  /:/ {
+  /[ \t:]/ {
     language_print ($0);
     return;
   }
