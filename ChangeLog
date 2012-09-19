@@ -1,5 +1,7 @@
 2012-09-19  Tim Retout  <diocles@gnu.org>
 
+	* NEWS: Update for new release.
+
 	* afm/MustRead.html: New file containing licensing of Adobe AFM
 	files.  Savannah bug #35883.
 

@@ -2,6 +2,20 @@
 		      What's new in GNU enscript
 		      --------------------------
 
+Summary of changes in enscript version 1.6.6:
+
+* Add afm/MustRead.html, containing licensing information for Adobe
+  AFM files.  (Savannah bug #35883)
+
+* Sync all translations from the Translation Project.  Please visit
+  http://translationproject.org/ to help translate Enscript!
+
+* Add documented but missing '-w' option as an alias for '--language'.
+  (Savannah bug #30651)
+
+* Apply sliceprint patch from Debian. (Savannah bug #31259)
+
+
 Summary of changes in enscript version 1.6.5.2:
 
 * Fix CFG_FATAL macro in util.c; this prevents a segmentation fault
@@ -11,6 +25,7 @@ Summary of changes in enscript version 1.6.5.2:
 * Fix segmentation fault with line lengths over 90 characters.
   (Savannah bug #29198)
 
+
 Summary of changes in enscript version 1.6.5.1:
 
 * Typo corrections in the manual pages.
