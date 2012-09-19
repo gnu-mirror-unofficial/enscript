@@ -32,6 +32,6 @@ zcmi.afm zd.afm
 public_fonts = matrix.afm matrix.pfa
 
 afmdir = $(pkgdatadir)/afm
-dist_afm_DATA = font.map $(default_afm) $(public_fonts)
+dist_afm_DATA = font.map $(default_afm) $(public_fonts) MustRead.html
 
 EXTRA_DIST = ChangeLog.old

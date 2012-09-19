@@ -1,3 +1,8 @@
+2012-09-19  Tim Retout  <diocles@gnu.org>
+
+	* afm/MustRead.html: New file containing licensing of Adobe AFM
+	files.  Savannah bug #35883.
+
 2011-07-10  Tim Retout  <diocles@gnu.org>
 
 	* po/: Sync all translations from the Translation Project.
