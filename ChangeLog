@@ -1,3 +1,7 @@
+2012-09-25  Tim Retout  <diocles@gnu.org>
+
+	* configure.ac: Release 1.6.6.
+
 2012-09-19  Tim Retout  <diocles@gnu.org>
 
 	* NEWS: Update for new release.
