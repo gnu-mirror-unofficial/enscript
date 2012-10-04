@@ -1,3 +1,7 @@
+2012-10-04  Tim Retout  <diocles@gnu.org>
+
+	* src/tests/passthrough.test: Use sed instead of tail.
+
 2012-09-27  Jerome Roovers  <jer@gentoo.org>
 
 	* src/tests/passthrough.test: Remove obsolete "+2" arguments to
