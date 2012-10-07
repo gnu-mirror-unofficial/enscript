@@ -192,6 +192,10 @@ font and its size in PostScript points.  For example,
 "\f3Times\-Roman12\f1" selects the "Times\-Roman" font with size
 12pt.
 
+The name of the font must appear in @DATADIR@/enscript/font.map and
+have a corresponding AFM file. See section \f3USING NEW FONTS\f1 for
+information on adding a font beyond the defaults.
+
 The font specification \f2name\f1 can also be given in format
 `\f2name\f1@\f2ptsize\f1', where the name of the font and its point
 size are separated by a `@' character.  This allows \f3enscript\f1 to use
@@ -1386,6 +1390,17 @@ some characters were unprintable
 ~/.enscriptrc				personal configuration file
 ~/.enscript/				personal resource directory
 .fi
+
+.SH USING NEW FONTS
+
+If you instruct enscript to use a font whose name does not appear in the
+font map, it will give the warning "couldn't open AFM file for font".
+
+To create an AFM file for a TrueType font, you can use \f3ttf2pt1\f1.
+
+Once you create the AFM file, you must add it to the font map.
+
+To generate a new font map automatically, use \f3mkafmmap\f1.
 
 .SH SEE ALSO
 diffpp(1), ghostview(1), gs(1), lpq(1), lpr(1), lprm(1), states(1)
