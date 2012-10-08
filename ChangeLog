@@ -1,3 +1,8 @@
+2012-10-08  Max Cantor  <max@maxcantor.net>
+
+	* docs/enscript.man: Document how to use new fonts.
+	* docs/enscript.man (MarkWrappedLines): Fix typo.
+
 2012-10-04  Tim Retout  <diocles@gnu.org>
 
 	* src/tests/passthrough.test: Use sed instead of tail.
