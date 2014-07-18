@@ -6,15 +6,27 @@
 
 cpp_type_re =
 /* Types.
-   (build-re '(auto bool char class complex const double enum extern
-   float friend inline int long private protected public register
-   short signed static struct template typedef union unsigned virtual
-   void volatile))
+   (build-re '(alignas alignof and and_eq asm auto bitand bitor bool
+   break case catch char char16_t char32_t class compl const constexpr
+   const_cast continue decltype default delete do double dynamic_cast
+   else enum explicit export extern false float for friend goto if
+   inline int long mutable namespace new noexcept not not_eq nullptr
+   operator or or_eq private protected public register
+   reinterpret_cast return short signed sizeof static static_assert
+   static_cast struct switch template this thread_local throw true try
+   typedef typeid typename union unsigned using virtual void volatile
+   wchar_t while xor xor_eq))
   */
-  /\b(auto|bool|c(har|lass|o(mplex|nst))|double|e(num|xtern)|f(loat|riend)\
-|in(line|t)|long|p(r(ivate|otected)|ublic)|register\
-|s(hort|igned|t(atic|ruct))|t(emplate|ypedef)|un(ion|signed)\
-|v(irtual|o(id|latile)))\b/;
+  /\\b(a(lign(as|of)|nd(|_eq)|sm|uto)|b(it(and|or)|ool|reak)\\
+|c(a(se|tch)|har(|16_t|32_t)|lass|o(mpl|n(st(|_cast|expr)|tinue)))\\
+|d(e(cltype|fault|lete)|o(|uble)|ynamic_cast)\\
+|e(lse|num|x(p(licit|ort)|tern))|f(alse|loat|or|riend)|goto\\
+|i(f|n(line|t))|long|mutable|n(amespace|ew|o(except|t(|_eq))|ullptr)\\
+|o(perator|r(|_eq))|p(r(ivate|otected)|ublic)\\
+|re(gister|interpret_cast|turn)\\
+|s(hort|i(gned|zeof)|t(atic(|_(assert|cast))|ruct)|witch)\\
+|t(emplate|h(is|r(ead_local|ow))|r(ue|y)|ype(def|id|name))\\
+|u(n(ion|signed)|sing)|v(irtual|o(id|latile))|w(char_t|hile)|xor(|_eq))\b/;
 
 /*
  * We inherit the C++ state from the C state.  This gives us all the
