@@ -440,6 +440,7 @@ read_config (char *path, char *file)
 	CFG_FATAL ((stderr, _("illegal option: %s"), token));
     }
 
+  fclose (fp);
   buffer_uninit (&fname);
   return 1;
 }

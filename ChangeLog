@@ -1,3 +1,7 @@
+2014-07-18  James Cloos  <cloos@jhcloos.com>
+
+	* src/util.c: (read_config): Close the FILE *. Savannah bug #40338.
+
 2012-10-08  Max Cantor  <max@maxcantor.net>
 
 	* docs/enscript.man: Document how to use new fonts.
