@@ -468,7 +468,7 @@ start
 namerules
 {
   /\.(c|h)$/					c;
-  /\.(c++|C|H|cpp|cc|cxx)$/			cpp;
+  /\.(c++|C|H|cpp|cc|cxx|hpp)$/			cpp;
   /\.m$/					matlab;
   /\.(mpl|mp|maple)$/				maple;
   /\.(scm|scheme)$/				scheme;
