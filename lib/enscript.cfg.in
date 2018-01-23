@@ -40,7 +40,7 @@ AppendCtrlD: 0
 Clean7Bit: 1
 
 # Default input encoding.
-DefaultEncoding: latin1
+DefaultEncoding: @encoding@
 
 # Default fancy header.
 DefaultFancyHeader: enscript
@@ -93,6 +93,38 @@ Media:  Letter		612	792	38	24	574	768
 # HP DeskJet media (DeskJet can't print on the bottom 1/2" of the paper).
 Media:	A4dj		595	842	24	50	571	818
 Media:  Letterdj        612     792     24      40      588     768
+
+# Define ghostscript page names and their sizes
+Media:	letter		612	792	24	24	574	768
+Media:	note		540	720	24	24	516	696
+Media:	legal		612	1008	24	24	588	984
+Media:	a0		2380	3368	24	24	2356	3344
+Media:	a1		1684	2380	24	24	1660	2356
+Media:	a2		1190	1684	24	24	1166	1660
+Media:	a3		842	1190	24	24	818	1166
+Media:	a4		595	842	24	24	571	818
+Media:	a5		421	595	24	24	397	571
+Media:	a6		297	421	24	24	273	397
+Media:	a7		210	297	24	24	186	273
+Media:	a8		148	210	24	24	124	186
+Media:	a9		105	148	24	24	81	124
+Media:	a10		74	105	24	24	50	81
+Media:	b0		2836	4008	24	24	2812	3984
+Media:	b1		2004	2836	24	24	1980	2812
+Media:	b2		1418	2004	24	24	1394	1980
+Media:	b3		1002	1418	24	24	978	1394
+Media:	b4		709	1002	24	24	685	978
+Media:	b5		501	709	24	24	477	685
+Media:	archE		2592	3456	24	24	2568	3432
+Media:	archD		1728	2592	24	24	1704	2568
+Media:	archC		1296	1728	24	24	1272	1704
+Media:	archB		864	1296	24	24	840	1272
+Media:	archA		648	864	24	24	624	840
+Media:	flsa		612	936	24	24	588	912
+Media:	flse		612	936	24	24	588	912
+Media:	halfletter	396	612	24	24	372	588
+Media:	11x17		792	1224	24	24	768	1200
+Media:	ledger		1224	792	24	24	1200	768
 
 # Spooler option to suppress the job header.
 NoJobHeaderSwitch: -h

@@ -65,6 +65,23 @@ AC_ARG_WITH(media,
 MEDIA=$ac_cv_value_media
 AC_SUBST(MEDIA)
 
+dnl Define the default input encoding.
+AC_ARG_WITH(encoding,
+[  --with-encoding(=ENCODING) use input encoding (ENCODING), default is latin1],
+  if test "X$withval" != "Xno"; then
+    if test "X$withval" = "Xyes"; then
+      ac_cv_value_encoding='latin1'
+    else
+      ac_cv_value_encoding=$withval
+    fi
+  else
+    ac_cv_value_encoding=${ENCODING-latin1}
+  fi,
+  ac_cv_value_encoding=${ENCODING-latin1}
+)
+ENCODING=$ac_cv_value_encoding
+AC_SUBST(ENCODING)
+
 dnl Find the printer spooler command.
 
 AC_CHECK_PROG(SPOOLER, lpr, lpr)
@@ -142,6 +159,7 @@ echo ""
 echo "Option     Change with configure's option   Current value"
 echo "---------------------------------------------------------"
 echo "Media      --with-media=MEDIA               $MEDIA"
+echo "Encoding   --with-encoding=ENCODING         $ENCODING"
 echo "Spooler    --with-spooler=SPOOLER           $SPOOLER"
 echo "PS level   --with-ps-level=LEVEL            $PSLEVEL"
 echo ""

@@ -24,6 +24,8 @@
 
 #include "gsint.h"
 #include "getopt.h"
+#include <locale.h>
+#include <limits.h>
 
 /*
  * Prototypes for static functions.
@@ -956,6 +958,10 @@ main (int argc, char *argv[])
    */
 #if HAVE_LC_MESSAGES
   setlocale (LC_MESSAGES, "");
+#endif
+  setlocale (LC_CTYPE, "");
+#ifdef LC_PAPER
+  setlocale (LC_PAPER, "");
 #endif
 #endif
 #if ENABLE_NLS

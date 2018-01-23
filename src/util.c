@@ -171,6 +171,16 @@ read_config (char *path, char *file)
 	{
 	  token2 = GET_TOKEN (NULL);
 	  CHECK_TOKEN ();
+#ifdef LC_PAPER
+	  if (!strcasecmp("LC_PAPER", token2))
+	    {
+	      unsigned int paperheight = (unsigned int)nl_langinfo(_NL_PAPER_HEIGHT);
+	      if (paperheight && paperheight == 279)
+		token2 = "letter";
+	      else
+		token2 = "a4";
+	    }
+#endif
 	  xfree (media_name);
 	  media_name = xstrdup (token2);
 	}
