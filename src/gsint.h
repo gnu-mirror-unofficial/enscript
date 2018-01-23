@@ -130,7 +130,7 @@ extern double atan2 ___P ((double, double));
   (('0' <= (ch) && (ch) <= '9') || (ch) == '.' || (ch) == '-' || (ch) == '+')
 
 /* Return the width of the character <ch> */
-#define CHAR_WIDTH(ch) (font_widths[(unsigned char) (ch)])
+#define FNT_CHAR_WIDTH(ch) (font_widths[(unsigned char) (ch)])
 
 /* Current point y movement from line to line. */
 #define LINESKIP (Fpt.h + baselineskip)

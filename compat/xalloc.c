@@ -67,7 +67,7 @@ xmalloc (size)
   ptr = malloc (size);
   if (ptr == NULL)
     {
-      fprintf (stderr, _("xmalloc(): couldn't allocate %d bytes\n"), size);
+      fprintf (stderr, _("xmalloc(): couldn't allocate %zd bytes\n"), size);
       exit (1);
     }
 
@@ -85,7 +85,7 @@ xcalloc (num, size)
   ptr = calloc (num, size);
   if (ptr == NULL)
     {
-      fprintf (stderr, _("xcalloc(): couldn't allocate %d bytes\n"), size);
+      fprintf (stderr, _("xcalloc(): couldn't allocate %zd bytes\n"), size);
       exit (1);
     }
 
@@ -106,7 +106,7 @@ xrealloc (ptr, size)
   nptr = realloc (ptr, size);
   if (nptr == NULL)
     {
-      fprintf (stderr, _("xrealloc(): couldn't reallocate %d bytes\n"), size);
+      fprintf (stderr, _("xrealloc(): couldn't reallocate %zd bytes\n"), size);
       exit (1);
     }
 

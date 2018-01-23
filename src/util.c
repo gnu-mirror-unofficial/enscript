@@ -639,7 +639,7 @@ paste_file (char *name, char *suffix)
 
 	  if (j >= sizeof (name) - 1)
 	    FATAL ((stderr, _("%s:%d: %%Format: too long name, maxlen=%d"),
-		    buffer_ptr (ctx.fullname), line, sizeof (name) - 1));
+		    buffer_ptr (ctx.fullname), line, (int)(sizeof (name) - 1)));
 
 	  /* Find the start of the format string. */
 	  for (; buf[i] && isspace (buf[i]); i++)
@@ -1370,7 +1370,8 @@ format_user_string (char *context_name, char *str)
 		  break;
 
 		case 'c':	/* `%c' trailing component of pwd. */
-		  getcwd (buf, sizeof (buf));
+		  if (!getcwd (buf, sizeof (buf)))
+		    perror("getcwd");
 		  cp = strrchr (buf, '/');
 		  if (cp)
 		    cp++;
@@ -1386,7 +1387,8 @@ format_user_string (char *context_name, char *str)
 		  break;
 
 		case 'd':	/* `%d' current working directory */
-		  getcwd (buf, sizeof (buf));
+		  if (!getcwd (buf, sizeof (buf)))
+		    perror("getcwd");
 		  APPEND_STR (buf);
 		  break;
 
@@ -1854,7 +1856,7 @@ parse_float (char *string, int units, int horizontal)
 
 	case 'l':
 	  if (horizontal)
-	    val *= CHAR_WIDTH ('m');
+	    val *= FNT_CHAR_WIDTH ('m');
 	  else
 	    val *= LINESKIP;
 	  break;

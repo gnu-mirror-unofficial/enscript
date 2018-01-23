@@ -1468,7 +1468,8 @@ name             width\theight\tllx\tlly\turx\tury\n\
       buffer_append (&buffer, enscript_library);
       buffer_append (&buffer, "/hl/*.st");
 
-      system (buffer_ptr (&buffer));
+      if (system (buffer_ptr (&buffer)) < 0)
+	perror("system");
       exit (0);
     }
 

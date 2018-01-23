@@ -833,7 +833,7 @@ eval_expr (expr, env)
 	{
 	  Environment *nenv = NULL;
 	  ListItem *i, *e;
-	  List *stmts;
+	  List *stmts __attribute__ ((__unused__));
 	  List *lst;
 	  Cons *args_locals;
 

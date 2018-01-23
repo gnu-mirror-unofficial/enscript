@@ -620,7 +620,7 @@ static void
 get_key (AFMHandle handle, ParseCtx *ctx, AFMKey *key_return)
 {
   int key;
-  char msg[256];
+  char msg[1024+16];
 
   while (1)
     {

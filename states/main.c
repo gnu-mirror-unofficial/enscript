@@ -371,7 +371,7 @@ main (argc, argv)
       if (cp)
 	{
 	  path = xmalloc (cp - defs_file + 3);
-	  sprintf (path, ".%c%.*s", PATH_SEPARATOR, cp - defs_file, defs_file);
+	  sprintf (path, ".%c%.*s", PATH_SEPARATOR, (int)(cp - defs_file), defs_file);
 	}
       else
 	path = ".";

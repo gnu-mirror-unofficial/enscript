@@ -585,8 +585,8 @@ process_file (char *fname_arg, InputStream *is, int is_toc)
    * Count possible line number spaces.  This should be enought for 99999
    * lines
    */
-  linenumber_space = CHAR_WIDTH ('0') * 5 + 1.0;
-  linenumber_margin = CHAR_WIDTH (':') + CHAR_WIDTH ('m');
+  linenumber_space = FNT_CHAR_WIDTH ('0') * 5 + 1.0;
+  linenumber_margin = FNT_CHAR_WIDTH (':') + FNT_CHAR_WIDTH ('m');
 
   /* We got a new input file. */
   input_filenum++;
@@ -1137,7 +1137,7 @@ large for page\n"),
 /* Help macros. */
 
 /* Check if character <ch> fits to current line. */
-#define FITS_ON_LINE(ch) ((linepos + CHAR_WIDTH (ch) < linew) || col == 0)
+#define FITS_ON_LINE(ch) ((linepos + FNT_CHAR_WIDTH (ch) < linew) || col == 0)
 
 /* Is line buffer empty? */
 #define BUFFER_EMPTY() (bufpos == 0)
@@ -1160,13 +1160,13 @@ large for page\n"),
 #define EMIT(ch) 		\
   do {				\
     APPEND_CHAR (ch);		\
-    linepos += CHAR_WIDTH (ch);	\
+    linepos += FNT_CHAR_WIDTH (ch);	\
     col++;			\
   } while (0)
 
 #define UNEMIT(ch)		\
   do {				\
-    linepos -= CHAR_WIDTH (ch); \
+    linepos -= FNT_CHAR_WIDTH (ch); \
     col--;			\
   } while (0)
 
@@ -1690,7 +1690,7 @@ get_next_token (InputStream *is, double linestart, double linepos,
 	    {
 	      /* Proportional font. */
 
-	      double grid = tabsize * CHAR_WIDTH (' ');
+	      double grid = tabsize * FNT_CHAR_WIDTH (' ');
 	      col++;
 
 	      /* Move linepos to the next multiple of <grid>. */
@@ -1748,9 +1748,9 @@ get_next_token (InputStream *is, double linestart, double linepos,
 	  if (ch == bs)
 	    {
 	      if (BUFFER_EMPTY () || !EXISTS (buffer[bufpos - 1]))
-		linepos -= CHAR_WIDTH ('m');
+		linepos -= FNT_CHAR_WIDTH ('m');
 	      else
-		linepos -= CHAR_WIDTH (buffer[bufpos - 1]);
+		linepos -= FNT_CHAR_WIDTH (buffer[bufpos - 1]);
 
 	      done = DONE_DONE;
 	      break;
@@ -1775,7 +1775,7 @@ get_next_token (InputStream *is, double linestart, double linepos,
 			APPEND_CHAR (buf[i]);
 
 		      /* Update current point counters manually. */
-		      linepos += CHAR_WIDTH (ch);
+		      linepos += FNT_CHAR_WIDTH (ch);
 		      col++;
 		    }
 		  else if (ch == '(' || ch == ')' || ch == '\\')
@@ -1848,7 +1848,7 @@ get_next_token (InputStream *is, double linestart, double linepos,
 
 	      /* Count length. */
 	      for (i = 0; buf[i]; i++)
-		len += CHAR_WIDTH (buf[i]);
+		len += FNT_CHAR_WIDTH (buf[i]);
 
 	      if (linepos + len < linew || col == 0)
 		{
@@ -2472,7 +2472,7 @@ recognize_eps_file (Token *token)
 		  /* No, this BoundingBox comment is corrupted. */
 		  MESSAGE (0, (stderr, _("EPS file \"%s\" contains malformed \
 %%%%BoundingBox row:\n\"%.*s\"\n"),
-			       token->u.epsf.filename, strlen (buf) - 1, buf));
+			       token->u.epsf.filename, (int)(strlen (buf) - 1), buf));
 		  break;
 		}
 	    }
@@ -2599,7 +2599,7 @@ read_float (InputStream *is, int units, int horizontal)
 
 	case 'l':		/* lines or characters */
 	  if (horizontal)
-	    val *= CHAR_WIDTH ('m');
+	    val *= FNT_CHAR_WIDTH ('m');
 	  else
 	    val *= LINESKIP;
 	  break;
@@ -2728,7 +2728,7 @@ print_line_number (double x, double y, double space, double margin,
   int i;
   char *saved_Fname = "";
   FontPoint saved_Fpt;
-  InputEncoding saved_Fencoding;
+  InputEncoding saved_Fencoding = 0;
 
   saved_Fpt.w = 0.0;
   saved_Fpt.h = 0.0;
@@ -2758,7 +2758,7 @@ print_line_number (double x, double y, double space, double margin,
   /* Count linenumber string length. */
   sprintf (buf, "%d", linenum);
   for (i = 0; buf[i]; i++)
-    len += CHAR_WIDTH (buf[i]);
+    len += FNT_CHAR_WIDTH (buf[i]);
 
   /* Print line numbers. */
   OUTPUT ((cofp, "%g %g M (%s:) s\n", x + space - len, y, buf));
@@ -2781,8 +2781,6 @@ print_line_number (double x, double y, double space, double margin,
  * The name of the divert file, shared between divert() and undivert()
  * functions.
  */
-static char divertfname[512];
-
 static void
 divert ()
 {
