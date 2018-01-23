@@ -2,7 +2,20 @@
  * Name: sh
  * Description: Bourne shell programming language.
  * Author: Juergen Kahrs <Juergen.Kahrs@t-online.de>
+ *         Josh Zenker <josh.zenker@sig.com>
  */
+
+state sh_string extends Highlight
+{
+  /\\\\./ {
+    language_print ($0);
+  }
+
+  sh_string_end {
+    language_print ($0);
+    return;
+  }
+}
 
 state sh extends HighlightEntry
 {
@@ -14,11 +27,25 @@ state sh extends HighlightEntry
     comment_face (false);
   }
 
+  /* Ignore escaped quotation marks */
+  /\\\"/ {
+    language_print ($0);
+  }
+
+  /\\\'/ {
+    language_print ($0);
+  }
+
+  /\\\`/ {
+    language_print ($0);
+  }
+
   /* String constants. */
-  /\"/ {
+  /\"|'/ {
+    sh_string_end = regexp($0);
     string_face (true);
     language_print ($0);
-    call (c_string);
+    call (sh_string);
     string_face (false);
   }
 
@@ -43,7 +70,7 @@ state sh extends HighlightEntry
 
   /* Keywords. */
   /\b(CDPATH|HOME|IFS|MAIL((CHECK)?|(PATH)?)|P(ATH|S(1|2))|SH(ACCT|ELL)|\
-break|c(ase|d|ontinue)|do(ne)?|e(cho|lse|sac|val|x(ec|it|port))|f(i|or)|\
+break|c(ase|d|ontinue)|do(ne)?|e(cho|l(if|se)|sac|val|x(ec|it|port))|f(i|or)|\
 getopts|hash|i[fn]|limit|newgrp|pwd|re(ad(only)?|turn)|s(et|hift)|\
 t(est|hen|imes|rap|ype)|u(limit|mask|n(limit|set))|w(ait|hile))\b/ {
     keyword_face (true);
