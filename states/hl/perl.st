@@ -4,6 +4,7 @@
  *
  * Author: Jim Villani, Logistics Management Institute (jvillani@lmi.org)
  *         perl_pod mods by Gregor Purdy (gregor@focusresearch.com)
+ *         perl_parens by Josh Zenker (josh.zenker@sig.com)
  */
 
 state perl_pod extends Highlight
@@ -57,6 +58,18 @@ state perl_bquot_string extends Highlight
     return;
   }
 }
+
+state perl_parens extends Highlight
+{
+    /\\\\./ {
+        language_print ($0);
+    }
+    /\)/ {
+        language_print ($0);
+        return;
+    }
+}
+
 
 state perl extends HighlightEntry
 {
@@ -185,6 +198,12 @@ state perl extends HighlightEntry
   /^=(pod|head1|head2|item|over|back|for|begin|end)\b.*$/ {
     language_print ($0);
     call (perl_pod);
+  }
+
+  /* parentheses */
+  /\(/ {
+      language_print ($0);
+      call (perl_parens);
   }
 }
 
